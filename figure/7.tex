@@ -1,0 +1,44 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=9.3pt]
+    \begin{deptext}[column sep=0.5em]
+        われ \& ら \& は \& 、 \& 全 \& 世界 \& の \& 国民 \& が \& 、 \& ひとしく \& 恐怖 \& と \& 欠乏 \& から \& 免かれ \& 、 \& 平和 \& の \& うち \& に \& 生存 \& する \& 権利 \& を \& 有する \& こと \& を \& 確認 \& する \& 。\\
+        PRON \& NOUN \& ADP \& PUNCT \& NOUN \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& ADV \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{29}{ROOT}
+    \depedge{2}{1}{nmod}
+    \depedge{29}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{6}{5}{compound}
+    \depedge{8}{6}{nmod}
+    \depedge{6}{7}{case}
+    \depedge{26}{8}{nsubj}
+    \depedge{8}{9}{case}
+    \depedge{8}{10}{punct}
+    \depedge{16}{11}{advmod}
+    \depedge{14}{12}{nmod}
+    \depedge{12}{13}{case}
+    \depedge{16}{14}{obl}
+    \depedge{14}{15}{case}
+    \depedge{22}{16}{advcl}
+    \depedge{16}{17}{punct}
+    \depedge{20}{18}{nmod}
+    \depedge{18}{19}{case}
+    \depedge{22}{20}{obl}
+    \depedge{20}{21}{case}
+    \depedge{24}{22}{acl}
+    \depedge{22}{23}{aux}
+    \depedge{26}{24}{obj}
+    \depedge{24}{25}{case}
+    \depedge{27}{26}{acl}
+    \depedge{29}{27}{obj}
+    \depedge{27}{28}{case}
+    \depedge{29}{30}{aux}
+    \depedge{29}{31}{punct}
+\end{dependency}
+\end{document}

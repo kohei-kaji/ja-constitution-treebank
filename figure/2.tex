@@ -1,0 +1,59 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=8.3pt]
+    \begin{deptext}[column sep=0.5em]
+        そもそも \& 国政 \& は \& 、 \& 国民 \& の \& 厳粛 \& な \& 信託 \& に \& よる \& もの \& で \& あつ \& て \& 、 \& その \& 権威 \& は \& 国民 \& に \& 由来 \& し \& 、 \& その \& 権力 \& は \& 国民 \& の \& 代表者 \& が \& これ \& を \& 行使 \& し \& 、 \& その \& 福利 \& は \& 国民 \& が \& これ \& を \& 享受 \& する \& 。\\
+        ADV \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& ADJ \& AUX \& NOUN \& ADP \& VERB \& NOUN \& AUX \& VERB \& SCONJ \& PUNCT \& DET \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& PUNCT \& DET \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& PRON \& ADP \& VERB \& AUX \& PUNCT \& DET \& NOUN \& ADP \& NOUN \& ADP \& PRON \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{44}{ROOT}
+    \depedge{14}{1}{advmod}
+    \depedge{14}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{9}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{9}{7}{acl}
+    \depedge{7}{8}{aux}
+    \depedge{12}{9}{nmod}
+    \depedge{9}{10}{case}
+    \depedge{10}{11}{fixed}
+    \depedge{14}{12}{obl}
+    \depedge{12}{13}{cop}
+    \depedge{44}{14}{advcl}
+    \depedge{14}{15}{mark}
+    \depedge{14}{16}{punct}
+    \depedge{18}{17}{det}
+    \depedge{22}{18}{nsubj}
+    \depedge{18}{19}{case}
+    \depedge{22}{20}{obl}
+    \depedge{20}{21}{case}
+    \depedge{44}{22}{advcl}
+    \depedge{22}{23}{aux}
+    \depedge{22}{24}{punct}
+    \depedge{26}{25}{det}
+    \depedge{44}{26}{dislocated}
+    \depedge{26}{27}{case}
+    \depedge{30}{28}{nmod}
+    \depedge{28}{29}{case}
+    \depedge{34}{30}{nsubj}
+    \depedge{30}{31}{case}
+    \depedge{34}{32}{obj}
+    \depedge{32}{33}{case}
+    \depedge{44}{34}{advcl}
+    \depedge{34}{35}{aux}
+    \depedge{34}{36}{punct}
+    \depedge{38}{37}{det}
+    \depedge{44}{38}{dislocated}
+    \depedge{38}{39}{case}
+    \depedge{44}{40}{nsubj}
+    \depedge{40}{41}{case}
+    \depedge{44}{42}{obj}
+    \depedge{42}{43}{case}
+    \depedge{44}{45}{aux}
+    \depedge{44}{46}{punct}
+\end{dependency}
+\end{document}
