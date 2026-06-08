@@ -1,5 +1,8 @@
 # UD_Japanese-Constitution
 
+> [!WARNING]
+> **WORK IN PROGRESS**
+
 This repository provides the Universal Dependencies (UD) annotation for [the Constitution of Japan](https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/shiryo/dl-constitution.htm).
 
 Note: currently, the annotation work covers only the preamble.
