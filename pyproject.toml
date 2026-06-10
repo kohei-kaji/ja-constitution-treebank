@@ -3,9 +3,10 @@ name = "ja-constitution-treebank"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.11"
 dependencies = [
     "click>=8.4.1",
     "ginza>=5.2.0",
     "ja-ginza>=5.2.0",
+    "ja-ginza-electra>=5.2.0",
 ]

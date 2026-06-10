@@ -16,6 +16,16 @@ def to_conllu(doc, start_sent_id=1) -> tuple[str, int]:
             token_id = token.i - sent.start + 1
             head_id = token.head.i - sent.start + 1 if token.head != token else 0
             deprel = token.dep_
+            inflection = token.morph.get("Inflection")
+            if inflection:
+                inflection = "Inf=" + inflection[0].replace(";", ",") + "|"
+            else:
+                inflection = ""
+            reading = token.morph.get("Reading")
+            if reading:
+                reading = reading[0]
+            else:
+                reading = ""
             lines.append(
                 "\t".join([
                     str(token_id),
@@ -27,7 +37,7 @@ def to_conllu(doc, start_sent_id=1) -> tuple[str, int]:
                     str(head_id),
                     deprel,
                     "_",
-                    "_",
+                    f"{inflection}Reading={reading}",
                 ])
             )
         lines.append("")
@@ -38,7 +48,7 @@ def to_conllu(doc, start_sent_id=1) -> tuple[str, int]:
 def main():
     args = parser.parse_args()
 
-    nlp = spacy.load("ja_ginza", config={"components": {"compound_splitter": {"split_mode": "C"}}})
+    nlp = spacy.load("ja_ginza_electra", config={"components": {"compound_splitter": {"split_mode": "C"}}})
 
     with open(args.input, "r", encoding="utf-8") as fin, open(args.output, "w", encoding="utf-8") as fout:
 
