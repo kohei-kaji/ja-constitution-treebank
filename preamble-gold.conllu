@@ -94,7 +94,7 @@
 92	この	この	DET	連体詞	_	93	det	_	Reading=コノ
 93	憲法	憲法	NOUN	名詞-普通名詞-一般	_	95	obj	_	Reading=ケンポウ
 94	を	を	ADP	助詞-格助詞	_	93	case	_	Reading=オ
-95	確定	確定	VERB	名詞-普通名詞-サ変可能	_	0	ROOT	_	Reading=カクテイ
+95	確定	確定	VERB	名詞-普通名詞-サ変可能	_	0	root	_	Reading=カクテイ
 96	する	する	AUX	動詞-非自立可能	_	95	aux	_	Inf=サ行変格,終止形-一般|Reading=スル
 97	。	。	PUNCT	補助記号-句点	_	95	punct	_	Reading=。
 
@@ -143,7 +143,7 @@
 41	が	が	ADP	助詞-格助詞	_	40	case	_	Reading=ガ
 42	これ	これ	PRON	代名詞	_	44	obj	_	Reading=コレ
 43	を	を	ADP	助詞-格助詞	_	42	case	_	Reading=オ
-44	享受	享受	VERB	名詞-普通名詞-サ変可能	_	0	ROOT	_	Reading=キョウジュ
+44	享受	享受	VERB	名詞-普通名詞-サ変可能	_	0	root	_	Reading=キョウジュ
 45	する	する	AUX	動詞-非自立可能	_	44	aux	_	Inf=サ行変格,終止形-一般|Reading=スル
 46	。	。	PUNCT	補助記号-句点	_	44	punct	_	Reading=。
 
@@ -166,7 +166,7 @@
 15	原理	原理	NOUN	名詞-普通名詞-一般	_	17	obl	_	Reading=ゲンリ
 16	に	に	ADP	助詞-格助詞	_	15	case	_	Reading=ニ
 17	基く	基く	VERB	動詞-一般	_	18	acl	_	Inf=五段-カ行,連体形-一般|Reading=モトヅク
-18	もの	もの	NOUN	名詞-普通名詞-サ変可能	_	0	ROOT	_	Reading=モノ
+18	もの	もの	NOUN	名詞-普通名詞-サ変可能	_	0	root	_	Reading=モノ
 19	で	だ	AUX	助動詞	_	18	cop	_	Inf=助動詞-ダ,連用形-一般|Reading=デ
 20	ある	ある	VERB	動詞-非自立可能	_	19	fixed	_	Inf=五段-ラ行,終止形-一般|Reading=アル
 21	。	。	PUNCT	補助記号-句点	_	18	punct	_	Reading=。
@@ -188,7 +188,7 @@
 13	及び	及び	CCONJ	接続詞	_	14	cc	_	Reading=オヨビ
 14	詔勅	詔勅	PROPN	名詞-普通名詞-一般	_	16	obj	_	Reading=ショウチョク
 15	を	を	ADP	助詞-格助詞	_	14	case	_	Reading=オ
-16	排除	排除	VERB	名詞-普通名詞-サ変可能	_	0	ROOT	_	Reading=ハイジョ
+16	排除	排除	VERB	名詞-普通名詞-サ変可能	_	0	root	_	Reading=ハイジョ
 17	する	する	AUX	動詞-非自立可能	_	16	aux	_	Inf=サ行変格,終止形-一般|Reading=スル
 18	。	。	PUNCT	補助記号-句点	_	16	punct	_	Reading=。
 
@@ -248,7 +248,7 @@
 52	保持	保持	VERB	名詞-普通名詞-サ変可能	_	55	advcl	_	Reading=ホジ
 53	しよう	する	AUX	動詞-非自立可能	_	52	aux	_	Inf=サ行変格,意志推量形|Reading=シヨウ
 54	と	と	ADP	助詞-格助詞	_	52	case	_	Reading=ト
-55	決意	決意	VERB	名詞-普通名詞-サ変可能	_	0	ROOT	_	Reading=ケツイ
+55	決意	決意	VERB	名詞-普通名詞-サ変可能	_	0	root	_	Reading=ケツイ
 56	し	する	AUX	動詞-非自立可能	_	55	aux	_	Inf=サ行変格,連用形-一般|Reading=シ
 57	た	た	AUX	助動詞	_	55	aux	_	Inf=助動詞-タ,終止形-一般|Reading=タ
 58	。	。	PUNCT	補助記号-句点	_	55	punct	_	Reading=。
@@ -295,7 +295,7 @@
 38	占め	占める	VERB	動詞-一般	_	41	ccomp	_	Inf=下一段-マ行,連用形-一般|Reading=シメ
 39	たい	たい	AUX	助動詞	_	38	aux	_	Inf=助動詞-タイ,終止形-一般|Reading=タイ
 40	と	と	ADP	助詞-格助詞	_	38	case	_	Reading=ト
-41	思ふ	思ふ	NOUN	動詞-一般	_	0	ROOT	_	Inf=文語四段-ハ行,終止形-一般|Reading=オモウ
+41	思ふ	思ふ	NOUN	動詞-一般	_	0	root	_	Inf=文語四段-ハ行,終止形-一般|Reading=オモウ
 42	。	。	PUNCT	補助記号-句点	_	41	punct	_	Reading=。
 
 # sent_id = 7
@@ -328,7 +328,7 @@
 26	有する	有する	VERB	動詞-一般	_	27	acl	_	Inf=サ行変格,連体形-一般|Reading=ユウスル
 27	こと	こと	NOUN	名詞-普通名詞-一般	_	29	obj	_	Reading=コト
 28	を	を	ADP	助詞-格助詞	_	27	case	_	Reading=オ
-29	確認	確認	VERB	名詞-普通名詞-サ変可能	_	0	ROOT	_	Reading=カクニン
+29	確認	確認	VERB	名詞-普通名詞-サ変可能	_	0	root	_	Reading=カクニン
 30	する	する	AUX	動詞-非自立可能	_	29	aux	_	Inf=サ行変格,終止形-一般|Reading=スル
 31	。	。	PUNCT	補助記号-句点	_	29	punct	_	Reading=。
 
@@ -404,5 +404,6 @@
 68	で	だ	AUX	助動詞	_	67	cop	_	Inf=助動詞-ダ,連用形-一般|Reading=デ
 69	ある	ある	VERB	動詞-非自立可能	_	68	fixed	_	Inf=五段-ラ行,終止形-一般|Reading=アル
 70	と	と	ADP	助詞-格助詞	_	67	case	_	Reading=ト
-71	信ずる	信じる	VERB	動詞-一般	_	0	ROOT	_	Inf=サ行変格,終止形-一般|Reading=シンズル
+71	信ずる	信じる	VERB	動詞-一般	_	0	root	_	Inf=サ行変格,終止形-一般|Reading=シンズル
 72	。	。	PUNCT	補助記号-句点	_	71	punct	_	Reading=。
+
