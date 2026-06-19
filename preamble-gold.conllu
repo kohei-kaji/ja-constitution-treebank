@@ -289,7 +289,7 @@
 32	て	て	SCONJ	助詞-接続助詞	_	30	fixed	_	SpaceAfter=No|Reading=テ
 33	、	、	PUNCT	補助記号-読点	_	29	punct	_	SpaceAfter=No|Reading=、
 34	名誉	名誉	NOUN	名詞-普通名詞-形状詞可能	_	35	nmod	_	SpaceAfter=No|Reading=メイヨ
-35	ある	ある	VERB	連体詞	_	36	compound	_	SpaceAfter=No|Reading=アル
+35	ある	ある	VERB	連体詞	_	36	acl	_	SpaceAfter=No|Reading=アル
 36	地位	地位	NOUN	名詞-普通名詞-一般	_	38	obj	_	SpaceAfter=No|Reading=チイ
 37	を	を	ADP	助詞-格助詞	_	36	case	_	SpaceAfter=No|Reading=オ
 38	占め	占める	VERB	動詞-一般	_	41	ccomp	_	SpaceAfter=No|Inf=下一段-マ行,連用形-一般|Reading=シメ
