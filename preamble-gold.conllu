@@ -162,7 +162,7 @@
 11	憲法	憲法	NOUN	名詞-普通名詞-一般	_	18	nsubj	_	SpaceAfter=No|Reading=ケンポウ
 12	は	は	ADP	助詞-係助詞	_	11	case	_	SpaceAfter=No|Reading=ワ
 13	、	、	PUNCT	補助記号-読点	_	11	punct	_	SpaceAfter=No|Reading=、
-14	かかる	かかる	DET	動詞-非自立可能	_	15	det	_	SpaceAfter=No|Reading=カカル
+14	かかる	かかる	DET	連体詞	_	15	det	_	SpaceAfter=No|Reading=カカル
 15	原理	原理	NOUN	名詞-普通名詞-一般	_	17	obl	_	SpaceAfter=No|Reading=ゲンリ
 16	に	に	ADP	助詞-格助詞	_	15	case	_	SpaceAfter=No|Reading=ニ
 17	基く	基く	VERB	動詞-一般	_	18	acl	_	SpaceAfter=No|Inf=五段-カ行,連体形-一般|Reading=モトヅク
