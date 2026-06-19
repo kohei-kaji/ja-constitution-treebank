@@ -261,7 +261,7 @@
 4	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
 5	平和	平和	NOUN	名詞-普通名詞-形状詞可能	_	7	obj	_	SpaceAfter=No|Reading=ヘイワ
 6	を	を	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=オ
-7	維持	維持	VERB	名詞-普通名詞-サ変可能	_	41	advcl	_	SpaceAfter=No|Reading=イジ
+7	維持	維持	VERB	名詞-普通名詞-サ変可能	_	22	advcl	_	SpaceAfter=No|Reading=イジ
 8	し	する	AUX	動詞-非自立可能	_	7	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
 9	、	、	PUNCT	補助記号-読点	_	7	punct	_	SpaceAfter=No|Reading=、
 10	専制	専制	NOUN	名詞-普通名詞-一般	_	12	nmod	_	SpaceAfter=No|Reading=センセイ
