@@ -682,7 +682,7 @@
 16	あつ	あり	VERB	動詞-非自立可能	_	14	fixed	_	SpaceAfter=No|Inf=文語ラ行変格,連用形-促音便|Reading=アッ
 17	て	て	SCONJ	助詞-接続助詞	_	8	mark	_	SpaceAfter=No|Reading=テ
 18	、	、	PUNCT	補助記号-読点	_	8	punct	_	SpaceAfter=No|Reading=、
-19	常	常	NOUN	名詞-普通名詞-一般	_	33	obl	_	SpaceAfter=No|Reading=ツネ
+19	常	常	NOUN	名詞-普通名詞-一般	_	29	obl	_	SpaceAfter=No|Reading=ツネ
 20	に	に	ADP	助詞-格助詞	_	19	case	_	SpaceAfter=No|Reading=ニ
 21	公共	公共	NOUN	名詞-普通名詞-一般	_	23	nmod	_	SpaceAfter=No|Reading=コウキョウ
 22	の	の	ADP	助詞-格助詞	_	21	case	_	SpaceAfter=No|Reading=ノ
