@@ -561,7 +561,7 @@
 1	日本	日本	PROPN	名詞-固有名詞-地名-国	_	2	compound	_	SpaceAfter=No|Reading=ニホン
 2	国民	国民	NOUN	名詞-普通名詞-一般	_	4	acl	_	SpaceAfter=No|Reading=コクミン
 3	たる	たり	AUX	助動詞	_	2	aux	_	SpaceAfter=No|Inf=文語助動詞-タリ-断定,連体形-一般|Reading=タル
-4	要件	要件	NOUN	名詞-普通名詞-一般	_	11	nsubj	_	SpaceAfter=No|Reading=ヨウケン
+4	要件	要件	NOUN	名詞-普通名詞-一般	_	11	dislocated	_	SpaceAfter=No|Reading=ヨウケン
 5	は	は	ADP	助詞-係助詞	_	4	case	_	SpaceAfter=No|Reading=ワ
 6	、	、	PUNCT	補助記号-読点	_	4	punct	_	SpaceAfter=No|Reading=、
 7	法律	法律	NOUN	名詞-普通名詞-一般	_	11	obl	_	SpaceAfter=No|Reading=ホウリツ
