@@ -457,7 +457,7 @@
 # sent_id = 24
 # text = 日本国民は、正義と秩序を基調とする国際平和を誠実に希求し、国権の発動たる戦争と、武力による威嚇又は武力の行使は、国際紛争を解決する手段としては、永久にこれを放棄する。
 1	日本	日本	PROPN	名詞-固有名詞-地名-国	_	2	compound	_	SpaceAfter=No|Reading=ニホン
-2	国民	国民	NOUN	名詞-普通名詞-一般	_	17	nsubj	_	SpaceAfter=No|Reading=コクミン
+2	国民	国民	NOUN	名詞-普通名詞-一般	_	53	nsubj	_	SpaceAfter=No|Reading=コクミン
 3	は	は	ADP	助詞-係助詞	_	2	case	_	SpaceAfter=No|Reading=ワ
 4	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
 5	正義	正義	NOUN	名詞-固有名詞-人名-名	_	7	nmod	_	SpaceAfter=No|Reading=マサヨシ
