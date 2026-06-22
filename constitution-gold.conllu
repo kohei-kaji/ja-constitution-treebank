@@ -572,21 +572,22 @@
 12	。	。	PUNCT	補助記号-句点	_	11	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 29
-# text = 国民は、すべての基本的人権の享有を妨げられない。
-1	国民	国民	NOUN	名詞-普通名詞-一般	_	11	nsubj	_	SpaceAfter=No|Reading=コクミン
+# text = 国民は、すべての基本的基本的人権の享有を妨げられない。
+1	国民	国民	NOUN	名詞-普通名詞-一般	_	12	nsubj	_	SpaceAfter=No|Reading=コクミン
 2	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	すべて	すべて	NOUN	名詞-普通名詞-副詞可能	_	6	nmod	_	SpaceAfter=No|Reading=スベテ
 5	の	の	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ノ
-6	基本的	基本的	NOUN	名詞-普通名詞-形状詞可能	_	9	nmod	_	SpaceAfter=No|Reading=キホンテキ
-7	人権	人権	NOUN	名詞-普通名詞-一般	_	6	compound	_	SpaceAfter=No|Reading=ジンケン
-8	の	の	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ノ
-9	享有	享有	NOUN	名詞-普通名詞-サ変可能	_	11	obj	_	SpaceAfter=No|Reading=キョウユウ
-10	を	を	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=オ
-11	妨げ	妨げる	NOUN	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-ガ行,未然形-一般|Reading=サマタゲ
-12	られ	られる	AUX	助動詞	_	11	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=ラレ
-13	ない	ない	AUX	助動詞	_	11	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-14	。	。	PUNCT	補助記号-句点	_	11	punct	_	SpaceAfter=No|Reading=。
+6	基本的	基本的	NOUN	名詞-普通名詞-形状詞可能	_	10	nmod	_	SpaceAfter=No|Reading=キホンテキ
+7	基本的	基本的	NOUN	名詞-普通名詞-形状詞可能	_	10	nmod	_	SpaceAfter=No|Reading=キホンテキ
+8	人権	人権	NOUN	名詞-普通名詞-一般	_	6	compound	_	SpaceAfter=No|Reading=ジンケン
+9	の	の	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ノ
+10	享有	享有	NOUN	名詞-普通名詞-サ変可能	_	12	obj	_	SpaceAfter=No|Reading=キョウユウ
+11	を	を	ADP	助詞-格助詞	_	10	case	_	SpaceAfter=No|Reading=オ
+12	妨げ	妨げる	NOUN	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-ガ行,未然形-一般|Reading=サマタゲ
+13	られ	られる	AUX	助動詞	_	12	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=ラレ
+14	ない	ない	AUX	助動詞	_	12	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+15	。	。	PUNCT	補助記号-句点	_	12	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 30
 # text = この憲法が国民に保障する基本的人権は、侵すことのできない永久の権利として、現在及び将来の国民に与へられる。
