@@ -619,7 +619,7 @@
 22	し	する	AUX	動詞-非自立可能	_	21	fixed	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
 23	て	て	SCONJ	助詞-接続助詞	_	21	fixed	_	SpaceAfter=No|Reading=テ
 24	、	、	PUNCT	補助記号-読点	_	20	punct	_	SpaceAfter=No|Reading=、
-25	現在	現在	NOUN	名詞-普通名詞-副詞可能	_	27	nmod	_	SpaceAfter=No|Reading=ゲンザイ
+25	現在	現在	NOUN	名詞-普通名詞-副詞可能	_	29	nmod	_	SpaceAfter=No|Reading=ゲンザイ
 26	及び	及び	CCONJ	接続詞	_	27	cc	_	SpaceAfter=No|Reading=オヨビ
 27	将来	将来	NOUN	名詞-普通名詞-副詞可能	_	29	nmod	_	SpaceAfter=No|Reading=ショウライ
 28	の	の	ADP	助詞-格助詞	_	27	case	_	SpaceAfter=No|Reading=ノ
