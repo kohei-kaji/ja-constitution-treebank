@@ -589,8 +589,10 @@
 14	ない	ない	AUX	助動詞	_	12	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
 15	。	。	PUNCT	補助記号-句点	_	12	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 30
-# text = この憲法が国民に保障する基本的基本的人権は、侵すことのできない永久の権利として、現在及び将来の国民に与へられる。
+# text = この憲法が国民に保障する基本的人権は、侵すことのできない永久の権利として、現在及び将来の国民に与へられる。
 1	この	この	DET	連体詞	_	2	det	_	SpaceAfter=No|Reading=コノ
 2	憲法	憲法	NOUN	名詞-普通名詞-一般	_	6	nsubj	_	SpaceAfter=No|Reading=ケンポウ
 3	が	が	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ガ
