@@ -525,7 +525,7 @@
 9	その	その	DET	連体詞	_	10	det	_	SpaceAfter=No|Reading=ソノ
 10	他	他	NOUN	名詞-普通名詞-副詞可能	_	12	nmod	_	SpaceAfter=No|Reading=タ
 11	の	の	ADP	助詞-格助詞	_	10	case	_	SpaceAfter=No|Reading=ノ
-12	戦力	戦力	NOUN	名詞-普通名詞-一般	_	17	nsubj	_	SpaceAfter=No|Reading=センリョク
+12	戦力	戦力	NOUN	名詞-普通名詞-一般	_	17	dislocated	_	SpaceAfter=No|Reading=センリョク
 13	は	は	ADP	助詞-係助詞	_	12	case	_	SpaceAfter=No|Reading=ワ
 14	、	、	PUNCT	補助記号-読点	_	12	punct	_	SpaceAfter=No|Reading=、
 15	これ	これ	PRON	代名詞	_	17	obj	_	SpaceAfter=No|Reading=コレ
