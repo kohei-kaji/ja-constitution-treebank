@@ -1,0 +1,44 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=0.5em]
+        出席 \& 議員 \& の \& 五 \& 分 \& の \& 一 \& 以上 \& の \& 要求 \& が \& あれ \& ば \& 、 \& 各 \& 議員 \& の \& 表決 \& は \& 、 \& これ \& を \& 会議録 \& に \& 記載 \& し \& なけれ \& ば \& なら \& ない \& 。\\
+        NOUN \& NOUN \& ADP \& NUM \& NOUN \& ADP \& NUM \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& NOUN \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& NOUN \& ADP \& VERB \& AUX \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{25}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{5}{2}{nmod}
+    \depedge{2}{3}{case}
+    \depedge{5}{4}{nummod}
+    \depedge{10}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{5}{7}{compound}
+    \depedge{5}{8}{compound}
+    \depedge{5}{9}{case}
+    \depedge{12}{10}{nsubj}
+    \depedge{10}{11}{case}
+    \depedge{25}{12}{advcl}
+    \depedge{12}{13}{mark}
+    \depedge{12}{14}{punct}
+    \depedge{16}{15}{compound}
+    \depedge{18}{16}{nmod}
+    \depedge{16}{17}{case}
+    \depedge{25}{18}{nsubj}
+    \depedge{18}{19}{case}
+    \depedge{18}{20}{punct}
+    \depedge{25}{21}{obj}
+    \depedge{21}{22}{case}
+    \depedge{25}{23}{obl}
+    \depedge{23}{24}{case}
+    \depedge{25}{26}{aux}
+    \depedge{25}{27}{aux}
+    \depedge{27}{28}{fixed}
+    \depedge{27}{29}{fixed}
+    \depedge{27}{30}{fixed}
+    \depedge{25}{31}{punct}
+\end{dependency}
+\end{document}

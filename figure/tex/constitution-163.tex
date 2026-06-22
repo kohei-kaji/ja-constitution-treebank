@@ -1,0 +1,32 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        国務 \& 大臣 \& は \& 、 \& その \& 在任中 \& 、 \& 内閣総理大臣 \& の \& 同意 \& が \& なけれ \& ば \& 、 \& 訴追 \& さ \& れ \& ない \& 。\\
+        NOUN \& NOUN \& ADP \& PUNCT \& DET \& NOUN \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& ADJ \& SCONJ \& PUNCT \& VERB \& AUX \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{15}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{15}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{6}{5}{det}
+    \depedge{12}{6}{obl}
+    \depedge{6}{7}{punct}
+    \depedge{10}{8}{nmod}
+    \depedge{8}{9}{case}
+    \depedge{12}{10}{nsubj}
+    \depedge{10}{11}{case}
+    \depedge{15}{12}{advcl}
+    \depedge{12}{13}{mark}
+    \depedge{12}{14}{punct}
+    \depedge{15}{16}{aux}
+    \depedge{15}{17}{aux}
+    \depedge{15}{18}{aux}
+    \depedge{15}{19}{punct}
+\end{dependency}
+\end{document}

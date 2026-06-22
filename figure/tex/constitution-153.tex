@@ -1,0 +1,26 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        法律 \& を \& 誠実 \& に \& 執行 \& し \& 、 \& 国務 \& を \& 総理 \& する \& こと \& 。\\
+        NOUN \& ADP \& ADJ \& AUX \& VERB \& AUX \& PUNCT \& NOUN \& ADP \& VERB \& AUX \& NOUN \& PUNCT\\
+    \end{deptext}
+    \deproot{12}{ROOT}
+    \depedge{5}{1}{obj}
+    \depedge{1}{2}{case}
+    \depedge{5}{3}{advcl}
+    \depedge{3}{4}{aux}
+    \depedge{10}{5}{advcl}
+    \depedge{5}{6}{aux}
+    \depedge{5}{7}{punct}
+    \depedge{10}{8}{obj}
+    \depedge{8}{9}{case}
+    \depedge{12}{10}{acl}
+    \depedge{10}{11}{aux}
+    \depedge{12}{13}{punct}
+\end{dependency}
+\end{document}

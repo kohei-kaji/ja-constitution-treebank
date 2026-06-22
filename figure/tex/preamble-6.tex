@@ -1,0 +1,55 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=6.4pt]
+    \begin{deptext}[column sep=0.5em]
+        われ \& ら \& は \& 、 \& 平和 \& を \& 維持 \& し \& 、 \& 専制 \& と \& 隷従 \& 、 \& 圧迫 \& と \& 偏狭 \& を \& 地上 \& から \& 永遠 \& に \& 除去 \& しよう \& と \& 努め \& て \& ゐる \& 国際 \& 社会 \& に \& おい \& て \& 、 \& 名誉 \& ある \& 地位 \& を \& 占め \& たい \& と \& 思ふ \& 。\\
+        PRON \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& VERB \& AUX \& PUNCT \& NOUN \& ADP \& NOUN \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& ADP \& VERB \& SCONJ \& VERB \& NOUN \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& NOUN \& VERB \& NOUN \& ADP \& VERB \& AUX \& ADP \& NOUN \& PUNCT\\
+    \end{deptext}
+    \deproot{41}{ROOT}
+    \depedge{2}{1}{nmod}
+    \depedge{41}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{7}{5}{obj}
+    \depedge{5}{6}{case}
+    \depedge{22}{7}{advcl}
+    \depedge{7}{8}{aux}
+    \depedge{7}{9}{punct}
+    \depedge{12}{10}{nmod}
+    \depedge{10}{11}{case}
+    \depedge{16}{12}{nmod}
+    \depedge{12}{13}{punct}
+    \depedge{16}{14}{nmod}
+    \depedge{14}{15}{case}
+    \depedge{22}{16}{obj}
+    \depedge{16}{17}{case}
+    \depedge{22}{18}{obl}
+    \depedge{18}{19}{case}
+    \depedge{22}{20}{obl}
+    \depedge{20}{21}{case}
+    \depedge{25}{22}{advcl}
+    \depedge{22}{23}{aux}
+    \depedge{22}{24}{case}
+    \depedge{27}{25}{advcl}
+    \depedge{25}{26}{mark}
+    \depedge{29}{27}{acl}
+    \depedge{29}{28}{compound}
+    \depedge{38}{29}{obl}
+    \depedge{29}{30}{case}
+    \depedge{30}{31}{fixed}
+    \depedge{30}{32}{fixed}
+    \depedge{29}{33}{punct}
+    \depedge{35}{34}{nmod}
+    \depedge{36}{35}{acl}
+    \depedge{38}{36}{obj}
+    \depedge{36}{37}{case}
+    \depedge{41}{38}{ccomp}
+    \depedge{38}{39}{aux}
+    \depedge{38}{40}{case}
+    \depedge{41}{42}{punct}
+\end{dependency}
+\end{document}

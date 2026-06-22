@@ -1,0 +1,40 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        すべて \& 裁判官 \& は \& 、 \& その \& 良心 \& に \& 従 \& ひ \& 独立 \& し \& て \& その \& 職権 \& を \& 行ひ \& 、 \& この \& 憲法 \& 及び \& 法律 \& に \& のみ \& 拘束 \& さ \& れる \& 。\\
+        ADV \& NOUN \& ADP \& PUNCT \& DET \& NOUN \& ADP \& VERB \& VERB \& VERB \& AUX \& SCONJ \& DET \& NOUN \& ADP \& VERB \& PUNCT \& DET \& NOUN \& CCONJ \& NOUN \& ADP \& ADP \& VERB \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{24}{ROOT}
+    \depedge{16}{1}{advmod}
+    \depedge{16}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{6}{5}{det}
+    \depedge{8}{6}{obl}
+    \depedge{6}{7}{case}
+    \depedge{16}{8}{advcl}
+    \depedge{10}{9}{advcl}
+    \depedge{16}{10}{advcl}
+    \depedge{10}{11}{aux}
+    \depedge{10}{12}{mark}
+    \depedge{14}{13}{det}
+    \depedge{16}{14}{obj}
+    \depedge{14}{15}{case}
+    \depedge{24}{16}{advcl}
+    \depedge{16}{17}{punct}
+    \depedge{19}{18}{det}
+    \depedge{21}{19}{nmod}
+    \depedge{21}{20}{cc}
+    \depedge{24}{21}{obl}
+    \depedge{21}{22}{case}
+    \depedge{21}{23}{case}
+    \depedge{24}{25}{aux}
+    \depedge{24}{26}{aux}
+    \depedge{24}{27}{punct}
+\end{dependency}
+\end{document}

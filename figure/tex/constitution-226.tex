@@ -1,0 +1,39 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=10.4pt]
+    \begin{deptext}[column sep=1em]
+        但し \& 、 \& この \& 憲法 \& に \& よつ \& て \& 、 \& 後任者 \& が \& 選挙 \& 又 \& は \& 任命 \& さ \& れ \& た \& とき \& は \& 、 \& 当然 \& その \& 地位 \& を \& 失ふ \& 。\\
+        CCONJ \& PUNCT \& DET \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& NOUN \& ADP \& NOUN \& CCONJ \& ADP \& VERB \& AUX \& AUX \& AUX \& NOUN \& ADP \& PUNCT \& ADV \& DET \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{25}{ROOT}
+    \depedge{25}{1}{cc}
+    \depedge{25}{2}{punct}
+    \depedge{4}{3}{det}
+    \depedge{6}{4}{obl}
+    \depedge{4}{5}{case}
+    \depedge{14}{6}{advcl}
+    \depedge{6}{7}{mark}
+    \depedge{6}{8}{punct}
+    \depedge{14}{9}{nsubj}
+    \depedge{9}{10}{case}
+    \depedge{14}{11}{obl}
+    \depedge{14}{12}{cc}
+    \depedge{12}{13}{fixed}
+    \depedge{18}{14}{acl}
+    \depedge{14}{15}{aux}
+    \depedge{14}{16}{aux}
+    \depedge{14}{17}{aux}
+    \depedge{25}{18}{obl}
+    \depedge{18}{19}{case}
+    \depedge{18}{20}{punct}
+    \depedge{25}{21}{advmod}
+    \depedge{23}{22}{det}
+    \depedge{25}{23}{obj}
+    \depedge{23}{24}{case}
+    \depedge{25}{26}{punct}
+\end{dependency}
+\end{document}

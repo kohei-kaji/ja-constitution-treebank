@@ -1,0 +1,38 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        国 \& の \& 財政 \& を \& 処理 \& する \& 権限 \& は \& 、 \& 国会 \& の \& 議決 \& に \& 基い \& て \& 、 \& これ \& を \& 行使 \& し \& なけれ \& ば \& なら \& ない \& 。\\
+        NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& PRON \& ADP \& VERB \& AUX \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{19}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{5}{3}{obj}
+    \depedge{3}{4}{case}
+    \depedge{7}{5}{acl}
+    \depedge{5}{6}{aux}
+    \depedge{19}{7}{nsubj}
+    \depedge{7}{8}{case}
+    \depedge{7}{9}{punct}
+    \depedge{12}{10}{nmod}
+    \depedge{10}{11}{case}
+    \depedge{14}{12}{obl}
+    \depedge{12}{13}{case}
+    \depedge{19}{14}{advcl}
+    \depedge{14}{15}{mark}
+    \depedge{14}{16}{punct}
+    \depedge{19}{17}{obj}
+    \depedge{17}{18}{case}
+    \depedge{19}{20}{aux}
+    \depedge{19}{21}{aux}
+    \depedge{21}{22}{fixed}
+    \depedge{21}{23}{fixed}
+    \depedge{21}{24}{fixed}
+    \depedge{19}{25}{punct}
+\end{dependency}
+\end{document}

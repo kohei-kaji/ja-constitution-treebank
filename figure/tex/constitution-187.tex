@@ -1,0 +1,47 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=8.6pt]
+    \begin{deptext}[column sep=0.5em]
+        最高 \& 裁判所 \& は \& 、 \& 一切 \& の \& 法律 \& 、 \& 命令 \& 、 \& 規則 \& 又 \& は \& 処分 \& が \& 憲法 \& に \& 適合 \& する \& か \& し \& ない \& か \& を \& 決定 \& する \& 権限 \& を \& 有する \& 終審 \& 裁判所 \& で \& ある \& 。\\
+        NOUN \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& PUNCT \& NOUN \& PUNCT \& NOUN \& CCONJ \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& PART \& VERB \& AUX \& PART \& ADP \& VERB \& AUX \& NOUN \& ADP \& VERB \& NOUN \& NOUN \& AUX \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{31}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{31}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{9}{7}{nmod}
+    \depedge{7}{8}{punct}
+    \depedge{11}{9}{nmod}
+    \depedge{9}{10}{punct}
+    \depedge{14}{11}{nmod}
+    \depedge{14}{12}{cc}
+    \depedge{12}{13}{fixed}
+    \depedge{18}{14}{nsubj}
+    \depedge{14}{15}{case}
+    \depedge{18}{16}{obl}
+    \depedge{16}{17}{case}
+    \depedge{21}{18}{advcl}
+    \depedge{18}{19}{aux}
+    \depedge{18}{20}{mark}
+    \depedge{25}{21}{obj}
+    \depedge{21}{22}{aux}
+    \depedge{21}{23}{mark}
+    \depedge{21}{24}{case}
+    \depedge{27}{25}{acl}
+    \depedge{25}{26}{aux}
+    \depedge{29}{27}{obj}
+    \depedge{27}{28}{case}
+    \depedge{31}{29}{acl}
+    \depedge{31}{30}{compound}
+    \depedge{31}{32}{cop}
+    \depedge{32}{33}{fixed}
+    \depedge{31}{34}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,47 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=7.8pt]
+    \begin{deptext}[column sep=0.5em]
+        又 \& 、 \& 国民 \& は \& 、 \& これ \& を \& 濫用 \& し \& て \& は \& なら \& ない \& の \& で \& あつ \& て \& 、 \& 常 \& に \& 公共 \& の \& 福祉 \& の \& ため \& に \& これ \& を \& 利用 \& する \& 責任 \& を \& 負ふ \& 。\\
+        CCONJ \& PUNCT \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& VERB \& AUX \& SCONJ \& ADP \& VERB \& AUX \& SCONJ \& AUX \& VERB \& SCONJ \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& PRON \& ADP \& VERB \& AUX \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{33}{ROOT}
+    \depedge{33}{1}{cc}
+    \depedge{1}{2}{punct}
+    \depedge{8}{3}{nsubj}
+    \depedge{3}{4}{case}
+    \depedge{3}{5}{punct}
+    \depedge{8}{6}{obj}
+    \depedge{6}{7}{case}
+    \depedge{33}{8}{advcl}
+    \depedge{8}{9}{aux}
+    \depedge{8}{10}{mark}
+    \depedge{10}{11}{fixed}
+    \depedge{10}{12}{fixed}
+    \depedge{10}{13}{fixed}
+    \depedge{8}{14}{mark}
+    \depedge{14}{15}{fixed}
+    \depedge{14}{16}{fixed}
+    \depedge{8}{17}{mark}
+    \depedge{8}{18}{punct}
+    \depedge{33}{19}{obl}
+    \depedge{19}{20}{case}
+    \depedge{23}{21}{nmod}
+    \depedge{21}{22}{case}
+    \depedge{25}{23}{nmod}
+    \depedge{23}{24}{case}
+    \depedge{29}{25}{obl}
+    \depedge{25}{26}{case}
+    \depedge{29}{27}{obj}
+    \depedge{27}{28}{case}
+    \depedge{31}{29}{acl}
+    \depedge{29}{30}{aux}
+    \depedge{33}{31}{obj}
+    \depedge{31}{32}{case}
+    \depedge{33}{34}{punct}
+\end{dependency}
+\end{document}

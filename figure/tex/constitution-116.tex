@@ -1,0 +1,43 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=11.4pt]
+    \begin{deptext}[column sep=1em]
+        両 \& 議院 \& は \& 、 \& 各々 \& その \& 総 \& 議員 \& の \& 三 \& 分 \& の \& 一 \& 以上 \& の \& 出席 \& が \& なけれ \& ば \& 、 \& 議事 \& を \& 開き \& 議決 \& する \& こと \& が \& でき \& ない \& 。\\
+        NOUN \& NOUN \& ADP \& PUNCT \& NOUN \& DET \& NOUN \& NOUN \& ADP \& NUM \& NOUN \& ADP \& NUM \& NOUN \& ADP \& NOUN \& ADP \& ADJ \& SCONJ \& PUNCT \& NOUN \& ADP \& VERB \& VERB \& AUX \& NOUN \& ADP \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{24}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{24}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{16}{5}{nmod}
+    \depedge{8}{6}{det}
+    \depedge{8}{7}{compound}
+    \depedge{11}{8}{nmod}
+    \depedge{8}{9}{case}
+    \depedge{11}{10}{nummod}
+    \depedge{16}{11}{nmod}
+    \depedge{11}{12}{case}
+    \depedge{11}{13}{compound}
+    \depedge{11}{14}{compound}
+    \depedge{11}{15}{case}
+    \depedge{18}{16}{nsubj}
+    \depedge{16}{17}{case}
+    \depedge{23}{18}{advcl}
+    \depedge{18}{19}{mark}
+    \depedge{18}{20}{punct}
+    \depedge{23}{21}{obj}
+    \depedge{21}{22}{case}
+    \depedge{24}{23}{advcl}
+    \depedge{24}{25}{aux}
+    \depedge{24}{26}{compound}
+    \depedge{26}{27}{fixed}
+    \depedge{26}{28}{fixed}
+    \depedge{24}{29}{aux}
+    \depedge{24}{30}{punct}
+\end{dependency}
+\end{document}

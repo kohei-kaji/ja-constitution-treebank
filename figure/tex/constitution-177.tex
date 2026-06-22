@@ -1,0 +1,42 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=10.9pt]
+    \begin{deptext}[column sep=1em]
+        前項 \& の \& 場合 \& に \& おい \& て \& 、 \& 投票者 \& の \& 多数 \& が \& 裁判官 \& の \& 罷免 \& を \& 可 \& と \& する \& とき \& は \& 、 \& その \& 裁判官 \& は \& 、 \& 罷免 \& さ \& れる \& 。\\
+        NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& NOUN \& ADP \& PUNCT \& DET \& NOUN \& ADP \& PUNCT \& VERB \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{26}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{26}{3}{obl}
+    \depedge{3}{4}{case}
+    \depedge{4}{5}{fixed}
+    \depedge{4}{6}{fixed}
+    \depedge{3}{7}{punct}
+    \depedge{10}{8}{nmod}
+    \depedge{8}{9}{case}
+    \depedge{18}{10}{nsubj}
+    \depedge{10}{11}{case}
+    \depedge{14}{12}{nmod}
+    \depedge{12}{13}{case}
+    \depedge{18}{14}{obj}
+    \depedge{14}{15}{case}
+    \depedge{18}{16}{obl}
+    \depedge{16}{17}{case}
+    \depedge{19}{18}{acl}
+    \depedge{26}{19}{obl}
+    \depedge{19}{20}{case}
+    \depedge{19}{21}{punct}
+    \depedge{23}{22}{det}
+    \depedge{26}{23}{nsubj}
+    \depedge{23}{24}{case}
+    \depedge{23}{25}{punct}
+    \depedge{26}{27}{aux}
+    \depedge{26}{28}{aux}
+    \depedge{26}{29}{punct}
+\end{dependency}
+\end{document}

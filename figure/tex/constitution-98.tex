@@ -1,0 +1,42 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=11.4pt]
+    \begin{deptext}[column sep=1em]
+        但し \& 、 \& 人種 \& 、 \& 信条 \& 、 \& 性別 \& 、 \& 社会的 \& 身分 \& 、 \& 門地 \& 、 \& 教育 \& 、 \& 財産 \& 又 \& は \& 収入 \& に \& よつ \& て \& 差別 \& し \& て \& は \& なら \& ない \& 。\\
+        CCONJ \& PUNCT \& NOUN \& PUNCT \& NOUN \& PUNCT \& NOUN \& PUNCT \& NOUN \& NOUN \& PUNCT \& NOUN \& PUNCT \& NOUN \& PUNCT \& NOUN \& CCONJ \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& VERB \& AUX \& SCONJ \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{23}{ROOT}
+    \depedge{23}{1}{cc}
+    \depedge{1}{2}{punct}
+    \depedge{5}{3}{nmod}
+    \depedge{3}{4}{punct}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{punct}
+    \depedge{9}{7}{nmod}
+    \depedge{7}{8}{punct}
+    \depedge{12}{9}{nmod}
+    \depedge{9}{10}{nmod}
+    \depedge{9}{11}{punct}
+    \depedge{14}{12}{nmod}
+    \depedge{12}{13}{punct}
+    \depedge{16}{14}{nmod}
+    \depedge{14}{15}{punct}
+    \depedge{19}{16}{nmod}
+    \depedge{19}{17}{cc}
+    \depedge{17}{18}{fixed}
+    \depedge{21}{19}{obl}
+    \depedge{19}{20}{case}
+    \depedge{23}{21}{advcl}
+    \depedge{21}{22}{mark}
+    \depedge{23}{24}{aux}
+    \depedge{23}{25}{mark}
+    \depedge{25}{26}{fixed}
+    \depedge{25}{27}{fixed}
+    \depedge{25}{28}{fixed}
+    \depedge{23}{29}{punct}
+\end{dependency}
+\end{document}

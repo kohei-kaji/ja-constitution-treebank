@@ -1,0 +1,58 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=8.9pt]
+    \begin{deptext}[column sep=0.5em]
+        何人 \& も \& 、 \& 現行犯 \& と \& し \& て \& 逮捕 \& さ \& れる \& 場合 \& を \& 除い \& て \& は \& 、 \& 権限 \& を \& 有する \& 司法 \& 官憲 \& が \& 発し \& 、 \& 且つ \& 理由 \& と \& なつ \& て \& ゐる \& 犯罪 \& を \& 明示 \& する \& 令状 \& に \& よら \& なけれ \& ば \& 、 \& 逮捕 \& さ \& れ \& ない \& 。\\
+        NOUN \& ADP \& PUNCT \& NOUN \& ADP \& AUX \& SCONJ \& VERB \& AUX \& AUX \& NOUN \& ADP \& VERB \& SCONJ \& ADP \& PUNCT \& NOUN \& ADP \& VERB \& NOUN \& NOUN \& ADP \& VERB \& PUNCT \& CCONJ \& NOUN \& ADP \& VERB \& SCONJ \& VERB \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& VERB \& AUX \& SCONJ \& PUNCT \& VERB \& AUX \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{41}{ROOT}
+    \depedge{13}{1}{nsubj}
+    \depedge{1}{2}{case}
+    \depedge{1}{3}{punct}
+    \depedge{8}{4}{obl}
+    \depedge{4}{5}{case}
+    \depedge{5}{6}{fixed}
+    \depedge{5}{7}{fixed}
+    \depedge{11}{8}{acl}
+    \depedge{8}{9}{aux}
+    \depedge{8}{10}{aux}
+    \depedge{13}{11}{obj}
+    \depedge{11}{12}{case}
+    \depedge{41}{13}{advcl}
+    \depedge{13}{14}{mark}
+    \depedge{13}{15}{case}
+    \depedge{13}{16}{punct}
+    \depedge{19}{17}{obj}
+    \depedge{17}{18}{case}
+    \depedge{21}{19}{acl}
+    \depedge{21}{20}{compound}
+    \depedge{23}{21}{nsubj}
+    \depedge{21}{22}{case}
+    \depedge{28}{23}{advcl}
+    \depedge{23}{24}{punct}
+    \depedge{28}{25}{cc}
+    \depedge{28}{26}{obl}
+    \depedge{26}{27}{case}
+    \depedge{31}{28}{acl}
+    \depedge{28}{29}{mark}
+    \depedge{29}{30}{fixed}
+    \depedge{33}{31}{obj}
+    \depedge{31}{32}{case}
+    \depedge{35}{33}{acl}
+    \depedge{33}{34}{aux}
+    \depedge{37}{35}{obl}
+    \depedge{35}{36}{case}
+    \depedge{41}{37}{advcl}
+    \depedge{37}{38}{aux}
+    \depedge{37}{39}{mark}
+    \depedge{37}{40}{punct}
+    \depedge{41}{42}{aux}
+    \depedge{41}{43}{aux}
+    \depedge{41}{44}{aux}
+    \depedge{41}{45}{punct}
+\end{dependency}
+\end{document}

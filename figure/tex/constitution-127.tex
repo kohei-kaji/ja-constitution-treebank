@@ -1,0 +1,42 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=10.4pt]
+    \begin{deptext}[column sep=1em]
+        前項 \& の \& 規定 \& は \& 、 \& 法律 \& の \& 定める \& ところ \& に \& より \& 、 \& 衆議院 \& が \& 、 \& 両 \& 議院 \& の \& 協議会 \& を \& 開く \& こと \& を \& 求める \& こと \& を \& 妨げ \& ない \& 。\\
+        NOUN \& ADP \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& PUNCT \& NOUN \& ADP \& PUNCT \& NOUN \& NOUN \& ADP \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& NOUN \& ADP \& NOUN \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{3}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{3}{4}{case}
+    \depedge{3}{5}{punct}
+    \depedge{8}{6}{nmod}
+    \depedge{6}{7}{case}
+    \depedge{9}{8}{acl}
+    \depedge{27}{9}{obl}
+    \depedge{9}{10}{case}
+    \depedge{10}{11}{fixed}
+    \depedge{9}{12}{punct}
+    \depedge{21}{13}{nsubj}
+    \depedge{13}{14}{case}
+    \depedge{13}{15}{punct}
+    \depedge{17}{16}{compound}
+    \depedge{19}{17}{nmod}
+    \depedge{17}{18}{case}
+    \depedge{21}{19}{obj}
+    \depedge{19}{20}{case}
+    \depedge{22}{21}{acl}
+    \depedge{24}{22}{obj}
+    \depedge{22}{23}{case}
+    \depedge{25}{24}{acl}
+    \depedge{27}{25}{obj}
+    \depedge{25}{26}{case}
+    \depedge{3}{27}{compound}
+    \depedge{27}{28}{aux}
+    \depedge{27}{29}{punct}
+\end{dependency}
+\end{document}

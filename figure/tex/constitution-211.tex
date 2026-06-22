@@ -1,0 +1,56 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=7.4pt]
+    \begin{deptext}[column sep=0.5em]
+        この \& 憲法 \& の \& 改正 \& は \& 、 \& 各 \& 議院 \& の \& 総 \& 議員 \& の \& 三 \& 分 \& の \& 二 \& 以上 \& の \& 賛成 \& で \& 、 \& 国会 \& が \& 、 \& これ \& を \& 発議 \& し \& 、 \& 国民 \& に \& 提案 \& し \& て \& その \& 承認 \& を \& 経 \& なけれ \& ば \& なら \& ない \& 。\\
+        DET \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& NOUN \& NOUN \& ADP \& NOUN \& NOUN \& ADP \& NUM \& NOUN \& ADP \& NUM \& NOUN \& ADP \& NOUN \& AUX \& PUNCT \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& VERB \& AUX \& PUNCT \& NOUN \& ADP \& VERB \& AUX \& SCONJ \& DET \& NOUN \& ADP \& VERB \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{38}{ROOT}
+    \depedge{2}{1}{det}
+    \depedge{4}{2}{nmod}
+    \depedge{2}{3}{case}
+    \depedge{38}{4}{nsubj}
+    \depedge{4}{5}{case}
+    \depedge{4}{6}{punct}
+    \depedge{8}{7}{compound}
+    \depedge{11}{8}{nmod}
+    \depedge{8}{9}{case}
+    \depedge{11}{10}{compound}
+    \depedge{14}{11}{nmod}
+    \depedge{11}{12}{case}
+    \depedge{14}{13}{nummod}
+    \depedge{19}{14}{nmod}
+    \depedge{14}{15}{case}
+    \depedge{14}{16}{compound}
+    \depedge{14}{17}{compound}
+    \depedge{14}{18}{case}
+    \depedge{27}{19}{advcl}
+    \depedge{19}{20}{cop}
+    \depedge{19}{21}{punct}
+    \depedge{27}{22}{nsubj}
+    \depedge{22}{23}{case}
+    \depedge{22}{24}{punct}
+    \depedge{27}{25}{obj}
+    \depedge{25}{26}{case}
+    \depedge{32}{27}{advcl}
+    \depedge{27}{28}{aux}
+    \depedge{27}{29}{punct}
+    \depedge{32}{30}{obl}
+    \depedge{30}{31}{case}
+    \depedge{38}{32}{advcl}
+    \depedge{32}{33}{aux}
+    \depedge{32}{34}{mark}
+    \depedge{36}{35}{det}
+    \depedge{38}{36}{obj}
+    \depedge{36}{37}{case}
+    \depedge{38}{39}{aux}
+    \depedge{39}{40}{fixed}
+    \depedge{39}{41}{fixed}
+    \depedge{39}{42}{fixed}
+    \depedge{38}{43}{punct}
+\end{dependency}
+\end{document}

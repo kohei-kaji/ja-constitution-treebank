@@ -1,0 +1,33 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        国 \& 及び \& その \& 機関 \& は \& 、 \& 宗教 \& 教育 \& その \& 他 \& いかなる \& 宗教的 \& 活動 \& も \& し \& て \& は \& なら \& ない \& 。\\
+        NOUN \& CCONJ \& DET \& NOUN \& ADP \& PUNCT \& NOUN \& NOUN \& DET \& NOUN \& ADJ \& NOUN \& NOUN \& ADP \& VERB \& SCONJ \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{15}{ROOT}
+    \depedge{4}{1}{nmod}
+    \depedge{4}{2}{cc}
+    \depedge{4}{3}{det}
+    \depedge{15}{4}{nsubj}
+    \depedge{4}{5}{case}
+    \depedge{4}{6}{punct}
+    \depedge{8}{7}{compound}
+    \depedge{12}{8}{nmod}
+    \depedge{10}{9}{det}
+    \depedge{12}{10}{nmod}
+    \depedge{12}{11}{amod}
+    \depedge{15}{12}{nsubj}
+    \depedge{12}{13}{compound}
+    \depedge{12}{14}{case}
+    \depedge{15}{16}{mark}
+    \depedge{16}{17}{fixed}
+    \depedge{16}{18}{fixed}
+    \depedge{16}{19}{fixed}
+    \depedge{15}{20}{punct}
+\end{dependency}
+\end{document}

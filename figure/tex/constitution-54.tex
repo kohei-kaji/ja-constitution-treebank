@@ -1,0 +1,24 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        検閲 \& は \& 、 \& これ \& を \& し \& て \& は \& なら \& ない \& 。\\
+        NOUN \& ADP \& PUNCT \& PRON \& ADP \& VERB \& SCONJ \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{6}{ROOT}
+    \depedge{6}{1}{nsubj}
+    \depedge{1}{2}{case}
+    \depedge{1}{3}{punct}
+    \depedge{6}{4}{obj}
+    \depedge{4}{5}{case}
+    \depedge{6}{7}{mark}
+    \depedge{7}{8}{fixed}
+    \depedge{7}{9}{fixed}
+    \depedge{7}{10}{fixed}
+    \depedge{6}{11}{punct}
+\end{dependency}
+\end{document}

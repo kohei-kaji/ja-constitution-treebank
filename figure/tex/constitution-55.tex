@@ -1,0 +1,26 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        通信 \& の \& 秘密 \& は \& 、 \& これ \& を \& 侵し \& て \& は \& なら \& ない \& 。\\
+        NOUN \& ADP \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& VERB \& SCONJ \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{8}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{8}{3}{nsubj}
+    \depedge{3}{4}{case}
+    \depedge{3}{5}{punct}
+    \depedge{8}{6}{obj}
+    \depedge{6}{7}{case}
+    \depedge{8}{9}{mark}
+    \depedge{9}{10}{fixed}
+    \depedge{9}{11}{fixed}
+    \depedge{9}{12}{fixed}
+    \depedge{8}{13}{punct}
+\end{dependency}
+\end{document}

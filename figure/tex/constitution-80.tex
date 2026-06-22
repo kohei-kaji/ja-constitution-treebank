@@ -1,0 +1,36 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        捜索 \& 又 \& は \& 押収 \& は \& 、 \& 権限 \& を \& 有する \& 司法 \& 官憲 \& が \& 発する \& 各別 \& の \& 令状 \& に \& より \& 、 \& これ \& を \& 行ふ \& 。\\
+        NOUN \& CCONJ \& ADP \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& VERB \& NOUN \& NOUN \& ADP \& VERB \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT \& PRON \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{22}{ROOT}
+    \depedge{4}{1}{nmod}
+    \depedge{4}{2}{cc}
+    \depedge{2}{3}{fixed}
+    \depedge{22}{4}{nsubj}
+    \depedge{4}{5}{case}
+    \depedge{4}{6}{punct}
+    \depedge{9}{7}{obj}
+    \depedge{7}{8}{case}
+    \depedge{11}{9}{acl}
+    \depedge{11}{10}{compound}
+    \depedge{13}{11}{nsubj}
+    \depedge{11}{12}{case}
+    \depedge{16}{13}{acl}
+    \depedge{16}{14}{nmod}
+    \depedge{14}{15}{case}
+    \depedge{22}{16}{obl}
+    \depedge{16}{17}{case}
+    \depedge{17}{18}{fixed}
+    \depedge{16}{19}{punct}
+    \depedge{22}{20}{obj}
+    \depedge{20}{21}{case}
+    \depedge{22}{23}{punct}
+\end{dependency}
+\end{document}

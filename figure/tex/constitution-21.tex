@@ -1,0 +1,18 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        儀式 \& を \& 行ふ \& こと \& 。\\
+        NOUN \& ADP \& VERB \& NOUN \& PUNCT\\
+    \end{deptext}
+    \deproot{4}{ROOT}
+    \depedge{3}{1}{obj}
+    \depedge{1}{2}{case}
+    \depedge{4}{3}{acl}
+    \depedge{4}{5}{punct}
+\end{dependency}
+\end{document}

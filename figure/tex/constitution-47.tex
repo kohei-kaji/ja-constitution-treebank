@@ -1,0 +1,37 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        又 \& 、 \& 犯罪 \& に \& 因る \& 処罰 \& の \& 場合 \& を \& 除い \& て \& は \& 、 \& その \& 意 \& に \& 反する \& 苦役 \& に \& 服さ \& せ \& られ \& ない \& 。\\
+        CCONJ \& PUNCT \& NOUN \& ADP \& VERB \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& ADP \& PUNCT \& DET \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& AUX \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{20}{ROOT}
+    \depedge{20}{1}{cc}
+    \depedge{1}{2}{punct}
+    \depedge{5}{3}{obl}
+    \depedge{3}{4}{case}
+    \depedge{6}{5}{acl}
+    \depedge{8}{6}{nmod}
+    \depedge{6}{7}{case}
+    \depedge{10}{8}{obj}
+    \depedge{8}{9}{case}
+    \depedge{20}{10}{advcl}
+    \depedge{10}{11}{mark}
+    \depedge{10}{12}{case}
+    \depedge{10}{13}{punct}
+    \depedge{15}{14}{det}
+    \depedge{17}{15}{obl}
+    \depedge{15}{16}{case}
+    \depedge{18}{17}{acl}
+    \depedge{20}{18}{obl}
+    \depedge{18}{19}{case}
+    \depedge{20}{21}{aux}
+    \depedge{20}{22}{aux}
+    \depedge{20}{23}{aux}
+    \depedge{20}{24}{punct}
+\end{dependency}
+\end{document}

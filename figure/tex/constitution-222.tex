@@ -1,0 +1,49 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=0.5em]
+        この \& 憲法 \& 施行 \& の \& 際 \& 、 \& 参議院 \& が \& まだ \& 成立 \& し \& て \& ゐ \& ない \& とき \& は \& 、 \& その \& 成立 \& する \& まで \& の \& 間 \& 、 \& 衆議院 \& は \& 、 \& 国会 \& と \& し \& て \& の \& 権限 \& を \& 行ふ \& 。\\
+        DET \& NOUN \& NOUN \& ADP \& NOUN \& PUNCT \& NOUN \& ADP \& ADV \& VERB \& AUX \& SCONJ \& VERB \& AUX \& NOUN \& ADP \& PUNCT \& DET \& VERB \& AUX \& PART \& ADP \& NOUN \& PUNCT \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& AUX \& SCONJ \& ADP \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{35}{ROOT}
+    \depedge{3}{1}{det}
+    \depedge{3}{2}{compound}
+    \depedge{5}{3}{nmod}
+    \depedge{3}{4}{case}
+    \depedge{10}{5}{obl}
+    \depedge{5}{6}{punct}
+    \depedge{10}{7}{nsubj}
+    \depedge{7}{8}{case}
+    \depedge{10}{9}{advmod}
+    \depedge{15}{10}{acl}
+    \depedge{10}{11}{aux}
+    \depedge{10}{12}{mark}
+    \depedge{12}{13}{fixed}
+    \depedge{10}{14}{aux}
+    \depedge{35}{15}{obl}
+    \depedge{15}{16}{case}
+    \depedge{15}{17}{punct}
+    \depedge{19}{18}{det}
+    \depedge{23}{19}{nmod}
+    \depedge{19}{20}{aux}
+    \depedge{19}{21}{mark}
+    \depedge{19}{22}{case}
+    \depedge{35}{23}{obl}
+    \depedge{23}{24}{punct}
+    \depedge{35}{25}{nsubj}
+    \depedge{25}{26}{case}
+    \depedge{25}{27}{punct}
+    \depedge{33}{28}{nmod}
+    \depedge{28}{29}{case}
+    \depedge{29}{30}{fixed}
+    \depedge{29}{31}{fixed}
+    \depedge{28}{32}{case}
+    \depedge{35}{33}{obj}
+    \depedge{33}{34}{case}
+    \depedge{35}{36}{punct}
+\end{dependency}
+\end{document}

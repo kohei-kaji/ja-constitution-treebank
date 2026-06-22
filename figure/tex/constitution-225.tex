@@ -1,0 +1,82 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\fontsize{5pt}{6pt}\selectfont
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=0.3em]
+        この \& 憲法 \& 施行 \& の \& 際 \& 現に \& 在職 \& する \& 国務 \& 大臣 \& 、 \& 衆議院議員 \& 及び \& 裁判官 \& 並びに \& その \& 他 \& の \& 公務員 \& で \& 、 \& その \& 地位 \& に \& 相応 \& する \& 地位 \& が \& この \& 憲法 \& で \& 認め \& られ \& て \& ゐる \& 者 \& は \& 、 \& 法律 \& で \& 特別 \& の \& 定 \& を \& し \& た \& 場合 \& を \& 除い \& て \& は \& 、 \& この \& 憲法 \& 施行 \& の \& ため \& 、 \& 当然 \& に \& は \& その \& 地位 \& を \& 失ふ \& こと \& は \& ない \& 。\\
+        DET \& NOUN \& NOUN \& ADP \& NOUN \& ADV \& VERB \& AUX \& NOUN \& NOUN \& PUNCT \& NOUN \& CCONJ \& NOUN \& CCONJ \& DET \& NOUN \& ADP \& NOUN \& AUX \& PUNCT \& DET \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& DET \& NOUN \& ADP \& VERB \& AUX \& SCONJ \& VERB \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& ADJ \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& VERB \& SCONJ \& ADP \& PUNCT \& DET \& NOUN \& NOUN \& ADP \& NOUN \& PUNCT \& ADJ \& AUX \& ADP \& DET \& NOUN \& ADP \& VERB \& NOUN \& ADP \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{65}{ROOT}
+    \depedge{3}{1}{det}
+    \depedge{3}{2}{compound}
+    \depedge{5}{3}{nmod}
+    \depedge{3}{4}{case}
+    \depedge{14}{5}{nmod}
+    \depedge{7}{6}{advmod}
+    \depedge{10}{7}{acl}
+    \depedge{7}{8}{aux}
+    \depedge{10}{9}{compound}
+    \depedge{12}{10}{nmod}
+    \depedge{10}{11}{punct}
+    \depedge{14}{12}{nmod}
+    \depedge{14}{13}{cc}
+    \depedge{19}{14}{nmod}
+    \depedge{19}{15}{cc}
+    \depedge{17}{16}{det}
+    \depedge{19}{17}{nmod}
+    \depedge{17}{18}{case}
+    \depedge{36}{19}{acl}
+    \depedge{19}{20}{cop}
+    \depedge{19}{21}{punct}
+    \depedge{23}{22}{det}
+    \depedge{25}{23}{obl}
+    \depedge{23}{24}{case}
+    \depedge{27}{25}{acl}
+    \depedge{25}{26}{aux}
+    \depedge{32}{27}{nsubj}
+    \depedge{27}{28}{case}
+    \depedge{30}{29}{det}
+    \depedge{32}{30}{obl}
+    \depedge{30}{31}{case}
+    \depedge{36}{32}{acl}
+    \depedge{32}{33}{aux}
+    \depedge{32}{34}{mark}
+    \depedge{34}{35}{fixed}
+    \depedge{49}{36}{nsubj}
+    \depedge{36}{37}{case}
+    \depedge{36}{38}{punct}
+    \depedge{45}{39}{obl}
+    \depedge{39}{40}{case}
+    \depedge{43}{41}{nmod}
+    \depedge{41}{42}{case}
+    \depedge{45}{43}{obj}
+    \depedge{43}{44}{case}
+    \depedge{47}{45}{acl}
+    \depedge{45}{46}{aux}
+    \depedge{49}{47}{obj}
+    \depedge{47}{48}{case}
+    \depedge{65}{49}{advcl}
+    \depedge{49}{50}{mark}
+    \depedge{49}{51}{case}
+    \depedge{49}{52}{punct}
+    \depedge{55}{53}{det}
+    \depedge{55}{54}{compound}
+    \depedge{57}{55}{nmod}
+    \depedge{55}{56}{case}
+    \depedge{65}{57}{obl}
+    \depedge{57}{58}{punct}
+    \depedge{65}{59}{advcl}
+    \depedge{59}{60}{aux}
+    \depedge{59}{61}{case}
+    \depedge{63}{62}{det}
+    \depedge{65}{63}{obj}
+    \depedge{63}{64}{case}
+    \depedge{65}{66}{compound}
+    \depedge{66}{67}{fixed}
+    \depedge{66}{68}{fixed}
+    \depedge{65}{69}{punct}
+\end{dependency}
+\end{document}

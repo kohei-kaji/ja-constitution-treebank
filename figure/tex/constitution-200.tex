@@ -1,0 +1,71 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=6.6pt]
+    \begin{deptext}[column sep=0.5em]
+        公金 \& その \& 他 \& の \& 公 \& の \& 財産 \& は \& 、 \& 宗教 \& 上 \& の \& 組織 \& 若しくは \& 団体 \& の \& 使用 \& 、 \& 便益 \& 若しくは \& 維持 \& の \& ため \& 、 \& 又 \& は \& 公 \& の \& 支配 \& に \& 属し \& ない \& 慈善 \& 、 \& 教育 \& 若しくは \& 博愛 \& の \& 事業 \& に \& 対し \& 、 \& これ \& を \& 支出 \& し \& 、 \& 又 \& は \& その \& 利用 \& に \& 供し \& て \& は \& なら \& ない \& 。\\
+        NOUN \& DET \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& NOUN \& NOUN \& ADP \& NOUN \& CCONJ \& NOUN \& ADP \& NOUN \& PUNCT \& NOUN \& CCONJ \& NOUN \& ADP \& NOUN \& PUNCT \& CCONJ \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& PUNCT \& NOUN \& CCONJ \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT \& PRON \& ADP \& VERB \& AUX \& PUNCT \& CCONJ \& ADP \& DET \& NOUN \& ADP \& VERB \& SCONJ \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{53}{ROOT}
+    \depedge{7}{1}{nmod}
+    \depedge{3}{2}{det}
+    \depedge{7}{3}{nmod}
+    \depedge{3}{4}{case}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{45}{7}{nsubj}
+    \depedge{7}{8}{case}
+    \depedge{7}{9}{punct}
+    \depedge{11}{10}{compound}
+    \depedge{13}{11}{nmod}
+    \depedge{11}{12}{case}
+    \depedge{15}{13}{nmod}
+    \depedge{15}{14}{cc}
+    \depedge{17}{15}{nmod}
+    \depedge{15}{16}{case}
+    \depedge{19}{17}{nmod}
+    \depedge{17}{18}{punct}
+    \depedge{21}{19}{nmod}
+    \depedge{21}{20}{cc}
+    \depedge{23}{21}{nmod}
+    \depedge{21}{22}{case}
+    \depedge{39}{23}{nmod}
+    \depedge{23}{24}{punct}
+    \depedge{33}{25}{cc}
+    \depedge{25}{26}{fixed}
+    \depedge{29}{27}{nmod}
+    \depedge{27}{28}{case}
+    \depedge{31}{29}{obl}
+    \depedge{29}{30}{case}
+    \depedge{33}{31}{acl}
+    \depedge{31}{32}{aux}
+    \depedge{35}{33}{nmod}
+    \depedge{33}{34}{punct}
+    \depedge{37}{35}{nmod}
+    \depedge{37}{36}{cc}
+    \depedge{39}{37}{nmod}
+    \depedge{37}{38}{case}
+    \depedge{45}{39}{obl}
+    \depedge{39}{40}{case}
+    \depedge{40}{41}{fixed}
+    \depedge{39}{42}{punct}
+    \depedge{45}{43}{obj}
+    \depedge{43}{44}{case}
+    \depedge{53}{45}{advcl}
+    \depedge{45}{46}{aux}
+    \depedge{45}{47}{punct}
+    \depedge{51}{48}{cc}
+    \depedge{48}{49}{fixed}
+    \depedge{51}{50}{det}
+    \depedge{53}{51}{obl}
+    \depedge{51}{52}{case}
+    \depedge{53}{54}{mark}
+    \depedge{54}{55}{fixed}
+    \depedge{54}{56}{fixed}
+    \depedge{54}{57}{fixed}
+    \depedge{53}{58}{punct}
+\end{dependency}
+\end{document}

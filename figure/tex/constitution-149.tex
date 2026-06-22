@@ -1,0 +1,46 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=0.5em]
+        内閣総理大臣 \& が \& 欠け \& た \& とき \& 、 \& 又 \& は \& 衆議院議員総選挙 \& の \& 後 \& に \& 初めて \& 国会 \& の \& 召集 \& が \& あつ \& た \& とき \& は \& 、 \& 内閣 \& は \& 、 \& 総辞職 \& を \& し \& なけれ \& ば \& なら \& ない \& 。\\
+        NOUN \& ADP \& VERB \& AUX \& NOUN \& PUNCT \& CCONJ \& ADP \& NOUN \& ADP \& NOUN \& ADP \& ADV \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& VERB \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{28}{ROOT}
+    \depedge{3}{1}{nsubj}
+    \depedge{1}{2}{case}
+    \depedge{5}{3}{acl}
+    \depedge{3}{4}{aux}
+    \depedge{20}{5}{nmod}
+    \depedge{5}{6}{punct}
+    \depedge{20}{7}{cc}
+    \depedge{7}{8}{fixed}
+    \depedge{11}{9}{nmod}
+    \depedge{9}{10}{case}
+    \depedge{18}{11}{obl}
+    \depedge{11}{12}{case}
+    \depedge{18}{13}{advmod}
+    \depedge{16}{14}{nmod}
+    \depedge{14}{15}{case}
+    \depedge{18}{16}{nsubj}
+    \depedge{16}{17}{case}
+    \depedge{20}{18}{acl}
+    \depedge{18}{19}{aux}
+    \depedge{28}{20}{obl}
+    \depedge{20}{21}{case}
+    \depedge{20}{22}{punct}
+    \depedge{28}{23}{nsubj}
+    \depedge{23}{24}{case}
+    \depedge{23}{25}{punct}
+    \depedge{28}{26}{obj}
+    \depedge{26}{27}{case}
+    \depedge{28}{29}{aux}
+    \depedge{29}{30}{fixed}
+    \depedge{29}{31}{fixed}
+    \depedge{29}{32}{fixed}
+    \depedge{28}{33}{punct}
+\end{dependency}
+\end{document}

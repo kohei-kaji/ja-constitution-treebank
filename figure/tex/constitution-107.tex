@@ -1,0 +1,25 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        国会 \& の \& 常会 \& は \& 、 \& 毎年 \& 一回 \& これ \& を \& 召集 \& する \& 。\\
+        NOUN \& ADP \& NOUN \& ADP \& PUNCT \& NOUN \& NOUN \& PRON \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{10}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{10}{3}{nsubj}
+    \depedge{3}{4}{case}
+    \depedge{3}{5}{punct}
+    \depedge{10}{6}{obl}
+    \depedge{10}{7}{obl}
+    \depedge{10}{8}{obj}
+    \depedge{8}{9}{case}
+    \depedge{10}{11}{aux}
+    \depedge{10}{12}{punct}
+\end{dependency}
+\end{document}

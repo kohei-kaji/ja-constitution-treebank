@@ -1,0 +1,40 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=11.9pt]
+    \begin{deptext}[column sep=1em]
+        但し \& 、 \& 政令 \& に \& は \& 、 \& 特に \& その \& 法律 \& の \& 委任 \& が \& ある \& 場合 \& を \& 除い \& て \& は \& 、 \& 罰則 \& を \& 設ける \& こと \& が \& でき \& ない \& 。\\
+        CCONJ \& PUNCT \& NOUN \& ADP \& ADP \& PUNCT \& ADV \& DET \& NOUN \& ADP \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& SCONJ \& ADP \& PUNCT \& NOUN \& ADP \& VERB \& NOUN \& ADP \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{22}{ROOT}
+    \depedge{22}{1}{cc}
+    \depedge{1}{2}{punct}
+    \depedge{22}{3}{obl}
+    \depedge{3}{4}{case}
+    \depedge{3}{5}{case}
+    \depedge{3}{6}{punct}
+    \depedge{13}{7}{advmod}
+    \depedge{9}{8}{det}
+    \depedge{11}{9}{nmod}
+    \depedge{9}{10}{case}
+    \depedge{13}{11}{nsubj}
+    \depedge{11}{12}{case}
+    \depedge{14}{13}{acl}
+    \depedge{16}{14}{obj}
+    \depedge{14}{15}{case}
+    \depedge{22}{16}{advcl}
+    \depedge{16}{17}{mark}
+    \depedge{16}{18}{case}
+    \depedge{16}{19}{punct}
+    \depedge{22}{20}{obj}
+    \depedge{20}{21}{case}
+    \depedge{22}{23}{compound}
+    \depedge{23}{24}{fixed}
+    \depedge{23}{25}{fixed}
+    \depedge{22}{26}{aux}
+    \depedge{22}{27}{punct}
+\end{dependency}
+\end{document}

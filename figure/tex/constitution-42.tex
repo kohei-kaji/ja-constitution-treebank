@@ -1,0 +1,31 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        すべて \& 選挙 \& に \& おけ \& る \& 投票 \& の \& 秘密 \& は \& 、 \& これ \& を \& 侵し \& て \& は \& なら \& ない \& 。\\
+        ADV \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& VERB \& SCONJ \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{13}{ROOT}
+    \depedge{13}{1}{advmod}
+    \depedge{8}{2}{nmod}
+    \depedge{2}{3}{case}
+    \depedge{3}{4}{fixed}
+    \depedge{3}{5}{fixed}
+    \depedge{8}{6}{nmod}
+    \depedge{6}{7}{case}
+    \depedge{13}{8}{nsubj}
+    \depedge{8}{9}{case}
+    \depedge{8}{10}{punct}
+    \depedge{13}{11}{obj}
+    \depedge{11}{12}{case}
+    \depedge{13}{14}{mark}
+    \depedge{14}{15}{fixed}
+    \depedge{14}{16}{fixed}
+    \depedge{14}{17}{fixed}
+    \depedge{13}{18}{punct}
+\end{dependency}
+\end{document}

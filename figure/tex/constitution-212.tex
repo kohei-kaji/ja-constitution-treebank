@@ -1,0 +1,45 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=8.6pt]
+    \begin{deptext}[column sep=0.5em]
+        この \& 承認 \& に \& は \& 、 \& 特別 \& の \& 国民投票 \& 又 \& は \& 国会 \& の \& 定める \& 選挙 \& の \& 際 \& 行は \& れる \& 投票 \& に \& おい \& て \& 、 \& その \& 過半数 \& の \& 賛成 \& を \& 必要 \& と \& する \& 。\\
+        DET \& NOUN \& ADP \& ADP \& PUNCT \& ADJ \& ADP \& NOUN \& CCONJ \& ADP \& NOUN \& ADP \& VERB \& NOUN \& ADP \& NOUN \& VERB \& AUX \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& DET \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{31}{ROOT}
+    \depedge{2}{1}{det}
+    \depedge{31}{2}{obl}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{case}
+    \depedge{2}{5}{punct}
+    \depedge{8}{6}{nmod}
+    \depedge{6}{7}{case}
+    \depedge{14}{8}{nmod}
+    \depedge{14}{9}{cc}
+    \depedge{9}{10}{fixed}
+    \depedge{13}{11}{nmod}
+    \depedge{11}{12}{case}
+    \depedge{14}{13}{acl}
+    \depedge{16}{14}{nmod}
+    \depedge{14}{15}{case}
+    \depedge{17}{16}{obl}
+    \depedge{19}{17}{acl}
+    \depedge{17}{18}{aux}
+    \depedge{31}{19}{obl}
+    \depedge{19}{20}{case}
+    \depedge{20}{21}{fixed}
+    \depedge{20}{22}{fixed}
+    \depedge{19}{23}{punct}
+    \depedge{25}{24}{det}
+    \depedge{27}{25}{nmod}
+    \depedge{25}{26}{case}
+    \depedge{31}{27}{obj}
+    \depedge{27}{28}{case}
+    \depedge{31}{29}{obl}
+    \depedge{29}{30}{case}
+    \depedge{31}{32}{punct}
+\end{dependency}
+\end{document}

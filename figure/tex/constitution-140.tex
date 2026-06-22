@@ -1,0 +1,28 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        内閣総理大臣 \& その \& 他 \& の \& 国務 \& 大臣 \& は \& 、 \& 文民 \& で \& なけれ \& ば \& なら \& ない \& 。\\
+        NOUN \& DET \& NOUN \& ADP \& NOUN \& NOUN \& ADP \& PUNCT \& NOUN \& AUX \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{9}{ROOT}
+    \depedge{6}{1}{compound}
+    \depedge{3}{2}{det}
+    \depedge{6}{3}{nmod}
+    \depedge{3}{4}{case}
+    \depedge{6}{5}{compound}
+    \depedge{9}{6}{nsubj}
+    \depedge{6}{7}{case}
+    \depedge{6}{8}{punct}
+    \depedge{9}{10}{cop}
+    \depedge{9}{11}{aux}
+    \depedge{11}{12}{fixed}
+    \depedge{11}{13}{fixed}
+    \depedge{11}{14}{fixed}
+    \depedge{9}{15}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,27 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        華族 \& その \& 他 \& の \& 貴族 \& の \& 制度 \& は \& 、 \& これ \& を \& 認め \& ない \& 。\\
+        NOUN \& DET \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{12}{ROOT}
+    \depedge{7}{1}{nmod}
+    \depedge{3}{2}{det}
+    \depedge{5}{3}{nmod}
+    \depedge{3}{4}{case}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{12}{7}{nsubj}
+    \depedge{7}{8}{case}
+    \depedge{7}{9}{punct}
+    \depedge{12}{10}{obj}
+    \depedge{10}{11}{case}
+    \depedge{12}{13}{aux}
+    \depedge{12}{14}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,47 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=0.5em]
+        強制 \& 、 \& 拷問 \& 若しくは \& 脅迫 \& に \& よる \& 自白 \& 又 \& は \& 不当 \& に \& 長く \& 抑留 \& 若しくは \& 拘禁 \& さ \& れ \& た \& 後 \& の \& 自白 \& は \& 、 \& これ \& を \& 証拠 \& と \& する \& こと \& が \& でき \& ない \& 。\\
+        NOUN \& PUNCT \& NOUN \& CCONJ \& NOUN \& ADP \& VERB \& NOUN \& CCONJ \& ADP \& ADJ \& AUX \& ADJ \& NOUN \& CCONJ \& VERB \& AUX \& AUX \& AUX \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& NOUN \& ADP \& AUX \& NOUN \& ADP \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{29}{ROOT}
+    \depedge{5}{1}{nmod}
+    \depedge{1}{2}{punct}
+    \depedge{5}{3}{nmod}
+    \depedge{5}{4}{cc}
+    \depedge{8}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{6}{7}{fixed}
+    \depedge{14}{8}{nmod}
+    \depedge{14}{9}{cc}
+    \depedge{9}{10}{fixed}
+    \depedge{14}{11}{acl}
+    \depedge{11}{12}{aux}
+    \depedge{14}{13}{acl}
+    \depedge{16}{14}{obl}
+    \depedge{16}{15}{cc}
+    \depedge{20}{16}{acl}
+    \depedge{16}{17}{aux}
+    \depedge{16}{18}{aux}
+    \depedge{16}{19}{aux}
+    \depedge{22}{20}{nmod}
+    \depedge{20}{21}{case}
+    \depedge{29}{22}{nsubj}
+    \depedge{22}{23}{case}
+    \depedge{22}{24}{punct}
+    \depedge{29}{25}{obj}
+    \depedge{25}{26}{case}
+    \depedge{29}{27}{obl}
+    \depedge{27}{28}{case}
+    \depedge{29}{30}{compound}
+    \depedge{30}{31}{fixed}
+    \depedge{30}{32}{fixed}
+    \depedge{29}{33}{aux}
+    \depedge{29}{34}{punct}
+\end{dependency}
+\end{document}

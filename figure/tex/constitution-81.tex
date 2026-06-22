@@ -1,0 +1,29 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        公務員 \& に \& よる \& 拷問 \& 及び \& 残虐 \& な \& 刑罰 \& は \& 、 \& 絶対 \& に \& これ \& を \& 禁ずる \& 。\\
+        NOUN \& ADP \& VERB \& NOUN \& CCONJ \& ADJ \& AUX \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& PRON \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{15}{ROOT}
+    \depedge{4}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{2}{3}{fixed}
+    \depedge{8}{4}{nmod}
+    \depedge{8}{5}{cc}
+    \depedge{8}{6}{acl}
+    \depedge{6}{7}{aux}
+    \depedge{15}{8}{nsubj}
+    \depedge{8}{9}{case}
+    \depedge{8}{10}{punct}
+    \depedge{15}{11}{obl}
+    \depedge{11}{12}{case}
+    \depedge{15}{13}{obj}
+    \depedge{13}{14}{case}
+    \depedge{15}{16}{punct}
+\end{dependency}
+\end{document}

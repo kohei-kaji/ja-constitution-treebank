@@ -1,0 +1,37 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        いかなる \& 宗教 \& 団体 \& も \& 、 \& 国 \& から \& 特権 \& を \& 受け \& 、 \& 又 \& は \& 政治上 \& の \& 権力 \& を \& 行使 \& し \& て \& は \& なら \& ない \& 。\\
+        ADJ \& NOUN \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT \& CCONJ \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& SCONJ \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{18}{ROOT}
+    \depedge{3}{1}{amod}
+    \depedge{3}{2}{compound}
+    \depedge{10}{3}{nsubj}
+    \depedge{3}{4}{case}
+    \depedge{3}{5}{punct}
+    \depedge{10}{6}{obl}
+    \depedge{6}{7}{case}
+    \depedge{10}{8}{obj}
+    \depedge{8}{9}{case}
+    \depedge{18}{10}{advcl}
+    \depedge{10}{11}{punct}
+    \depedge{18}{12}{cc}
+    \depedge{12}{13}{fixed}
+    \depedge{16}{14}{nmod}
+    \depedge{14}{15}{case}
+    \depedge{18}{16}{obj}
+    \depedge{16}{17}{case}
+    \depedge{18}{19}{aux}
+    \depedge{18}{20}{mark}
+    \depedge{20}{21}{fixed}
+    \depedge{20}{22}{fixed}
+    \depedge{20}{23}{fixed}
+    \depedge{18}{24}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,51 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=10.0pt]
+    \begin{deptext}[column sep=0.5em]
+        憲法改正 \& に \& つい \& て \& 前項 \& の \& 承認 \& を \& 経 \& た \& とき \& は \& 、 \& 天皇 \& は \& 、 \& 国民 \& の \& 名 \& で \& 、 \& この \& 憲法 \& と \& 一体 \& を \& 成す \& もの \& と \& し \& て \& 、 \& 直ちに \& これ \& を \& 公布 \& する \& 。\\
+        NOUN \& ADP \& VERB \& SCONJ \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& DET \& NOUN \& ADP \& NOUN \& ADP \& VERB \& NOUN \& ADP \& AUX \& SCONJ \& PUNCT \& ADV \& PRON \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{36}{ROOT}
+    \depedge{9}{1}{obl}
+    \depedge{1}{2}{case}
+    \depedge{2}{3}{fixed}
+    \depedge{2}{4}{fixed}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{9}{7}{obj}
+    \depedge{7}{8}{case}
+    \depedge{11}{9}{acl}
+    \depedge{9}{10}{aux}
+    \depedge{36}{11}{obl}
+    \depedge{11}{12}{case}
+    \depedge{11}{13}{punct}
+    \depedge{36}{14}{nsubj}
+    \depedge{14}{15}{case}
+    \depedge{14}{16}{punct}
+    \depedge{19}{17}{nmod}
+    \depedge{17}{18}{case}
+    \depedge{36}{19}{obl}
+    \depedge{19}{20}{case}
+    \depedge{19}{21}{punct}
+    \depedge{23}{22}{det}
+    \depedge{25}{23}{nmod}
+    \depedge{23}{24}{case}
+    \depedge{27}{25}{obj}
+    \depedge{25}{26}{case}
+    \depedge{28}{27}{acl}
+    \depedge{36}{28}{obl}
+    \depedge{28}{29}{case}
+    \depedge{29}{30}{fixed}
+    \depedge{29}{31}{fixed}
+    \depedge{28}{32}{punct}
+    \depedge{36}{33}{advmod}
+    \depedge{36}{34}{obj}
+    \depedge{34}{35}{case}
+    \depedge{36}{37}{aux}
+    \depedge{36}{38}{punct}
+\end{dependency}
+\end{document}

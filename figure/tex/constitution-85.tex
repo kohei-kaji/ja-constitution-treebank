@@ -1,0 +1,33 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        被告人 \& が \& 自ら \& これ \& を \& 依頼 \& する \& こと \& が \& でき \& ない \& とき \& は \& 、 \& 国 \& で \& これ \& を \& 附する \& 。\\
+        NOUN \& ADP \& ADV \& PRON \& ADP \& VERB \& AUX \& NOUN \& ADP \& AUX \& AUX \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& PRON \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{19}{ROOT}
+    \depedge{6}{1}{nsubj}
+    \depedge{1}{2}{case}
+    \depedge{6}{3}{advmod}
+    \depedge{6}{4}{obj}
+    \depedge{4}{5}{case}
+    \depedge{12}{6}{acl}
+    \depedge{6}{7}{aux}
+    \depedge{6}{8}{compound}
+    \depedge{8}{9}{fixed}
+    \depedge{8}{10}{fixed}
+    \depedge{6}{11}{aux}
+    \depedge{19}{12}{obl}
+    \depedge{12}{13}{case}
+    \depedge{12}{14}{punct}
+    \depedge{19}{15}{obl}
+    \depedge{15}{16}{case}
+    \depedge{19}{17}{obj}
+    \depedge{17}{18}{case}
+    \depedge{19}{20}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,65 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=11.9pt]
+    \begin{deptext}[column sep=0.5em]
+        配偶者 \& の \& 選択 \& 、 \& 財産権 \& 、 \& 相続 \& 、 \& 住居 \& の \& 選定 \& 、 \& 離婚 \& 並び \& に \& 婚姻 \& 及び \& 家族 \& に \& 関する \& その \& 他 \& の \& 事項 \& に \& 関し \& ては \& 、 \& 法律 \& は \& 、 \& 個人 \& の \& 尊厳 \& と \& 両性 \& の \& 本質的 \& 平等 \& に \& 立脚 \& し \& て \& 、 \& 制定 \& さ \& れ \& なけれ \& ば \& なら \& ない \& 。\\
+        NOUN \& ADP \& NOUN \& PUNCT \& NOUN \& PUNCT \& NOUN \& PUNCT \& NOUN \& ADP \& NOUN \& PUNCT \& NOUN \& CCONJ \& ADP \& NOUN \& CCONJ \& NOUN \& ADP \& VERB \& DET \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& NOUN \& ADP \& VERB \& AUX \& SCONJ \& PUNCT \& VERB \& AUX \& AUX \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{45}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{5}{3}{nmod}
+    \depedge{3}{4}{punct}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{punct}
+    \depedge{11}{7}{nmod}
+    \depedge{7}{8}{punct}
+    \depedge{11}{9}{nmod}
+    \depedge{9}{10}{case}
+    \depedge{13}{11}{nmod}
+    \depedge{11}{12}{punct}
+    \depedge{16}{13}{nmod}
+    \depedge{16}{14}{cc}
+    \depedge{14}{15}{fixed}
+    \depedge{18}{16}{nmod}
+    \depedge{18}{17}{cc}
+    \depedge{24}{18}{nmod}
+    \depedge{18}{19}{case}
+    \depedge{19}{20}{fixed}
+    \depedge{22}{21}{det}
+    \depedge{24}{22}{nmod}
+    \depedge{22}{23}{case}
+    \depedge{45}{24}{obl}
+    \depedge{24}{25}{case}
+    \depedge{25}{26}{fixed}
+    \depedge{25}{27}{fixed}
+    \depedge{24}{28}{punct}
+    \depedge{45}{29}{nsubj}
+    \depedge{29}{30}{case}
+    \depedge{29}{31}{punct}
+    \depedge{34}{32}{nmod}
+    \depedge{32}{33}{case}
+    \depedge{38}{34}{nmod}
+    \depedge{34}{35}{case}
+    \depedge{38}{36}{nmod}
+    \depedge{36}{37}{case}
+    \depedge{41}{38}{obl}
+    \depedge{38}{39}{compound}
+    \depedge{38}{40}{case}
+    \depedge{45}{41}{advcl}
+    \depedge{41}{42}{aux}
+    \depedge{41}{43}{mark}
+    \depedge{41}{44}{punct}
+    \depedge{45}{46}{aux}
+    \depedge{45}{47}{aux}
+    \depedge{45}{48}{aux}
+    \depedge{48}{49}{fixed}
+    \depedge{48}{50}{fixed}
+    \depedge{48}{51}{fixed}
+    \depedge{45}{52}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,47 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=0.5em]
+        両 \& 議院 \& は \& 、 \& 各々 \& 国政 \& に \& 関する \& 調査 \& を \& 行ひ \& 、 \& これ \& に \& 関し \& て \& 、 \& 証人 \& の \& 出頭 \& 及び \& 証言 \& 並び \& に \& 記録 \& の \& 提出 \& を \& 要求 \& する \& こと \& が \& できる \& 。\\
+        NOUN \& NOUN \& ADP \& PUNCT \& NOUN \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& PUNCT \& PRON \& ADP \& VERB \& SCONJ \& PUNCT \& NOUN \& ADP \& NOUN \& CCONJ \& NOUN \& CCONJ \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{29}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{11}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{11}{5}{obl}
+    \depedge{9}{6}{nmod}
+    \depedge{6}{7}{case}
+    \depedge{7}{8}{fixed}
+    \depedge{11}{9}{obj}
+    \depedge{9}{10}{case}
+    \depedge{29}{11}{advcl}
+    \depedge{11}{12}{punct}
+    \depedge{29}{13}{obl}
+    \depedge{13}{14}{case}
+    \depedge{14}{15}{fixed}
+    \depedge{14}{16}{fixed}
+    \depedge{13}{17}{punct}
+    \depedge{20}{18}{nmod}
+    \depedge{18}{19}{case}
+    \depedge{22}{20}{nmod}
+    \depedge{22}{21}{cc}
+    \depedge{27}{22}{nmod}
+    \depedge{27}{23}{cc}
+    \depedge{23}{24}{fixed}
+    \depedge{27}{25}{nmod}
+    \depedge{25}{26}{case}
+    \depedge{29}{27}{obj}
+    \depedge{27}{28}{case}
+    \depedge{29}{30}{aux}
+    \depedge{29}{31}{compound}
+    \depedge{31}{32}{fixed}
+    \depedge{31}{33}{fixed}
+    \depedge{29}{34}{punct}
+\end{dependency}
+\end{document}

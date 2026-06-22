@@ -1,0 +1,33 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        前項 \& の \& 目的 \& を \& 達する \& ため \& 、 \& 陸海空軍 \& その \& 他 \& の \& 戦力 \& は \& 、 \& これ \& を \& 保持 \& し \& ない \& 。\\
+        NOUN \& ADP \& NOUN \& ADP \& VERB \& NOUN \& PUNCT \& NOUN \& DET \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& VERB \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{17}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{5}{3}{obj}
+    \depedge{3}{4}{case}
+    \depedge{6}{5}{acl}
+    \depedge{17}{6}{obl}
+    \depedge{6}{7}{punct}
+    \depedge{12}{8}{nmod}
+    \depedge{10}{9}{det}
+    \depedge{12}{10}{nmod}
+    \depedge{10}{11}{case}
+    \depedge{17}{12}{nsubj}
+    \depedge{12}{13}{case}
+    \depedge{12}{14}{punct}
+    \depedge{17}{15}{obj}
+    \depedge{15}{16}{case}
+    \depedge{17}{18}{aux}
+    \depedge{17}{19}{aux}
+    \depedge{17}{20}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,38 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        前 \& 二 \& 条 \& の \& 場合 \& に \& は \& 、 \& 内閣 \& は \& 、 \& あらた \& に \& 内閣総理大臣 \& が \& 任命 \& さ \& れる \& まで \& 引き続き \& その \& 職務 \& を \& 行ふ \& 。\\
+        NOUN \& NUM \& NOUN \& ADP \& NOUN \& ADP \& ADP \& PUNCT \& NOUN \& ADP \& PUNCT \& ADJ \& ADP \& NOUN \& ADP \& VERB \& AUX \& AUX \& PART \& VERB \& DET \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{24}{ROOT}
+    \depedge{3}{1}{compound}
+    \depedge{3}{2}{nummod}
+    \depedge{5}{3}{nmod}
+    \depedge{3}{4}{case}
+    \depedge{24}{5}{obl}
+    \depedge{5}{6}{case}
+    \depedge{5}{7}{case}
+    \depedge{5}{8}{punct}
+    \depedge{24}{9}{nsubj}
+    \depedge{9}{10}{case}
+    \depedge{9}{11}{punct}
+    \depedge{16}{12}{advmod}
+    \depedge{12}{13}{aux}
+    \depedge{16}{14}{nsubj}
+    \depedge{14}{15}{case}
+    \depedge{24}{16}{advcl}
+    \depedge{16}{17}{aux}
+    \depedge{16}{18}{aux}
+    \depedge{16}{19}{mark}
+    \depedge{24}{20}{advcl}
+    \depedge{22}{21}{det}
+    \depedge{24}{22}{obj}
+    \depedge{22}{23}{case}
+    \depedge{24}{25}{punct}
+\end{dependency}
+\end{document}

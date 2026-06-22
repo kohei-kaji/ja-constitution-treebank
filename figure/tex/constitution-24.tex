@@ -1,0 +1,68 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=6.9pt]
+    \begin{deptext}[column sep=0.5em]
+        日本 \& 国民 \& は \& 、 \& 正義 \& と \& 秩序 \& を \& 基調 \& と \& する \& 国際 \& 平和 \& を \& 誠実 \& に \& 希求 \& し \& 、 \& 国権 \& の \& 発動 \& たる \& 戦争 \& と \& 、 \& 武力 \& に \& よる \& 威嚇 \& 又 \& は \& 武力 \& の \& 行使 \& は \& 、 \& 国際 \& 紛争 \& を \& 解決 \& する \& 手段 \& と \& し \& て \& は \& 、 \& 永久 \& に \& これ \& を \& 放棄 \& する \& 。\\
+        PROPN \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& NOUN \& NOUN \& ADP \& ADJ \& AUX \& VERB \& AUX \& PUNCT \& NOUN \& ADP \& NOUN \& AUX \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& VERB \& NOUN \& CCONJ \& ADP \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& NOUN \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& AUX \& SCONJ \& ADP \& PUNCT \& NOUN \& AUX \& PRON \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{53}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{17}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{11}{7}{obj}
+    \depedge{7}{8}{case}
+    \depedge{11}{9}{obl}
+    \depedge{9}{10}{case}
+    \depedge{13}{11}{acl}
+    \depedge{13}{12}{compound}
+    \depedge{17}{13}{obj}
+    \depedge{13}{14}{case}
+    \depedge{17}{15}{advcl}
+    \depedge{15}{16}{aux}
+    \depedge{53}{17}{advcl}
+    \depedge{17}{18}{aux}
+    \depedge{17}{19}{punct}
+    \depedge{22}{20}{nmod}
+    \depedge{20}{21}{case}
+    \depedge{24}{22}{acl}
+    \depedge{22}{23}{aux}
+    \depedge{35}{24}{nmod}
+    \depedge{24}{25}{case}
+    \depedge{24}{26}{punct}
+    \depedge{30}{27}{nmod}
+    \depedge{27}{28}{case}
+    \depedge{28}{29}{fixed}
+    \depedge{35}{30}{acl}
+    \depedge{33}{31}{cc}
+    \depedge{31}{32}{fixed}
+    \depedge{35}{33}{nmod}
+    \depedge{33}{34}{case}
+    \depedge{53}{35}{nsubj}
+    \depedge{35}{36}{case}
+    \depedge{35}{37}{punct}
+    \depedge{39}{38}{compound}
+    \depedge{41}{39}{obj}
+    \depedge{39}{40}{case}
+    \depedge{43}{41}{acl}
+    \depedge{41}{42}{aux}
+    \depedge{53}{43}{obl}
+    \depedge{43}{44}{case}
+    \depedge{44}{45}{fixed}
+    \depedge{44}{46}{fixed}
+    \depedge{43}{47}{case}
+    \depedge{43}{48}{punct}
+    \depedge{53}{49}{advmod}
+    \depedge{49}{50}{aux}
+    \depedge{53}{51}{obj}
+    \depedge{51}{52}{case}
+    \depedge{53}{54}{aux}
+    \depedge{53}{55}{punct}
+\end{dependency}
+\end{document}

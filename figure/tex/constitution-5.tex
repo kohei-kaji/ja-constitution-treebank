@@ -1,0 +1,36 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        天皇 \& は \& 、 \& この \& 憲法 \& の \& 定める \& 国事 \& に \& 関する \& 行為 \& のみ \& を \& 行ひ \& 、 \& 国政 \& に \& 関する \& 権能 \& を \& 有し \& ない \& 。\\
+        NOUN \& ADP \& PUNCT \& DET \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& NOUN \& ADP \& ADP \& VERB \& PUNCT \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{21}{ROOT}
+    \depedge{21}{1}{nsubj}
+    \depedge{1}{2}{case}
+    \depedge{1}{3}{punct}
+    \depedge{5}{4}{det}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{11}{7}{acl}
+    \depedge{11}{8}{nmod}
+    \depedge{8}{9}{case}
+    \depedge{9}{10}{fixed}
+    \depedge{14}{11}{obj}
+    \depedge{11}{12}{case}
+    \depedge{11}{13}{case}
+    \depedge{21}{14}{advcl}
+    \depedge{14}{15}{punct}
+    \depedge{19}{16}{nmod}
+    \depedge{16}{17}{case}
+    \depedge{17}{18}{fixed}
+    \depedge{21}{19}{obj}
+    \depedge{19}{20}{case}
+    \depedge{21}{22}{aux}
+    \depedge{21}{23}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,26 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        特別 \& 裁判所 \& は \& 、 \& これ \& を \& 設置 \& する \& こと \& が \& でき \& ない \& 。\\
+        ADJ \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& VERB \& AUX \& NOUN \& ADP \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{7}{ROOT}
+    \depedge{2}{1}{amod}
+    \depedge{7}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{7}{5}{obj}
+    \depedge{5}{6}{case}
+    \depedge{7}{8}{aux}
+    \depedge{7}{9}{compound}
+    \depedge{9}{10}{fixed}
+    \depedge{9}{11}{fixed}
+    \depedge{7}{12}{aux}
+    \depedge{7}{13}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,28 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        最高 \& 裁判所 \& の \& 裁判官 \& は \& 、 \& すべて \& 定期 \& に \& 相当額 \& の \& 報酬 \& を \& 受ける \& 。\\
+        NOUN \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& ADV \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{14}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{4}{2}{nmod}
+    \depedge{2}{3}{case}
+    \depedge{14}{4}{nsubj}
+    \depedge{4}{5}{case}
+    \depedge{4}{6}{punct}
+    \depedge{14}{7}{advmod}
+    \depedge{14}{8}{obl}
+    \depedge{8}{9}{case}
+    \depedge{12}{10}{nmod}
+    \depedge{10}{11}{case}
+    \depedge{14}{12}{obj}
+    \depedge{12}{13}{case}
+    \depedge{14}{15}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,35 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        勤労者 \& の \& 団結 \& する \& 権利 \& 及び \& 団体交渉 \& その \& 他 \& の \& 団体 \& 行動 \& を \& する \& 権利 \& は \& 、 \& これ \& を \& 保障 \& する \& 。\\
+        NOUN \& ADP \& VERB \& AUX \& NOUN \& CCONJ \& NOUN \& DET \& NOUN \& ADP \& NOUN \& NOUN \& ADP \& VERB \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{20}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{5}{3}{acl}
+    \depedge{3}{4}{aux}
+    \depedge{12}{5}{nmod}
+    \depedge{12}{6}{cc}
+    \depedge{12}{7}{nmod}
+    \depedge{9}{8}{det}
+    \depedge{12}{9}{nmod}
+    \depedge{9}{10}{case}
+    \depedge{12}{11}{compound}
+    \depedge{14}{12}{obj}
+    \depedge{12}{13}{case}
+    \depedge{15}{14}{acl}
+    \depedge{20}{15}{nsubj}
+    \depedge{15}{16}{case}
+    \depedge{15}{17}{punct}
+    \depedge{20}{18}{obj}
+    \depedge{18}{19}{case}
+    \depedge{20}{21}{aux}
+    \depedge{20}{22}{punct}
+\end{dependency}
+\end{document}

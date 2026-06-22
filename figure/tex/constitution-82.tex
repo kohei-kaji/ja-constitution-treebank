@@ -1,0 +1,38 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=10.9pt]
+    \begin{deptext}[column sep=1em]
+        すべて \& 刑事 \& 事件 \& に \& おい \& て \& は \& 、 \& 被告人 \& は \& 、 \& 公平 \& な \& 裁判所 \& の \& 迅速 \& な \& 公開 \& 裁判 \& を \& 受ける \& 権利 \& を \& 有する \& 。\\
+        ADV \& NOUN \& NOUN \& ADP \& VERB \& SCONJ \& ADP \& PUNCT \& NOUN \& ADP \& PUNCT \& ADJ \& AUX \& NOUN \& ADP \& ADJ \& AUX \& NOUN \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{24}{ROOT}
+    \depedge{24}{1}{advmod}
+    \depedge{3}{2}{compound}
+    \depedge{24}{3}{obl}
+    \depedge{3}{4}{case}
+    \depedge{4}{5}{fixed}
+    \depedge{4}{6}{fixed}
+    \depedge{3}{7}{case}
+    \depedge{3}{8}{punct}
+    \depedge{24}{9}{nsubj}
+    \depedge{9}{10}{case}
+    \depedge{9}{11}{punct}
+    \depedge{14}{12}{acl}
+    \depedge{12}{13}{aux}
+    \depedge{19}{14}{nmod}
+    \depedge{14}{15}{case}
+    \depedge{19}{16}{acl}
+    \depedge{16}{17}{aux}
+    \depedge{19}{18}{compound}
+    \depedge{21}{19}{obj}
+    \depedge{19}{20}{case}
+    \depedge{22}{21}{acl}
+    \depedge{24}{22}{obj}
+    \depedge{22}{23}{case}
+    \depedge{24}{25}{punct}
+\end{dependency}
+\end{document}

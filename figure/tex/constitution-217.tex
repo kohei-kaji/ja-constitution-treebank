@@ -1,0 +1,41 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        日本 \& 国 \& が \& 締結 \& し \& た \& 条約 \& 及び \& 確立 \& さ \& れ \& た \& 国際 \& 法規 \& は \& 、 \& これ \& を \& 誠実 \& に \& 遵守 \& する \& こと \& を \& 必要 \& と \& する \& 。\\
+        PROPN \& NOUN \& ADP \& VERB \& AUX \& AUX \& NOUN \& CCONJ \& VERB \& AUX \& AUX \& AUX \& NOUN \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& ADJ \& AUX \& NOUN \& AUX \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{27}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{4}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{7}{4}{acl}
+    \depedge{4}{5}{aux}
+    \depedge{4}{6}{aux}
+    \depedge{14}{7}{nmod}
+    \depedge{14}{8}{cc}
+    \depedge{14}{9}{acl}
+    \depedge{9}{10}{aux}
+    \depedge{9}{11}{aux}
+    \depedge{9}{12}{aux}
+    \depedge{14}{13}{compound}
+    \depedge{27}{14}{nsubj}
+    \depedge{14}{15}{case}
+    \depedge{14}{16}{punct}
+    \depedge{21}{17}{obj}
+    \depedge{17}{18}{case}
+    \depedge{21}{19}{advcl}
+    \depedge{19}{20}{aux}
+    \depedge{23}{21}{acl}
+    \depedge{21}{22}{aux}
+    \depedge{27}{23}{obj}
+    \depedge{23}{24}{case}
+    \depedge{27}{25}{obl}
+    \depedge{25}{26}{case}
+    \depedge{27}{28}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,31 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        すべて \& 公務員 \& は \& 、 \& 全体 \& の \& 奉仕者 \& で \& あつ \& て \& 、 \& 一部 \& の \& 奉仕者 \& で \& は \& ない \& 。\\
+        ADV \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& AUX \& VERB \& SCONJ \& PUNCT \& NOUN \& ADP \& NOUN \& AUX \& ADP \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{14}{ROOT}
+    \depedge{14}{1}{advmod}
+    \depedge{14}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{14}{7}{acl}
+    \depedge{7}{8}{cop}
+    \depedge{8}{9}{fixed}
+    \depedge{7}{10}{mark}
+    \depedge{7}{11}{punct}
+    \depedge{14}{12}{nmod}
+    \depedge{12}{13}{case}
+    \depedge{14}{15}{cop}
+    \depedge{15}{16}{fixed}
+    \depedge{15}{17}{fixed}
+    \depedge{14}{18}{punct}
+\end{dependency}
+\end{document}

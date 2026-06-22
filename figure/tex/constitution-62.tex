@@ -1,0 +1,41 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=11.4pt]
+    \begin{deptext}[column sep=1em]
+        国 \& は \& 、 \& すべて \& の \& 生活 \& 部面 \& に \& つい \& て \& 、 \& 社会 \& 福祉 \& 、 \& 社会保障 \& 及び \& 公衆衛生 \& の \& 向上 \& 及び \& 増進 \& に \& 努め \& なけれ \& ば \& なら \& ない \& 。\\
+        NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& NOUN \& NOUN \& PUNCT \& NOUN \& CCONJ \& NOUN \& ADP \& NOUN \& CCONJ \& NOUN \& ADP \& VERB \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{23}{ROOT}
+    \depedge{23}{1}{nsubj}
+    \depedge{1}{2}{case}
+    \depedge{1}{3}{punct}
+    \depedge{7}{4}{nmod}
+    \depedge{4}{5}{case}
+    \depedge{7}{6}{compound}
+    \depedge{23}{7}{obl}
+    \depedge{7}{8}{case}
+    \depedge{8}{9}{fixed}
+    \depedge{8}{10}{fixed}
+    \depedge{7}{11}{punct}
+    \depedge{13}{12}{compound}
+    \depedge{15}{13}{nmod}
+    \depedge{13}{14}{punct}
+    \depedge{17}{15}{nmod}
+    \depedge{17}{16}{cc}
+    \depedge{19}{17}{nmod}
+    \depedge{17}{18}{case}
+    \depedge{21}{19}{nmod}
+    \depedge{21}{20}{cc}
+    \depedge{23}{21}{obl}
+    \depedge{21}{22}{case}
+    \depedge{23}{24}{aux}
+    \depedge{24}{25}{fixed}
+    \depedge{24}{26}{fixed}
+    \depedge{24}{27}{fixed}
+    \depedge{23}{28}{punct}
+\end{dependency}
+\end{document}

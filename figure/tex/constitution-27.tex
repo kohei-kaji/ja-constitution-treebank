@@ -1,0 +1,18 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        国民 \& の \& 権利 \& 及び \& 義務\\
+        NOUN \& ADP \& NOUN \& CCONJ \& NOUN\\
+    \end{deptext}
+    \deproot{5}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{5}{3}{nmod}
+    \depedge{5}{4}{cc}
+\end{dependency}
+\end{document}

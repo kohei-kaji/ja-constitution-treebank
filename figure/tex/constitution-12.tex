@@ -1,0 +1,25 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        憲法改正 \& 、 \& 法律 \& 、 \& 政令 \& 及び \& 条約 \& を \& 公布 \& する \& こと \& 。\\
+        NOUN \& PUNCT \& NOUN \& PUNCT \& NOUN \& CCONJ \& NOUN \& ADP \& VERB \& AUX \& NOUN \& PUNCT\\
+    \end{deptext}
+    \deproot{11}{ROOT}
+    \depedge{7}{1}{nmod}
+    \depedge{1}{2}{punct}
+    \depedge{7}{3}{nmod}
+    \depedge{3}{4}{punct}
+    \depedge{7}{5}{nmod}
+    \depedge{7}{6}{cc}
+    \depedge{9}{7}{obj}
+    \depedge{7}{8}{case}
+    \depedge{11}{9}{acl}
+    \depedge{9}{10}{aux}
+    \depedge{11}{12}{punct}
+\end{dependency}
+\end{document}

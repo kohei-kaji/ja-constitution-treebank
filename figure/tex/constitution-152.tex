@@ -1,0 +1,30 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        内閣 \& は \& 、 \& 他 \& の \& 一般 \& 行政 \& 事務 \& の \& 外 \& 、 \& 左 \& の \& 事務 \& を \& 行ふ \& 。\\
+        NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& NOUN \& NOUN \& ADP \& NOUN \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{16}{ROOT}
+    \depedge{16}{1}{nsubj}
+    \depedge{1}{2}{case}
+    \depedge{1}{3}{punct}
+    \depedge{8}{4}{nmod}
+    \depedge{4}{5}{case}
+    \depedge{8}{6}{compound}
+    \depedge{8}{7}{compound}
+    \depedge{10}{8}{nmod}
+    \depedge{8}{9}{case}
+    \depedge{14}{10}{nmod}
+    \depedge{10}{11}{punct}
+    \depedge{14}{12}{nmod}
+    \depedge{12}{13}{case}
+    \depedge{16}{14}{obj}
+    \depedge{14}{15}{case}
+    \depedge{16}{17}{punct}
+\end{dependency}
+\end{document}

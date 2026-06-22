@@ -1,0 +1,37 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        すべて \& 予備費 \& の \& 支出 \& に \& つい \& て \& は \& 、 \& 内閣 \& は \& 、 \& 事後 \& に \& 国会 \& の \& 承諾 \& を \& 得 \& なけれ \& ば \& なら \& ない \& 。\\
+        ADV \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& ADP \& PUNCT \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{19}{ROOT}
+    \depedge{19}{1}{advmod}
+    \depedge{4}{2}{nmod}
+    \depedge{2}{3}{case}
+    \depedge{19}{4}{obl}
+    \depedge{4}{5}{case}
+    \depedge{5}{6}{fixed}
+    \depedge{5}{7}{fixed}
+    \depedge{4}{8}{case}
+    \depedge{4}{9}{punct}
+    \depedge{19}{10}{nsubj}
+    \depedge{10}{11}{case}
+    \depedge{10}{12}{punct}
+    \depedge{19}{13}{obl}
+    \depedge{13}{14}{case}
+    \depedge{17}{15}{nmod}
+    \depedge{15}{16}{case}
+    \depedge{19}{17}{obj}
+    \depedge{17}{18}{case}
+    \depedge{19}{20}{aux}
+    \depedge{20}{21}{fixed}
+    \depedge{20}{22}{fixed}
+    \depedge{20}{23}{fixed}
+    \depedge{19}{24}{punct}
+\end{dependency}
+\end{document}

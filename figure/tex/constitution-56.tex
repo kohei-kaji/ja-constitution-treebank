@@ -1,0 +1,35 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        何人 \& も \& 、 \& 公共 \& の \& 福祉 \& に \& 反し \& ない \& 限り \& 、 \& 居住 \& 、 \& 移転 \& 及び \& 職業 \& 選択 \& の \& 自由 \& を \& 有する \& 。\\
+        NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& PUNCT \& NOUN \& PUNCT \& NOUN \& CCONJ \& NOUN \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{21}{ROOT}
+    \depedge{8}{1}{nsubj}
+    \depedge{1}{2}{case}
+    \depedge{1}{3}{punct}
+    \depedge{6}{4}{nmod}
+    \depedge{4}{5}{case}
+    \depedge{8}{6}{obl}
+    \depedge{6}{7}{case}
+    \depedge{10}{8}{acl}
+    \depedge{8}{9}{aux}
+    \depedge{21}{10}{obl}
+    \depedge{10}{11}{punct}
+    \depedge{14}{12}{nmod}
+    \depedge{12}{13}{punct}
+    \depedge{17}{14}{nmod}
+    \depedge{17}{15}{cc}
+    \depedge{17}{16}{compound}
+    \depedge{19}{17}{nmod}
+    \depedge{17}{18}{case}
+    \depedge{21}{19}{obj}
+    \depedge{19}{20}{case}
+    \depedge{21}{22}{punct}
+\end{dependency}
+\end{document}

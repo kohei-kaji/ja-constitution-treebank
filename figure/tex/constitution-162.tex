@@ -1,0 +1,38 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        法律 \& 及び \& 政令 \& に \& は \& 、 \& すべて \& 主任 \& の \& 国務 \& 大臣 \& が \& 署名 \& し \& 、 \& 内閣総理大臣 \& が \& 連署 \& する \& こと \& を \& 必要 \& と \& する \& 。\\
+        NOUN \& CCONJ \& NOUN \& ADP \& ADP \& PUNCT \& ADV \& NOUN \& ADP \& NOUN \& NOUN \& ADP \& VERB \& AUX \& PUNCT \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{24}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{3}{2}{cc}
+    \depedge{13}{3}{obl}
+    \depedge{3}{4}{case}
+    \depedge{3}{5}{case}
+    \depedge{3}{6}{punct}
+    \depedge{13}{7}{advmod}
+    \depedge{11}{8}{nmod}
+    \depedge{8}{9}{case}
+    \depedge{11}{10}{compound}
+    \depedge{13}{11}{nsubj}
+    \depedge{11}{12}{case}
+    \depedge{18}{13}{advcl}
+    \depedge{13}{14}{aux}
+    \depedge{13}{15}{punct}
+    \depedge{18}{16}{nsubj}
+    \depedge{16}{17}{case}
+    \depedge{20}{18}{acl}
+    \depedge{18}{19}{aux}
+    \depedge{24}{20}{obj}
+    \depedge{20}{21}{case}
+    \depedge{24}{22}{obl}
+    \depedge{22}{23}{case}
+    \depedge{24}{25}{punct}
+\end{dependency}
+\end{document}

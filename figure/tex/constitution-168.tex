@@ -1,0 +1,29 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        行政 \& 機関 \& は \& 、 \& 終審 \& と \& し \& て \& 裁判 \& を \& 行ふ \& こと \& が \& でき \& ない \& 。\\
+        NOUN \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& AUX \& SCONJ \& NOUN \& ADP \& VERB \& NOUN \& ADP \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{11}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{11}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{11}{5}{obl}
+    \depedge{5}{6}{case}
+    \depedge{6}{7}{fixed}
+    \depedge{6}{8}{fixed}
+    \depedge{11}{9}{obj}
+    \depedge{9}{10}{case}
+    \depedge{11}{12}{compound}
+    \depedge{12}{13}{fixed}
+    \depedge{12}{14}{fixed}
+    \depedge{11}{15}{aux}
+    \depedge{11}{16}{punct}
+\end{dependency}
+\end{document}

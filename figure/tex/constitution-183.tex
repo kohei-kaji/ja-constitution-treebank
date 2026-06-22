@@ -1,0 +1,31 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        その \& 裁判官 \& は \& 、 \& 任期 \& を \& 十 \& 年 \& と \& し \& 、 \& 再任 \& さ \& れる \& こと \& が \& できる \& 。\\
+        DET \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NUM \& NOUN \& ADP \& VERB \& PUNCT \& VERB \& AUX \& AUX \& NOUN \& ADP \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{12}{ROOT}
+    \depedge{2}{1}{det}
+    \depedge{10}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{10}{5}{obj}
+    \depedge{5}{6}{case}
+    \depedge{8}{7}{nummod}
+    \depedge{10}{8}{obl}
+    \depedge{8}{9}{case}
+    \depedge{12}{10}{advcl}
+    \depedge{10}{11}{punct}
+    \depedge{12}{13}{aux}
+    \depedge{12}{14}{aux}
+    \depedge{12}{15}{compound}
+    \depedge{15}{16}{fixed}
+    \depedge{15}{17}{fixed}
+    \depedge{12}{18}{punct}
+\end{dependency}
+\end{document}

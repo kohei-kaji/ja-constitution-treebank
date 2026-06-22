@@ -1,0 +1,58 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=6.6pt]
+    \begin{deptext}[column sep=0.5em]
+        又 \& 、 \& 何人 \& も \& 、 \& 正当 \& な \& 理由 \& が \& なけれ \& ば \& 、 \& 拘禁 \& さ \& れ \& ず \& 、 \& 要求 \& が \& あれ \& ば \& 、 \& その \& 理由 \& は \& 、 \& 直ちに \& 本人 \& 及び \& その \& 弁護人 \& の \& 出席 \& する \& 公開 \& の \& 法廷 \& で \& 示さ \& れ \& なけれ \& ば \& なら \& ない \& 。\\
+        CCONJ \& PUNCT \& NOUN \& ADP \& PUNCT \& ADJ \& AUX \& NOUN \& ADP \& ADJ \& SCONJ \& PUNCT \& VERB \& AUX \& AUX \& AUX \& PUNCT \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& DET \& NOUN \& ADP \& PUNCT \& ADV \& NOUN \& CCONJ \& DET \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{39}{ROOT}
+    \depedge{39}{1}{cc}
+    \depedge{1}{2}{punct}
+    \depedge{13}{3}{nsubj}
+    \depedge{3}{4}{case}
+    \depedge{3}{5}{punct}
+    \depedge{8}{6}{acl}
+    \depedge{6}{7}{aux}
+    \depedge{10}{8}{nsubj}
+    \depedge{8}{9}{case}
+    \depedge{13}{10}{advcl}
+    \depedge{10}{11}{mark}
+    \depedge{10}{12}{punct}
+    \depedge{39}{13}{advcl}
+    \depedge{13}{14}{aux}
+    \depedge{13}{15}{aux}
+    \depedge{13}{16}{aux}
+    \depedge{13}{17}{punct}
+    \depedge{20}{18}{nsubj}
+    \depedge{18}{19}{case}
+    \depedge{39}{20}{advcl}
+    \depedge{20}{21}{mark}
+    \depedge{20}{22}{punct}
+    \depedge{24}{23}{det}
+    \depedge{39}{24}{nsubj}
+    \depedge{24}{25}{case}
+    \depedge{24}{26}{punct}
+    \depedge{39}{27}{advmod}
+    \depedge{31}{28}{nmod}
+    \depedge{31}{29}{cc}
+    \depedge{31}{30}{det}
+    \depedge{33}{31}{nmod}
+    \depedge{31}{32}{case}
+    \depedge{37}{33}{acl}
+    \depedge{33}{34}{aux}
+    \depedge{37}{35}{nmod}
+    \depedge{35}{36}{case}
+    \depedge{39}{37}{obl}
+    \depedge{37}{38}{case}
+    \depedge{39}{40}{aux}
+    \depedge{39}{41}{aux}
+    \depedge{41}{42}{fixed}
+    \depedge{41}{43}{fixed}
+    \depedge{41}{44}{fixed}
+    \depedge{39}{45}{punct}
+\end{dependency}
+\end{document}

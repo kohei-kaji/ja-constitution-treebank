@@ -1,0 +1,51 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=0.5em]
+        刑事 \& 被告人 \& は \& 、 \& すべて \& の \& 証人 \& に \& 対し \& て \& 審問 \& する \& 機会 \& を \& 充分 \& に \& 与へ \& られ \& 、 \& 又 \& 、 \& 公費 \& で \& 自己 \& の \& ため \& に \& 強制的 \& 手続 \& に \& より \& 証人 \& を \& 求める \& 権利 \& を \& 有する \& 。\\
+        NOUN \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& VERB \& AUX \& NOUN \& ADP \& ADJ \& AUX \& VERB \& AUX \& PUNCT \& CCONJ \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{37}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{17}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{11}{7}{obl}
+    \depedge{7}{8}{case}
+    \depedge{8}{9}{fixed}
+    \depedge{8}{10}{fixed}
+    \depedge{13}{11}{acl}
+    \depedge{11}{12}{aux}
+    \depedge{17}{13}{obj}
+    \depedge{13}{14}{case}
+    \depedge{17}{15}{advcl}
+    \depedge{15}{16}{aux}
+    \depedge{37}{17}{advcl}
+    \depedge{17}{18}{aux}
+    \depedge{17}{19}{punct}
+    \depedge{37}{20}{cc}
+    \depedge{20}{21}{punct}
+    \depedge{34}{22}{obl}
+    \depedge{22}{23}{case}
+    \depedge{26}{24}{nmod}
+    \depedge{24}{25}{case}
+    \depedge{28}{26}{obl}
+    \depedge{26}{27}{case}
+    \depedge{34}{28}{obl}
+    \depedge{28}{29}{compound}
+    \depedge{28}{30}{case}
+    \depedge{30}{31}{fixed}
+    \depedge{34}{32}{obj}
+    \depedge{32}{33}{case}
+    \depedge{35}{34}{acl}
+    \depedge{37}{35}{obj}
+    \depedge{35}{36}{case}
+    \depedge{37}{38}{punct}
+\end{dependency}
+\end{document}

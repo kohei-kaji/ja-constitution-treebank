@@ -1,0 +1,35 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        地方公共団体 \& に \& は \& 、 \& 法律 \& の \& 定める \& ところ \& に \& より \& 、 \& その \& 議事 \& 機関 \& と \& し \& て \& 議会 \& を \& 設置 \& する \& 。\\
+        NOUN \& ADP \& ADP \& PUNCT \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& PUNCT \& DET \& NOUN \& NOUN \& ADP \& AUX \& SCONJ \& NOUN \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{20}{ROOT}
+    \depedge{20}{1}{obl}
+    \depedge{1}{2}{case}
+    \depedge{1}{3}{case}
+    \depedge{1}{4}{punct}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{8}{7}{acl}
+    \depedge{20}{8}{obl}
+    \depedge{8}{9}{case}
+    \depedge{9}{10}{fixed}
+    \depedge{8}{11}{punct}
+    \depedge{14}{12}{det}
+    \depedge{14}{13}{compound}
+    \depedge{20}{14}{obl}
+    \depedge{14}{15}{case}
+    \depedge{15}{16}{fixed}
+    \depedge{15}{17}{fixed}
+    \depedge{20}{18}{obj}
+    \depedge{18}{19}{case}
+    \depedge{20}{21}{aux}
+    \depedge{20}{22}{punct}
+\end{dependency}
+\end{document}

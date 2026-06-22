@@ -1,0 +1,34 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        賃金 \& 、 \& 就業時間 \& 、 \& 休息 \& その \& 他 \& の \& 勤労 \& 条件 \& に \& 関する \& 基準 \& は \& 、 \& 法律 \& で \& これ \& を \& 定める \& 。\\
+        NOUN \& PUNCT \& NOUN \& PUNCT \& NOUN \& DET \& NOUN \& ADP \& NOUN \& NOUN \& ADP \& VERB \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& PRON \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{20}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{punct}
+    \depedge{5}{3}{nmod}
+    \depedge{3}{4}{punct}
+    \depedge{10}{5}{nmod}
+    \depedge{7}{6}{det}
+    \depedge{10}{7}{nmod}
+    \depedge{7}{8}{case}
+    \depedge{10}{9}{compound}
+    \depedge{13}{10}{nmod}
+    \depedge{10}{11}{case}
+    \depedge{11}{12}{fixed}
+    \depedge{20}{13}{nsubj}
+    \depedge{13}{14}{case}
+    \depedge{13}{15}{punct}
+    \depedge{20}{16}{obl}
+    \depedge{16}{17}{case}
+    \depedge{20}{18}{obj}
+    \depedge{18}{19}{case}
+    \depedge{20}{21}{punct}
+\end{dependency}
+\end{document}

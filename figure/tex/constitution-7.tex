@@ -1,0 +1,41 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        皇室 \& 典範 \& の \& 定める \& ところ \& に \& より \& 摂政 \& を \& 置く \& とき \& は \& 、 \& 摂政 \& は \& 、 \& 天皇 \& の \& 名 \& で \& その \& 国事 \& に \& 関する \& 行為 \& を \& 行ふ \& 。\\
+        NOUN \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& DET \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{27}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{4}{2}{nmod}
+    \depedge{2}{3}{case}
+    \depedge{5}{4}{acl}
+    \depedge{10}{5}{obl}
+    \depedge{5}{6}{case}
+    \depedge{6}{7}{fixed}
+    \depedge{10}{8}{obj}
+    \depedge{8}{9}{case}
+    \depedge{11}{10}{acl}
+    \depedge{27}{11}{obl}
+    \depedge{11}{12}{case}
+    \depedge{11}{13}{punct}
+    \depedge{27}{14}{nsubj}
+    \depedge{14}{15}{case}
+    \depedge{14}{16}{punct}
+    \depedge{19}{17}{nmod}
+    \depedge{17}{18}{case}
+    \depedge{27}{19}{obl}
+    \depedge{19}{20}{case}
+    \depedge{22}{21}{det}
+    \depedge{25}{22}{nmod}
+    \depedge{22}{23}{case}
+    \depedge{23}{24}{fixed}
+    \depedge{27}{25}{obj}
+    \depedge{25}{26}{case}
+    \depedge{27}{28}{punct}
+\end{dependency}
+\end{document}

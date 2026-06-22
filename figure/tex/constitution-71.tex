@@ -1,0 +1,33 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        財産権 \& の \& 内容 \& は \& 、 \& 公共 \& の \& 福祉 \& に \& 適合 \& する \& やう \& に \& 、 \& 法律 \& で \& これ \& を \& 定める \& 。\\
+        NOUN \& ADP \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& AUX \& AUX \& PUNCT \& NOUN \& ADP \& PRON \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{19}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{19}{3}{nsubj}
+    \depedge{3}{4}{case}
+    \depedge{3}{5}{punct}
+    \depedge{8}{6}{nmod}
+    \depedge{6}{7}{case}
+    \depedge{10}{8}{obl}
+    \depedge{8}{9}{case}
+    \depedge{19}{10}{advcl}
+    \depedge{10}{11}{aux}
+    \depedge{10}{12}{aux}
+    \depedge{10}{13}{aux}
+    \depedge{10}{14}{punct}
+    \depedge{19}{15}{obl}
+    \depedge{15}{16}{case}
+    \depedge{19}{17}{obj}
+    \depedge{17}{18}{case}
+    \depedge{19}{20}{punct}
+\end{dependency}
+\end{document}

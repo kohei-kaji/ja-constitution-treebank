@@ -1,0 +1,29 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        批准 \& 書 \& 及び \& 法律 \& の \& 定める \& その \& 他 \& の \& 外交 \& 文書 \& を \& 認証 \& する \& こと \& 。\\
+        NOUN \& NOUN \& CCONJ \& NOUN \& ADP \& VERB \& DET \& NOUN \& ADP \& NOUN \& NOUN \& ADP \& VERB \& AUX \& NOUN \& PUNCT\\
+    \end{deptext}
+    \deproot{15}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{11}{2}{nmod}
+    \depedge{11}{3}{cc}
+    \depedge{6}{4}{nmod}
+    \depedge{4}{5}{case}
+    \depedge{11}{6}{acl}
+    \depedge{8}{7}{det}
+    \depedge{11}{8}{nmod}
+    \depedge{8}{9}{case}
+    \depedge{11}{10}{compound}
+    \depedge{13}{11}{obj}
+    \depedge{11}{12}{case}
+    \depedge{15}{13}{acl}
+    \depedge{13}{14}{aux}
+    \depedge{15}{16}{punct}
+\end{dependency}
+\end{document}

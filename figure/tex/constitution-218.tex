@@ -1,0 +1,41 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        天皇 \& 又 \& は \& 摂政 \& 及び \& 国務 \& 大臣 \& 、 \& 国会議員 \& 、 \& 裁判官 \& その \& 他 \& の \& 公務員 \& は \& 、 \& この \& 憲法 \& を \& 尊重 \& し \& 擁護 \& する \& 義務 \& を \& 負ふ \& 。\\
+        NOUN \& CCONJ \& ADP \& NOUN \& CCONJ \& NOUN \& NOUN \& PUNCT \& NOUN \& PUNCT \& NOUN \& DET \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& DET \& NOUN \& ADP \& VERB \& AUX \& VERB \& AUX \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{27}{ROOT}
+    \depedge{4}{1}{nmod}
+    \depedge{4}{2}{cc}
+    \depedge{2}{3}{fixed}
+    \depedge{7}{4}{nmod}
+    \depedge{7}{5}{cc}
+    \depedge{7}{6}{compound}
+    \depedge{9}{7}{nmod}
+    \depedge{7}{8}{punct}
+    \depedge{11}{9}{nmod}
+    \depedge{9}{10}{punct}
+    \depedge{15}{11}{nmod}
+    \depedge{13}{12}{det}
+    \depedge{15}{13}{nmod}
+    \depedge{13}{14}{case}
+    \depedge{27}{15}{nsubj}
+    \depedge{15}{16}{case}
+    \depedge{15}{17}{punct}
+    \depedge{19}{18}{det}
+    \depedge{21}{19}{obj}
+    \depedge{19}{20}{case}
+    \depedge{23}{21}{advcl}
+    \depedge{21}{22}{aux}
+    \depedge{25}{23}{acl}
+    \depedge{23}{24}{aux}
+    \depedge{27}{25}{obj}
+    \depedge{25}{26}{case}
+    \depedge{27}{28}{punct}
+\end{dependency}
+\end{document}

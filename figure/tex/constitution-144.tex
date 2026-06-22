@@ -1,0 +1,98 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\fontsize{5pt}{6pt}\selectfont
+\begin{dependency}[edge unit distance=3.6pt]
+    \begin{deptext}[column sep=0.3em]
+        衆議院 \& と \& 参議院 \& と \& が \& 異なつ \& た \& 指名 \& の \& 議決 \& を \& し \& た \& 場合 \& に \& 、 \& 法律 \& の \& 定める \& ところ \& に \& より \& 、 \& 両 \& 議院 \& の \& 協議会 \& を \& 開い \& て \& も \& 意見 \& が \& 一致 \& し \& ない \& とき \& 、 \& 又 \& は \& 衆議院 \& が \& 指名 \& の \& 議決 \& を \& し \& た \& 後 \& 、 \& 国会 \& 休会 \& 中 \& の \& 期間 \& を \& 除い \& て \& 十 \& 日 \& 以内 \& に \& 、 \& 参議院 \& が \& 、 \& 指名 \& の \& 議決 \& を \& し \& ない \& とき \& は \& 、 \& 衆議院 \& の \& 議決 \& を \& 国会 \& の \& 議決 \& と \& する \& 。\\
+        NOUN \& ADP \& NOUN \& ADP \& ADP \& VERB \& AUX \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& PUNCT \& NOUN \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& ADP \& NOUN \& ADP \& VERB \& AUX \& AUX \& NOUN \& PUNCT \& CCONJ \& ADP \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& PUNCT \& NOUN \& NOUN \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& NUM \& NOUN \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{84}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{6}{3}{obl}
+    \depedge{3}{4}{case}
+    \depedge{3}{5}{case}
+    \depedge{8}{6}{acl}
+    \depedge{6}{7}{aux}
+    \depedge{10}{8}{nmod}
+    \depedge{8}{9}{case}
+    \depedge{12}{10}{obj}
+    \depedge{10}{11}{case}
+    \depedge{14}{12}{acl}
+    \depedge{12}{13}{aux}
+    \depedge{84}{14}{obl}
+    \depedge{14}{15}{case}
+    \depedge{14}{16}{punct}
+    \depedge{19}{17}{nmod}
+    \depedge{17}{18}{case}
+    \depedge{20}{19}{acl}
+    \depedge{29}{20}{obl}
+    \depedge{20}{21}{case}
+    \depedge{21}{22}{fixed}
+    \depedge{20}{23}{punct}
+    \depedge{25}{24}{compound}
+    \depedge{27}{25}{nmod}
+    \depedge{25}{26}{case}
+    \depedge{29}{27}{obj}
+    \depedge{27}{28}{case}
+    \depedge{34}{29}{advcl}
+    \depedge{29}{30}{mark}
+    \depedge{29}{31}{case}
+    \depedge{34}{32}{nsubj}
+    \depedge{32}{33}{case}
+    \depedge{37}{34}{acl}
+    \depedge{34}{35}{aux}
+    \depedge{34}{36}{aux}
+    \depedge{84}{37}{obl}
+    \depedge{37}{38}{punct}
+    \depedge{47}{39}{cc}
+    \depedge{39}{40}{fixed}
+    \depedge{47}{41}{nsubj}
+    \depedge{41}{42}{case}
+    \depedge{45}{43}{nmod}
+    \depedge{43}{44}{case}
+    \depedge{47}{45}{obj}
+    \depedge{45}{46}{case}
+    \depedge{49}{47}{acl}
+    \depedge{47}{48}{aux}
+    \depedge{84}{49}{obl}
+    \depedge{49}{50}{punct}
+    \depedge{53}{51}{compound}
+    \depedge{53}{52}{compound}
+    \depedge{55}{53}{nmod}
+    \depedge{53}{54}{case}
+    \depedge{57}{55}{obj}
+    \depedge{55}{56}{case}
+    \depedge{61}{57}{acl}
+    \depedge{57}{58}{mark}
+    \depedge{61}{59}{compound}
+    \depedge{61}{60}{compound}
+    \depedge{71}{61}{obl}
+    \depedge{61}{62}{case}
+    \depedge{61}{63}{punct}
+    \depedge{71}{64}{nsubj}
+    \depedge{64}{65}{case}
+    \depedge{64}{66}{punct}
+    \depedge{69}{67}{nmod}
+    \depedge{67}{68}{case}
+    \depedge{71}{69}{obj}
+    \depedge{69}{70}{case}
+    \depedge{73}{71}{acl}
+    \depedge{71}{72}{aux}
+    \depedge{84}{73}{obl}
+    \depedge{73}{74}{case}
+    \depedge{73}{75}{punct}
+    \depedge{78}{76}{nmod}
+    \depedge{76}{77}{case}
+    \depedge{84}{78}{obj}
+    \depedge{78}{79}{case}
+    \depedge{82}{80}{nmod}
+    \depedge{80}{81}{case}
+    \depedge{84}{82}{obl}
+    \depedge{82}{83}{case}
+    \depedge{84}{85}{punct}
+\end{dependency}
+\end{document}

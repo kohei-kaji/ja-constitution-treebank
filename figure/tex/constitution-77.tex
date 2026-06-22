@@ -1,0 +1,44 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=0.5em]
+        何人 \& も \& 、 \& 理由 \& を \& 直ちに \& 告げ \& られ \& 、 \& 且つ \& 、 \& 直ちに \& 弁護人 \& に \& 依頼 \& する \& 権利 \& を \& 与へ \& られ \& なけれ \& ば \& 、 \& 抑留 \& 又 \& は \& 拘禁 \& さ \& れ \& ない \& 。\\
+        NOUN \& ADP \& PUNCT \& NOUN \& ADP \& ADV \& VERB \& AUX \& PUNCT \& CCONJ \& PUNCT \& ADV \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& VERB \& AUX \& AUX \& SCONJ \& PUNCT \& NOUN \& CCONJ \& ADP \& VERB \& AUX \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{27}{ROOT}
+    \depedge{7}{1}{nsubj}
+    \depedge{1}{2}{case}
+    \depedge{1}{3}{punct}
+    \depedge{7}{4}{obj}
+    \depedge{4}{5}{case}
+    \depedge{7}{6}{advmod}
+    \depedge{19}{7}{advcl}
+    \depedge{7}{8}{aux}
+    \depedge{7}{9}{punct}
+    \depedge{19}{10}{cc}
+    \depedge{10}{11}{punct}
+    \depedge{19}{12}{advmod}
+    \depedge{15}{13}{obl}
+    \depedge{13}{14}{case}
+    \depedge{17}{15}{acl}
+    \depedge{15}{16}{aux}
+    \depedge{19}{17}{obj}
+    \depedge{17}{18}{case}
+    \depedge{27}{19}{advcl}
+    \depedge{19}{20}{aux}
+    \depedge{19}{21}{aux}
+    \depedge{19}{22}{mark}
+    \depedge{19}{23}{punct}
+    \depedge{27}{24}{obl}
+    \depedge{27}{25}{cc}
+    \depedge{25}{26}{fixed}
+    \depedge{27}{28}{aux}
+    \depedge{27}{29}{aux}
+    \depedge{27}{30}{aux}
+    \depedge{27}{31}{punct}
+\end{dependency}
+\end{document}

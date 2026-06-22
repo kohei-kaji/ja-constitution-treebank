@@ -1,0 +1,38 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=10.9pt]
+    \begin{deptext}[column sep=1em]
+        すべて \& 国民 \& は \& 、 \& 法律 \& の \& 定める \& ところ \& に \& より \& 、 \& その \& 能力 \& に \& 応じ \& て \& 、 \& ひとしく \& 教育 \& を \& 受ける \& 権利 \& を \& 有する \& 。\\
+        ADV \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& PUNCT \& DET \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& ADV \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{24}{ROOT}
+    \depedge{24}{1}{advmod}
+    \depedge{24}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{8}{7}{acl}
+    \depedge{15}{8}{obl}
+    \depedge{8}{9}{case}
+    \depedge{9}{10}{fixed}
+    \depedge{8}{11}{punct}
+    \depedge{13}{12}{det}
+    \depedge{15}{13}{obl}
+    \depedge{13}{14}{case}
+    \depedge{24}{15}{advcl}
+    \depedge{15}{16}{mark}
+    \depedge{15}{17}{punct}
+    \depedge{21}{18}{advcl}
+    \depedge{21}{19}{obj}
+    \depedge{19}{20}{case}
+    \depedge{22}{21}{acl}
+    \depedge{24}{22}{obj}
+    \depedge{22}{23}{case}
+    \depedge{24}{25}{punct}
+\end{dependency}
+\end{document}

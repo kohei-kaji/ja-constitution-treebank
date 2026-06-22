@@ -1,0 +1,30 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        すべて \& 国民 \& は \& 、 \& 健康 \& で \& 文化的 \& な \& 最低限度 \& の \& 生活 \& を \& 営む \& 権利 \& を \& 有する \& 。\\
+        ADV \& NOUN \& ADP \& PUNCT \& ADJ \& AUX \& ADJ \& AUX \& NOUN \& ADP \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{16}{ROOT}
+    \depedge{16}{1}{advmod}
+    \depedge{16}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{7}{5}{acl}
+    \depedge{5}{6}{aux}
+    \depedge{11}{7}{acl}
+    \depedge{7}{8}{cop}
+    \depedge{11}{9}{nmod}
+    \depedge{9}{10}{case}
+    \depedge{13}{11}{obj}
+    \depedge{11}{12}{case}
+    \depedge{14}{13}{acl}
+    \depedge{16}{14}{obj}
+    \depedge{14}{15}{case}
+    \depedge{16}{17}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,36 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        最高 \& 裁判所 \& は \& 、 \& 下級 \& 裁判所 \& に \& 関する \& 規則 \& を \& 定める \& 権限 \& を \& 、 \& 下級 \& 裁判所 \& に \& 委任 \& する \& こと \& が \& できる \& 。\\
+        NOUN \& NOUN \& ADP \& PUNCT \& NOUN \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& NOUN \& ADP \& PUNCT \& NOUN \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{18}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{18}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{6}{5}{compound}
+    \depedge{9}{6}{nmod}
+    \depedge{6}{7}{case}
+    \depedge{7}{8}{fixed}
+    \depedge{11}{9}{obj}
+    \depedge{9}{10}{case}
+    \depedge{12}{11}{acl}
+    \depedge{18}{12}{obj}
+    \depedge{12}{13}{case}
+    \depedge{12}{14}{punct}
+    \depedge{16}{15}{compound}
+    \depedge{18}{16}{obl}
+    \depedge{16}{17}{case}
+    \depedge{18}{19}{aux}
+    \depedge{18}{20}{compound}
+    \depedge{20}{21}{fixed}
+    \depedge{20}{22}{fixed}
+    \depedge{18}{23}{punct}
+\end{dependency}
+\end{document}

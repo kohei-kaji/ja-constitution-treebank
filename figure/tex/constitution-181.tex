@@ -1,0 +1,28 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        この \& 報酬 \& は \& 、 \& 在任中 \& 、 \& これ \& を \& 減額 \& する \& こと \& が \& でき \& ない \& 。\\
+        DET \& NOUN \& ADP \& PUNCT \& NOUN \& PUNCT \& PRON \& ADP \& VERB \& AUX \& NOUN \& ADP \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{9}{ROOT}
+    \depedge{2}{1}{det}
+    \depedge{9}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{9}{5}{obl}
+    \depedge{5}{6}{punct}
+    \depedge{9}{7}{obj}
+    \depedge{7}{8}{case}
+    \depedge{9}{10}{aux}
+    \depedge{9}{11}{compound}
+    \depedge{11}{12}{fixed}
+    \depedge{11}{13}{fixed}
+    \depedge{9}{14}{aux}
+    \depedge{9}{15}{punct}
+\end{dependency}
+\end{document}

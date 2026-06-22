@@ -1,0 +1,33 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        又 \& 、 \& 同一 \& の \& 犯罪 \& に \& つい \& て \& 、 \& 重ね \& て \& 刑事 \& 上 \& の \& 責任 \& を \& 問は \& れ \& ない \& 。\\
+        CCONJ \& PUNCT \& ADJ \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& VERB \& SCONJ \& NOUN \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{17}{ROOT}
+    \depedge{17}{1}{cc}
+    \depedge{1}{2}{punct}
+    \depedge{5}{3}{nmod}
+    \depedge{3}{4}{case}
+    \depedge{17}{5}{obl}
+    \depedge{5}{6}{case}
+    \depedge{6}{7}{fixed}
+    \depedge{6}{8}{fixed}
+    \depedge{5}{9}{punct}
+    \depedge{17}{10}{advcl}
+    \depedge{10}{11}{mark}
+    \depedge{13}{12}{compound}
+    \depedge{15}{13}{nmod}
+    \depedge{13}{14}{case}
+    \depedge{17}{15}{obj}
+    \depedge{15}{16}{case}
+    \depedge{17}{18}{aux}
+    \depedge{17}{19}{aux}
+    \depedge{17}{20}{punct}
+\end{dependency}
+\end{document}

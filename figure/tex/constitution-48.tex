@@ -1,0 +1,28 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        思想 \& 及び \& 良心 \& の \& 自由 \& は \& 、 \& これ \& を \& 侵し \& て \& は \& なら \& ない \& 。\\
+        NOUN \& CCONJ \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& VERB \& SCONJ \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{10}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{3}{2}{cc}
+    \depedge{5}{3}{nmod}
+    \depedge{3}{4}{case}
+    \depedge{10}{5}{nsubj}
+    \depedge{5}{6}{case}
+    \depedge{5}{7}{punct}
+    \depedge{10}{8}{obj}
+    \depedge{8}{9}{case}
+    \depedge{10}{11}{mark}
+    \depedge{11}{12}{fixed}
+    \depedge{11}{13}{fixed}
+    \depedge{11}{14}{fixed}
+    \depedge{10}{15}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,36 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        又 \& 、 \& 答弁 \& 又 \& は \& 説明 \& の \& ため \& 出席 \& を \& 求め \& られ \& た \& とき \& は \& 、 \& 出席 \& し \& なけれ \& ば \& なら \& ない \& 。\\
+        CCONJ \& PUNCT \& NOUN \& CCONJ \& ADP \& NOUN \& ADP \& NOUN \& NOUN \& ADP \& VERB \& AUX \& AUX \& NOUN \& ADP \& PUNCT \& VERB \& AUX \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{17}{ROOT}
+    \depedge{17}{1}{cc}
+    \depedge{17}{2}{punct}
+    \depedge{6}{3}{nmod}
+    \depedge{6}{4}{cc}
+    \depedge{4}{5}{fixed}
+    \depedge{8}{6}{nmod}
+    \depedge{6}{7}{case}
+    \depedge{11}{8}{obl}
+    \depedge{11}{9}{obj}
+    \depedge{9}{10}{case}
+    \depedge{14}{11}{acl}
+    \depedge{11}{12}{aux}
+    \depedge{11}{13}{aux}
+    \depedge{17}{14}{obl}
+    \depedge{14}{15}{case}
+    \depedge{14}{16}{punct}
+    \depedge{17}{18}{aux}
+    \depedge{17}{19}{aux}
+    \depedge{19}{20}{fixed}
+    \depedge{19}{21}{fixed}
+    \depedge{19}{22}{fixed}
+    \depedge{17}{23}{punct}
+\end{dependency}
+\end{document}

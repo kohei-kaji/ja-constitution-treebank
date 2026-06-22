@@ -1,0 +1,27 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        両 \& 議院 \& の \& 議員 \& の \& 定数 \& は \& 、 \& 法律 \& で \& これ \& を \& 定める \& 。\\
+        NOUN \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& PRON \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{13}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{4}{2}{nmod}
+    \depedge{2}{3}{case}
+    \depedge{6}{4}{nmod}
+    \depedge{4}{5}{case}
+    \depedge{13}{6}{nsubj}
+    \depedge{6}{7}{case}
+    \depedge{6}{8}{punct}
+    \depedge{13}{9}{obl}
+    \depedge{9}{10}{case}
+    \depedge{13}{11}{obj}
+    \depedge{11}{12}{case}
+    \depedge{13}{14}{punct}
+\end{dependency}
+\end{document}

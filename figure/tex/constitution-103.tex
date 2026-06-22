@@ -1,0 +1,28 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        何人 \& も \& 、 \& 同時 \& に \& 両 \& 議院 \& の \& 議員 \& たる \& こと \& は \& でき \& ない \& 。\\
+        NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& NOUN \& ADP \& NOUN \& AUX \& NOUN \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{13}{ROOT}
+    \depedge{13}{1}{nsubj}
+    \depedge{1}{2}{case}
+    \depedge{1}{3}{punct}
+    \depedge{13}{4}{obl}
+    \depedge{4}{5}{case}
+    \depedge{7}{6}{compound}
+    \depedge{9}{7}{nmod}
+    \depedge{7}{8}{case}
+    \depedge{11}{9}{acl}
+    \depedge{9}{10}{aux}
+    \depedge{13}{11}{nsubj}
+    \depedge{11}{12}{case}
+    \depedge{13}{14}{aux}
+    \depedge{13}{15}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,56 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=0.5em]
+        衆議院 \& が \& 解散 \& さ \& れ \& た \& とき \& は \& 、 \& 解散 \& の \& 日 \& から \& 四十 \& 日 \& 以内 \& に \& 、 \& 衆議院議員 \& の \& 総選挙 \& を \& 行ひ \& 、 \& その \& 選挙 \& の \& 日 \& から \& 三十 \& 日 \& 以内 \& に \& 、 \& 国会 \& を \& 召集 \& し \& なけれ \& ば \& なら \& ない \& 。\\
+        NOUN \& ADP \& VERB \& AUX \& AUX \& AUX \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& NUM \& NOUN \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT \& DET \& NOUN \& ADP \& NOUN \& ADP \& NUM \& NOUN \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& VERB \& AUX \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{37}{ROOT}
+    \depedge{3}{1}{nsubj}
+    \depedge{1}{2}{case}
+    \depedge{7}{3}{acl}
+    \depedge{3}{4}{aux}
+    \depedge{3}{5}{aux}
+    \depedge{3}{6}{aux}
+    \depedge{23}{7}{obl}
+    \depedge{7}{8}{case}
+    \depedge{7}{9}{punct}
+    \depedge{12}{10}{nmod}
+    \depedge{10}{11}{case}
+    \depedge{16}{12}{nmod}
+    \depedge{12}{13}{case}
+    \depedge{16}{14}{compound}
+    \depedge{16}{15}{compound}
+    \depedge{23}{16}{obl}
+    \depedge{16}{17}{case}
+    \depedge{16}{18}{punct}
+    \depedge{21}{19}{nmod}
+    \depedge{19}{20}{case}
+    \depedge{23}{21}{obj}
+    \depedge{21}{22}{case}
+    \depedge{37}{23}{advcl}
+    \depedge{23}{24}{punct}
+    \depedge{26}{25}{det}
+    \depedge{28}{26}{nmod}
+    \depedge{26}{27}{case}
+    \depedge{32}{28}{nmod}
+    \depedge{28}{29}{case}
+    \depedge{32}{30}{compound}
+    \depedge{32}{31}{compound}
+    \depedge{37}{32}{obl}
+    \depedge{32}{33}{case}
+    \depedge{32}{34}{punct}
+    \depedge{37}{35}{obj}
+    \depedge{35}{36}{case}
+    \depedge{37}{38}{aux}
+    \depedge{37}{39}{aux}
+    \depedge{39}{40}{fixed}
+    \depedge{39}{41}{fixed}
+    \depedge{39}{42}{fixed}
+    \depedge{37}{43}{punct}
+\end{dependency}
+\end{document}

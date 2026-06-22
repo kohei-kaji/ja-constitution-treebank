@@ -1,0 +1,43 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        この \& 憲法 \& が \& 国民 \& に \& 保障 \& する \& 自由 \& 及び \& 権利 \& は \& 、 \& 国民 \& の \& 不断 \& の \& 努力 \& に \& よつ \& て \& 、 \& これ \& を \& 保持 \& し \& なけれ \& ば \& なら \& ない \& 。\\
+        DET \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& CCONJ \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& PRON \& ADP \& VERB \& AUX \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{24}{ROOT}
+    \depedge{2}{1}{det}
+    \depedge{6}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{6}{4}{obl}
+    \depedge{4}{5}{case}
+    \depedge{8}{6}{acl}
+    \depedge{6}{7}{aux}
+    \depedge{10}{8}{nmod}
+    \depedge{10}{9}{cc}
+    \depedge{24}{10}{nsubj}
+    \depedge{10}{11}{case}
+    \depedge{10}{12}{punct}
+    \depedge{17}{13}{nmod}
+    \depedge{13}{14}{case}
+    \depedge{17}{15}{nmod}
+    \depedge{15}{16}{case}
+    \depedge{19}{17}{obl}
+    \depedge{17}{18}{case}
+    \depedge{24}{19}{advcl}
+    \depedge{19}{20}{mark}
+    \depedge{19}{21}{punct}
+    \depedge{24}{22}{obj}
+    \depedge{22}{23}{case}
+    \depedge{24}{25}{aux}
+    \depedge{24}{26}{aux}
+    \depedge{26}{27}{fixed}
+    \depedge{26}{28}{fixed}
+    \depedge{26}{29}{fixed}
+    \depedge{24}{30}{punct}
+\end{dependency}
+\end{document}

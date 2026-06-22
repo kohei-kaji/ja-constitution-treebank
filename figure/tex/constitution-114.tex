@@ -1,0 +1,29 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        両 \& 議院 \& は \& 、 \& 各々 \& その \& 議員 \& の \& 資格 \& に \& 関する \& 争訟 \& を \& 裁判 \& する \& 。\\
+        NOUN \& NOUN \& ADP \& PUNCT \& NOUN \& DET \& NOUN \& ADP \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{14}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{14}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{12}{5}{nmod}
+    \depedge{7}{6}{det}
+    \depedge{9}{7}{nmod}
+    \depedge{7}{8}{case}
+    \depedge{12}{9}{nmod}
+    \depedge{9}{10}{case}
+    \depedge{10}{11}{fixed}
+    \depedge{14}{12}{obj}
+    \depedge{12}{13}{case}
+    \depedge{14}{15}{aux}
+    \depedge{14}{16}{punct}
+\end{dependency}
+\end{document}

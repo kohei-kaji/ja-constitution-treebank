@@ -1,0 +1,37 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        地方公共団体 \& の \& 組織 \& 及び \& 運営 \& に \& 関する \& 事項 \& は \& 、 \& 地方 \& 自治 \& の \& 本旨 \& に \& 基い \& て \& 、 \& 法律 \& で \& これ \& を \& 定める \& 。\\
+        NOUN \& ADP \& NOUN \& CCONJ \& NOUN \& ADP \& VERB \& NOUN \& ADP \& PUNCT \& NOUN \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& NOUN \& ADP \& PRON \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{23}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{5}{3}{nmod}
+    \depedge{5}{4}{cc}
+    \depedge{8}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{6}{7}{fixed}
+    \depedge{23}{8}{nsubj}
+    \depedge{8}{9}{case}
+    \depedge{8}{10}{punct}
+    \depedge{12}{11}{compound}
+    \depedge{14}{12}{nmod}
+    \depedge{12}{13}{case}
+    \depedge{16}{14}{obl}
+    \depedge{14}{15}{case}
+    \depedge{23}{16}{advcl}
+    \depedge{16}{17}{mark}
+    \depedge{16}{18}{punct}
+    \depedge{23}{19}{obl}
+    \depedge{19}{20}{case}
+    \depedge{23}{21}{obj}
+    \depedge{21}{22}{case}
+    \depedge{23}{24}{punct}
+\end{dependency}
+\end{document}

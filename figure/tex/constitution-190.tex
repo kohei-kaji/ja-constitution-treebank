@@ -1,0 +1,57 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=6.8pt]
+    \begin{deptext}[column sep=0.5em]
+        但し \& 、 \& 政治 \& 犯罪 \& 、 \& 出版 \& に \& 関する \& 犯罪 \& 又 \& は \& この \& 憲法 \& 第 \& 三 \& 章 \& で \& 保障 \& する \& 国民 \& の \& 権利 \& が \& 問題 \& と \& なつ \& て \& ゐる \& 事件 \& の \& 対審 \& は \& 、 \& 常 \& に \& これ \& を \& 公開 \& し \& なけれ \& ば \& なら \& ない \& 。\\
+        CCONJ \& PUNCT \& NOUN \& NOUN \& PUNCT \& NOUN \& ADP \& VERB \& NOUN \& CCONJ \& ADP \& DET \& NOUN \& NOUN \& NUM \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& VERB \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& PRON \& ADP \& VERB \& AUX \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{38}{ROOT}
+    \depedge{38}{1}{cc}
+    \depedge{1}{2}{punct}
+    \depedge{4}{3}{compound}
+    \depedge{6}{4}{nmod}
+    \depedge{4}{5}{punct}
+    \depedge{9}{6}{nmod}
+    \depedge{6}{7}{case}
+    \depedge{7}{8}{fixed}
+    \depedge{26}{9}{obl}
+    \depedge{26}{10}{cc}
+    \depedge{10}{11}{fixed}
+    \depedge{16}{12}{det}
+    \depedge{16}{13}{compound}
+    \depedge{16}{14}{compound}
+    \depedge{16}{15}{nummod}
+    \depedge{18}{16}{obl}
+    \depedge{16}{17}{case}
+    \depedge{22}{18}{acl}
+    \depedge{18}{19}{aux}
+    \depedge{22}{20}{nmod}
+    \depedge{20}{21}{case}
+    \depedge{26}{22}{nsubj}
+    \depedge{22}{23}{case}
+    \depedge{26}{24}{obl}
+    \depedge{24}{25}{case}
+    \depedge{29}{26}{acl}
+    \depedge{26}{27}{mark}
+    \depedge{27}{28}{fixed}
+    \depedge{31}{29}{nmod}
+    \depedge{29}{30}{case}
+    \depedge{38}{31}{nsubj}
+    \depedge{31}{32}{case}
+    \depedge{31}{33}{punct}
+    \depedge{38}{34}{obl}
+    \depedge{34}{35}{case}
+    \depedge{38}{36}{obj}
+    \depedge{36}{37}{case}
+    \depedge{38}{39}{aux}
+    \depedge{38}{40}{aux}
+    \depedge{40}{41}{fixed}
+    \depedge{40}{42}{fixed}
+    \depedge{40}{43}{fixed}
+    \depedge{38}{44}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,22 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        すべて \& 皇室 \& 財産 \& は \& 、 \& 国 \& に \& 属する \& 。\\
+        ADV \& NOUN \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{8}{ROOT}
+    \depedge{8}{1}{advmod}
+    \depedge{3}{2}{compound}
+    \depedge{8}{3}{nsubj}
+    \depedge{3}{4}{case}
+    \depedge{3}{5}{punct}
+    \depedge{8}{6}{obl}
+    \depedge{6}{7}{case}
+    \depedge{8}{9}{punct}
+\end{dependency}
+\end{document}

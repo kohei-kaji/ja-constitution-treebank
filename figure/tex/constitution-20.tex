@@ -1,0 +1,23 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        外国 \& の \& 大使 \& 及び \& 公使 \& を \& 接受 \& する \& こと \& 。\\
+        NOUN \& ADP \& NOUN \& CCONJ \& NOUN \& ADP \& VERB \& AUX \& NOUN \& PUNCT\\
+    \end{deptext}
+    \deproot{9}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{5}{3}{nmod}
+    \depedge{5}{4}{cc}
+    \depedge{7}{5}{obj}
+    \depedge{5}{6}{case}
+    \depedge{9}{7}{acl}
+    \depedge{7}{8}{aux}
+    \depedge{9}{10}{punct}
+\end{dependency}
+\end{document}

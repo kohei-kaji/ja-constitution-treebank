@@ -1,0 +1,28 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        但し \& 、 \& 法律 \& の \& 定める \& 年齢 \& に \& 達し \& た \& 時 \& に \& は \& 退官 \& する \& 。\\
+        CCONJ \& PUNCT \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{13}{ROOT}
+    \depedge{13}{1}{cc}
+    \depedge{1}{2}{punct}
+    \depedge{5}{3}{nmod}
+    \depedge{3}{4}{case}
+    \depedge{6}{5}{acl}
+    \depedge{8}{6}{obl}
+    \depedge{6}{7}{case}
+    \depedge{10}{8}{acl}
+    \depedge{8}{9}{aux}
+    \depedge{13}{10}{obl}
+    \depedge{10}{11}{case}
+    \depedge{10}{12}{case}
+    \depedge{13}{14}{aux}
+    \depedge{13}{15}{punct}
+\end{dependency}
+\end{document}

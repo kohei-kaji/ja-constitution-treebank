@@ -1,0 +1,37 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        条約 \& の \& 締結 \& に \& 必要 \& な \& 国会 \& の \& 承認 \& に \& つい \& て \& は \& 、 \& 前条 \& 第 \& 二 \& 項 \& の \& 規定 \& を \& 準用 \& する \& 。\\
+        NOUN \& ADP \& NOUN \& ADP \& ADJ \& AUX \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& ADP \& PUNCT \& NOUN \& NOUN \& NUM \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{22}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{5}{3}{obl}
+    \depedge{3}{4}{case}
+    \depedge{9}{5}{acl}
+    \depedge{5}{6}{aux}
+    \depedge{9}{7}{nmod}
+    \depedge{7}{8}{case}
+    \depedge{22}{9}{obl}
+    \depedge{9}{10}{case}
+    \depedge{10}{11}{fixed}
+    \depedge{10}{12}{fixed}
+    \depedge{9}{13}{case}
+    \depedge{9}{14}{punct}
+    \depedge{18}{15}{compound}
+    \depedge{18}{16}{compound}
+    \depedge{18}{17}{nummod}
+    \depedge{20}{18}{nmod}
+    \depedge{18}{19}{case}
+    \depedge{22}{20}{obj}
+    \depedge{20}{21}{case}
+    \depedge{22}{23}{aux}
+    \depedge{22}{24}{punct}
+\end{dependency}
+\end{document}

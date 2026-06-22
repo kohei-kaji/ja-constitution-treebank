@@ -1,0 +1,28 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        この \& 場合 \& に \& は \& 、 \& 前条 \& 第 \& 一 \& 項 \& の \& 規定 \& を \& 準用 \& する \& 。\\
+        DET \& NOUN \& ADP \& ADP \& PUNCT \& NOUN \& NOUN \& NUM \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{13}{ROOT}
+    \depedge{2}{1}{det}
+    \depedge{13}{2}{obl}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{case}
+    \depedge{2}{5}{punct}
+    \depedge{9}{6}{compound}
+    \depedge{9}{7}{compound}
+    \depedge{9}{8}{nummod}
+    \depedge{11}{9}{nmod}
+    \depedge{9}{10}{case}
+    \depedge{13}{11}{obj}
+    \depedge{11}{12}{case}
+    \depedge{13}{14}{aux}
+    \depedge{13}{15}{punct}
+\end{dependency}
+\end{document}

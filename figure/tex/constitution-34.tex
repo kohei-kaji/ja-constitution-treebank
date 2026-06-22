@@ -1,0 +1,54 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=0.5em]
+        生命 \& 、 \& 自由 \& 及び \& 幸福 \& 追求 \& に \& 対する \& 国民 \& の \& 権利 \& に \& つい \& て \& は \& 、 \& 公共 \& の \& 福祉 \& に \& 反し \& ない \& 限り \& 、 \& 立法 \& その \& 他 \& の \& 国政 \& の \& 上 \& で \& 、 \& 最大 \& の \& 尊重 \& を \& 必要 \& と \& する \& 。\\
+        NOUN \& PUNCT \& NOUN \& CCONJ \& NOUN \& NOUN \& ADP \& VERB \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& PUNCT \& NOUN \& DET \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{40}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{punct}
+    \depedge{6}{3}{nmod}
+    \depedge{6}{4}{cc}
+    \depedge{6}{5}{compound}
+    \depedge{11}{6}{nmod}
+    \depedge{6}{7}{case}
+    \depedge{7}{8}{fixed}
+    \depedge{11}{9}{nmod}
+    \depedge{9}{10}{case}
+    \depedge{21}{11}{obl}
+    \depedge{11}{12}{case}
+    \depedge{12}{13}{fixed}
+    \depedge{12}{14}{fixed}
+    \depedge{11}{15}{case}
+    \depedge{11}{16}{punct}
+    \depedge{19}{17}{nmod}
+    \depedge{17}{18}{case}
+    \depedge{21}{19}{obl}
+    \depedge{19}{20}{case}
+    \depedge{23}{21}{acl}
+    \depedge{21}{22}{aux}
+    \depedge{40}{23}{obl}
+    \depedge{23}{24}{punct}
+    \depedge{29}{25}{nmod}
+    \depedge{27}{26}{det}
+    \depedge{29}{27}{nmod}
+    \depedge{27}{28}{case}
+    \depedge{31}{29}{nmod}
+    \depedge{29}{30}{case}
+    \depedge{40}{31}{obl}
+    \depedge{31}{32}{fixed}
+    \depedge{31}{33}{punct}
+    \depedge{36}{34}{nmod}
+    \depedge{34}{35}{case}
+    \depedge{40}{36}{obj}
+    \depedge{36}{37}{case}
+    \depedge{40}{38}{obl}
+    \depedge{38}{39}{case}
+    \depedge{40}{41}{punct}
+\end{dependency}
+\end{document}

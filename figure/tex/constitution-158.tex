@@ -1,0 +1,24 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        予算 \& を \& 作成 \& し \& て \& 国会 \& に \& 提出 \& する \& こと \& 。\\
+        NOUN \& ADP \& VERB \& AUX \& SCONJ \& NOUN \& ADP \& VERB \& AUX \& NOUN \& PUNCT\\
+    \end{deptext}
+    \deproot{10}{ROOT}
+    \depedge{3}{1}{obj}
+    \depedge{1}{2}{case}
+    \depedge{8}{3}{advcl}
+    \depedge{3}{4}{aux}
+    \depedge{3}{5}{mark}
+    \depedge{8}{6}{obl}
+    \depedge{6}{7}{case}
+    \depedge{10}{8}{acl}
+    \depedge{8}{9}{aux}
+    \depedge{10}{11}{punct}
+\end{dependency}
+\end{document}

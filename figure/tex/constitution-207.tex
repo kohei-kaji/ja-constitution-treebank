@@ -1,0 +1,43 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        地方公共団体 \& の \& 長 \& 、 \& その \& 議会 \& の \& 議員 \& 及び \& 法律 \& の \& 定める \& その \& 他 \& の \& 吏員 \& は \& 、 \& その \& 地方公共団体 \& の \& 住民 \& が \& 、 \& 直接 \& これ \& を \& 選挙 \& する \& 。\\
+        NOUN \& ADP \& NOUN \& PUNCT \& DET \& NOUN \& ADP \& NOUN \& CCONJ \& NOUN \& ADP \& VERB \& DET \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& DET \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& ADV \& PRON \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{28}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{8}{3}{nmod}
+    \depedge{3}{4}{punct}
+    \depedge{6}{5}{det}
+    \depedge{8}{6}{nmod}
+    \depedge{6}{7}{case}
+    \depedge{16}{8}{nmod}
+    \depedge{16}{9}{cc}
+    \depedge{12}{10}{nmod}
+    \depedge{10}{11}{case}
+    \depedge{16}{12}{acl}
+    \depedge{14}{13}{det}
+    \depedge{16}{14}{nmod}
+    \depedge{14}{15}{case}
+    \depedge{28}{16}{nsubj}
+    \depedge{16}{17}{case}
+    \depedge{16}{18}{punct}
+    \depedge{20}{19}{det}
+    \depedge{22}{20}{nmod}
+    \depedge{20}{21}{case}
+    \depedge{28}{22}{nsubj}
+    \depedge{22}{23}{case}
+    \depedge{22}{24}{punct}
+    \depedge{28}{25}{advmod}
+    \depedge{28}{26}{obj}
+    \depedge{26}{27}{case}
+    \depedge{28}{29}{aux}
+    \depedge{28}{30}{punct}
+\end{dependency}
+\end{document}

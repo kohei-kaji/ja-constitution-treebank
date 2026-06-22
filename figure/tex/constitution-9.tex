@@ -1,0 +1,28 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        天皇 \& は \& 、 \& 国会 \& の \& 指名 \& に \& 基い \& て \& 、 \& 内閣総理大臣 \& を \& 任命 \& する \& 。\\
+        NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& VERB \& SCONJ \& PUNCT \& NOUN \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{13}{ROOT}
+    \depedge{13}{1}{nsubj}
+    \depedge{1}{2}{case}
+    \depedge{1}{3}{punct}
+    \depedge{6}{4}{nmod}
+    \depedge{4}{5}{case}
+    \depedge{8}{6}{obl}
+    \depedge{6}{7}{case}
+    \depedge{13}{8}{advcl}
+    \depedge{8}{9}{mark}
+    \depedge{8}{10}{punct}
+    \depedge{13}{11}{obj}
+    \depedge{11}{12}{case}
+    \depedge{13}{14}{aux}
+    \depedge{13}{15}{punct}
+\end{dependency}
+\end{document}

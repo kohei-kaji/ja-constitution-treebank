@@ -1,0 +1,30 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        法律 \& の \& 定める \& 基準 \& に \& 従 \& ひ \& 、 \& 官吏 \& に \& 関する \& 事務 \& を \& 掌理 \& する \& こと \& 。\\
+        NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& VERB \& PUNCT \& NOUN \& ADP \& VERB \& NOUN \& ADP \& VERB \& AUX \& NOUN \& PUNCT\\
+    \end{deptext}
+    \deproot{16}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{4}{3}{acl}
+    \depedge{6}{4}{obl}
+    \depedge{4}{5}{case}
+    \depedge{7}{6}{advcl}
+    \depedge{14}{7}{advcl}
+    \depedge{7}{8}{punct}
+    \depedge{12}{9}{nmod}
+    \depedge{9}{10}{case}
+    \depedge{10}{11}{fixed}
+    \depedge{14}{12}{obj}
+    \depedge{12}{13}{case}
+    \depedge{16}{14}{acl}
+    \depedge{14}{15}{aux}
+    \depedge{16}{17}{punct}
+\end{dependency}
+\end{document}

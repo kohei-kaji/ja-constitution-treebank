@@ -1,0 +1,25 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        日本 \& 国民 \& たる \& 要件 \& は \& 、 \& 法律 \& で \& これ \& を \& 定める \& 。\\
+        PROPN \& NOUN \& AUX \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& PRON \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{11}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{4}{2}{acl}
+    \depedge{2}{3}{aux}
+    \depedge{11}{4}{nsubj}
+    \depedge{4}{5}{case}
+    \depedge{4}{6}{punct}
+    \depedge{11}{7}{obl}
+    \depedge{7}{8}{case}
+    \depedge{11}{9}{obj}
+    \depedge{9}{10}{case}
+    \depedge{11}{12}{punct}
+\end{dependency}
+\end{document}

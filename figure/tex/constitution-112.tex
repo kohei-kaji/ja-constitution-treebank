@@ -1,0 +1,38 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        但し \& 、 \& 内閣 \& は \& 、 \& 国 \& に \& 緊急 \& の \& 必要 \& が \& ある \& とき \& は \& 、 \& 参議院 \& の \& 緊急 \& 集会 \& を \& 求める \& こと \& が \& できる \& 。\\
+        CCONJ \& PUNCT \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& ADJ \& ADP \& NOUN \& ADP \& VERB \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& NOUN \& ADP \& VERB \& NOUN \& ADP \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{21}{ROOT}
+    \depedge{21}{1}{cc}
+    \depedge{1}{2}{punct}
+    \depedge{21}{3}{nsubj}
+    \depedge{3}{4}{case}
+    \depedge{3}{5}{punct}
+    \depedge{12}{6}{obl}
+    \depedge{6}{7}{case}
+    \depedge{10}{8}{nmod}
+    \depedge{8}{9}{case}
+    \depedge{12}{10}{nsubj}
+    \depedge{10}{11}{case}
+    \depedge{13}{12}{acl}
+    \depedge{21}{13}{obl}
+    \depedge{13}{14}{case}
+    \depedge{13}{15}{punct}
+    \depedge{19}{16}{nmod}
+    \depedge{16}{17}{case}
+    \depedge{19}{18}{compound}
+    \depedge{21}{19}{obj}
+    \depedge{19}{20}{case}
+    \depedge{21}{22}{compound}
+    \depedge{22}{23}{fixed}
+    \depedge{22}{24}{fixed}
+    \depedge{21}{25}{punct}
+\end{dependency}
+\end{document}

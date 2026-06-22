@@ -1,0 +1,34 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        集会 \& 、 \& 結社 \& 及び \& 言論 \& 、 \& 出版 \& その \& 他 \& 一切 \& の \& 表現 \& の \& 自由 \& は \& 、 \& これ \& を \& 保障 \& する \& 。\\
+        NOUN \& PUNCT \& NOUN \& CCONJ \& NOUN \& PUNCT \& NOUN \& DET \& NOUN \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{19}{ROOT}
+    \depedge{3}{1}{nmod}
+    \depedge{1}{2}{punct}
+    \depedge{5}{3}{nmod}
+    \depedge{5}{4}{cc}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{punct}
+    \depedge{14}{7}{nmod}
+    \depedge{9}{8}{det}
+    \depedge{10}{9}{nmod}
+    \depedge{14}{10}{nmod}
+    \depedge{10}{11}{case}
+    \depedge{14}{12}{nmod}
+    \depedge{12}{13}{case}
+    \depedge{19}{14}{nsubj}
+    \depedge{14}{15}{case}
+    \depedge{14}{16}{punct}
+    \depedge{19}{17}{obj}
+    \depedge{17}{18}{case}
+    \depedge{19}{20}{aux}
+    \depedge{19}{21}{punct}
+\end{dependency}
+\end{document}

@@ -1,0 +1,56 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\small
+\begin{dependency}[edge unit distance=11.4pt]
+    \begin{deptext}[column sep=0.5em]
+        国 \& の \& 収入 \& 支出 \& の \& 決算 \& は \& 、 \& すべて \& 毎年 \& 会計検査院 \& が \& これ \& を \& 検査 \& し \& 、 \& 内閣 \& は \& 、 \& 次 \& の \& 年度 \& に \& 、 \& その \& 検査 \& 報告 \& と \& とも \& に \& 、 \& これ \& を \& 国会 \& に \& 提出 \& し \& なけれ \& ば \& なら \& ない \& 。\\
+        NOUN \& ADP \& NOUN \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& ADV \& ADV \& NOUN \& ADP \& PRON \& ADP \& VERB \& AUX \& PUNCT \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& DET \& NOUN \& NOUN \& ADP \& NOUN \& ADP \& PUNCT \& PRON \& ADP \& NOUN \& ADP \& VERB \& AUX \& AUX \& SCONJ \& VERB \& AUX \& PUNCT\\
+    \end{deptext}
+    \deproot{37}{ROOT}
+    \depedge{4}{1}{nmod}
+    \depedge{1}{2}{case}
+    \depedge{4}{3}{compound}
+    \depedge{6}{4}{nmod}
+    \depedge{4}{5}{case}
+    \depedge{15}{6}{dislocated}
+    \depedge{6}{7}{case}
+    \depedge{6}{8}{punct}
+    \depedge{15}{9}{advmod}
+    \depedge{15}{10}{advmod}
+    \depedge{15}{11}{nsubj}
+    \depedge{11}{12}{case}
+    \depedge{15}{13}{obj}
+    \depedge{13}{14}{case}
+    \depedge{37}{15}{advcl}
+    \depedge{15}{16}{aux}
+    \depedge{15}{17}{punct}
+    \depedge{37}{18}{nsubj}
+    \depedge{18}{19}{case}
+    \depedge{18}{20}{punct}
+    \depedge{23}{21}{nmod}
+    \depedge{21}{22}{case}
+    \depedge{37}{23}{obl}
+    \depedge{23}{24}{case}
+    \depedge{23}{25}{punct}
+    \depedge{28}{26}{det}
+    \depedge{28}{27}{compound}
+    \depedge{30}{28}{nmod}
+    \depedge{28}{29}{case}
+    \depedge{37}{30}{obl}
+    \depedge{30}{31}{case}
+    \depedge{30}{32}{punct}
+    \depedge{37}{33}{obj}
+    \depedge{33}{34}{case}
+    \depedge{37}{35}{obl}
+    \depedge{35}{36}{case}
+    \depedge{37}{38}{aux}
+    \depedge{37}{39}{aux}
+    \depedge{39}{40}{fixed}
+    \depedge{39}{41}{fixed}
+    \depedge{39}{42}{fixed}
+    \depedge{37}{43}{punct}
+\end{dependency}
+\end{document}

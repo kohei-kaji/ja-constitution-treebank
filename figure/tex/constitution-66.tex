@@ -1,0 +1,27 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        すべて \& 国民 \& は \& 、 \& 勤労 \& の \& 権利 \& を \& 有し \& 、 \& 義務 \& を \& 負ふ \& 。\\
+        ADV \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{13}{ROOT}
+    \depedge{9}{1}{advmod}
+    \depedge{9}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{9}{7}{obj}
+    \depedge{7}{8}{case}
+    \depedge{13}{9}{advcl}
+    \depedge{9}{10}{punct}
+    \depedge{13}{11}{obj}
+    \depedge{11}{12}{case}
+    \depedge{13}{14}{punct}
+\end{dependency}
+\end{document}

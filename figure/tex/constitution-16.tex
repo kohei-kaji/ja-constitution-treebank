@@ -1,0 +1,39 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=12.0pt]
+    \begin{deptext}[column sep=1em]
+        国務 \& 大臣 \& 及び \& 法律 \& の \& 定める \& その \& 他 \& の \& 官吏 \& の \& 任免 \& 並びに \& 全権 \& 委任状 \& 及び \& 大使 \& 及び \& 公使 \& の \& 信任状 \& を \& 認証 \& する \& こと \& 。\\
+        NOUN \& NOUN \& CCONJ \& NOUN \& ADP \& VERB \& DET \& NOUN \& ADP \& NOUN \& ADP \& NOUN \& CCONJ \& NOUN \& NOUN \& CCONJ \& NOUN \& CCONJ \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& PUNCT\\
+    \end{deptext}
+    \deproot{25}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{12}{2}{nmod}
+    \depedge{12}{3}{cc}
+    \depedge{6}{4}{nmod}
+    \depedge{4}{5}{case}
+    \depedge{10}{6}{acl}
+    \depedge{8}{7}{det}
+    \depedge{10}{8}{nmod}
+    \depedge{8}{9}{case}
+    \depedge{12}{10}{nmod}
+    \depedge{10}{11}{case}
+    \depedge{21}{12}{nmod}
+    \depedge{21}{13}{cc}
+    \depedge{15}{14}{compound}
+    \depedge{21}{15}{nmod}
+    \depedge{21}{16}{cc}
+    \depedge{19}{17}{nmod}
+    \depedge{19}{18}{cc}
+    \depedge{21}{19}{nmod}
+    \depedge{19}{20}{case}
+    \depedge{23}{21}{obj}
+    \depedge{21}{22}{case}
+    \depedge{25}{23}{acl}
+    \depedge{23}{24}{aux}
+    \depedge{25}{26}{punct}
+\end{dependency}
+\end{document}
