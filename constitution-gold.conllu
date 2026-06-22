@@ -579,7 +579,7 @@
 4	すべて	すべて	NOUN	名詞-普通名詞-副詞可能	_	8	nmod	_	SpaceAfter=No|Reading=スベテ
 5	の	の	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ノ
 6	基本	基本	NOUN	名詞-普通名詞-形状詞可能	_	10	nmod	_	SpaceAfter=No|Reading=キホン
-7	的	的	PART	接尾辞-形状詞的	_	8	mark	_	SpaceAfter=No|Reading=テキ
+7	的	的	PART	接尾辞-形状詞的	_	6	mark	_	SpaceAfter=No|Reading=テキ
 8	人権	人権	NOUN	名詞-普通名詞-一般	_	6	compound	_	SpaceAfter=No|Reading=ジンケン
 9	の	の	ADP	助詞-格助詞	_	8	case	_	SpaceAfter=No|Reading=ノ
 10	享有	享有	NOUN	名詞-普通名詞-サ変可能	_	12	obj	_	SpaceAfter=No|Reading=キョウユウ
