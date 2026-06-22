@@ -596,7 +596,7 @@
 3	が	が	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ガ
 4	国民	国民	NOUN	名詞-普通名詞-一般	_	6	obl	_	SpaceAfter=No|Reading=コクミン
 5	に	に	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ニ
-6	保障	保障	VERB	名詞-普通名詞-サ変可能	_	8	acl	_	SpaceAfter=No|Reading=ホショウ
+6	保障	保障	VERB	名詞-普通名詞-サ変可能	_	10	acl	_	SpaceAfter=No|Reading=ホショウ
 7	する	する	AUX	動詞-非自立可能	_	6	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
 8	基本	基本	NOUN	名詞-普通名詞-形状詞可能	_	10	compound	_	SpaceAfter=No|Reading=キホン
 9	的	的	PART	接尾辞-形状詞的	_	8	mark	_	SpaceAfter=No|Reading=テキ
