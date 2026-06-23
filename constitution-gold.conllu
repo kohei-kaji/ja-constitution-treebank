@@ -321,11 +321,11 @@
 # sent_id = 15
 # text = 国会議員の総選挙の施行を公示すること。
 1	国会	国会	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=コッカイ
-2	議員	議員	NOUN	名詞-普通名詞-一般	_	4	nmod	_	SpaceAfter=No|Reading=ギイン
-3	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
+2	議員	議員	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=ギイン
+3	の	の	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ノ
 4	総	総	NOUN	接頭辞	_	5	compound	_	SpaceAfter=No|Reading=ソウ
 5	選挙	選挙	NOUN	名詞-普通名詞-サ変可能	_	7	nmod	_	SpaceAfter=No|Reading=センキョ
-6	の	の	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ノ
+6	の	の	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=ノ
 7	施行	施行	NOUN	名詞-普通名詞-サ変可能	_	9	obj	_	SpaceAfter=No|Reading=シコウ
 8	を	を	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=オ
 9	公示	公示	VERB	名詞-普通名詞-サ変可能	_	11	acl	_	SpaceAfter=No|Reading=コウジ
