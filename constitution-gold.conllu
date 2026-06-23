@@ -1100,8 +1100,8 @@
 22	に	に	ADP	助詞-格助詞	_	21	case	_	SpaceAfter=No|Reading=ニ
 23	より	よる	VERB	動詞-一般	_	22	fixed	_	SpaceAfter=No|Inf=五段-ラ行,連用形-一般|Reading=ヨリ
 24	、	、	PUNCT	補助記号-読点	_	21	punct	_	SpaceAfter=No|Reading=、
-25	国又	国又	NOUN	名詞-固有名詞-人名-姓	_	29	nsubj	_	SpaceAfter=No|Reading=クニマタ
-26	国又	国又	NOUN	名詞-固有名詞-人名-姓	_	29	nsubj	_	SpaceAfter=No|Reading=クニマタ
+25	国	国	NOUN	名詞-固有名詞-人名-姓	_	29	nsubj	_	SpaceAfter=No|Reading=クニマタ
+26	又	又	NOUN	名詞-固有名詞-人名-姓	_	29	nsubj	_	SpaceAfter=No|Reading=クニマタ
 27	は	は	ADP	助詞-係助詞	_	25	fixed	_	SpaceAfter=No|Reading=ワ
 28	公共	公共	NOUN	名詞-普通名詞-一般	_	29	compound	_	SpaceAfter=No|Reading=コウキョウ
 29	団体	団体	NOUN	名詞-普通名詞-一般	_	35	obl	_	SpaceAfter=No|Reading=ダンタイ
