@@ -1,3 +1,5 @@
+![アノテーションの例](figure/png/preamble-4.png)
+
 # UD_Japanese-Constitution
 
 > [!WARNING]
@@ -9,6 +11,8 @@ The text was first parsed automatically with [GiNZA](https://megagonlabs.github.
 
 For background on the Universal Dependencies project, see the [UD official website](https://universaldependencies.org), [de Marneffe et al. (2021)](https://direct.mit.edu/coli/article/47/2/255/98516/Universal-Dependencies), and [Nivre et al. (2020)](https://aclanthology.org/2020.lrec-1.497/).
 For the Japanese UD framework specifically, see [Asahara et al. (2018)](https://aclanthology.org/L18-1287/) and [浅原ら (2019)](https://www.jstage.jst.go.jp/article/jnlp/26/1/26_3/_article/-char/ja/).
+
+
 
 ## 📁 Repository Structure
 
