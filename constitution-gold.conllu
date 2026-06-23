@@ -316,18 +316,22 @@
 6	こと	こと	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=コト
 7	。	。	PUNCT	補助記号-句点	_	6	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 15
 # text = 国会議員の総選挙の施行を公示すること。
-1	国会議員	国会議員	NOUN	名詞-普通名詞-一般	_	3	nmod	_	SpaceAfter=No|Reading=コッカイギイン
-2	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
-3	総選挙	総選挙	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=ソウセンキョ
-4	の	の	ADP	助詞-格助詞	_	3	case	_	SpaceAfter=No|Reading=ノ
-5	施行	施行	NOUN	名詞-普通名詞-サ変可能	_	7	obj	_	SpaceAfter=No|Reading=シコウ
-6	を	を	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=オ
-7	公示	公示	VERB	名詞-普通名詞-サ変可能	_	9	acl	_	SpaceAfter=No|Reading=コウジ
-8	する	する	AUX	動詞-非自立可能	_	7	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
-9	こと	こと	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=コト
-10	。	。	PUNCT	補助記号-句点	_	9	punct	_	SpaceAfter=No|Reading=。
+1	国会	国会	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=コッカイ
+2	議員	議員	NOUN	名詞-普通名詞-一般	_	4	nmod	_	SpaceAfter=No|Reading=ギイン
+3	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
+4	総	総	NOUN	接頭辞	_	5	compound	_	SpaceAfter=No|Reading=ソウ
+5	選挙	選挙	NOUN	名詞-普通名詞-サ変可能	_	7	nmod	_	SpaceAfter=No|Reading=センキョ
+6	の	の	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ノ
+7	施行	施行	NOUN	名詞-普通名詞-サ変可能	_	9	obj	_	SpaceAfter=No|Reading=シコウ
+8	を	を	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=オ
+9	公示	公示	VERB	名詞-普通名詞-サ変可能	_	11	acl	_	SpaceAfter=No|Reading=コウジ
+10	する	する	AUX	動詞-非自立可能	_	9	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
+11	こと	こと	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=コト
+12	。	。	PUNCT	補助記号-句点	_	11	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 16
 # text = 国務大臣及び法律の定めるその他の官吏の任免並びに全権委任状及び大使及び公使の信任状を認証すること。
