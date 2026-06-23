@@ -1014,7 +1014,7 @@
 # newpar
 # sent_id = 44
 # text = 何人も、損害の救済、公務員の罷免、法律、命令又は規則の制定、廃止又は改正その他の事項に関し、平穏に請願する権利を有し、何人も、かかる請願をしたためにいかなる差別待遇も受けない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	39	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	39	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	損害	損害	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=ソンガイ
@@ -1054,7 +1054,7 @@
 38	を	を	ADP	助詞-格助詞	_	37	case	_	SpaceAfter=No|Reading=オ
 39	有し	有する	VERB	動詞-一般	_	55	advcl	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=ユウシ
 40	、	、	PUNCT	補助記号-読点	_	39	punct	_	SpaceAfter=No|Reading=、
-41	何人	何人	NOUN	名詞-普通名詞-一般	_	55	nsubj	_	SpaceAfter=No|Reading=ナンニン
+41	何人	何人	NOUN	名詞-普通名詞-一般	_	55	nsubj	_	SpaceAfter=No|Reading=ナンピト
 42	も	も	ADP	助詞-係助詞	_	41	case	_	SpaceAfter=No|Reading=モ
 43	、	、	PUNCT	補助記号-読点	_	41	punct	_	SpaceAfter=No|Reading=、
 44	かかる	かかる	DET	連体詞	_	45	det	_	SpaceAfter=No|Reading=カカル
@@ -1076,7 +1076,7 @@
 # newpar
 # sent_id = 45
 # text = 何人も、公務員の不法行為により、損害を受けたときは、法律の定めるところにより、国又は公共団体に、その賠償を求めることができる。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	公務員	公務員	NOUN	名詞-普通名詞-一般	_	7	nmod	_	SpaceAfter=No|Reading=コウムイン
@@ -1118,7 +1118,7 @@
 
 # sent_id = 46
 # text = 何人も、いかなる奴隷的拘束も受けない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	9	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	9	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	いかなる	いかなる	ADJ	連体詞	_	5	amod	_	SpaceAfter=No|Reading=イカナル
@@ -1182,7 +1182,7 @@
 3	自由	自由	NOUN	名詞-普通名詞-形状詞可能	_	13	nsubj	_	SpaceAfter=No|Reading=ジユウ
 4	は	は	ADP	助詞-係助詞	_	3	case	_	SpaceAfter=No|Reading=ワ
 5	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
-6	何人	何人	NOUN	名詞-普通名詞-一般	_	13	obl	_	SpaceAfter=No|Reading=ナンニン
+6	何人	何人	NOUN	名詞-普通名詞-一般	_	13	obl	_	SpaceAfter=No|Reading=ナンピト
 7	に	に	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ニ
 8	対し	対する	VERB	動詞-一般	_	7	fixed	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=タイシ
 9	て	て	SCONJ	助詞-接続助詞	_	7	fixed	_	SpaceAfter=No|Reading=テ
@@ -1222,7 +1222,7 @@
 
 # sent_id = 51
 # text = 何人も、宗教上の行為、祝典、儀式又は行事に参加することを強制されない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	20	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	20	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	宗教	宗教	NOUN	名詞-普通名詞-一般	_	5	compound	_	SpaceAfter=No|Reading=シュウキョウ
@@ -1329,7 +1329,7 @@
 
 # sent_id = 56
 # text = 何人も、公共の福祉に反しない限り、居住、移転及び職業選択の自由を有する。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	8	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	8	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	公共	公共	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=コウキョウ
@@ -1354,7 +1354,7 @@
 
 # sent_id = 57
 # text = 何人も、外国に移住し、又は国籍を離脱する自由を侵されない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	17	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	17	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	外国	外国	NOUN	名詞-普通名詞-一般	_	6	obl	_	SpaceAfter=No|Reading=ガイコク
@@ -1771,7 +1771,7 @@
 
 # sent_id = 74
 # text = 何人も、法律の定める手続によらなければ、その生命若しくは自由を奪はれ、又はその他の刑罰を科せられない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	18	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	18	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	法律	法律	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=ホウリツ
@@ -1805,7 +1805,7 @@
 
 # sent_id = 75
 # text = 何人も、裁判所において裁判を受ける権利を奪はれない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	裁判所	裁判所	NOUN	名詞-普通名詞-一般	_	13	obl	_	SpaceAfter=No|Reading=サイバンショ
@@ -1824,7 +1824,7 @@
 
 # sent_id = 76
 # text = 何人も、現行犯として逮捕される場合を除いては、権限を有する司法官憲が発し、且つ理由となつてゐる犯罪を明示する令状によらなければ、逮捕されない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	現行犯	現行犯	NOUN	名詞-普通名詞-一般	_	8	obl	_	SpaceAfter=No|Reading=ゲンコウハン
@@ -1872,7 +1872,7 @@
 
 # sent_id = 77
 # text = 何人も、理由を直ちに告げられ、且つ、直ちに弁護人に依頼する権利を与へられなければ、抑留又は拘禁されない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	理由	理由	NOUN	名詞-普通名詞-一般	_	7	obj	_	SpaceAfter=No|Reading=リユウ
@@ -1908,7 +1908,7 @@
 # text = 又、何人も、正当な理由がなければ、拘禁されず、要求があれば、その理由は、直ちに本人及びその弁護人の出席する公開の法廷で示されなければならない。
 1	又	又	CCONJ	接続詞	_	39	cc	_	SpaceAfter=No|Reading=マタ
 2	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-3	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンニン
+3	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンピト
 4	も	も	ADP	助詞-係助詞	_	3	case	_	SpaceAfter=No|Reading=モ
 5	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
 6	正当	正当	ADJ	名詞-普通名詞-形状詞可能	_	8	acl	_	SpaceAfter=No|Reading=セイトウ
@@ -1954,7 +1954,7 @@
 
 # sent_id = 79
 # text = 何人も、その住居、書類及び所持品について、侵入、捜索及び押収を受けることのない権利は、第三十三条の場合を除いては、正当な理由に基いて発せられ、且つ捜索する場所及び押収する物を明示する令状がなければ、侵されない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	43	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	43	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	その	その	DET	連体詞	_	5	det	_	SpaceAfter=No|Reading=ソノ
@@ -2182,7 +2182,7 @@
 
 # sent_id = 86
 # text = 何人も、自己に不利益な供述を強要されない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	10	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	10	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	自己	自己	NOUN	名詞-普通名詞-一般	_	10	obl	_	SpaceAfter=No|Reading=ジコ
@@ -2236,7 +2236,7 @@
 
 # sent_id = 88
 # text = 何人も、自己に不利益な唯一の証拠が本人の自白である場合には、有罪とされ、又は刑罰を科せられない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	23	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	23	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	自己	自己	NOUN	名詞-普通名詞-一般	_	6	obl	_	SpaceAfter=No|Reading=ジコ
@@ -2272,7 +2272,7 @@
 
 # sent_id = 89
 # text = 何人も、実行の時に適法であつた行為又は既に無罪とされた行為については、刑事上の責任を問はれない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	32	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	32	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	実行	実行	NOUN	名詞-普通名詞-サ変可能	_	6	nmod	_	SpaceAfter=No|Reading=ジッコウ
@@ -2333,7 +2333,7 @@
 
 # sent_id = 91
 # text = 何人も、抑留又は拘禁された後、無罪の裁判を受けたときは、法律の定めるところにより、国にその補償を求めることができる。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	17	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	17	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	抑留	抑留	NOUN	名詞-普通名詞-サ変可能	_	7	obl	_	SpaceAfter=No|Reading=ヨクリュウ
@@ -2594,7 +2594,7 @@
 
 # sent_id = 103
 # text = 何人も、同時に両議院の議員たることはできない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンニン
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	同時	同時	NOUN	名詞-普通名詞-一般	_	13	obl	_	SpaceAfter=No|Reading=ドウジ
