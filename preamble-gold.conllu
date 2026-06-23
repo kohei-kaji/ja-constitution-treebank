@@ -133,7 +133,7 @@
 29	の	の	ADP	助詞-格助詞	_	28	case	_	SpaceAfter=No|Reading=ノ
 30	代表	代表	NOUN	名詞-普通名詞-一般	_	31	compound	_	SpaceAfter=No|Reading=ダイヒョウ
 31	者	者	NOUN	接尾辞-名詞的-一般	_	35	nsubj	_	SpaceAfter=No|Reading=シャ
-32	が	が	ADP	助詞-格助詞	_	30	case	_	SpaceAfter=No|Reading=ガ
+32	が	が	ADP	助詞-格助詞	_	31	case	_	SpaceAfter=No|Reading=ガ
 33	これ	これ	PRON	代名詞	_	35	obj	_	SpaceAfter=No|Reading=コレ
 34	を	を	ADP	助詞-格助詞	_	33	case	_	SpaceAfter=No|Reading=オ
 35	行使	行使	VERB	名詞-普通名詞-サ変可能	_	45	advcl	_	SpaceAfter=No|Reading=コウシ
