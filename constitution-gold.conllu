@@ -283,7 +283,7 @@
 # text = 憲法改正、法律、政令及び条約を公布すること。
 1	憲法	憲法	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=ケンポウ
 2	改正	改正	NOUN	名詞-普通名詞-一般	_	8	nmod	_	SpaceAfter=No|Reading=カイセイ
-3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
+3	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
 4	法律	法律	NOUN	名詞-普通名詞-一般	_	8	nmod	_	SpaceAfter=No|Reading=ホウリツ
 5	、	、	PUNCT	補助記号-読点	_	4	punct	_	SpaceAfter=No|Reading=、
 6	政令	政令	NOUN	名詞-普通名詞-一般	_	8	nmod	_	SpaceAfter=No|Reading=セイレイ
