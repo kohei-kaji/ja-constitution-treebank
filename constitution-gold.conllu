@@ -333,8 +333,10 @@
 11	こと	こと	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=コト
 12	。	。	PUNCT	補助記号-句点	_	11	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 16
-# text = 国務大臣及び法律の定めるその他の官吏の任免並びに全権委任状委任状及び大使及び公使の信任状信任状を認証すること。
+# text = 国務大臣及び法律の定めるその他の官吏の任免並びに全権委任状及び大使及び公使の信任状を認証すること。
 1	国務	国務	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=コクム
 2	大臣	大臣	NOUN	名詞-普通名詞-一般	_	12	nmod	_	SpaceAfter=No|Reading=ダイジン
 3	及び	及び	CCONJ	接続詞	_	12	cc	_	SpaceAfter=No|Reading=オヨビ
