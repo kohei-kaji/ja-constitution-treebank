@@ -1073,7 +1073,7 @@
 57	。	。	PUNCT	補助記号-句点	_	55	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 45
-# text = 何人も、公務員の不法行為により、損害を受けたときは、法律の定めるところにより、国又は公共団体に、その賠償を求めることができる。
+# text = 何人も、公務員の不法行為により、損害を受けたときは、法律の定めるところにより、国又は公共団体公共団体に、その賠償を求めることができる。
 1	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンニン
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
@@ -1088,29 +1088,30 @@
 12	を	を	ADP	助詞-格助詞	_	11	case	_	SpaceAfter=No|Reading=オ
 13	受け	受ける	VERB	動詞-一般	_	15	acl	_	SpaceAfter=No|Inf=下一段-カ行,連用形-一般|Reading=ウケ
 14	た	た	AUX	助動詞	_	13	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
-15	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	33	obl	_	SpaceAfter=No|Reading=トキ
+15	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	34	obl	_	SpaceAfter=No|Reading=トキ
 16	は	は	ADP	助詞-係助詞	_	15	case	_	SpaceAfter=No|Reading=ワ
 17	、	、	PUNCT	補助記号-読点	_	15	punct	_	SpaceAfter=No|Reading=、
 18	法律	法律	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=ホウリツ
 19	の	の	ADP	助詞-格助詞	_	18	case	_	SpaceAfter=No|Reading=ノ
 20	定める	定める	VERB	動詞-一般	_	21	acl	_	SpaceAfter=No|Inf=下一段-マ行,連体形-一般|Reading=サダメル
-21	ところ	ところ	NOUN	名詞-普通名詞-副詞可能	_	33	obl	_	SpaceAfter=No|Reading=トコロ
+21	ところ	ところ	NOUN	名詞-普通名詞-副詞可能	_	34	obl	_	SpaceAfter=No|Reading=トコロ
 22	に	に	ADP	助詞-格助詞	_	21	case	_	SpaceAfter=No|Reading=ニ
 23	より	よる	VERB	動詞-一般	_	22	fixed	_	SpaceAfter=No|Inf=五段-ラ行,連用形-一般|Reading=ヨリ
 24	、	、	PUNCT	補助記号-読点	_	21	punct	_	SpaceAfter=No|Reading=、
 25	国又	国又	NOUN	名詞-固有名詞-人名-姓	_	27	nsubj	_	SpaceAfter=No|Reading=クニマタ
 26	は	は	ADP	助詞-係助詞	_	25	fixed	_	SpaceAfter=No|Reading=ワ
-27	公共団体	公共団体	NOUN	名詞-普通名詞-一般	_	33	obl	_	SpaceAfter=No|Reading=コウキョウダンタイ
-28	に	に	ADP	助詞-格助詞	_	27	case	_	SpaceAfter=No|Reading=ニ
-29	、	、	PUNCT	補助記号-読点	_	27	punct	_	SpaceAfter=No|Reading=、
-30	その	その	DET	連体詞	_	31	det	_	SpaceAfter=No|Reading=ソノ
-31	賠償	賠償	NOUN	名詞-普通名詞-サ変可能	_	33	obj	_	SpaceAfter=No|Reading=バイショウ
-32	を	を	ADP	助詞-格助詞	_	31	case	_	SpaceAfter=No|Reading=オ
-33	求める	求める	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-マ行,連体形-一般|Reading=モトメル
-34	こと	こと	NOUN	名詞-普通名詞-一般	_	33	compound	_	SpaceAfter=No|Reading=コト
-35	が	が	ADP	助詞-格助詞	_	34	fixed	_	SpaceAfter=No|Reading=ガ
-36	できる	できる	AUX	動詞-非自立可能	_	34	fixed	_	SpaceAfter=No|Inf=上一段-カ行,終止形-一般|Reading=デキル
-37	。	。	PUNCT	補助記号-句点	_	33	punct	_	SpaceAfter=No|Reading=。
+27	公共団体	公共団体	NOUN	名詞-普通名詞-一般	_	34	obl	_	SpaceAfter=No|Reading=コウキョウダンタイ
+28	公共団体	公共団体	NOUN	名詞-普通名詞-一般	_	34	obl	_	SpaceAfter=No|Reading=コウキョウダンタイ
+29	に	に	ADP	助詞-格助詞	_	27	case	_	SpaceAfter=No|Reading=ニ
+30	、	、	PUNCT	補助記号-読点	_	27	punct	_	SpaceAfter=No|Reading=、
+31	その	その	DET	連体詞	_	32	det	_	SpaceAfter=No|Reading=ソノ
+32	賠償	賠償	NOUN	名詞-普通名詞-サ変可能	_	34	obj	_	SpaceAfter=No|Reading=バイショウ
+33	を	を	ADP	助詞-格助詞	_	32	case	_	SpaceAfter=No|Reading=オ
+34	求める	求める	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-マ行,連体形-一般|Reading=モトメル
+35	こと	こと	NOUN	名詞-普通名詞-一般	_	34	compound	_	SpaceAfter=No|Reading=コト
+36	が	が	ADP	助詞-格助詞	_	35	fixed	_	SpaceAfter=No|Reading=ガ
+37	できる	できる	AUX	動詞-非自立可能	_	35	fixed	_	SpaceAfter=No|Inf=上一段-カ行,終止形-一般|Reading=デキル
+38	。	。	PUNCT	補助記号-句点	_	34	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 46
 # text = 何人も、いかなる奴隷的拘束も受けない。
