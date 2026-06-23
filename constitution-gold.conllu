@@ -304,11 +304,13 @@
 5	こと	こと	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=コト
 6	。	。	PUNCT	補助記号-句点	_	5	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 14
-# text = 衆議院衆議院を解散すること。
-1	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	4	obj	_	SpaceAfter=No|Reading=シュウギイン
-2	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	4	obj	_	SpaceAfter=No|Reading=シュウギイン
-3	を	を	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=オ
+# text = 衆議院を解散すること。
+1	衆議	衆議	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=シュウギ
+2	院	院	NOUN	接尾辞-名詞的-一般	_	4	obj	_	SpaceAfter=No|Reading=イン
+3	を	を	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=オ
 4	解散	解散	VERB	名詞-普通名詞-サ変可能	_	6	acl	_	SpaceAfter=No|Reading=カイサン
 5	する	する	AUX	動詞-非自立可能	_	4	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
 6	こと	こと	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=コト
