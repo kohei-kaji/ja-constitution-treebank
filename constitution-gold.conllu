@@ -239,7 +239,7 @@
 11	最高	最高	NOUN	名詞-普通名詞-形状詞可能	_	13	compound	_	SpaceAfter=No|Reading=サイコウ
 12	裁判	裁判	NOUN	名詞-普通名詞-サ変可能	_	13	compound	_	SpaceAfter=No|Reading=サイバン
 13	所	所	NOUN	名詞-普通名詞-一般	_	17	nmod	_	SpaceAfter=No|Reading=ショ
-14	の	の	ADP	助詞-格助詞	_	12	case	_	SpaceAfter=No|Reading=ノ
+14	の	の	ADP	助詞-格助詞	_	13	case	_	SpaceAfter=No|Reading=ノ
 15	長	長い	NOUN	形容詞-一般	_	17	acl	_	SpaceAfter=No|Inf=形容詞,語幹-一般|Reading=ナガ
 16	たる	たり	AUX	助動詞	_	15	cop	_	SpaceAfter=No|Inf=文語助動詞-タリ-断定,連体形-一般|Reading=タル
 17	裁判	裁判	NOUN	名詞-普通名詞-サ変可能	_	18	compound	_	SpaceAfter=No|Reading=サイバン
