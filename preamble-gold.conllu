@@ -186,7 +186,7 @@
 11	、	、	PUNCT	補助記号-読点	_	10	punct	_	SpaceAfter=No|Reading=、
 12	法令	法令	NOUN	名詞-普通名詞-一般	_	14	nmod	_	SpaceAfter=No|Reading=ホウレイ
 13	及び	及び	CCONJ	接続詞	_	14	cc	_	SpaceAfter=No|Reading=オヨビ
-14	詔勅	詔勅	PROPN	名詞-普通名詞-一般	_	16	obj	_	SpaceAfter=No|Reading=ショウチョク
+14	詔勅	詔勅	NOUN	名詞-普通名詞-一般	_	16	obj	_	SpaceAfter=No|Reading=ショウチョク
 15	を	を	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=オ
 16	排除	排除	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=ハイジョ
 17	する	する	AUX	動詞-非自立可能	_	16	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
