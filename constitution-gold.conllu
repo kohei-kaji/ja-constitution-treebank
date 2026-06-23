@@ -223,27 +223,29 @@
 17	。	。	PUNCT	補助記号-句点	_	15	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 10
-# text = 天皇は、内閣の指名に基いて、最高裁判所の長たる裁判官を任命する。
-1	天皇	天皇	NOUN	名詞-普通名詞-一般	_	18	nsubj	_	SpaceAfter=No|Reading=テンノウ
+# text = 天皇は、内閣の指名に基いて、最高裁判所裁判所の長たる裁判官裁判官を任命する。
+1	天皇	天皇	NOUN	名詞-普通名詞-一般	_	20	nsubj	_	SpaceAfter=No|Reading=テンノウ
 2	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	内閣	内閣	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=ナイカク
 5	の	の	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ノ
 6	指名	指名	NOUN	名詞-普通名詞-サ変可能	_	8	obl	_	SpaceAfter=No|Reading=シメイ
 7	に	に	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ニ
-8	基い	基く	VERB	動詞-一般	_	18	advcl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=モトヅイ
+8	基い	基く	VERB	動詞-一般	_	20	advcl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=モトヅイ
 9	て	て	SCONJ	助詞-接続助詞	_	8	mark	_	SpaceAfter=No|Reading=テ
 10	、	、	PUNCT	補助記号-読点	_	8	punct	_	SpaceAfter=No|Reading=、
 11	最高	最高	NOUN	名詞-普通名詞-形状詞可能	_	12	compound	_	SpaceAfter=No|Reading=サイコウ
-12	裁判所	裁判所	NOUN	名詞-普通名詞-一般	_	16	nmod	_	SpaceAfter=No|Reading=サイバンショ
-13	の	の	ADP	助詞-格助詞	_	12	case	_	SpaceAfter=No|Reading=ノ
-14	長	長い	NOUN	形容詞-一般	_	16	acl	_	SpaceAfter=No|Inf=形容詞,語幹-一般|Reading=ナガ
-15	たる	たり	AUX	助動詞	_	14	cop	_	SpaceAfter=No|Inf=文語助動詞-タリ-断定,連体形-一般|Reading=タル
-16	裁判官	裁判官	NOUN	名詞-普通名詞-一般	_	18	obj	_	SpaceAfter=No|Reading=サイバンカン
-17	を	を	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Reading=オ
-18	任命	任命	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=ニンメイ
-19	する	する	AUX	動詞-非自立可能	_	18	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
-20	。	。	PUNCT	補助記号-句点	_	18	punct	_	SpaceAfter=No|Reading=。
+12	裁判所	裁判所	NOUN	名詞-普通名詞-一般	_	17	nmod	_	SpaceAfter=No|Reading=サイバンショ
+13	裁判所	裁判所	NOUN	名詞-普通名詞-一般	_	17	nmod	_	SpaceAfter=No|Reading=サイバンショ
+14	の	の	ADP	助詞-格助詞	_	12	case	_	SpaceAfter=No|Reading=ノ
+15	長	長い	NOUN	形容詞-一般	_	17	acl	_	SpaceAfter=No|Inf=形容詞,語幹-一般|Reading=ナガ
+16	たる	たり	AUX	助動詞	_	15	cop	_	SpaceAfter=No|Inf=文語助動詞-タリ-断定,連体形-一般|Reading=タル
+17	裁判官	裁判官	NOUN	名詞-普通名詞-一般	_	20	obj	_	SpaceAfter=No|Reading=サイバンカン
+18	裁判官	裁判官	NOUN	名詞-普通名詞-一般	_	20	obj	_	SpaceAfter=No|Reading=サイバンカン
+19	を	を	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=オ
+20	任命	任命	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=ニンメイ
+21	する	する	AUX	動詞-非自立可能	_	20	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
+22	。	。	PUNCT	補助記号-句点	_	20	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 11
 # text = 天皇は、内閣の助言と承認により、国民のために、左の国事に関する行為を行ふ。
