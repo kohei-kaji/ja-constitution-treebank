@@ -217,7 +217,7 @@
 11	内閣	内閣	NOUN	名詞-普通名詞-一般	_	13	compound	_	SpaceAfter=No|Reading=ナイカク
 12	総理	総理	NOUN	名詞-普通名詞-一般	_	13	compound	_	SpaceAfter=No|Reading=ソウリ
 13	大臣	大臣	NOUN	名詞-普通名詞-一般	_	15	obj	_	SpaceAfter=No|Reading=ダイジン
-14	を	を	ADP	助詞-格助詞	_	11	case	_	SpaceAfter=No|Reading=オ
+14	を	を	ADP	助詞-格助詞	_	13	case	_	SpaceAfter=No|Reading=オ
 15	任命	任命	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=ニンメイ
 16	する	する	AUX	動詞-非自立可能	_	15	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
 17	。	。	PUNCT	補助記号-句点	_	15	punct	_	SpaceAfter=No|Reading=。
