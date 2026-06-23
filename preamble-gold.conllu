@@ -98,6 +98,8 @@
 96	する	する	AUX	動詞-非自立可能	_	95	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
 97	。	。	PUNCT	補助記号-句点	_	95	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 2
 # text = そもそも国政は、国民の厳粛な信託によるものであつて、その権威は国民に由来し、その権力は国民の代表者がこれを行使し、その福利は国民がこれを享受する。
 1	そもそも	そもそも	ADV	名詞-普通名詞-副詞可能	_	14	advmod	_	SpaceAfter=No|Reading=ソモソモ
@@ -113,7 +115,7 @@
 11	よる	よる	VERB	動詞-一般	_	10	fixed	_	SpaceAfter=No|Inf=五段-ラ行,連体形-一般|Reading=ヨル
 12	もの	もの	NOUN	名詞-普通名詞-サ変可能	_	14	obl	_	SpaceAfter=No|Reading=モノ
 13	で	だ	AUX	助動詞	_	12	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-一般|Reading=デ
-14	あつ	あり	VERB	動詞-非自立可能	_	44	advcl	_	SpaceAfter=No|Inf=文語ラ行変格,連用形-促音便|Reading=アッ
+14	あつ	あり	VERB	動詞-非自立可能	_	45	advcl	_	SpaceAfter=No|Inf=文語ラ行変格,連用形-促音便|Reading=アッ
 15	て	て	SCONJ	助詞-接続助詞	_	14	mark	_	SpaceAfter=No|Reading=テ
 16	、	、	PUNCT	補助記号-読点	_	14	punct	_	SpaceAfter=No|Reading=、
 17	その	その	DET	連体詞	_	18	det	_	SpaceAfter=No|Reading=ソノ
@@ -121,31 +123,32 @@
 19	は	は	ADP	助詞-係助詞	_	18	case	_	SpaceAfter=No|Reading=ワ
 20	国民	国民	NOUN	名詞-普通名詞-一般	_	22	obl	_	SpaceAfter=No|Reading=コクミン
 21	に	に	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=ニ
-22	由来	由来	VERB	名詞-普通名詞-サ変可能	_	44	advcl	_	SpaceAfter=No|Reading=ユライ
+22	由来	由来	VERB	名詞-普通名詞-サ変可能	_	45	advcl	_	SpaceAfter=No|Reading=ユライ
 23	し	する	AUX	動詞-非自立可能	_	22	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
 24	、	、	PUNCT	補助記号-読点	_	22	punct	_	SpaceAfter=No|Reading=、
 25	その	その	DET	連体詞	_	26	det	_	SpaceAfter=No|Reading=ソノ
-26	権力	権力	NOUN	名詞-普通名詞-一般	_	44	dislocated	_	SpaceAfter=No|Reading=ケンリョク
+26	権力	権力	NOUN	名詞-普通名詞-一般	_	45	dislocated	_	SpaceAfter=No|Reading=ケンリョク
 27	は	は	ADP	助詞-係助詞	_	26	case	_	SpaceAfter=No|Reading=ワ
 28	国民	国民	NOUN	名詞-普通名詞-一般	_	30	nmod	_	SpaceAfter=No|Reading=コクミン
 29	の	の	ADP	助詞-格助詞	_	28	case	_	SpaceAfter=No|Reading=ノ
-30	代表者	代表者	NOUN	名詞-普通名詞-一般	_	34	nsubj	_	SpaceAfter=No|Reading=ダイヒョウシャ
-31	が	が	ADP	助詞-格助詞	_	30	case	_	SpaceAfter=No|Reading=ガ
-32	これ	これ	PRON	代名詞	_	34	obj	_	SpaceAfter=No|Reading=コレ
-33	を	を	ADP	助詞-格助詞	_	32	case	_	SpaceAfter=No|Reading=オ
-34	行使	行使	VERB	名詞-普通名詞-サ変可能	_	44	advcl	_	SpaceAfter=No|Reading=コウシ
-35	し	する	AUX	動詞-非自立可能	_	34	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
-36	、	、	PUNCT	補助記号-読点	_	34	punct	_	SpaceAfter=No|Reading=、
-37	その	その	DET	連体詞	_	38	det	_	SpaceAfter=No|Reading=ソノ
-38	福利	福利	NOUN	名詞-普通名詞-一般	_	44	dislocated	_	SpaceAfter=No|Reading=フクリ
-39	は	は	ADP	助詞-係助詞	_	38	case	_	SpaceAfter=No|Reading=ワ
-40	国民	国民	NOUN	名詞-普通名詞-一般	_	44	nsubj	_	SpaceAfter=No|Reading=コクミン
-41	が	が	ADP	助詞-格助詞	_	40	case	_	SpaceAfter=No|Reading=ガ
-42	これ	これ	PRON	代名詞	_	44	obj	_	SpaceAfter=No|Reading=コレ
-43	を	を	ADP	助詞-格助詞	_	42	case	_	SpaceAfter=No|Reading=オ
-44	享受	享受	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=キョウジュ
-45	する	する	AUX	動詞-非自立可能	_	44	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
-46	。	。	PUNCT	補助記号-句点	_	44	punct	_	SpaceAfter=No|Reading=。
+30	代表	代表	NOUN	名詞-普通名詞-一般	_	31	compound	_	SpaceAfter=No|Reading=ダイヒョウ
+31	者	者	NOUN	接尾辞-名詞的-一般	_	35	nsubj	_	SpaceAfter=No|Reading=シャ
+32	が	が	ADP	助詞-格助詞	_	30	case	_	SpaceAfter=No|Reading=ガ
+33	これ	これ	PRON	代名詞	_	35	obj	_	SpaceAfter=No|Reading=コレ
+34	を	を	ADP	助詞-格助詞	_	33	case	_	SpaceAfter=No|Reading=オ
+35	行使	行使	VERB	名詞-普通名詞-サ変可能	_	45	advcl	_	SpaceAfter=No|Reading=コウシ
+36	し	する	AUX	動詞-非自立可能	_	35	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
+37	、	、	PUNCT	補助記号-読点	_	35	punct	_	SpaceAfter=No|Reading=、
+38	その	その	DET	連体詞	_	39	det	_	SpaceAfter=No|Reading=ソノ
+39	福利	福利	NOUN	名詞-普通名詞-一般	_	45	dislocated	_	SpaceAfter=No|Reading=フクリ
+40	は	は	ADP	助詞-係助詞	_	39	case	_	SpaceAfter=No|Reading=ワ
+41	国民	国民	NOUN	名詞-普通名詞-一般	_	45	nsubj	_	SpaceAfter=No|Reading=コクミン
+42	が	が	ADP	助詞-格助詞	_	41	case	_	SpaceAfter=No|Reading=ガ
+43	これ	これ	PRON	代名詞	_	45	obj	_	SpaceAfter=No|Reading=コレ
+44	を	を	ADP	助詞-格助詞	_	43	case	_	SpaceAfter=No|Reading=オ
+45	享受	享受	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=キョウジュ
+46	する	する	AUX	動詞-非自立可能	_	45	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
+47	。	。	PUNCT	補助記号-句点	_	45	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 3
 # text = これは人類普遍の原理であり、この憲法は、かかる原理に基くものである。
