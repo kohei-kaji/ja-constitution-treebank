@@ -1075,7 +1075,7 @@
 # newdoc
 # newpar
 # sent_id = 45
-# text = 何人も、公務員の不法行為により、損害を受けたときは、法律の定めるところにより、国又は又は公共団体に、その賠償を求めることができる。
+# text = 何人も、公務員の不法行為により、損害を受けたときは、法律の定めるところにより、国又は公共団体に、その賠償を求めることができる。
 1	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンニン
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
@@ -1100,9 +1100,9 @@
 22	に	に	ADP	助詞-格助詞	_	21	case	_	SpaceAfter=No|Reading=ニ
 23	より	よる	VERB	動詞-一般	_	22	fixed	_	SpaceAfter=No|Inf=五段-ラ行,連用形-一般|Reading=ヨリ
 24	、	、	PUNCT	補助記号-読点	_	21	punct	_	SpaceAfter=No|Reading=、
-25	国	国	NOUN	名詞-固有名詞-人名-姓	_	29	nsubj	_	SpaceAfter=No|Reading=クニマタ
-26	又	又	NOUN	名詞-固有名詞-人名-姓	_	29	nsubj	_	SpaceAfter=No|Reading=クニマタ
-27	は	は	NOUN	名詞-固有名詞-人名-姓	_	29	nsubj	_	SpaceAfter=No|Reading=クニマタ
+25	国	国	NOUN	名詞-普通名詞-一般	_	29	nsubj	_	SpaceAfter=No|Reading=クニ
+26	又	又	CCONJ	名詞-固有名詞-人名-姓	_	29	nsubj	_	SpaceAfter=No|Reading=マタ
+27	は	は	NOUN	名詞-固有名詞-人名-姓	_	29	nsubj	_	SpaceAfter=No|Reading=ワ
 28	公共	公共	NOUN	名詞-普通名詞-一般	_	29	compound	_	SpaceAfter=No|Reading=コウキョウ
 29	団体	団体	NOUN	名詞-普通名詞-一般	_	35	obl	_	SpaceAfter=No|Reading=ダンタイ
 30	に	に	ADP	助詞-格助詞	_	29	case	_	SpaceAfter=No|Reading=ニ
