@@ -534,8 +534,10 @@
 54	する	する	AUX	動詞-非自立可能	_	53	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
 55	。	。	PUNCT	補助記号-句点	_	53	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 25
-# text = 前項の目的を達するため、陸海空軍陸海空軍陸海空軍陸海空軍その他の戦力は、これを保持しない。
+# text = 前項の目的を達するため、陸海空軍その他の戦力は、これを保持しない。
 1	前項	前項	NOUN	名詞-普通名詞-一般	_	3	nmod	_	SpaceAfter=No|Reading=ゼンコウ
 2	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
 3	目的	目的	NOUN	名詞-普通名詞-一般	_	5	obj	_	SpaceAfter=No|Reading=モクテキ
@@ -543,10 +545,10 @@
 5	達する	達する	VERB	動詞-一般	_	6	acl	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=タッスル
 6	ため	ため	NOUN	名詞-普通名詞-副詞可能	_	20	obl	_	SpaceAfter=No|Reading=タメ
 7	、	、	PUNCT	補助記号-読点	_	6	punct	_	SpaceAfter=No|Reading=、
-8	陸海空軍	陸海空軍	NOUN	名詞-普通名詞-一般	_	15	nmod	_	SpaceAfter=No|Reading=リクカイクウグン
-9	陸海空軍	陸海空軍	NOUN	名詞-普通名詞-一般	_	15	nmod	_	SpaceAfter=No|Reading=リクカイクウグン
-10	陸海空軍	陸海空軍	NOUN	名詞-普通名詞-一般	_	15	nmod	_	SpaceAfter=No|Reading=リクカイクウグン
-11	陸海空軍	陸海空軍	NOUN	名詞-普通名詞-一般	_	15	nmod	_	SpaceAfter=No|Reading=リクカイクウグン
+8	陸	陸	NOUN	接頭辞	_	11	compound	_	SpaceAfter=No|Reading=リク
+9	海	海	NOUN	接頭辞	_	11	compound	_	SpaceAfter=No|Reading=カイ
+10	空	空	NOUN	接頭辞	_	11	compound	_	SpaceAfter=No|Reading=クウ
+11	軍	軍	NOUN	名詞-普通名詞-一般	_	15	nmod	_	SpaceAfter=No|Reading=グン
 12	その	その	DET	連体詞	_	13	det	_	SpaceAfter=No|Reading=ソノ
 13	他	他	NOUN	名詞-普通名詞-副詞可能	_	15	nmod	_	SpaceAfter=No|Reading=タ
 14	の	の	ADP	助詞-格助詞	_	13	case	_	SpaceAfter=No|Reading=ノ
