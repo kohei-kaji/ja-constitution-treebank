@@ -1252,9 +1252,9 @@
 4	宗教	宗教	NOUN	名詞-普通名詞-一般	_	5	compound	_	SpaceAfter=No|Reading=シュウキョウ
 5	上	上	NOUN	接尾辞-名詞的-副詞可能	_	7	nmod	_	SpaceAfter=No|Reading=ジョウ
 6	の	の	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=ノ
-7	行為	行為	NOUN	名詞-普通名詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=コウイ
+7	行為	行為	NOUN	名詞-普通名詞-一般	_	14	nmod	_	SpaceAfter=No|Reading=コウイ
 8	、	、	PUNCT	補助記号-読点	_	7	punct	_	SpaceAfter=No|Reading=、
-9	祝典	祝典	NOUN	名詞-普通名詞-一般	_	11	nmod	_	SpaceAfter=No|Reading=シュクテン
+9	祝典	祝典	NOUN	名詞-普通名詞-一般	_	14	nmod	_	SpaceAfter=No|Reading=シュクテン
 10	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
 11	儀式	儀式	NOUN	名詞-普通名詞-一般	_	14	nmod	_	SpaceAfter=No|Reading=ギシキ
 12	又	又	CCONJ	接続詞	_	14	cc	_	SpaceAfter=No|Reading=マタ
