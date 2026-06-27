@@ -1364,7 +1364,7 @@
 9	ない	ない	AUX	助動詞	_	8	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,連体形-一般|Reading=ナイ
 10	限り	限り	NOUN	名詞-普通名詞-副詞可能	_	21	obl	_	SpaceAfter=No|Reading=カギリ
 11	、	、	PUNCT	補助記号-読点	_	10	punct	_	SpaceAfter=No|Reading=、
-12	居住	居住	NOUN	名詞-普通名詞-サ変可能	_	14	nmod	_	SpaceAfter=No|Reading=キョジュウ
+12	居住	居住	NOUN	名詞-普通名詞-サ変可能	_	17	nmod	_	SpaceAfter=No|Reading=キョジュウ
 13	、	、	PUNCT	補助記号-読点	_	12	punct	_	SpaceAfter=No|Reading=、
 14	移転	移転	NOUN	名詞-普通名詞-サ変可能	_	17	nmod	_	SpaceAfter=No|Reading=イテン
 15	及び	及び	CCONJ	接続詞	_	17	cc	_	SpaceAfter=No|Reading=オヨビ
