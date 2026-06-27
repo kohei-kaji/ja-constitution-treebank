@@ -1039,12 +1039,12 @@
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	損害	損害	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=ソンガイ
 5	の	の	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ノ
-6	救済	救済	NOUN	名詞-普通名詞-サ変可能	_	20	nmod	_	SpaceAfter=No|Reading=キュウサイ
+6	救済	救済	NOUN	名詞-普通名詞-サ変可能	_	29	nmod	_	SpaceAfter=No|Reading=キュウサイ
 7	、	、	PUNCT	補助記号-読点	_	6	punct	_	SpaceAfter=No|Reading=、
 8	公務	公務	NOUN	名詞-普通名詞-一般	_	9	compound	_	SpaceAfter=No|Reading=コウム
 9	員	員	NOUN	接尾辞-名詞的-一般	_	11	nmod	_	SpaceAfter=No|Reading=イン
 10	の	の	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=ノ
-11	罷免	罷免	NOUN	名詞-普通名詞-サ変可能	_	20	nmod	_	SpaceAfter=No|Reading=ヒメン
+11	罷免	罷免	NOUN	名詞-普通名詞-サ変可能	_	29	nmod	_	SpaceAfter=No|Reading=ヒメン
 12	、	、	PUNCT	補助記号-読点	_	11	punct	_	SpaceAfter=No|Reading=、
 13	法律	法律	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=ホウリツ
 14	、	、	PUNCT	補助記号-読点	_	13	punct	_	SpaceAfter=No|Reading=、
