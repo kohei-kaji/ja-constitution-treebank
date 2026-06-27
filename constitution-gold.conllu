@@ -1017,7 +1017,7 @@
 6	選択	選択	NOUN	名詞-普通名詞-サ変可能	_	8	obl	_	SpaceAfter=No|Reading=センタク
 7	に	に	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ニ
 8	関し	関する	VERB	動詞-一般	_	17	advcl	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=カンシ
-9	公的公的	公的公的	ADJ	形状詞-一般	_	12	advcl	_	SpaceAfter=No|Reading=コウテキ
+9	公的	公的	ADJ	形状詞-一般	_	12	advcl	_	SpaceAfter=No|Reading=コウテキ
 10	に	だ	AUX	助動詞	_	9	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-ニ|Reading=ニ
 11	も	も	ADP	助詞-係助詞	_	9	case	_	SpaceAfter=No|Reading=モ
 12	私的	私的	ADJ	形状詞-一般	_	17	nsubj	_	SpaceAfter=No|Reading=シテキ
