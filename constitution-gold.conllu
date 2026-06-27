@@ -1461,18 +1461,18 @@
 # sent_id = 60
 # text = 配偶者の選択、財産権、相続、住居の選定、離婚並びに婚姻及び家族に関するその他の事項に関しては、法律は、個人の尊厳と両性の本質的平等に立脚して、制定されなければならない。
 1	配偶	配偶	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=ハイグウ
-2	者	者	NOUN	接尾辞-名詞的-一般	_	4	nmod	_	SpaceAfter=No|Reading=シャ
+2	者	者	NOUN	接尾辞-名詞的-一般	_	20	nmod	_	SpaceAfter=No|Reading=シャ
 3	の	の	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ノ
-4	選択	選択	NOUN	名詞-普通名詞-サ変可能	_	6	nmod	_	SpaceAfter=No|Reading=センタク
+4	選択	選択	NOUN	名詞-普通名詞-サ変可能	_	20	nmod	_	SpaceAfter=No|Reading=センタク
 5	、	、	PUNCT	補助記号-読点	_	4	punct	_	SpaceAfter=No|Reading=、
 6	財産	財産	NOUN	名詞-普通名詞-一般	_	7	compound	_	SpaceAfter=No|Reading=ザイサン
-7	権	権	NOUN	接尾辞-名詞的-一般	_	9	nmod	_	SpaceAfter=No|Reading=ケン
+7	権	権	NOUN	接尾辞-名詞的-一般	_	20	nmod	_	SpaceAfter=No|Reading=ケン
 8	、	、	PUNCT	補助記号-読点	_	7	punct	_	SpaceAfter=No|Reading=、
-9	相続	相続	NOUN	名詞-普通名詞-サ変可能	_	13	nmod	_	SpaceAfter=No|Reading=ソウゾク
+9	相続	相続	NOUN	名詞-普通名詞-サ変可能	_	20	nmod	_	SpaceAfter=No|Reading=ソウゾク
 10	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
 11	住居	住居	NOUN	名詞-普通名詞-サ変可能	_	13	nmod	_	SpaceAfter=No|Reading=ジュウキョ
 12	の	の	ADP	助詞-格助詞	_	11	case	_	SpaceAfter=No|Reading=ノ
-13	選定	選定	NOUN	名詞-普通名詞-サ変可能	_	15	nmod	_	SpaceAfter=No|Reading=センテイ
+13	選定	選定	NOUN	名詞-普通名詞-サ変可能	_	20	nmod	_	SpaceAfter=No|Reading=センテイ
 14	、	、	PUNCT	補助記号-読点	_	13	punct	_	SpaceAfter=No|Reading=、
 15	離婚	離婚	NOUN	名詞-普通名詞-サ変可能	_	18	nmod	_	SpaceAfter=No|Reading=リコン
 16	並び	並び	CCONJ	名詞-普通名詞-一般	_	18	cc	_	SpaceAfter=No|Reading=ナラビ
