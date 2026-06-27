@@ -1143,7 +1143,7 @@
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	いかなる	いかなる	ADJ	連体詞	_	5	amod	_	SpaceAfter=No|Reading=イカナル
-5	奴隷	奴隷	NOUN	名詞-普通名詞-一般	_	9	nsubj	_	SpaceAfter=No|Reading=ドレイ
+5	奴隷	奴隷	NOUN	名詞-普通名詞-一般	_	9	obj	_	SpaceAfter=No|Reading=ドレイ
 6	的	的	PART	接尾辞-形状詞的	_	5	mark	_	SpaceAfter=No|Reading=テキ
 7	拘束	拘束	NOUN	名詞-普通名詞-サ変可能	_	5	compound	_	SpaceAfter=No|Reading=コウソク
 8	も	も	ADP	助詞-係助詞	_	5	case	_	SpaceAfter=No|Reading=モ
