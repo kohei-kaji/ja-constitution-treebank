@@ -947,7 +947,7 @@
 7	の	の	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ノ
 8	奉仕	奉仕	NOUN	名詞-普通名詞-一般	_	9	compound	_	SpaceAfter=No|Reading=ホウシ
 9	者	者	NOUN	接尾辞-名詞的-一般	_	17	acl	_	SpaceAfter=No|Reading=シャ
-10	で	だ	AUX	助動詞	_	8	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-一般|Reading=デ
+10	で	だ	AUX	助動詞	_	9	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-一般|Reading=デ
 11	あつ	あり	VERB	動詞-非自立可能	_	10	fixed	_	SpaceAfter=No|Inf=文語ラ行変格,連用形-促音便|Reading=アッ
 12	て	て	SCONJ	助詞-接続助詞	_	9	mark	_	SpaceAfter=No|Reading=テ
 13	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
