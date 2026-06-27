@@ -756,7 +756,7 @@
 8	対する	対する	VERB	動詞-一般	_	7	fixed	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=タイスル
 9	国民	国民	NOUN	名詞-普通名詞-一般	_	11	nmod	_	SpaceAfter=No|Reading=コクミン
 10	の	の	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=ノ
-11	権利	権利	NOUN	名詞-普通名詞-一般	_	21	obl	_	SpaceAfter=No|Reading=ケンリ
+11	権利	権利	NOUN	名詞-普通名詞-一般	_	40	obl	_	SpaceAfter=No|Reading=ケンリ
 12	に	に	ADP	助詞-格助詞	_	11	case	_	SpaceAfter=No|Reading=ニ
 13	つい	つく	VERB	動詞-一般	_	12	fixed	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ツイ
 14	て	て	SCONJ	助詞-接続助詞	_	12	fixed	_	SpaceAfter=No|Reading=テ
