@@ -789,7 +789,7 @@
 41	。	。	PUNCT	補助記号-句点	_	40	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 35
-# text = すべて国民は、法の下に平等であつて、人種、信条、性別、社会的身分又は門地により、政治的、経済的又は社会的関係において、差別されない。
+# text = すべて国民は、法の下に平等であつて、人種、信条、性別、社会的社会的身分又は門地により、政治的政治的、経済的経済的又は社会的社会的関係において、差別されない。
 1	すべて	すべて	ADV	名詞-普通名詞-副詞可能	_	9	advmod	_	SpaceAfter=No|Reading=スベテ
 2	国民	国民	NOUN	名詞-普通名詞-一般	_	9	nsubj	_	SpaceAfter=No|Reading=コクミン
 3	は	は	ADP	助詞-係助詞	_	2	case	_	SpaceAfter=No|Reading=ワ
@@ -798,41 +798,45 @@
 6	の	の	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=ノ
 7	下	下	NOUN	名詞-普通名詞-一般	_	9	obl	_	SpaceAfter=No|Reading=シタ
 8	に	に	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=ニ
-9	平等	平等	ADJ	名詞-普通名詞-形状詞可能	_	39	advcl	_	SpaceAfter=No|Reading=ビョウドウ
+9	平等	平等	ADJ	名詞-普通名詞-形状詞可能	_	43	advcl	_	SpaceAfter=No|Reading=ビョウドウ
 10	で	だ	AUX	助動詞	_	9	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-一般|Reading=デ
 11	あつ	あり	VERB	動詞-非自立可能	_	10	fixed	_	SpaceAfter=No|Inf=文語ラ行変格,連用形-促音便|Reading=アッ
 12	て	て	SCONJ	助詞-接続助詞	_	9	mark	_	SpaceAfter=No|Reading=テ
 13	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
-14	人種	人種	NOUN	名詞-普通名詞-一般	_	24	nmod	_	SpaceAfter=No|Reading=ジンシュ
+14	人種	人種	NOUN	名詞-普通名詞-一般	_	25	nmod	_	SpaceAfter=No|Reading=ジンシュ
 15	、	、	PUNCT	補助記号-読点	_	14	punct	_	SpaceAfter=No|Reading=、
-16	信条	信条	NOUN	名詞-普通名詞-一般	_	24	nmod	_	SpaceAfter=No|Reading=シンジョウ
+16	信条	信条	NOUN	名詞-普通名詞-一般	_	25	nmod	_	SpaceAfter=No|Reading=シンジョウ
 17	、	、	PUNCT	補助記号-読点	_	16	punct	_	SpaceAfter=No|Reading=、
-18	性別	性別	NOUN	名詞-普通名詞-一般	_	24	nmod	_	SpaceAfter=No|Reading=セイベツ
+18	性別	性別	NOUN	名詞-普通名詞-一般	_	25	nmod	_	SpaceAfter=No|Reading=セイベツ
 19	、	、	PUNCT	補助記号-読点	_	18	punct	_	SpaceAfter=No|Reading=、
-20	社会的	社会的	NOUN	名詞-普通名詞-形状詞可能	_	24	nmod	_	SpaceAfter=No|Reading=シャカイテキ
-21	身分	身分	NOUN	名詞-普通名詞-一般	_	20	compound	_	SpaceAfter=No|Reading=ミブン
-22	又	又	CCONJ	接続詞	_	24	cc	_	SpaceAfter=No|Reading=マタ
-23	は	は	ADP	助詞-係助詞	_	22	fixed	_	SpaceAfter=No|Reading=ワ
-24	門地	門地	NOUN	名詞-普通名詞-一般	_	39	obl	_	SpaceAfter=No|Reading=モンチ
-25	に	に	ADP	助詞-格助詞	_	24	case	_	SpaceAfter=No|Reading=ニ
-26	より	よる	VERB	動詞-一般	_	25	fixed	_	SpaceAfter=No|Inf=五段-ラ行,連用形-一般|Reading=ヨリ
-27	、	、	PUNCT	補助記号-読点	_	24	punct	_	SpaceAfter=No|Reading=、
-28	政治的	政治的	NOUN	名詞-普通名詞-形状詞可能	_	30	nmod	_	SpaceAfter=No|Reading=セイジテキ
-29	、	、	PUNCT	補助記号-読点	_	28	punct	_	SpaceAfter=No|Reading=、
-30	経済的	経済的	NOUN	名詞-普通名詞-形状詞可能	_	33	nmod	_	SpaceAfter=No|Reading=ケイザイテキ
-31	又	又	CCONJ	接続詞	_	33	cc	_	SpaceAfter=No|Reading=マタ
-32	は	は	ADP	助詞-係助詞	_	31	fixed	_	SpaceAfter=No|Reading=ワ
-33	社会的	社会的	NOUN	名詞-普通名詞-形状詞可能	_	39	obl	_	SpaceAfter=No|Reading=シャカイテキ
-34	関係	関係	NOUN	名詞-普通名詞-サ変可能	_	33	compound	_	SpaceAfter=No|Reading=カンケイ
-35	に	に	ADP	助詞-格助詞	_	33	case	_	SpaceAfter=No|Reading=ニ
-36	おい	おく	VERB	動詞-一般	_	35	fixed	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=オイ
-37	て	て	SCONJ	助詞-接続助詞	_	35	fixed	_	SpaceAfter=No|Reading=テ
-38	、	、	PUNCT	補助記号-読点	_	33	punct	_	SpaceAfter=No|Reading=、
-39	差別	差別	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=サベツ
-40	さ	する	AUX	動詞-非自立可能	_	39	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-サ|Reading=サ
-41	れ	れる	AUX	助動詞	_	39	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
-42	ない	ない	AUX	助動詞	_	39	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-43	。	。	PUNCT	補助記号-句点	_	39	punct	_	SpaceAfter=No|Reading=。
+20	社会的	社会的	NOUN	名詞-普通名詞-形状詞可能	_	25	nmod	_	SpaceAfter=No|Reading=シャカイテキ
+21	社会的	社会的	NOUN	名詞-普通名詞-形状詞可能	_	25	nmod	_	SpaceAfter=No|Reading=シャカイテキ
+22	身分	身分	NOUN	名詞-普通名詞-一般	_	20	compound	_	SpaceAfter=No|Reading=ミブン
+23	又	又	CCONJ	接続詞	_	25	cc	_	SpaceAfter=No|Reading=マタ
+24	は	は	ADP	助詞-係助詞	_	23	fixed	_	SpaceAfter=No|Reading=ワ
+25	門地	門地	NOUN	名詞-普通名詞-一般	_	43	obl	_	SpaceAfter=No|Reading=モンチ
+26	に	に	ADP	助詞-格助詞	_	25	case	_	SpaceAfter=No|Reading=ニ
+27	より	よる	VERB	動詞-一般	_	26	fixed	_	SpaceAfter=No|Inf=五段-ラ行,連用形-一般|Reading=ヨリ
+28	、	、	PUNCT	補助記号-読点	_	25	punct	_	SpaceAfter=No|Reading=、
+29	政治的	政治的	NOUN	名詞-普通名詞-形状詞可能	_	32	nmod	_	SpaceAfter=No|Reading=セイジテキ
+30	政治的	政治的	NOUN	名詞-普通名詞-形状詞可能	_	32	nmod	_	SpaceAfter=No|Reading=セイジテキ
+31	、	、	PUNCT	補助記号-読点	_	29	punct	_	SpaceAfter=No|Reading=、
+32	経済的	経済的	NOUN	名詞-普通名詞-形状詞可能	_	36	nmod	_	SpaceAfter=No|Reading=ケイザイテキ
+33	経済的	経済的	NOUN	名詞-普通名詞-形状詞可能	_	36	nmod	_	SpaceAfter=No|Reading=ケイザイテキ
+34	又	又	CCONJ	接続詞	_	36	cc	_	SpaceAfter=No|Reading=マタ
+35	は	は	ADP	助詞-係助詞	_	34	fixed	_	SpaceAfter=No|Reading=ワ
+36	社会的	社会的	NOUN	名詞-普通名詞-形状詞可能	_	43	obl	_	SpaceAfter=No|Reading=シャカイテキ
+37	社会的	社会的	NOUN	名詞-普通名詞-形状詞可能	_	43	obl	_	SpaceAfter=No|Reading=シャカイテキ
+38	関係	関係	NOUN	名詞-普通名詞-サ変可能	_	36	compound	_	SpaceAfter=No|Reading=カンケイ
+39	に	に	ADP	助詞-格助詞	_	36	case	_	SpaceAfter=No|Reading=ニ
+40	おい	おく	VERB	動詞-一般	_	39	fixed	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=オイ
+41	て	て	SCONJ	助詞-接続助詞	_	39	fixed	_	SpaceAfter=No|Reading=テ
+42	、	、	PUNCT	補助記号-読点	_	36	punct	_	SpaceAfter=No|Reading=、
+43	差別	差別	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=サベツ
+44	さ	する	AUX	動詞-非自立可能	_	43	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-サ|Reading=サ
+45	れ	れる	AUX	助動詞	_	43	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
+46	ない	ない	AUX	助動詞	_	43	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+47	。	。	PUNCT	補助記号-句点	_	43	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 36
 # text = 華族その他の貴族の制度は、これを認めない。
