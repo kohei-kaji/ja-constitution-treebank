@@ -1095,13 +1095,13 @@
 # newdoc
 # newpar
 # sent_id = 45
-# text = 何人も、公務員公務員の不法行為により、損害を受けたときは、法律の定めるところにより、国又は公共団体に、その賠償を求めることができる。
+# text = 何人も、公務員の不法行為により、損害を受けたときは、法律の定めるところにより、国又は公共団体に、その賠償を求めることができる。
 1	何人	何人	NOUN	名詞-普通名詞-一般	_	14	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-4	公務員	公務員	NOUN	名詞-普通名詞-一般	_	8	nmod	_	SpaceAfter=No|Reading=コウムイン
-5	公務員	公務員	NOUN	名詞-普通名詞-一般	_	8	nmod	_	SpaceAfter=No|Reading=コウムイン
-6	の	の	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ノ
+4	公務	公務	NOUN	名詞-普通名詞-一般	_	5	compound	_	SpaceAfter=No|Reading=コウム
+5	員	員	NOUN	接尾辞-名詞的-一般	_	8	nmod	_	SpaceAfter=No|Reading=イン
+6	の	の	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=ノ
 7	不法	不法	ADJ	形状詞-一般	_	8	amod	_	SpaceAfter=No|Reading=フホウ
 8	行為	行為	NOUN	名詞-普通名詞-一般	_	14	obl	_	SpaceAfter=No|Reading=コウイ
 9	に	に	ADP	助詞-格助詞	_	8	case	_	SpaceAfter=No|Reading=ニ
