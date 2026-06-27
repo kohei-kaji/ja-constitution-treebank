@@ -914,7 +914,7 @@
 # text = 公務員を選定し、及びこれを罷免することは、国民固有の権利である。
 1	公務	公務	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=コウム
 2	員	員	NOUN	名詞-普通名詞-一般	_	4	obj	_	SpaceAfter=No|Reading=イン
-3	を	を	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=オ
+3	を	を	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=オ
 4	選定	選定	VERB	名詞-普通名詞-サ変可能	_	10	advcl	_	SpaceAfter=No|Reading=センテイ
 5	し	する	AUX	動詞-非自立可能	_	4	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
 6	、	、	PUNCT	補助記号-読点	_	4	punct	_	SpaceAfter=No|Reading=、
