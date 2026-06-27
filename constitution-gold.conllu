@@ -1214,6 +1214,8 @@
 14	する	する	AUX	動詞-非自立可能	_	13	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
 15	。	。	PUNCT	補助記号-句点	_	13	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 50
 # text = いかなる宗教団体も、国から特権を受け、又は政治上の権力を行使してはならない。
 1	いかなる	いかなる	ADJ	連体詞	_	3	amod	_	SpaceAfter=No|Reading=イカナル
@@ -1225,21 +1227,22 @@
 7	から	から	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=カラ
 8	特権	特権	NOUN	名詞-普通名詞-一般	_	10	obj	_	SpaceAfter=No|Reading=トッケン
 9	を	を	ADP	助詞-格助詞	_	8	case	_	SpaceAfter=No|Reading=オ
-10	受け	受ける	VERB	動詞-一般	_	18	advcl	_	SpaceAfter=No|Inf=下一段-カ行,連用形-一般|Reading=ウケ
+10	受け	受ける	VERB	動詞-一般	_	19	advcl	_	SpaceAfter=No|Inf=下一段-カ行,連用形-一般|Reading=ウケ
 11	、	、	PUNCT	補助記号-読点	_	10	punct	_	SpaceAfter=No|Reading=、
-12	又	又	CCONJ	接続詞	_	18	cc	_	SpaceAfter=No|Reading=マタ
+12	又	又	CCONJ	接続詞	_	19	cc	_	SpaceAfter=No|Reading=マタ
 13	は	は	ADP	助詞-係助詞	_	12	fixed	_	SpaceAfter=No|Reading=ワ
-14	政治上	政治上	NOUN	名詞-普通名詞-一般	_	16	nmod	_	SpaceAfter=No|Reading=セイジジョウ
-15	の	の	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=ノ
-16	権力	権力	NOUN	名詞-普通名詞-一般	_	18	obj	_	SpaceAfter=No|Reading=ケンリョク
-17	を	を	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Reading=オ
-18	行使	行使	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=コウシ
-19	し	する	AUX	動詞-非自立可能	_	18	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
-20	て	て	SCONJ	助詞-接続助詞	_	18	mark	_	SpaceAfter=No|Reading=テ
-21	は	は	ADP	助詞-係助詞	_	20	fixed	_	SpaceAfter=No|Reading=ワ
-22	なら	なる	VERB	動詞-非自立可能	_	20	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
-23	ない	ない	AUX	助動詞	_	20	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-24	。	。	PUNCT	補助記号-句点	_	18	punct	_	SpaceAfter=No|Reading=。
+14	政治上	政治上	NOUN	名詞-普通名詞-一般	_	17	nmod	_	SpaceAfter=No|Reading=セイジジョウ
+15	政治上	政治上	NOUN	名詞-普通名詞-一般	_	17	nmod	_	SpaceAfter=No|Reading=セイジジョウ
+16	の	の	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=ノ
+17	権力	権力	NOUN	名詞-普通名詞-一般	_	19	obj	_	SpaceAfter=No|Reading=ケンリョク
+18	を	を	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=オ
+19	行使	行使	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=コウシ
+20	し	する	AUX	動詞-非自立可能	_	19	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
+21	て	て	SCONJ	助詞-接続助詞	_	19	mark	_	SpaceAfter=No|Reading=テ
+22	は	は	ADP	助詞-係助詞	_	21	fixed	_	SpaceAfter=No|Reading=ワ
+23	なら	なる	VERB	動詞-非自立可能	_	21	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
+24	ない	ない	AUX	助動詞	_	21	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+25	。	。	PUNCT	補助記号-句点	_	19	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 51
 # text = 何人も、宗教上の行為、祝典、儀式又は行事に参加することを強制されない。
