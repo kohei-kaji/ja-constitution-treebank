@@ -934,8 +934,10 @@
 20	ある	ある	VERB	動詞-非自立可能	_	19	fixed	_	SpaceAfter=No|Inf=五段-ラ行,終止形-一般|Reading=アル
 21	。	。	PUNCT	補助記号-句点	_	18	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 40
-# text = すべて公務員は、全体の奉仕者奉仕者であつて、一部の奉仕者ではない。
+# text = すべて公務員は、全体の奉仕者であつて、一部の奉仕者ではない。
 1	すべて	すべて	ADV	名詞-普通名詞-副詞可能	_	16	advmod	_	SpaceAfter=No|Reading=スベテ
 2	公務	公務	NOUN	名詞-普通名詞-一般	_	3	compound	_	SpaceAfter=No|Reading=コウム
 3	員	員	NOUN	名詞-普通名詞-一般	_	16	nsubj	_	SpaceAfter=No|Reading=イン
