@@ -964,18 +964,18 @@
 # newpar
 # sent_id = 41
 # text = 公務員の選挙については、成年者による普通選挙を保障する。
-1	公務員	公務員	NOUN	名詞-普通名詞-一般	_	4	nmod	_	SpaceAfter=No|Reading=コウムイン
-2	公務員	公務員	NOUN	名詞-普通名詞-一般	_	4	nmod	_	SpaceAfter=No|Reading=コウムイン
-3	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
+1	公務	公務	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=コウム
+2	員	員	NOUN	接尾辞-名詞的-一般	_	4	nmod	_	SpaceAfter=No|Reading=イン
+3	の	の	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ノ
 4	選挙	選挙	NOUN	名詞-普通名詞-サ変可能	_	17	obl	_	SpaceAfter=No|Reading=センキョ
 5	に	に	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ニ
 6	つい	つく	VERB	動詞-一般	_	5	fixed	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ツイ
 7	て	て	SCONJ	助詞-接続助詞	_	5	fixed	_	SpaceAfter=No|Reading=テ
 8	は	は	ADP	助詞-係助詞	_	4	case	_	SpaceAfter=No|Reading=ワ
 9	、	、	PUNCT	補助記号-読点	_	4	punct	_	SpaceAfter=No|Reading=、
-10	成年者	成年者	NOUN	名詞-普通名詞-一般	_	15	nmod	_	SpaceAfter=No|Reading=セイネンシャ
-11	成年者	成年者	NOUN	名詞-普通名詞-一般	_	15	nmod	_	SpaceAfter=No|Reading=セイネンシャ
-12	に	に	ADP	助詞-格助詞	_	10	case	_	SpaceAfter=No|Reading=ニ
+10	成年	成年	NOUN	名詞-普通名詞-一般	_	11	compound	_	SpaceAfter=No|Reading=セイネン
+11	者	者	NOUN	接尾辞-名詞的-一般	_	15	nmod	_	SpaceAfter=No|Reading=シャ
+12	に	に	ADP	助詞-格助詞	_	11	case	_	SpaceAfter=No|Reading=ニ
 13	よる	よる	VERB	動詞-一般	_	12	fixed	_	SpaceAfter=No|Inf=五段-ラ行,連体形-一般|Reading=ヨル
 14	普通	普通	NOUN	名詞-普通名詞-形状詞可能	_	15	compound	_	SpaceAfter=No|Reading=フツウ
 15	選挙	選挙	NOUN	名詞-普通名詞-サ変可能	_	17	obj	_	SpaceAfter=No|Reading=センキョ
