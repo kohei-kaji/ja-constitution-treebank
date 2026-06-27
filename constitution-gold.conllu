@@ -1460,14 +1460,14 @@
 # newpar
 # sent_id = 60
 # text = 配偶者の選択、財産権、相続、住居の選定、離婚並びに婚姻及び家族に関するその他の事項に関しては、法律は、個人の尊厳と両性の本質的平等に立脚して、制定されなければならない。
-1	配偶者	配偶者	NOUN	名詞-普通名詞-一般	_	4	nmod	_	SpaceAfter=No|Reading=ハイグウシャ
-2	配偶者	配偶者	NOUN	名詞-普通名詞-一般	_	4	nmod	_	SpaceAfter=No|Reading=ハイグウシャ
-3	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
+1	配偶	配偶	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=ハイグウ
+2	者	者	NOUN	接尾辞-名詞的-一般	_	4	nmod	_	SpaceAfter=No|Reading=シャ
+3	の	の	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ノ
 4	選択	選択	NOUN	名詞-普通名詞-サ変可能	_	6	nmod	_	SpaceAfter=No|Reading=センタク
 5	、	、	PUNCT	補助記号-読点	_	4	punct	_	SpaceAfter=No|Reading=、
-6	財産権	財産権	NOUN	名詞-普通名詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=ザイサンケン
-7	財産権	財産権	NOUN	名詞-普通名詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=ザイサンケン
-8	、	、	PUNCT	補助記号-読点	_	6	punct	_	SpaceAfter=No|Reading=、
+6	財産	財産	NOUN	名詞-普通名詞-一般	_	7	compound	_	SpaceAfter=No|Reading=ザイサン
+7	権	権	NOUN	接尾辞-名詞的-一般	_	9	nmod	_	SpaceAfter=No|Reading=ケン
+8	、	、	PUNCT	補助記号-読点	_	7	punct	_	SpaceAfter=No|Reading=、
 9	相続	相続	NOUN	名詞-普通名詞-サ変可能	_	13	nmod	_	SpaceAfter=No|Reading=ソウゾク
 10	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
 11	住居	住居	NOUN	名詞-普通名詞-サ変可能	_	13	nmod	_	SpaceAfter=No|Reading=ジュウキョ
@@ -1499,8 +1499,8 @@
 37	と	と	ADP	助詞-格助詞	_	36	case	_	SpaceAfter=No|Reading=ト
 38	両性	両性	NOUN	名詞-普通名詞-一般	_	40	nmod	_	SpaceAfter=No|Reading=リョウセイ
 39	の	の	ADP	助詞-格助詞	_	38	case	_	SpaceAfter=No|Reading=ノ
-40	本質的	本質的	NOUN	名詞-普通名詞-形状詞可能	_	44	obl	_	SpaceAfter=No|Reading=ホンシツテキ
-41	本質的	本質的	NOUN	名詞-普通名詞-形状詞可能	_	44	obl	_	SpaceAfter=No|Reading=ホンシツテキ
+40	本質	本質	NOUN	名詞-普通名詞-形状詞可能	_	44	obl	_	SpaceAfter=No|Reading=ホンシツ
+41	的	的	PART	接尾辞-形状詞的	_	40	mark	_	SpaceAfter=No|Reading=テキ
 42	平等	平等	NOUN	名詞-普通名詞-形状詞可能	_	40	compound	_	SpaceAfter=No|Reading=ビョウドウ
 43	に	だ	ADP	助動詞	_	40	case	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-ニ|Reading=ニ
 44	立脚	立脚	VERB	名詞-普通名詞-サ変可能	_	48	advcl	_	SpaceAfter=No|Reading=リッキャク
