@@ -859,7 +859,7 @@
 
 # sent_id = 37
 # text = 栄誉、勲章その他の栄典の授与は、いかなる特権も伴はない。
-1	栄誉	栄誉	NOUN	名詞-普通名詞-一般	_	3	nmod	_	SpaceAfter=No|Reading=エイヨ
+1	栄誉	栄誉	NOUN	名詞-普通名詞-一般	_	7	nmod	_	SpaceAfter=No|Reading=エイヨ
 2	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 3	勲章	勲章	NOUN	名詞-普通名詞-一般	_	7	nmod	_	SpaceAfter=No|Reading=クンショウ
 4	その	その	DET	連体詞	_	5	det	_	SpaceAfter=No|Reading=ソノ
