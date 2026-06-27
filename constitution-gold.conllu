@@ -1305,7 +1305,7 @@
 4	及び	及び	CCONJ	接続詞	_	5	cc	_	SpaceAfter=No|Reading=オヨビ
 5	言論	言論	NOUN	名詞-普通名詞-一般	_	7	nmod	_	SpaceAfter=No|Reading=ゲンロン
 6	、	、	PUNCT	補助記号-読点	_	5	punct	_	SpaceAfter=No|Reading=、
-7	出版	出版	NOUN	名詞-普通名詞-サ変可能	_	14	nmod	_	SpaceAfter=No|Reading=シュッパン
+7	出版	出版	NOUN	名詞-普通名詞-サ変可能	_	12	nmod	_	SpaceAfter=No|Reading=シュッパン
 8	その	その	DET	連体詞	_	9	det	_	SpaceAfter=No|Reading=ソノ
 9	他	他	NOUN	名詞-普通名詞-副詞可能	_	10	nmod	_	SpaceAfter=No|Reading=タ
 10	一切	一切	NOUN	名詞-普通名詞-副詞可能	_	12	nmod	_	SpaceAfter=No|Reading=イッサイ
