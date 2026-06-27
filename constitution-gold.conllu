@@ -1249,7 +1249,7 @@
 1	何人	何人	NOUN	名詞-普通名詞-一般	_	20	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-4	宗教	宗教	NOUN	名詞-普通名詞-一般	_	5	compound	_	SpaceAfter=No|Reading=シュウキョウ
+4	宗教	宗教	NOUN	名詞-普通名詞-一般	_	14	compound	_	SpaceAfter=No|Reading=シュウキョウ
 5	上	上	NOUN	接尾辞-名詞的-副詞可能	_	7	nmod	_	SpaceAfter=No|Reading=ジョウ
 6	の	の	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=ノ
 7	行為	行為	NOUN	名詞-普通名詞-一般	_	14	nmod	_	SpaceAfter=No|Reading=コウイ
