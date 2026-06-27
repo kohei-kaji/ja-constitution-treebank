@@ -820,7 +820,7 @@
 26	に	に	ADP	助詞-格助詞	_	25	case	_	SpaceAfter=No|Reading=ニ
 27	より	よる	VERB	動詞-一般	_	26	fixed	_	SpaceAfter=No|Inf=五段-ラ行,連用形-一般|Reading=ヨリ
 28	、	、	PUNCT	補助記号-読点	_	25	punct	_	SpaceAfter=No|Reading=、
-29	政治	政治	NOUN	名詞-普通名詞-形状詞可能	_	32	nmod	_	SpaceAfter=No|Reading=セイジ
+29	政治	政治	NOUN	名詞-普通名詞-形状詞可能	_	36	nmod	_	SpaceAfter=No|Reading=セイジ
 30	的	的	PART	接尾辞-形状詞的	_	29	mark	_	SpaceAfter=No|Reading=テキ
 31	、	、	PUNCT	補助記号-読点	_	29	punct	_	SpaceAfter=No|Reading=、
 32	経済	経済	NOUN	名詞-普通名詞-形状詞可能	_	36	nmod	_	SpaceAfter=No|Reading=ケイザイ
