@@ -935,26 +935,27 @@
 21	。	。	PUNCT	補助記号-句点	_	18	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 40
-# text = すべて公務員公務員は、全体の奉仕者であつて、一部の奉仕者ではない。
-1	すべて	すべて	ADV	名詞-普通名詞-副詞可能	_	15	advmod	_	SpaceAfter=No|Reading=スベテ
+# text = すべて公務員は、全体の奉仕者奉仕者であつて、一部の奉仕者ではない。
+1	すべて	すべて	ADV	名詞-普通名詞-副詞可能	_	16	advmod	_	SpaceAfter=No|Reading=スベテ
 2	公務	公務	NOUN	名詞-普通名詞-一般	_	3	compound	_	SpaceAfter=No|Reading=コウム
-3	員	員	NOUN	名詞-普通名詞-一般	_	15	nsubj	_	SpaceAfter=No|Reading=イン
+3	員	員	NOUN	名詞-普通名詞-一般	_	16	nsubj	_	SpaceAfter=No|Reading=イン
 4	は	は	ADP	助詞-係助詞	_	3	case	_	SpaceAfter=No|Reading=ワ
 5	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
 6	全体	全体	NOUN	名詞-普通名詞-一般	_	8	nmod	_	SpaceAfter=No|Reading=ゼンタイ
 7	の	の	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ノ
-8	奉仕者	奉仕者	NOUN	名詞-普通名詞-一般	_	15	acl	_	SpaceAfter=No|Reading=ホウシシャ
-9	で	だ	AUX	助動詞	_	8	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-一般|Reading=デ
-10	あつ	あり	VERB	動詞-非自立可能	_	9	fixed	_	SpaceAfter=No|Inf=文語ラ行変格,連用形-促音便|Reading=アッ
-11	て	て	SCONJ	助詞-接続助詞	_	8	mark	_	SpaceAfter=No|Reading=テ
-12	、	、	PUNCT	補助記号-読点	_	8	punct	_	SpaceAfter=No|Reading=、
-13	一部	一部	NOUN	名詞-普通名詞-副詞可能	_	15	nmod	_	SpaceAfter=No|Reading=イチブ
-14	の	の	ADP	助詞-格助詞	_	13	case	_	SpaceAfter=No|Reading=ノ
-15	奉仕者	奉仕者	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=ホウシシャ
-16	で	だ	AUX	助動詞	_	15	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-一般|Reading=デ
-17	は	は	ADP	助詞-係助詞	_	16	fixed	_	SpaceAfter=No|Reading=ワ
-18	ない	ない	AUX	形容詞-非自立可能	_	16	fixed	_	SpaceAfter=No|Inf=形容詞,終止形-一般|Reading=ナイ
-19	。	。	PUNCT	補助記号-句点	_	15	punct	_	SpaceAfter=No|Reading=。
+8	奉仕者	奉仕者	NOUN	名詞-普通名詞-一般	_	16	acl	_	SpaceAfter=No|Reading=ホウシシャ
+9	奉仕者	奉仕者	NOUN	名詞-普通名詞-一般	_	16	acl	_	SpaceAfter=No|Reading=ホウシシャ
+10	で	だ	AUX	助動詞	_	8	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-一般|Reading=デ
+11	あつ	あり	VERB	動詞-非自立可能	_	10	fixed	_	SpaceAfter=No|Inf=文語ラ行変格,連用形-促音便|Reading=アッ
+12	て	て	SCONJ	助詞-接続助詞	_	8	mark	_	SpaceAfter=No|Reading=テ
+13	、	、	PUNCT	補助記号-読点	_	8	punct	_	SpaceAfter=No|Reading=、
+14	一部	一部	NOUN	名詞-普通名詞-副詞可能	_	16	nmod	_	SpaceAfter=No|Reading=イチブ
+15	の	の	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=ノ
+16	奉仕者	奉仕者	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=ホウシシャ
+17	で	だ	AUX	助動詞	_	16	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-一般|Reading=デ
+18	は	は	ADP	助詞-係助詞	_	17	fixed	_	SpaceAfter=No|Reading=ワ
+19	ない	ない	AUX	形容詞-非自立可能	_	17	fixed	_	SpaceAfter=No|Inf=形容詞,終止形-一般|Reading=ナイ
+20	。	。	PUNCT	補助記号-句点	_	16	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 41
 # text = 公務員の選挙については、成年者による普通選挙を保障する。
