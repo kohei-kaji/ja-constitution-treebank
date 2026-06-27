@@ -908,28 +908,31 @@
 27	有する	有する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=ユウスル
 28	。	。	PUNCT	補助記号-句点	_	27	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 39
 # text = 公務員を選定し、及びこれを罷免することは、国民固有の権利である。
-1	公務員	公務員	NOUN	名詞-普通名詞-一般	_	3	obj	_	SpaceAfter=No|Reading=コウムイン
-2	を	を	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=オ
-3	選定	選定	VERB	名詞-普通名詞-サ変可能	_	9	advcl	_	SpaceAfter=No|Reading=センテイ
-4	し	する	AUX	動詞-非自立可能	_	3	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
-5	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
-6	及び	及び	CCONJ	接続詞	_	9	cc	_	SpaceAfter=No|Reading=オヨビ
-7	これ	これ	PRON	代名詞	_	9	obj	_	SpaceAfter=No|Reading=コレ
-8	を	を	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=オ
-9	罷免	罷免	VERB	名詞-普通名詞-サ変可能	_	11	acl	_	SpaceAfter=No|Reading=ヒメン
-10	する	する	AUX	動詞-非自立可能	_	9	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
-11	こと	こと	NOUN	名詞-普通名詞-一般	_	17	nsubj	_	SpaceAfter=No|Reading=コト
-12	は	は	ADP	助詞-係助詞	_	11	case	_	SpaceAfter=No|Reading=ワ
-13	、	、	PUNCT	補助記号-読点	_	11	punct	_	SpaceAfter=No|Reading=、
-14	国民	国民	NOUN	名詞-普通名詞-一般	_	15	compound	_	SpaceAfter=No|Reading=コクミン
-15	固有	固有	ADJ	名詞-普通名詞-形状詞可能	_	17	nmod	_	SpaceAfter=No|Reading=コユウ
-16	の	の	ADP	助詞-格助詞	_	15	case	_	SpaceAfter=No|Reading=ノ
-17	権利	権利	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=ケンリ
-18	で	だ	AUX	助動詞	_	17	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-一般|Reading=デ
-19	ある	ある	VERB	動詞-非自立可能	_	18	fixed	_	SpaceAfter=No|Inf=五段-ラ行,終止形-一般|Reading=アル
-20	。	。	PUNCT	補助記号-句点	_	17	punct	_	SpaceAfter=No|Reading=。
+1	公務員	公務員	NOUN	名詞-普通名詞-一般	_	4	obj	_	SpaceAfter=No|Reading=コウムイン
+2	公務員	公務員	NOUN	名詞-普通名詞-一般	_	4	obj	_	SpaceAfter=No|Reading=コウムイン
+3	を	を	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=オ
+4	選定	選定	VERB	名詞-普通名詞-サ変可能	_	10	advcl	_	SpaceAfter=No|Reading=センテイ
+5	し	する	AUX	動詞-非自立可能	_	4	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
+6	、	、	PUNCT	補助記号-読点	_	4	punct	_	SpaceAfter=No|Reading=、
+7	及び	及び	CCONJ	接続詞	_	10	cc	_	SpaceAfter=No|Reading=オヨビ
+8	これ	これ	PRON	代名詞	_	10	obj	_	SpaceAfter=No|Reading=コレ
+9	を	を	ADP	助詞-格助詞	_	8	case	_	SpaceAfter=No|Reading=オ
+10	罷免	罷免	VERB	名詞-普通名詞-サ変可能	_	12	acl	_	SpaceAfter=No|Reading=ヒメン
+11	する	する	AUX	動詞-非自立可能	_	10	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
+12	こと	こと	NOUN	名詞-普通名詞-一般	_	18	nsubj	_	SpaceAfter=No|Reading=コト
+13	は	は	ADP	助詞-係助詞	_	12	case	_	SpaceAfter=No|Reading=ワ
+14	、	、	PUNCT	補助記号-読点	_	12	punct	_	SpaceAfter=No|Reading=、
+15	国民	国民	NOUN	名詞-普通名詞-一般	_	16	compound	_	SpaceAfter=No|Reading=コクミン
+16	固有	固有	ADJ	名詞-普通名詞-形状詞可能	_	18	nmod	_	SpaceAfter=No|Reading=コユウ
+17	の	の	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Reading=ノ
+18	権利	権利	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=ケンリ
+19	で	だ	AUX	助動詞	_	18	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-一般|Reading=デ
+20	ある	ある	VERB	動詞-非自立可能	_	19	fixed	_	SpaceAfter=No|Inf=五段-ラ行,終止形-一般|Reading=アル
+21	。	。	PUNCT	補助記号-句点	_	18	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 40
 # text = すべて公務員は、全体の奉仕者であつて、一部の奉仕者ではない。
