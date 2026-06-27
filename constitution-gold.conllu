@@ -1339,7 +1339,7 @@
 # text = 通信の秘密は、これを侵してはならない。
 1	通信	通信	NOUN	名詞-普通名詞-サ変可能	_	3	nmod	_	SpaceAfter=No|Reading=ツウシン
 2	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
-3	秘密	秘密	NOUN	名詞-普通名詞-形状詞可能	_	8	nsubj	_	SpaceAfter=No|Reading=ヒミツ
+3	秘密	秘密	NOUN	名詞-普通名詞-形状詞可能	_	8	dislocated	_	SpaceAfter=No|Reading=ヒミツ
 4	は	は	ADP	助詞-係助詞	_	3	case	_	SpaceAfter=No|Reading=ワ
 5	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
 6	これ	これ	PRON	代名詞	_	8	obj	_	SpaceAfter=No|Reading=コレ
