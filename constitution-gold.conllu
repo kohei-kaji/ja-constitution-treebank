@@ -1557,7 +1557,7 @@
 10	て	て	SCONJ	助詞-接続助詞	_	8	fixed	_	SpaceAfter=No|Reading=テ
 11	、	、	PUNCT	補助記号-読点	_	7	punct	_	SpaceAfter=No|Reading=、
 12	社会	社会	NOUN	名詞-普通名詞-一般	_	13	compound	_	SpaceAfter=No|Reading=シャカイ
-13	福祉	福祉	NOUN	名詞-普通名詞-一般	_	15	nmod	_	SpaceAfter=No|Reading=フクシ
+13	福祉	福祉	NOUN	名詞-普通名詞-一般	_	19	nmod	_	SpaceAfter=No|Reading=フクシ
 14	、	、	PUNCT	補助記号-読点	_	13	punct	_	SpaceAfter=No|Reading=、
 15	社会	社会	NOUN	名詞-普通名詞-一般	_	16	compound	_	SpaceAfter=No|Reading=シャカイホショウ
 16	保障	保障	NOUN	名詞-普通名詞-一般	_	19	nmod	_	SpaceAfter=No|Reading=シャカイホショウ
