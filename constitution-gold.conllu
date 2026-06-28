@@ -1649,6 +1649,7 @@
 
 # sent_id = 66
 # text = すべて国民は、勤労の権利を有し、義務を負ふ。
+# 「勤労の」がleft node raising
 1	すべて	すべて	ADV	名詞-普通名詞-副詞可能	_	13	advmod	_	SpaceAfter=No|Reading=スベテ
 2	国民	国民	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=コクミン
 3	は	は	ADP	助詞-係助詞	_	2	case	_	SpaceAfter=No|Reading=ワ
