@@ -417,3 +417,34 @@
 72	信ずる	信じる	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=シンズル
 73	。	。	PUNCT	補助記号-句点	_	72	punct	_	SpaceAfter=No|Reading=。
 
+# sent_id = 9
+# text = 日本国民は、国家の名誉にかけ、全力をあげてこの崇高な理想と目的を達成することを誓ふ。
+# translations = We, the Japanese people, pledge our national honor to accomplish these high ideals and purposes with all our resources.
+1	日本	日本	PROPN	名詞-固有名詞-地名-国	_	2	compound	_	Reading=ニホン
+2	国民	国民	NOUN	名詞-普通名詞-一般	_	26	nsubj	_	Reading=コクミン
+3	は	は	ADP	助詞-係助詞	_	2	case	_	Reading=ワ
+4	、	、	PUNCT	補助記号-読点	_	2	punct	_	Reading=、
+5	国家	国家	NOUN	名詞-普通名詞-一般	_	7	nmod	_	Reading=コッカ
+6	の	の	ADP	助詞-格助詞	_	5	case	_	Reading=ノ
+7	名誉	名誉	NOUN	名詞-普通名詞-形状詞可能	_	9	obl	_	Reading=メイヨ
+8	に	に	ADP	助詞-格助詞	_	7	case	_	Reading=ニ
+9	かけ	かける	VERB	動詞-非自立可能	_	13	advcl	_	Inf=下一段-カ行,連用形-一般|Reading=カケ
+10	、	、	PUNCT	補助記号-読点	_	9	punct	_	Reading=、
+11	全力	全力	NOUN	名詞-普通名詞-一般	_	13	obj	_	Reading=ゼンリョク
+12	を	を	ADP	助詞-格助詞	_	11	case	_	Reading=ヲ
+13	あげ	あげる	VERB	動詞-非自立可能	_	22	advcl	_	Inf=下一段-ガ行,連用形-一般|Reading=アゲ
+14	て	て	SCONJ	助詞-接続助詞	_	13	mark	_	Reading=テ
+15	この	この	DET	連体詞	_	18	det	_	Reading=コノ
+16	崇高	崇高	ADJ	名詞-普通名詞-形状詞可能	_	18	acl	_	Reading=スウコウ
+17	な	だ	AUX	助動詞	_	16	aux	_	Inf=助動詞-ダ,連体形-一般|Reading=ナ
+18	理想	理想	NOUN	名詞-普通名詞-一般	_	20	nmod	_	Reading=リソウ
+19	と	と	ADP	助詞-格助詞	_	18	case	_	Reading=ト
+20	目的	目的	NOUN	名詞-普通名詞-一般	_	22	obj	_	Reading=モクテキ
+21	を	を	ADP	助詞-格助詞	_	20	case	_	Reading=ヲ
+22	達成	達成	VERB	名詞-普通名詞-サ変可能	_	24	acl	_	Reading=タッセイ
+23	する	する	AUX	動詞-非自立可能	_	22	aux	_	Inf=サ行変格,連体形-一般|Reading=スル
+24	こと	こと	NOUN	名詞-普通名詞-一般	_	26	obj	_	Reading=コト
+25	を	を	ADP	助詞-格助詞	_	24	case	_	Reading=ヲ
+26	誓ふ	誓ふ	VERB	動詞-一般	_	0	ROOT	_	Inf=文語四段-ハ行,終止形-一般|Reading=チカウ
+27	。	。	PUNCT	補助記号-句点	_	26	punct	_	Reading=。
+
