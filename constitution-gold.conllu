@@ -1636,10 +1636,10 @@
 # newpar
 # sent_id = 65
 # text = 義務教育は、これを無償とする。
-1	義務教育	義務教育	NOUN	名詞-普通名詞-一般	_	9	dislocated	_	SpaceAfter=No|Reading=ギムキョウイク
-2	義務教育	義務教育	NOUN	名詞-普通名詞-一般	_	9	dislocated	_	SpaceAfter=No|Reading=ギムキョウイク
-3	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
-4	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
+1	義務	義務	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=ギム
+2	教育	教育	NOUN	名詞-普通名詞-一般	_	9	dislocated	_	SpaceAfter=No|Reading=キョウイク
+3	は	は	ADP	助詞-係助詞	_	2	case	_	SpaceAfter=No|Reading=ワ
+4	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
 5	これ	これ	PRON	代名詞	_	9	obj	_	SpaceAfter=No|Reading=コレ
 6	を	を	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=オ
 7	無償	無償	NOUN	名詞-普通名詞-一般	_	9	obl	_	SpaceAfter=No|Reading=ムショウ
