@@ -1760,7 +1760,7 @@
 1	財産	財産	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=ザイサン
 2	権	権	NOUN	接尾辞-名詞的-一般	_	4	nmod	_	SpaceAfter=No|Reading=ケン
 3	の	の	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ノ
-4	内容	内容	NOUN	名詞-普通名詞-一般	_	20	nsubj	_	SpaceAfter=No|Reading=ナイヨウ
+4	内容	内容	NOUN	名詞-普通名詞-一般	_	20	dislocated	_	SpaceAfter=No|Reading=ナイヨウ
 5	は	は	ADP	助詞-係助詞	_	4	case	_	SpaceAfter=No|Reading=ワ
 6	、	、	PUNCT	補助記号-読点	_	4	punct	_	SpaceAfter=No|Reading=、
 7	公共	公共	NOUN	名詞-普通名詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=コウキョウ
