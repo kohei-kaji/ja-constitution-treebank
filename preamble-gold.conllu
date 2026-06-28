@@ -434,8 +434,8 @@
 12	を	を	ADP	助詞-格助詞	_	11	case	_	Reading=ヲ
 13	あげ	あげる	VERB	動詞-非自立可能	_	22	advcl	_	Inf=下一段-ガ行,連用形-一般|Reading=アゲ
 14	て	て	SCONJ	助詞-接続助詞	_	13	mark	_	Reading=テ
-15	この	この	DET	連体詞	_	18	det	_	Reading=コノ
-16	崇高	崇高	ADJ	名詞-普通名詞-形状詞可能	_	18	acl	_	Reading=スウコウ
+15	この	この	DET	連体詞	_	20	det	_	Reading=コノ
+16	崇高	崇高	ADJ	名詞-普通名詞-形状詞可能	_	20	acl	_	Reading=スウコウ
 17	な	だ	AUX	助動詞	_	16	aux	_	Inf=助動詞-ダ,連体形-一般|Reading=ナ
 18	理想	理想	NOUN	名詞-普通名詞-一般	_	20	nmod	_	Reading=リソウ
 19	と	と	ADP	助詞-格助詞	_	18	case	_	Reading=ト
