@@ -1,0 +1,40 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{luatexja}
+\usepackage{tikz-dependency}
+
+\begin{document}
+\normalsize
+\begin{dependency}[edge unit distance=10.4pt]
+    \begin{deptext}[column sep=1em]
+        日本 \& 国民 \& は \& 、 \& 国家 \& の \& 名誉 \& に \& かけ \& 、 \& 全力 \& を \& あげ \& て \& この \& 崇高 \& な \& 理想 \& と \& 目的 \& を \& 達成 \& する \& こと \& を \& 誓ふ \& 。\\
+        PROPN \& NOUN \& ADP \& PUNCT \& NOUN \& ADP \& NOUN \& ADP \& VERB \& PUNCT \& NOUN \& ADP \& VERB \& SCONJ \& DET \& ADJ \& AUX \& NOUN \& ADP \& NOUN \& ADP \& VERB \& AUX \& NOUN \& ADP \& VERB \& PUNCT\\
+    \end{deptext}
+    \deproot{26}{ROOT}
+    \depedge{2}{1}{compound}
+    \depedge{26}{2}{nsubj}
+    \depedge{2}{3}{case}
+    \depedge{2}{4}{punct}
+    \depedge{7}{5}{nmod}
+    \depedge{5}{6}{case}
+    \depedge{9}{7}{obl}
+    \depedge{7}{8}{case}
+    \depedge{22}{9}{advcl}
+    \depedge{9}{10}{punct}
+    \depedge{13}{11}{obj}
+    \depedge{11}{12}{case}
+    \depedge{22}{13}{advcl}
+    \depedge{13}{14}{mark}
+    \depedge{20}{15}{det}
+    \depedge{20}{16}{acl}
+    \depedge{16}{17}{aux}
+    \depedge{20}{18}{nmod}
+    \depedge{18}{19}{case}
+    \depedge{22}{20}{obj}
+    \depedge{20}{21}{case}
+    \depedge{24}{22}{acl}
+    \depedge{22}{23}{aux}
+    \depedge{26}{24}{obj}
+    \depedge{24}{25}{case}
+    \depedge{26}{27}{punct}
+\end{dependency}
+\end{document}
