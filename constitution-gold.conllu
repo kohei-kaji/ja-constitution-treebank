@@ -1666,28 +1666,29 @@
 14	。	。	PUNCT	補助記号-句点	_	13	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 67
-# text = 賃金、就業時間、休息その他の勤労条件に関する基準は、法律でこれを定める。
+# text = 賃金、就業時間就業時間、休息その他の勤労条件に関する基準は、法律でこれを定める。
 1	賃金	賃金	NOUN	名詞-普通名詞-一般	_	3	nmod	_	SpaceAfter=No|Reading=チンギン
 2	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-3	就業時間	就業時間	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=シュウギョウジカン
-4	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
-5	休息	休息	NOUN	名詞-普通名詞-サ変可能	_	10	nmod	_	SpaceAfter=No|Reading=キュウソク
-6	その	その	DET	連体詞	_	7	det	_	SpaceAfter=No|Reading=ソノ
-7	他	他	NOUN	名詞-普通名詞-副詞可能	_	10	nmod	_	SpaceAfter=No|Reading=タ
-8	の	の	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=ノ
-9	勤労	勤労	NOUN	名詞-普通名詞-サ変可能	_	10	compound	_	SpaceAfter=No|Reading=キンロウ
-10	条件	条件	NOUN	名詞-普通名詞-一般	_	13	nmod	_	SpaceAfter=No|Reading=ジョウケン
-11	に	に	ADP	助詞-格助詞	_	10	case	_	SpaceAfter=No|Reading=ニ
-12	関する	関する	VERB	動詞-一般	_	11	fixed	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=カンスル
-13	基準	基準	NOUN	名詞-普通名詞-一般	_	20	nsubj	_	SpaceAfter=No|Reading=キジュン
-14	は	は	ADP	助詞-係助詞	_	13	case	_	SpaceAfter=No|Reading=ワ
-15	、	、	PUNCT	補助記号-読点	_	13	punct	_	SpaceAfter=No|Reading=、
-16	法律	法律	NOUN	名詞-普通名詞-一般	_	20	obl	_	SpaceAfter=No|Reading=ホウリツ
-17	で	で	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Reading=デ
-18	これ	これ	PRON	代名詞	_	20	obj	_	SpaceAfter=No|Reading=コレ
-19	を	を	ADP	助詞-格助詞	_	18	case	_	SpaceAfter=No|Reading=オ
-20	定める	定める	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-マ行,終止形-一般|Reading=サダメル
-21	。	。	PUNCT	補助記号-句点	_	20	punct	_	SpaceAfter=No|Reading=。
+3	就業時間	就業時間	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=シュウギョウジカン
+4	就業時間	就業時間	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=シュウギョウジカン
+5	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
+6	休息	休息	NOUN	名詞-普通名詞-サ変可能	_	11	nmod	_	SpaceAfter=No|Reading=キュウソク
+7	その	その	DET	連体詞	_	8	det	_	SpaceAfter=No|Reading=ソノ
+8	他	他	NOUN	名詞-普通名詞-副詞可能	_	11	nmod	_	SpaceAfter=No|Reading=タ
+9	の	の	ADP	助詞-格助詞	_	8	case	_	SpaceAfter=No|Reading=ノ
+10	勤労	勤労	NOUN	名詞-普通名詞-サ変可能	_	11	compound	_	SpaceAfter=No|Reading=キンロウ
+11	条件	条件	NOUN	名詞-普通名詞-一般	_	14	nmod	_	SpaceAfter=No|Reading=ジョウケン
+12	に	に	ADP	助詞-格助詞	_	11	case	_	SpaceAfter=No|Reading=ニ
+13	関する	関する	VERB	動詞-一般	_	12	fixed	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=カンスル
+14	基準	基準	NOUN	名詞-普通名詞-一般	_	21	dislocated	_	SpaceAfter=No|Reading=キジュン
+15	は	は	ADP	助詞-係助詞	_	14	case	_	SpaceAfter=No|Reading=ワ
+16	、	、	PUNCT	補助記号-読点	_	14	punct	_	SpaceAfter=No|Reading=、
+17	法律	法律	NOUN	名詞-普通名詞-一般	_	21	obl	_	SpaceAfter=No|Reading=ホウリツ
+18	で	で	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=デ
+19	これ	これ	PRON	代名詞	_	21	obj	_	SpaceAfter=No|Reading=コレ
+20	を	を	ADP	助詞-格助詞	_	19	case	_	SpaceAfter=No|Reading=オ
+21	定める	定める	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-マ行,終止形-一般|Reading=サダメル
+22	。	。	PUNCT	補助記号-句点	_	21	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 68
 # text = 児童は、これを酷使してはならない。
