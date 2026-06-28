@@ -1753,28 +1753,31 @@
 11	ない	ない	AUX	助動詞	_	8	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
 12	。	。	PUNCT	補助記号-句点	_	7	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 71
 # text = 財産権の内容は、公共の福祉に適合するやうに、法律でこれを定める。
-1	財産権	財産権	NOUN	名詞-普通名詞-一般	_	3	nmod	_	SpaceAfter=No|Reading=ザイサンケン
-2	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
-3	内容	内容	NOUN	名詞-普通名詞-一般	_	19	nsubj	_	SpaceAfter=No|Reading=ナイヨウ
-4	は	は	ADP	助詞-係助詞	_	3	case	_	SpaceAfter=No|Reading=ワ
-5	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
-6	公共	公共	NOUN	名詞-普通名詞-一般	_	8	nmod	_	SpaceAfter=No|Reading=コウキョウ
-7	の	の	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ノ
-8	福祉	福祉	NOUN	名詞-普通名詞-一般	_	10	obl	_	SpaceAfter=No|Reading=フクシ
-9	に	に	ADP	助詞-格助詞	_	8	case	_	SpaceAfter=No|Reading=ニ
-10	適合	適合	VERB	名詞-普通名詞-サ変可能	_	19	advcl	_	SpaceAfter=No|Reading=テキゴウ
-11	する	する	AUX	動詞-非自立可能	_	10	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
-12	やう	やう	AUX	形状詞-助動詞語幹	_	10	aux	_	SpaceAfter=No|Reading=ヤウ
-13	に	だ	AUX	助動詞	_	10	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-ニ|Reading=ニ
-14	、	、	PUNCT	補助記号-読点	_	10	punct	_	SpaceAfter=No|Reading=、
-15	法律	法律	NOUN	名詞-普通名詞-一般	_	19	obl	_	SpaceAfter=No|Reading=ホウリツ
-16	で	で	ADP	助詞-格助詞	_	15	case	_	SpaceAfter=No|Reading=デ
-17	これ	これ	PRON	代名詞	_	19	obj	_	SpaceAfter=No|Reading=コレ
-18	を	を	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=オ
-19	定める	定める	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-マ行,終止形-一般|Reading=サダメル
-20	。	。	PUNCT	補助記号-句点	_	19	punct	_	SpaceAfter=No|Reading=。
+1	財産権	財産権	NOUN	名詞-普通名詞-一般	_	4	nmod	_	SpaceAfter=No|Reading=ザイサンケン
+2	財産権	財産権	NOUN	名詞-普通名詞-一般	_	4	nmod	_	SpaceAfter=No|Reading=ザイサンケン
+3	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
+4	内容	内容	NOUN	名詞-普通名詞-一般	_	20	nsubj	_	SpaceAfter=No|Reading=ナイヨウ
+5	は	は	ADP	助詞-係助詞	_	4	case	_	SpaceAfter=No|Reading=ワ
+6	、	、	PUNCT	補助記号-読点	_	4	punct	_	SpaceAfter=No|Reading=、
+7	公共	公共	NOUN	名詞-普通名詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=コウキョウ
+8	の	の	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=ノ
+9	福祉	福祉	NOUN	名詞-普通名詞-一般	_	11	obl	_	SpaceAfter=No|Reading=フクシ
+10	に	に	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=ニ
+11	適合	適合	VERB	名詞-普通名詞-サ変可能	_	20	advcl	_	SpaceAfter=No|Reading=テキゴウ
+12	する	する	AUX	動詞-非自立可能	_	11	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
+13	やう	やう	AUX	形状詞-助動詞語幹	_	11	aux	_	SpaceAfter=No|Reading=ヤウ
+14	に	だ	AUX	助動詞	_	11	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-ニ|Reading=ニ
+15	、	、	PUNCT	補助記号-読点	_	11	punct	_	SpaceAfter=No|Reading=、
+16	法律	法律	NOUN	名詞-普通名詞-一般	_	20	obl	_	SpaceAfter=No|Reading=ホウリツ
+17	で	で	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Reading=デ
+18	これ	これ	PRON	代名詞	_	20	obj	_	SpaceAfter=No|Reading=コレ
+19	を	を	ADP	助詞-格助詞	_	18	case	_	SpaceAfter=No|Reading=オ
+20	定める	定める	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-マ行,終止形-一般|Reading=サダメル
+21	。	。	PUNCT	補助記号-句点	_	20	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 72
 # text = 私有財産は、正当な補償の下に、これを公共のために用ひることができる。
