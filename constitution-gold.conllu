@@ -1737,18 +1737,19 @@
 24	。	。	PUNCT	補助記号-句点	_	22	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 70
-# text = 財産権は、これを侵してはならない。
-1	財産権	財産権	NOUN	名詞-普通名詞-一般	_	6	nsubj	_	SpaceAfter=No|Reading=ザイサンケン
-2	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
-3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-4	これ	これ	PRON	代名詞	_	6	obj	_	SpaceAfter=No|Reading=コレ
-5	を	を	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=オ
-6	侵し	侵す	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=五段-サ行,連用形-一般|Reading=オカシ
-7	て	て	SCONJ	助詞-接続助詞	_	6	mark	_	SpaceAfter=No|Reading=テ
-8	は	は	ADP	助詞-係助詞	_	7	fixed	_	SpaceAfter=No|Reading=ワ
-9	なら	なる	VERB	動詞-非自立可能	_	7	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
-10	ない	ない	AUX	助動詞	_	7	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-11	。	。	PUNCT	補助記号-句点	_	6	punct	_	SpaceAfter=No|Reading=。
+# text = 財産権財産権は、これを侵してはならない。
+1	財産権	財産権	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ザイサンケン
+2	財産権	財産権	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ザイサンケン
+3	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
+4	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
+5	これ	これ	PRON	代名詞	_	7	obj	_	SpaceAfter=No|Reading=コレ
+6	を	を	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=オ
+7	侵し	侵す	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=五段-サ行,連用形-一般|Reading=オカシ
+8	て	て	SCONJ	助詞-接続助詞	_	7	mark	_	SpaceAfter=No|Reading=テ
+9	は	は	ADP	助詞-係助詞	_	8	fixed	_	SpaceAfter=No|Reading=ワ
+10	なら	なる	VERB	動詞-非自立可能	_	8	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
+11	ない	ない	AUX	助動詞	_	8	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+12	。	。	PUNCT	補助記号-句点	_	7	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 71
 # text = 財産権の内容は、公共の福祉に適合するやうに、法律でこれを定める。
