@@ -1541,15 +1541,17 @@
 18	有する	有する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=ユウスル
 19	。	。	PUNCT	補助記号-句点	_	18	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 62
 # text = 国は、すべての生活部面について、社会福祉、社会保障及び公衆衛生の向上及び増進に努めなければならない。
-1	国	国	NOUN	名詞-普通名詞-一般	_	23	nsubj	_	SpaceAfter=No|Reading=クニ
+1	国	国	NOUN	名詞-普通名詞-一般	_	25	nsubj	_	SpaceAfter=No|Reading=クニ
 2	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	すべて	すべて	NOUN	名詞-普通名詞-副詞可能	_	7	nmod	_	SpaceAfter=No|Reading=スベテ
 5	の	の	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ノ
 6	生活	生活	NOUN	名詞-普通名詞-サ変可能	_	7	compound	_	SpaceAfter=No|Reading=セイカツ
-7	部面	部面	NOUN	名詞-普通名詞-一般	_	23	obl	_	SpaceAfter=No|Reading=ブメン
+7	部面	部面	NOUN	名詞-普通名詞-一般	_	25	obl	_	SpaceAfter=No|Reading=ブメン
 8	に	に	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=ニ
 9	つい	つく	VERB	動詞-一般	_	8	fixed	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ツイ
 10	て	て	SCONJ	助詞-接続助詞	_	8	fixed	_	SpaceAfter=No|Reading=テ
@@ -1557,20 +1559,22 @@
 12	社会	社会	NOUN	名詞-普通名詞-一般	_	13	compound	_	SpaceAfter=No|Reading=シャカイ
 13	福祉	福祉	NOUN	名詞-普通名詞-一般	_	15	nmod	_	SpaceAfter=No|Reading=フクシ
 14	、	、	PUNCT	補助記号-読点	_	13	punct	_	SpaceAfter=No|Reading=、
-15	社会保障	社会保障	NOUN	名詞-普通名詞-一般	_	17	nmod	_	SpaceAfter=No|Reading=シャカイホショウ
-16	及び	及び	CCONJ	接続詞	_	17	cc	_	SpaceAfter=No|Reading=オヨビ
-17	公衆衛生	公衆衛生	NOUN	名詞-普通名詞-一般	_	19	nmod	_	SpaceAfter=No|Reading=コウシュウエイセイ
-18	の	の	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=ノ
-19	向上	向上	NOUN	名詞-普通名詞-サ変可能	_	21	nmod	_	SpaceAfter=No|Reading=コウジョウ
-20	及び	及び	CCONJ	接続詞	_	21	cc	_	SpaceAfter=No|Reading=オヨビ
-21	増進	増進	NOUN	名詞-普通名詞-サ変可能	_	23	obl	_	SpaceAfter=No|Reading=ゾウシン
-22	に	に	ADP	助詞-格助詞	_	21	case	_	SpaceAfter=No|Reading=ニ
-23	努め	努める	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-マ行,未然形-一般|Reading=ツトメ
-24	なけれ	ない	AUX	助動詞	_	23	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
-25	ば	ば	SCONJ	助詞-接続助詞	_	24	fixed	_	SpaceAfter=No|Reading=バ
-26	なら	なる	VERB	動詞-非自立可能	_	24	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
-27	ない	ない	AUX	助動詞	_	24	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-28	。	。	PUNCT	補助記号-句点	_	23	punct	_	SpaceAfter=No|Reading=。
+15	社会保障	社会保障	NOUN	名詞-普通名詞-一般	_	18	nmod	_	SpaceAfter=No|Reading=シャカイホショウ
+16	社会保障	社会保障	NOUN	名詞-普通名詞-一般	_	18	nmod	_	SpaceAfter=No|Reading=シャカイホショウ
+17	及び	及び	CCONJ	接続詞	_	18	cc	_	SpaceAfter=No|Reading=オヨビ
+18	公衆衛生	公衆衛生	NOUN	名詞-普通名詞-一般	_	21	nmod	_	SpaceAfter=No|Reading=コウシュウエイセイ
+19	公衆衛生	公衆衛生	NOUN	名詞-普通名詞-一般	_	21	nmod	_	SpaceAfter=No|Reading=コウシュウエイセイ
+20	の	の	ADP	助詞-格助詞	_	18	case	_	SpaceAfter=No|Reading=ノ
+21	向上	向上	NOUN	名詞-普通名詞-サ変可能	_	23	nmod	_	SpaceAfter=No|Reading=コウジョウ
+22	及び	及び	CCONJ	接続詞	_	23	cc	_	SpaceAfter=No|Reading=オヨビ
+23	増進	増進	NOUN	名詞-普通名詞-サ変可能	_	25	obl	_	SpaceAfter=No|Reading=ゾウシン
+24	に	に	ADP	助詞-格助詞	_	23	case	_	SpaceAfter=No|Reading=ニ
+25	努め	努める	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-マ行,未然形-一般|Reading=ツトメ
+26	なけれ	ない	AUX	助動詞	_	25	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
+27	ば	ば	SCONJ	助詞-接続助詞	_	26	fixed	_	SpaceAfter=No|Reading=バ
+28	なら	なる	VERB	動詞-非自立可能	_	26	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
+29	ない	ない	AUX	助動詞	_	26	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+30	。	。	PUNCT	補助記号-句点	_	25	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 63
 # text = すべて国民は、法律の定めるところにより、その能力に応じて、ひとしく教育を受ける権利を有する。
