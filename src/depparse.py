@@ -37,7 +37,7 @@ def to_conllu(doc, start_sent_id=1) -> tuple[str, int]:
                     str(head_id),
                     deprel,
                     "_",
-                    f"{inflection}Reading={reading}",
+                    f"SpaceAfter=No|{inflection}Reading={reading}",
                 ])
             )
         lines.append("")
