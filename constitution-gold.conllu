@@ -1833,7 +1833,7 @@
 6	定める	定める	VERB	動詞-一般	_	7	acl	_	SpaceAfter=No|Inf=下一段-マ行,連体形-一般|Reading=サダメル
 7	手続	手続	NOUN	名詞-普通名詞-サ変可能	_	9	obl	_	SpaceAfter=No|Reading=テツヅキ
 8	に	に	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=ニ
-9	よら	よる	VERB	動詞-一般	_	18	advcl	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ヨラ
+9	よら	よる	VERB	動詞-一般	_	28	advcl	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ヨラ
 10	なけれ	ない	AUX	助動詞	_	9	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
 11	ば	ば	SCONJ	助詞-接続助詞	_	9	mark	_	SpaceAfter=No|Reading=バ
 12	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
