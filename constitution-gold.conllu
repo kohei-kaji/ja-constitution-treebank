@@ -1632,17 +1632,20 @@
 24	負ふ	負ふ	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=文語四段-ハ行,終止形-一般|Reading=オウ
 25	。	。	PUNCT	補助記号-句点	_	24	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 65
 # text = 義務教育は、これを無償とする。
-1	義務教育	義務教育	NOUN	名詞-普通名詞-一般	_	8	nsubj	_	SpaceAfter=No|Reading=ギムキョウイク
-2	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
-3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-4	これ	これ	PRON	代名詞	_	8	obj	_	SpaceAfter=No|Reading=コレ
-5	を	を	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=オ
-6	無償	無償	NOUN	名詞-普通名詞-一般	_	8	obl	_	SpaceAfter=No|Reading=ムショウ
-7	と	と	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ト
-8	する	する	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
-9	。	。	PUNCT	補助記号-句点	_	8	punct	_	SpaceAfter=No|Reading=。
+1	義務教育	義務教育	NOUN	名詞-普通名詞-一般	_	9	dislocated	_	SpaceAfter=No|Reading=ギムキョウイク
+2	義務教育	義務教育	NOUN	名詞-普通名詞-一般	_	9	dislocated	_	SpaceAfter=No|Reading=ギムキョウイク
+3	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
+4	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
+5	これ	これ	PRON	代名詞	_	9	obj	_	SpaceAfter=No|Reading=コレ
+6	を	を	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=オ
+7	無償	無償	NOUN	名詞-普通名詞-一般	_	9	obl	_	SpaceAfter=No|Reading=ムショウ
+8	と	と	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=ト
+9	する	する	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
+10	。	。	PUNCT	補助記号-句点	_	9	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 66
 # text = すべて国民は、勤労の権利を有し、義務を負ふ。
