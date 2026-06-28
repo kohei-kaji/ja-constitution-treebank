@@ -1736,10 +1736,12 @@
 23	する	する	AUX	動詞-非自立可能	_	22	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
 24	。	。	PUNCT	補助記号-句点	_	22	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 70
-# text = 財産権財産権は、これを侵してはならない。
+# text = 財産権は、これを侵してはならない。
 1	財産	財産	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=ザイサン
-2	権	権	NOUN	接尾辞-名詞的-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ケン
+2	権	権	NOUN	接尾辞-名詞的-一般	_	7	dislocated	_	SpaceAfter=No|Reading=ケン
 3	は	は	ADP	助詞-係助詞	_	2	case	_	SpaceAfter=No|Reading=ワ
 4	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
 5	これ	これ	PRON	代名詞	_	7	obj	_	SpaceAfter=No|Reading=コレ
