@@ -1694,7 +1694,7 @@
 
 # sent_id = 68
 # text = 児童は、これを酷使してはならない。
-1	児童	児童	NOUN	名詞-普通名詞-一般	_	6	nsubj	_	SpaceAfter=No|Reading=ジドウ
+1	児童	児童	NOUN	名詞-普通名詞-一般	_	6	dislocated	_	SpaceAfter=No|Reading=ジドウ
 2	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	これ	これ	PRON	代名詞	_	6	obj	_	SpaceAfter=No|Reading=コレ
