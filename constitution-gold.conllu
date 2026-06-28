@@ -1782,28 +1782,27 @@
 # sent_id = 72
 # text = 私有財産は、正当な補償の下に、これを公共のために用ひることができる。
 1	私有	私有	NOUN	名詞-普通名詞-サ変可能	_	2	compound	_	SpaceAfter=No|Reading=シユウ
-2	財産	財産	NOUN	名詞-普通名詞-一般	_	19	nsubj	_	SpaceAfter=No|Reading=ザイサン
+2	財産	財産	NOUN	名詞-普通名詞-一般	_	18	nsubj	_	SpaceAfter=No|Reading=ザイサン
 3	は	は	ADP	助詞-係助詞	_	2	case	_	SpaceAfter=No|Reading=ワ
 4	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
 5	正当	正当	ADJ	名詞-普通名詞-形状詞可能	_	7	acl	_	SpaceAfter=No|Reading=セイトウ
 6	な	だ	AUX	助動詞	_	5	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
 7	補償	補償	NOUN	名詞-普通名詞-サ変可能	_	9	nmod	_	SpaceAfter=No|Reading=ホショウ
 8	の	の	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=ノ
-9	下	下	NOUN	名詞-普通名詞-一般	_	19	obl	_	SpaceAfter=No|Reading=シタ
+9	下	下	NOUN	名詞-普通名詞-一般	_	18	obl	_	SpaceAfter=No|Reading=シタ
 10	に	に	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=ニ
 11	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
-12	これ	これ	PRON	代名詞	_	19	obj	_	SpaceAfter=No|Reading=コレ
+12	これ	これ	PRON	代名詞	_	18	obj	_	SpaceAfter=No|Reading=コレ
 13	を	を	ADP	助詞-格助詞	_	12	case	_	SpaceAfter=No|Reading=オ
 14	公共	公共	NOUN	名詞-普通名詞-一般	_	16	nmod	_	SpaceAfter=No|Reading=コウキョウ
 15	の	の	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=ノ
-16	ため	ため	NOUN	名詞-普通名詞-副詞可能	_	19	obl	_	SpaceAfter=No|Reading=タメ
+16	ため	ため	NOUN	名詞-普通名詞-副詞可能	_	18	obl	_	SpaceAfter=No|Reading=タメ
 17	に	に	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Reading=ニ
-18	用	用	NOUN	名詞-普通名詞-一般	_	19	compound	_	SpaceAfter=No|Reading=ヨウ
-19	ひる	ひる	VERB	名詞-普通名詞-副詞可能	_	0	root	_	SpaceAfter=No|Reading=ヒル
-20	こと	こと	NOUN	名詞-普通名詞-一般	_	19	compound	_	SpaceAfter=No|Reading=コト
-21	が	が	ADP	助詞-格助詞	_	20	fixed	_	SpaceAfter=No|Reading=ガ
-22	できる	できる	AUX	動詞-非自立可能	_	20	fixed	_	SpaceAfter=No|Inf=上一段-カ行,終止形-一般|Reading=デキル
-23	。	。	PUNCT	補助記号-句点	_	19	punct	_	SpaceAfter=No|Reading=。
+18	用ひる	用ひる	VERB	名詞-普通名詞-副詞可能	_	0	root	_	SpaceAfter=No|Reading=ヒル
+19	こと	こと	NOUN	名詞-普通名詞-一般	_	18	compound	_	SpaceAfter=No|Reading=コト
+20	が	が	ADP	助詞-格助詞	_	19	fixed	_	SpaceAfter=No|Reading=ガ
+21	できる	できる	AUX	動詞-非自立可能	_	19	fixed	_	SpaceAfter=No|Inf=上一段-カ行,終止形-一般|Reading=デキル
+22	。	。	PUNCT	補助記号-句点	_	18	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 73
 # text = 国民は、法律の定めるところにより、納税の義務を負ふ。
