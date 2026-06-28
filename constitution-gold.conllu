@@ -1563,7 +1563,7 @@
 16	保障	保障	NOUN	名詞-普通名詞-一般	_	19	nmod	_	SpaceAfter=No|Reading=シャカイホショウ
 17	及び	及び	CCONJ	接続詞	_	19	cc	_	SpaceAfter=No|Reading=オヨビ
 18	公衆	公衆	NOUN	名詞-普通名詞-一般	_	19	compound	_	SpaceAfter=No|Reading=コウシュウ
-19	衛生	衛生	NOUN	名詞-普通名詞-一般	_	21	nmod	_	SpaceAfter=No|Reading=エイセイ
+19	衛生	衛生	NOUN	名詞-普通名詞-一般	_	23	nmod	_	SpaceAfter=No|Reading=エイセイ
 20	の	の	ADP	助詞-格助詞	_	19	case	_	SpaceAfter=No|Reading=ノ
 21	向上	向上	NOUN	名詞-普通名詞-サ変可能	_	23	nmod	_	SpaceAfter=No|Reading=コウジョウ
 22	及び	及び	CCONJ	接続詞	_	23	cc	_	SpaceAfter=No|Reading=オヨビ
