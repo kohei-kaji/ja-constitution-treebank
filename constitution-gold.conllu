@@ -1669,7 +1669,7 @@
 # newpar
 # sent_id = 67
 # text = 賃金、就業時間、休息その他の勤労条件に関する基準は、法律でこれを定める。
-1	賃金	賃金	NOUN	名詞-普通名詞-一般	_	4	nmod	_	SpaceAfter=No|Reading=チンギン
+1	賃金	賃金	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=チンギン
 2	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 3	就業	就業	NOUN	名詞-普通名詞-一般	_	4	compound	_	SpaceAfter=No|Reading=シュウギョウ
 4	時間	時間	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=ジカン
