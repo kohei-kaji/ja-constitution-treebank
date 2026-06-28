@@ -1708,29 +1708,31 @@
 12	。	。	PUNCT	補助記号-句点	_	6	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 69
-# text = 勤労者の団結する権利及び団体交渉その他の団体行動をする権利は、これを保障する。
-1	勤労者	勤労者	NOUN	名詞-普通名詞-一般	_	3	nmod	_	SpaceAfter=No|Reading=キンロウシャ
-2	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
-3	団結	団結	VERB	名詞-普通名詞-サ変可能	_	5	acl	_	SpaceAfter=No|Reading=ダンケツ
-4	する	する	AUX	動詞-非自立可能	_	3	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
-5	権利	権利	NOUN	名詞-普通名詞-一般	_	12	nmod	_	SpaceAfter=No|Reading=ケンリ
-6	及び	及び	CCONJ	接続詞	_	12	cc	_	SpaceAfter=No|Reading=オヨビ
-7	団体交渉	団体交渉	NOUN	名詞-普通名詞-一般	_	12	nmod	_	SpaceAfter=No|Reading=ダンタイコウショウ
-8	その	その	DET	連体詞	_	9	det	_	SpaceAfter=No|Reading=ソノ
-9	他	他	NOUN	名詞-普通名詞-副詞可能	_	12	nmod	_	SpaceAfter=No|Reading=タ
-10	の	の	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=ノ
-11	団体	団体	NOUN	名詞-普通名詞-一般	_	12	compound	_	SpaceAfter=No|Reading=ダンタイ
-12	行動	行動	NOUN	名詞-普通名詞-サ変可能	_	14	obj	_	SpaceAfter=No|Reading=コウドウ
-13	を	を	ADP	助詞-格助詞	_	12	case	_	SpaceAfter=No|Reading=オ
-14	する	する	VERB	動詞-非自立可能	_	15	acl	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
-15	権利	権利	NOUN	名詞-普通名詞-一般	_	20	nsubj	_	SpaceAfter=No|Reading=ケンリ
-16	は	は	ADP	助詞-係助詞	_	15	case	_	SpaceAfter=No|Reading=ワ
-17	、	、	PUNCT	補助記号-読点	_	15	punct	_	SpaceAfter=No|Reading=、
-18	これ	これ	PRON	代名詞	_	20	obj	_	SpaceAfter=No|Reading=コレ
-19	を	を	ADP	助詞-格助詞	_	18	case	_	SpaceAfter=No|Reading=オ
-20	保障	保障	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=ホショウ
-21	する	する	AUX	動詞-非自立可能	_	20	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
-22	。	。	PUNCT	補助記号-句点	_	20	punct	_	SpaceAfter=No|Reading=。
+# text = 勤労者勤労者の団結する権利及び団体交渉団体交渉その他の団体行動をする権利は、これを保障する。
+1	勤労者	勤労者	NOUN	名詞-普通名詞-一般	_	4	nsubj	_	SpaceAfter=No|Reading=キンロウシャ
+2	勤労者	勤労者	NOUN	名詞-普通名詞-一般	_	4	nsubj	_	SpaceAfter=No|Reading=キンロウシャ
+3	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
+4	団結	団結	VERB	名詞-普通名詞-サ変可能	_	6	acl	_	SpaceAfter=No|Reading=ダンケツ
+5	する	する	AUX	動詞-非自立可能	_	4	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
+6	権利	権利	NOUN	名詞-普通名詞-一般	_	14	nmod	_	SpaceAfter=No|Reading=ケンリ
+7	及び	及び	CCONJ	接続詞	_	14	cc	_	SpaceAfter=No|Reading=オヨビ
+8	団体交渉	団体交渉	NOUN	名詞-普通名詞-一般	_	14	nmod	_	SpaceAfter=No|Reading=ダンタイコウショウ
+9	団体交渉	団体交渉	NOUN	名詞-普通名詞-一般	_	14	nmod	_	SpaceAfter=No|Reading=ダンタイコウショウ
+10	その	その	DET	連体詞	_	11	det	_	SpaceAfter=No|Reading=ソノ
+11	他	他	NOUN	名詞-普通名詞-副詞可能	_	14	nmod	_	SpaceAfter=No|Reading=タ
+12	の	の	ADP	助詞-格助詞	_	11	case	_	SpaceAfter=No|Reading=ノ
+13	団体	団体	NOUN	名詞-普通名詞-一般	_	14	compound	_	SpaceAfter=No|Reading=ダンタイ
+14	行動	行動	NOUN	名詞-普通名詞-サ変可能	_	16	obj	_	SpaceAfter=No|Reading=コウドウ
+15	を	を	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=オ
+16	する	する	VERB	動詞-非自立可能	_	17	acl	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
+17	権利	権利	NOUN	名詞-普通名詞-一般	_	22	nsubj	_	SpaceAfter=No|Reading=ケンリ
+18	は	は	ADP	助詞-係助詞	_	17	case	_	SpaceAfter=No|Reading=ワ
+19	、	、	PUNCT	補助記号-読点	_	17	punct	_	SpaceAfter=No|Reading=、
+20	これ	これ	PRON	代名詞	_	22	obj	_	SpaceAfter=No|Reading=コレ
+21	を	を	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=オ
+22	保障	保障	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=ホショウ
+23	する	する	AUX	動詞-非自立可能	_	22	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
+24	。	。	PUNCT	補助記号-句点	_	22	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 70
 # text = 財産権は、これを侵してはならない。
