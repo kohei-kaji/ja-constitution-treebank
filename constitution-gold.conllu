@@ -1665,13 +1665,15 @@
 13	負ふ	負ふ	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=文語四段-ハ行,終止形-一般\|Reading=オウ
 14	。	。	PUNCT	補助記号-句点	_	13	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 67
-# text = 賃金、就業時間就業時間、休息その他の勤労条件に関する基準は、法律でこれを定める。
-1	賃金	賃金	NOUN	名詞-普通名詞-一般	_	3	nmod	_	SpaceAfter=No|Reading=チンギン
+# text = 賃金、就業時間、休息その他の勤労条件に関する基準は、法律でこれを定める。
+1	賃金	賃金	NOUN	名詞-普通名詞-一般	_	4	nmod	_	SpaceAfter=No|Reading=チンギン
 2	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-3	就業時間	就業時間	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=シュウギョウジカン
-4	就業時間	就業時間	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=シュウギョウジカン
-5	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
+3	就業	就業	NOUN	名詞-普通名詞-一般	_	4	compound	_	SpaceAfter=No|Reading=シュウギョウ
+4	時間	時間	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=ジカン
+5	、	、	PUNCT	補助記号-読点	_	4	punct	_	SpaceAfter=No|Reading=、
 6	休息	休息	NOUN	名詞-普通名詞-サ変可能	_	11	nmod	_	SpaceAfter=No|Reading=キュウソク
 7	その	その	DET	連体詞	_	8	det	_	SpaceAfter=No|Reading=ソノ
 8	他	他	NOUN	名詞-普通名詞-副詞可能	_	11	nmod	_	SpaceAfter=No|Reading=タ
