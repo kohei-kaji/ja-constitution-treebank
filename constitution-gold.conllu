@@ -1798,7 +1798,7 @@
 15	の	の	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=ノ
 16	ため	ため	NOUN	名詞-普通名詞-副詞可能	_	18	obl	_	SpaceAfter=No|Reading=タメ
 17	に	に	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Reading=ニ
-18	用ひる	用ひる	VERB	動詞	_	0	root	_	SpaceAfter=No|Reading=ヒル
+18	用ひる	用ひる	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=文語四段-ハ行|Reading=モチイル
 19	こと	こと	NOUN	名詞-普通名詞-一般	_	18	compound	_	SpaceAfter=No|Reading=コト
 20	が	が	ADP	助詞-格助詞	_	19	fixed	_	SpaceAfter=No|Reading=ガ
 21	できる	できる	AUX	動詞-非自立可能	_	19	fixed	_	SpaceAfter=No|Inf=上一段-カ行,終止形-一般|Reading=デキル
