@@ -1459,7 +1459,7 @@
 # newdoc
 # newpar
 # sent_id = 60
-# text = 配偶者の選択、財産権、相続、住居の選定、離婚並びに婚姻及び家族に関するその他の事項に関しては、法律は、個人の尊厳と両性の本質的平等に立脚して、制定されなければならない。
+# text = 配偶者の選択、財産権、相続、住居の選定、離婚並びに婚姻及び家族に関するその他の事項に関してはては、法律は、個人の尊厳と両性の本質的平等に立脚して、制定されなければならない。
 1	配偶	配偶	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=ハイグウ
 2	者	者	NOUN	接尾辞-名詞的-一般	_	4	nmod	_	SpaceAfter=No|Reading=シャ
 3	の	の	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ノ
@@ -1485,36 +1485,37 @@
 23	その	その	DET	連体詞	_	24	det	_	SpaceAfter=No|Reading=ソノ
 24	他	他	NOUN	名詞-普通名詞-副詞可能	_	26	nmod	_	SpaceAfter=No|Reading=タ
 25	の	の	ADP	助詞-格助詞	_	24	case	_	SpaceAfter=No|Reading=ノ
-26	事項	事項	NOUN	名詞-普通名詞-一般	_	48	obl	_	SpaceAfter=No|Reading=ジコウ
+26	事項	事項	NOUN	名詞-普通名詞-一般	_	49	obl	_	SpaceAfter=No|Reading=ジコウ
 27	に	に	ADP	助詞-格助詞	_	26	case	_	SpaceAfter=No|Reading=ニ
 28	関し	関する	VERB	動詞-一般	_	27	fixed	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=カンシ
 29	ては	ては	SCONJ	助詞-接続助詞	_	27	fixed	_	SpaceAfter=No|Reading=テハ
-30	、	、	PUNCT	補助記号-読点	_	26	punct	_	SpaceAfter=No|Reading=、
-31	法律	法律	NOUN	名詞-普通名詞-一般	_	48	nsubj	_	SpaceAfter=No|Reading=ホウリツ
-32	は	は	ADP	助詞-係助詞	_	31	case	_	SpaceAfter=No|Reading=ワ
-33	、	、	PUNCT	補助記号-読点	_	31	punct	_	SpaceAfter=No|Reading=、
-34	個人	個人	NOUN	名詞-普通名詞-一般	_	36	nmod	_	SpaceAfter=No|Reading=コジン
-35	の	の	ADP	助詞-格助詞	_	34	case	_	SpaceAfter=No|Reading=ノ
-36	尊厳	尊厳	NOUN	名詞-普通名詞-一般	_	40	nmod	_	SpaceAfter=No|Reading=ソンゲン
-37	と	と	ADP	助詞-格助詞	_	36	case	_	SpaceAfter=No|Reading=ト
-38	両性	両性	NOUN	名詞-普通名詞-一般	_	40	nmod	_	SpaceAfter=No|Reading=リョウセイ
-39	の	の	ADP	助詞-格助詞	_	38	case	_	SpaceAfter=No|Reading=ノ
-40	本質	本質	NOUN	名詞-普通名詞-形状詞可能	_	44	obl	_	SpaceAfter=No|Reading=ホンシツ
-41	的	的	PART	接尾辞-形状詞的	_	40	mark	_	SpaceAfter=No|Reading=テキ
-42	平等	平等	NOUN	名詞-普通名詞-形状詞可能	_	40	compound	_	SpaceAfter=No|Reading=ビョウドウ
-43	に	だ	ADP	助動詞	_	40	case	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-ニ|Reading=ニ
-44	立脚	立脚	VERB	名詞-普通名詞-サ変可能	_	48	advcl	_	SpaceAfter=No|Reading=リッキャク
-45	し	する	AUX	動詞-非自立可能	_	44	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
-46	て	て	SCONJ	助詞-接続助詞	_	44	mark	_	SpaceAfter=No|Reading=テ
-47	、	、	PUNCT	補助記号-読点	_	44	punct	_	SpaceAfter=No|Reading=、
-48	制定	制定	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=セイテイ
-49	さ	する	AUX	動詞-非自立可能	_	48	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-サ|Reading=サ
-50	れ	れる	AUX	助動詞	_	48	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
-51	なけれ	ない	AUX	助動詞	_	48	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
-52	ば	ば	SCONJ	助詞-接続助詞	_	51	fixed	_	SpaceAfter=No|Reading=バ
-53	なら	なる	VERB	動詞-非自立可能	_	51	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
-54	ない	ない	AUX	助動詞	_	51	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-55	。	。	PUNCT	補助記号-句点	_	48	punct	_	SpaceAfter=No|Reading=。
+30	ては	ては	SCONJ	助詞-接続助詞	_	27	fixed	_	SpaceAfter=No|Reading=テハ
+31	、	、	PUNCT	補助記号-読点	_	26	punct	_	SpaceAfter=No|Reading=、
+32	法律	法律	NOUN	名詞-普通名詞-一般	_	49	nsubj	_	SpaceAfter=No|Reading=ホウリツ
+33	は	は	ADP	助詞-係助詞	_	32	case	_	SpaceAfter=No|Reading=ワ
+34	、	、	PUNCT	補助記号-読点	_	32	punct	_	SpaceAfter=No|Reading=、
+35	個人	個人	NOUN	名詞-普通名詞-一般	_	37	nmod	_	SpaceAfter=No|Reading=コジン
+36	の	の	ADP	助詞-格助詞	_	35	case	_	SpaceAfter=No|Reading=ノ
+37	尊厳	尊厳	NOUN	名詞-普通名詞-一般	_	41	nmod	_	SpaceAfter=No|Reading=ソンゲン
+38	と	と	ADP	助詞-格助詞	_	37	case	_	SpaceAfter=No|Reading=ト
+39	両性	両性	NOUN	名詞-普通名詞-一般	_	41	nmod	_	SpaceAfter=No|Reading=リョウセイ
+40	の	の	ADP	助詞-格助詞	_	39	case	_	SpaceAfter=No|Reading=ノ
+41	本質	本質	NOUN	名詞-普通名詞-形状詞可能	_	45	obl	_	SpaceAfter=No|Reading=ホンシツ
+42	的	的	PART	接尾辞-形状詞的	_	41	mark	_	SpaceAfter=No|Reading=テキ
+43	平等	平等	NOUN	名詞-普通名詞-形状詞可能	_	41	compound	_	SpaceAfter=No|Reading=ビョウドウ
+44	に	だ	ADP	助動詞	_	41	case	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-ニ|Reading=ニ
+45	立脚	立脚	VERB	名詞-普通名詞-サ変可能	_	49	advcl	_	SpaceAfter=No|Reading=リッキャク
+46	し	する	AUX	動詞-非自立可能	_	45	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
+47	て	て	SCONJ	助詞-接続助詞	_	45	mark	_	SpaceAfter=No|Reading=テ
+48	、	、	PUNCT	補助記号-読点	_	45	punct	_	SpaceAfter=No|Reading=、
+49	制定	制定	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=セイテイ
+50	さ	する	AUX	動詞-非自立可能	_	49	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-サ|Reading=サ
+51	れ	れる	AUX	助動詞	_	49	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
+52	なけれ	ない	AUX	助動詞	_	49	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
+53	ば	ば	SCONJ	助詞-接続助詞	_	52	fixed	_	SpaceAfter=No|Reading=バ
+54	なら	なる	VERB	動詞-非自立可能	_	52	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
+55	ない	ない	AUX	助動詞	_	52	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+56	。	。	PUNCT	補助記号-句点	_	49	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 61
 # text = すべて国民は、健康で文化的な最低限度の生活を営む権利を有する。
