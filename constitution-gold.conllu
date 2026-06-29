@@ -2033,7 +2033,7 @@
 12	つい	つく	VERB	動詞-一般	_	11	fixed	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ツイ
 13	て	て	SCONJ	助詞-接続助詞	_	11	fixed	_	SpaceAfter=No|Reading=テ
 14	、	、	PUNCT	補助記号-読点	_	10	punct	_	SpaceAfter=No|Reading=、
-15	侵入	侵入	NOUN	名詞-普通名詞-サ変可能	_	17	nmod	_	SpaceAfter=No|Reading=シンニュウ
+15	侵入	侵入	NOUN	名詞-普通名詞-サ変可能	_	19	nmod	_	SpaceAfter=No|Reading=シンニュウ
 16	、	、	PUNCT	補助記号-読点	_	15	punct	_	SpaceAfter=No|Reading=、
 17	捜索	捜索	NOUN	名詞-普通名詞-サ変可能	_	19	nmod	_	SpaceAfter=No|Reading=ソウサク
 18	及び	及び	CCONJ	接続詞	_	19	cc	_	SpaceAfter=No|Reading=オヨビ
