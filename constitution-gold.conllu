@@ -1945,7 +1945,7 @@
 12	直ちに	直ちに	ADV	副詞	_	20	advmod	_	SpaceAfter=No|Reading=タダチニ
 13	弁護	弁護	NOUN	名詞-普通名詞-一般	_	14	compound	_	SpaceAfter=No|Reading=ベンゴ
 14	人	人	NOUN	接尾辞-名詞的-一般	_	16	obl	_	SpaceAfter=No|Reading=ニン
-15	に	に	ADP	助詞-格助詞	_	13	case	_	SpaceAfter=No|Reading=ニ
+15	に	に	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=ニ
 16	依頼	依頼	VERB	名詞-普通名詞-サ変可能	_	18	acl	_	SpaceAfter=No|Reading=イライ
 17	する	する	AUX	動詞-非自立可能	_	16	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
 18	権利	権利	NOUN	名詞-普通名詞-一般	_	20	obj	_	SpaceAfter=No|Reading=ケンリ
