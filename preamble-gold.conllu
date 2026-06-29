@@ -302,7 +302,7 @@
 38	占め	占める	VERB	動詞-一般	_	41	ccomp	_	SpaceAfter=No|Inf=下一段-マ行,連用形-一般|Reading=シメ
 39	たい	たい	AUX	助動詞	_	38	aux	_	SpaceAfter=No|Inf=助動詞-タイ,終止形-一般|Reading=タイ
 40	と	と	ADP	助詞-格助詞	_	38	case	_	SpaceAfter=No|Reading=ト
-41	思ふ	思ふ	NOUN	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=文語四段-ハ行,終止形-一般|Reading=オモウ
+41	思ふ	思ふ	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=文語四段-ハ行,終止形-一般|Reading=オモウ
 42	。	。	PUNCT	補助記号-句点	_	41	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 7
