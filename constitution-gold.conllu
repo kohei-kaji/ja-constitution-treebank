@@ -1964,8 +1964,10 @@
 31	ない	ない	AUX	助動詞	_	28	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
 32	。	。	PUNCT	補助記号-句点	_	28	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 78
-# text = 又、何人も、正当な理由がなければ、拘禁されず、要求があれば、その理由は、直ちに本人及びその弁護人弁護人の出席する公開の法廷で示されなければならない。
+# text = 又、何人も、正当な理由がなければ、拘禁されず、要求があれば、その理由は、直ちに本人及びその弁護人の出席する公開の法廷で示されなければならない。
 1	又	又	CCONJ	接続詞	_	40	cc	_	SpaceAfter=No|Reading=マタ
 2	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 3	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンピト
@@ -1996,9 +1998,9 @@
 28	本人	本人	NOUN	名詞-普通名詞-一般	_	31	nmod	_	SpaceAfter=No|Reading=ホンニン
 29	及び	及び	CCONJ	接続詞	_	31	cc	_	SpaceAfter=No|Reading=オヨビ
 30	その	その	DET	連体詞	_	31	det	_	SpaceAfter=No|Reading=ソノ
-31	弁護人	弁護人	NOUN	名詞-普通名詞-一般	_	34	nmod	_	SpaceAfter=No|Reading=ベンゴニン
-32	弁護人	弁護人	NOUN	名詞-普通名詞-一般	_	34	nmod	_	SpaceAfter=No|Reading=ベンゴニン
-33	の	の	ADP	助詞-格助詞	_	31	case	_	SpaceAfter=No|Reading=ノ
+31	弁護	弁護	NOUN	名詞-普通名詞-一般	_	32	compound	_	SpaceAfter=No|Reading=ベンゴ
+32	人	人	NOUN	接尾辞-名詞的-一般	_	34	nmod	_	SpaceAfter=No|Reading=ニン
+33	の	の	ADP	助詞-格助詞	_	32	case	_	SpaceAfter=No|Reading=ノ
 34	出席	出席	VERB	名詞-普通名詞-サ変可能	_	38	acl	_	SpaceAfter=No|Reading=シュッセキ
 35	する	する	AUX	動詞-非自立可能	_	34	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
 36	公開	公開	NOUN	名詞-普通名詞-サ変可能	_	38	nmod	_	SpaceAfter=No|Reading=コウカイ
