@@ -1928,38 +1928,39 @@
 46	。	。	PUNCT	補助記号-句点	_	42	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 77
-# text = 何人も、理由を直ちに告げられ、且つ、直ちに弁護人に依頼する権利を与へられなければ、抑留又は拘禁されない。
+# text = 何人も、理由を直ちに告げられ、且つ、直ちに弁護人弁護人に依頼する権利を与へられなければ、抑留又は拘禁されない。
 1	何人	何人	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	理由	理由	NOUN	名詞-普通名詞-一般	_	7	obj	_	SpaceAfter=No|Reading=リユウ
 5	を	を	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=オ
 6	直ちに	直ちに	ADV	副詞	_	7	advmod	_	SpaceAfter=No|Reading=タダチニ
-7	告げ	告げる	VERB	動詞-一般	_	19	advcl	_	SpaceAfter=No|Inf=下一段-ガ行,未然形-一般|Reading=ツゲ
+7	告げ	告げる	VERB	動詞-一般	_	20	advcl	_	SpaceAfter=No|Inf=下一段-ガ行,未然形-一般|Reading=ツゲ
 8	られ	られる	AUX	助動詞	_	7	aux	_	SpaceAfter=No|Inf=助動詞-レル,連用形-一般|Reading=ラレ
 9	、	、	PUNCT	補助記号-読点	_	7	punct	_	SpaceAfter=No|Reading=、
-10	且つ	且つ	CCONJ	接続詞	_	19	cc	_	SpaceAfter=No|Reading=カツ
+10	且つ	且つ	CCONJ	接続詞	_	20	cc	_	SpaceAfter=No|Reading=カツ
 11	、	、	PUNCT	補助記号-読点	_	10	punct	_	SpaceAfter=No|Reading=、
-12	直ちに	直ちに	ADV	副詞	_	19	advmod	_	SpaceAfter=No|Reading=タダチニ
-13	弁護人	弁護人	NOUN	名詞-普通名詞-一般	_	15	obl	_	SpaceAfter=No|Reading=ベンゴニン
-14	に	に	ADP	助詞-格助詞	_	13	case	_	SpaceAfter=No|Reading=ニ
-15	依頼	依頼	VERB	名詞-普通名詞-サ変可能	_	17	acl	_	SpaceAfter=No|Reading=イライ
-16	する	する	AUX	動詞-非自立可能	_	15	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
-17	権利	権利	NOUN	名詞-普通名詞-一般	_	19	obj	_	SpaceAfter=No|Reading=ケンリ
-18	を	を	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=オ
-19	与へ	与ふ	VERB	動詞-一般	_	27	advcl	_	SpaceAfter=No|Inf=文語下二段-ハ行,未然形-一般|Reading=アタヘ
-20	られ	られる	AUX	助動詞	_	19	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=ラレ
-21	なけれ	ない	AUX	助動詞	_	19	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
-22	ば	ば	SCONJ	助詞-接続助詞	_	19	mark	_	SpaceAfter=No|Reading=バ
-23	、	、	PUNCT	補助記号-読点	_	19	punct	_	SpaceAfter=No|Reading=、
-24	抑留	抑留	NOUN	名詞-普通名詞-サ変可能	_	27	obl	_	SpaceAfter=No|Reading=ヨクリュウ
-25	又	又	CCONJ	接続詞	_	27	cc	_	SpaceAfter=No|Reading=マタ
-26	は	は	ADP	助詞-係助詞	_	25	fixed	_	SpaceAfter=No|Reading=ワ
-27	拘禁	拘禁	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=コウキン
-28	さ	する	AUX	動詞-非自立可能	_	27	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-サ|Reading=サ
-29	れ	れる	AUX	助動詞	_	27	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
-30	ない	ない	AUX	助動詞	_	27	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-31	。	。	PUNCT	補助記号-句点	_	27	punct	_	SpaceAfter=No|Reading=。
+12	直ちに	直ちに	ADV	副詞	_	20	advmod	_	SpaceAfter=No|Reading=タダチニ
+13	弁護人	弁護人	NOUN	名詞-普通名詞-一般	_	16	obl	_	SpaceAfter=No|Reading=ベンゴニン
+14	弁護人	弁護人	NOUN	名詞-普通名詞-一般	_	16	obl	_	SpaceAfter=No|Reading=ベンゴニン
+15	に	に	ADP	助詞-格助詞	_	13	case	_	SpaceAfter=No|Reading=ニ
+16	依頼	依頼	VERB	名詞-普通名詞-サ変可能	_	18	acl	_	SpaceAfter=No|Reading=イライ
+17	する	する	AUX	動詞-非自立可能	_	16	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
+18	権利	権利	NOUN	名詞-普通名詞-一般	_	20	obj	_	SpaceAfter=No|Reading=ケンリ
+19	を	を	ADP	助詞-格助詞	_	18	case	_	SpaceAfter=No|Reading=オ
+20	与へ	与ふ	VERB	動詞-一般	_	28	advcl	_	SpaceAfter=No|Inf=文語下二段-ハ行,未然形-一般|Reading=アタヘ
+21	られ	られる	AUX	助動詞	_	20	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=ラレ
+22	なけれ	ない	AUX	助動詞	_	20	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
+23	ば	ば	SCONJ	助詞-接続助詞	_	20	mark	_	SpaceAfter=No|Reading=バ
+24	、	、	PUNCT	補助記号-読点	_	20	punct	_	SpaceAfter=No|Reading=、
+25	抑留	抑留	NOUN	名詞-普通名詞-サ変可能	_	28	obl	_	SpaceAfter=No|Reading=ヨクリュウ
+26	又	又	CCONJ	接続詞	_	28	cc	_	SpaceAfter=No|Reading=マタ
+27	は	は	ADP	助詞-係助詞	_	26	fixed	_	SpaceAfter=No|Reading=ワ
+28	拘禁	拘禁	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=コウキン
+29	さ	する	AUX	動詞-非自立可能	_	28	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-サ|Reading=サ
+30	れ	れる	AUX	助動詞	_	28	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
+31	ない	ない	AUX	助動詞	_	28	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+32	。	。	PUNCT	補助記号-句点	_	28	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 78
 # text = 又、何人も、正当な理由がなければ、拘禁されず、要求があれば、その理由は、直ちに本人及びその弁護人の出席する公開の法廷で示されなければならない。
