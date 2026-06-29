@@ -1931,7 +1931,7 @@
 # newpar
 # sent_id = 77
 # text = 何人も、理由を直ちに告げられ、且つ、直ちに弁護人に依頼する権利を与へられなければ、抑留又は拘禁されない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ナンピト
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	28	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	理由	理由	NOUN	名詞-普通名詞-一般	_	7	obj	_	SpaceAfter=No|Reading=リユウ
