@@ -1903,7 +1903,7 @@
 21	司法	司法	NOUN	名詞-普通名詞-一般	_	22	compound	_	SpaceAfter=No|Reading=シホウ
 22	官憲	官憲	NOUN	名詞-普通名詞-一般	_	24	nsubj	_	SpaceAfter=No|Reading=カンケン
 23	が	が	ADP	助詞-格助詞	_	22	case	_	SpaceAfter=No|Reading=ガ
-24	発し	発する	VERB	動詞-一般	_	29	advcl	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=ハッシ
+24	発し	発する	VERB	動詞-一般	_	38	advcl	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=ハッシ
 25	、	、	PUNCT	補助記号-読点	_	24	punct	_	SpaceAfter=No|Reading=、
 26	且つ	且つ	CCONJ	接続詞	_	29	cc	_	SpaceAfter=No|Reading=カツ
 27	理由	理由	NOUN	名詞-普通名詞-一般	_	29	obl	_	SpaceAfter=No|Reading=リユウ
