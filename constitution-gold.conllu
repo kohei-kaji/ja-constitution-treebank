@@ -1965,8 +1965,8 @@
 32	。	。	PUNCT	補助記号-句点	_	28	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 78
-# text = 又、何人も、正当な理由がなければ、拘禁されず、要求があれば、その理由は、直ちに本人及びその弁護人の出席する公開の法廷で示されなければならない。
-1	又	又	CCONJ	接続詞	_	39	cc	_	SpaceAfter=No|Reading=マタ
+# text = 又、何人も、正当な理由がなければ、拘禁されず、要求があれば、その理由は、直ちに本人及びその弁護人弁護人の出席する公開の法廷で示されなければならない。
+1	又	又	CCONJ	接続詞	_	40	cc	_	SpaceAfter=No|Reading=マタ
 2	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 3	何人	何人	NOUN	名詞-普通名詞-一般	_	13	nsubj	_	SpaceAfter=No|Reading=ナンピト
 4	も	も	ADP	助詞-係助詞	_	3	case	_	SpaceAfter=No|Reading=モ
@@ -1978,39 +1978,40 @@
 10	なけれ	ない	ADJ	形容詞-非自立可能	_	13	advcl	_	SpaceAfter=No|Inf=形容詞,仮定形-一般|Reading=ナケレ
 11	ば	ば	SCONJ	助詞-接続助詞	_	10	mark	_	SpaceAfter=No|Reading=バ
 12	、	、	PUNCT	補助記号-読点	_	10	punct	_	SpaceAfter=No|Reading=、
-13	拘禁	拘禁	VERB	名詞-普通名詞-サ変可能	_	39	advcl	_	SpaceAfter=No|Reading=コウキン
+13	拘禁	拘禁	VERB	名詞-普通名詞-サ変可能	_	40	advcl	_	SpaceAfter=No|Reading=コウキン
 14	さ	する	AUX	動詞-非自立可能	_	13	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-サ|Reading=サ
 15	れ	れる	AUX	助動詞	_	13	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
 16	ず	ず	AUX	助動詞	_	13	aux	_	SpaceAfter=No|Inf=助動詞-ヌ,連用形-一般|Reading=ズ
 17	、	、	PUNCT	補助記号-読点	_	13	punct	_	SpaceAfter=No|Reading=、
 18	要求	要求	NOUN	名詞-普通名詞-サ変可能	_	20	nsubj	_	SpaceAfter=No|Reading=ヨウキュウ
 19	が	が	ADP	助詞-格助詞	_	18	case	_	SpaceAfter=No|Reading=ガ
-20	あれ	ある	VERB	動詞-非自立可能	_	39	advcl	_	SpaceAfter=No|Inf=五段-ラ行,仮定形-一般|Reading=アレ
+20	あれ	ある	VERB	動詞-非自立可能	_	40	advcl	_	SpaceAfter=No|Inf=五段-ラ行,仮定形-一般|Reading=アレ
 21	ば	ば	SCONJ	助詞-接続助詞	_	20	mark	_	SpaceAfter=No|Reading=バ
 22	、	、	PUNCT	補助記号-読点	_	20	punct	_	SpaceAfter=No|Reading=、
 23	その	その	DET	連体詞	_	24	det	_	SpaceAfter=No|Reading=ソノ
-24	理由	理由	NOUN	名詞-普通名詞-一般	_	39	nsubj	_	SpaceAfter=No|Reading=リユウ
+24	理由	理由	NOUN	名詞-普通名詞-一般	_	40	nsubj	_	SpaceAfter=No|Reading=リユウ
 25	は	は	ADP	助詞-係助詞	_	24	case	_	SpaceAfter=No|Reading=ワ
 26	、	、	PUNCT	補助記号-読点	_	24	punct	_	SpaceAfter=No|Reading=、
-27	直ちに	直ちに	ADV	副詞	_	39	advmod	_	SpaceAfter=No|Reading=タダチニ
+27	直ちに	直ちに	ADV	副詞	_	40	advmod	_	SpaceAfter=No|Reading=タダチニ
 28	本人	本人	NOUN	名詞-普通名詞-一般	_	31	nmod	_	SpaceAfter=No|Reading=ホンニン
 29	及び	及び	CCONJ	接続詞	_	31	cc	_	SpaceAfter=No|Reading=オヨビ
 30	その	その	DET	連体詞	_	31	det	_	SpaceAfter=No|Reading=ソノ
-31	弁護人	弁護人	NOUN	名詞-普通名詞-一般	_	33	nmod	_	SpaceAfter=No|Reading=ベンゴニン
-32	の	の	ADP	助詞-格助詞	_	31	case	_	SpaceAfter=No|Reading=ノ
-33	出席	出席	VERB	名詞-普通名詞-サ変可能	_	37	acl	_	SpaceAfter=No|Reading=シュッセキ
-34	する	する	AUX	動詞-非自立可能	_	33	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
-35	公開	公開	NOUN	名詞-普通名詞-サ変可能	_	37	nmod	_	SpaceAfter=No|Reading=コウカイ
-36	の	の	ADP	助詞-格助詞	_	35	case	_	SpaceAfter=No|Reading=ノ
-37	法廷	法廷	NOUN	名詞-普通名詞-一般	_	39	obl	_	SpaceAfter=No|Reading=ホウテイ
-38	で	で	ADP	助詞-格助詞	_	37	case	_	SpaceAfter=No|Reading=デ
-39	示さ	示す	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=五段-サ行,未然形-一般|Reading=シメサ
-40	れ	れる	AUX	助動詞	_	39	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
-41	なけれ	ない	AUX	助動詞	_	39	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
-42	ば	ば	SCONJ	助詞-接続助詞	_	41	fixed	_	SpaceAfter=No|Reading=バ
-43	なら	なる	VERB	動詞-非自立可能	_	41	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
-44	ない	ない	AUX	助動詞	_	41	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-45	。	。	PUNCT	補助記号-句点	_	39	punct	_	SpaceAfter=No|Reading=。
+31	弁護人	弁護人	NOUN	名詞-普通名詞-一般	_	34	nmod	_	SpaceAfter=No|Reading=ベンゴニン
+32	弁護人	弁護人	NOUN	名詞-普通名詞-一般	_	34	nmod	_	SpaceAfter=No|Reading=ベンゴニン
+33	の	の	ADP	助詞-格助詞	_	31	case	_	SpaceAfter=No|Reading=ノ
+34	出席	出席	VERB	名詞-普通名詞-サ変可能	_	38	acl	_	SpaceAfter=No|Reading=シュッセキ
+35	する	する	AUX	動詞-非自立可能	_	34	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
+36	公開	公開	NOUN	名詞-普通名詞-サ変可能	_	38	nmod	_	SpaceAfter=No|Reading=コウカイ
+37	の	の	ADP	助詞-格助詞	_	36	case	_	SpaceAfter=No|Reading=ノ
+38	法廷	法廷	NOUN	名詞-普通名詞-一般	_	40	obl	_	SpaceAfter=No|Reading=ホウテイ
+39	で	で	ADP	助詞-格助詞	_	38	case	_	SpaceAfter=No|Reading=デ
+40	示さ	示す	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=五段-サ行,未然形-一般|Reading=シメサ
+41	れ	れる	AUX	助動詞	_	40	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
+42	なけれ	ない	AUX	助動詞	_	40	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
+43	ば	ば	SCONJ	助詞-接続助詞	_	42	fixed	_	SpaceAfter=No|Reading=バ
+44	なら	なる	VERB	動詞-非自立可能	_	42	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
+45	ない	ない	AUX	助動詞	_	42	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+46	。	。	PUNCT	補助記号-句点	_	40	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 79
 # text = 何人も、その住居、書類及び所持品について、侵入、捜索及び押収を受けることのない権利は、第三十三条の場合を除いては、正当な理由に基いて発せられ、且つ捜索する場所及び押収する物を明示する令状がなければ、侵されない。
