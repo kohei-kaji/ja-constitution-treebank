@@ -1880,7 +1880,7 @@
 # newpar
 # sent_id = 76
 # text = 何人も、現行犯として逮捕される場合を除いては、権限を有する司法官憲が発し、且つ理由となつてゐる犯罪を明示する令状によらなければ、逮捕されない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	14	nsubj	_	SpaceAfter=No|Reading=ナンピト
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	42	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	現行	現行	NOUN	名詞-普通名詞-一般	_	5	compound	_	SpaceAfter=No|Reading=ゲンコウ
