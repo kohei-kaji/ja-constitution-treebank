@@ -3082,11 +3082,11 @@
 30	。	。	PUNCT	補助記号-句点	_	24	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 117
-# text = 両議院の議事は、この憲法に特別の定のある場合を除いては、出席議員の過半数でこれを決し、可否同数のときは、議長の決するところによる。
+# text = 両議院の議事は、この憲法に特別の定のある場合を除いては、出席議員の過半数過半数でこれを決し、可否同数のときは、議長の決するところによる。
 1	両	両	NOUN	接頭辞	_	2	compound	_	SpaceAfter=No|Reading=リョウ
 2	議院	議院	NOUN	名詞-普通名詞-一般	_	4	nmod	_	SpaceAfter=No|Reading=ギイン
 3	の	の	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ノ
-4	議事	議事	NOUN	名詞-普通名詞-一般	_	41	nsubj	_	SpaceAfter=No|Reading=ギジ
+4	議事	議事	NOUN	名詞-普通名詞-一般	_	42	nsubj	_	SpaceAfter=No|Reading=ギジ
 5	は	は	ADP	助詞-係助詞	_	4	case	_	SpaceAfter=No|Reading=ワ
 6	、	、	PUNCT	補助記号-読点	_	4	punct	_	SpaceAfter=No|Reading=、
 7	この	この	DET	連体詞	_	8	det	_	SpaceAfter=No|Reading=コノ
@@ -3099,32 +3099,33 @@
 14	ある	ある	VERB	動詞-非自立可能	_	15	acl	_	SpaceAfter=No|Inf=五段-ラ行,連体形-一般|Reading=アル
 15	場合	場合	NOUN	名詞-普通名詞-副詞可能	_	17	obj	_	SpaceAfter=No|Reading=バアイ
 16	を	を	ADP	助詞-格助詞	_	15	case	_	SpaceAfter=No|Reading=オ
-17	除い	除く	VERB	動詞-一般	_	28	advcl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ノゾイ
+17	除い	除く	VERB	動詞-一般	_	29	advcl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ノゾイ
 18	て	て	SCONJ	助詞-接続助詞	_	17	mark	_	SpaceAfter=No|Reading=テ
 19	は	は	ADP	助詞-係助詞	_	17	case	_	SpaceAfter=No|Reading=ワ
 20	、	、	PUNCT	補助記号-読点	_	17	punct	_	SpaceAfter=No|Reading=、
 21	出席	出席	NOUN	名詞-普通名詞-サ変可能	_	22	compound	_	SpaceAfter=No|Reading=シュッセキ
 22	議員	議員	NOUN	名詞-普通名詞-一般	_	24	nmod	_	SpaceAfter=No|Reading=ギイン
 23	の	の	ADP	助詞-格助詞	_	22	case	_	SpaceAfter=No|Reading=ノ
-24	過半数	過半数	NOUN	名詞-普通名詞-一般	_	28	obl	_	SpaceAfter=No|Reading=カハンスウ
-25	で	で	ADP	助詞-格助詞	_	24	case	_	SpaceAfter=No|Reading=デ
-26	これ	これ	PRON	代名詞	_	28	obj	_	SpaceAfter=No|Reading=コレ
-27	を	を	ADP	助詞-格助詞	_	26	case	_	SpaceAfter=No|Reading=オ
-28	決し	決する	VERB	動詞-一般	_	41	advcl	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=ケッシ
-29	、	、	PUNCT	補助記号-読点	_	28	punct	_	SpaceAfter=No|Reading=、
-30	可否	可否	NOUN	名詞-普通名詞-一般	_	31	compound	_	SpaceAfter=No|Reading=カヒ
-31	同数	同数	NOUN	名詞-普通名詞-一般	_	33	nmod	_	SpaceAfter=No|Reading=ドウスウ
-32	の	の	ADP	助詞-格助詞	_	31	case	_	SpaceAfter=No|Reading=ノ
-33	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	41	obl	_	SpaceAfter=No|Reading=トキ
-34	は	は	ADP	助詞-係助詞	_	33	case	_	SpaceAfter=No|Reading=ワ
-35	、	、	PUNCT	補助記号-読点	_	33	punct	_	SpaceAfter=No|Reading=、
-36	議長	議長	NOUN	名詞-普通名詞-一般	_	38	nmod	_	SpaceAfter=No|Reading=ギチョウ
-37	の	の	ADP	助詞-格助詞	_	36	case	_	SpaceAfter=No|Reading=ノ
-38	決する	決する	VERB	動詞-一般	_	39	acl	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=ケッスル
-39	ところ	ところ	NOUN	名詞-普通名詞-副詞可能	_	41	obl	_	SpaceAfter=No|Reading=トコロ
-40	に	に	ADP	助詞-格助詞	_	39	case	_	SpaceAfter=No|Reading=ニ
-41	よる	よる	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=五段-ラ行,終止形-一般|Reading=ヨル
-42	。	。	PUNCT	補助記号-句点	_	41	punct	_	SpaceAfter=No|Reading=。
+24	過半数	過半数	NOUN	名詞-普通名詞-一般	_	29	obl	_	SpaceAfter=No|Reading=カハンスウ
+25	過半数	過半数	NOUN	名詞-普通名詞-一般	_	29	obl	_	SpaceAfter=No|Reading=カハンスウ
+26	で	で	ADP	助詞-格助詞	_	24	case	_	SpaceAfter=No|Reading=デ
+27	これ	これ	PRON	代名詞	_	29	obj	_	SpaceAfter=No|Reading=コレ
+28	を	を	ADP	助詞-格助詞	_	27	case	_	SpaceAfter=No|Reading=オ
+29	決し	決する	VERB	動詞-一般	_	42	advcl	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=ケッシ
+30	、	、	PUNCT	補助記号-読点	_	29	punct	_	SpaceAfter=No|Reading=、
+31	可否	可否	NOUN	名詞-普通名詞-一般	_	32	compound	_	SpaceAfter=No|Reading=カヒ
+32	同数	同数	NOUN	名詞-普通名詞-一般	_	34	nmod	_	SpaceAfter=No|Reading=ドウスウ
+33	の	の	ADP	助詞-格助詞	_	32	case	_	SpaceAfter=No|Reading=ノ
+34	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	42	obl	_	SpaceAfter=No|Reading=トキ
+35	は	は	ADP	助詞-係助詞	_	34	case	_	SpaceAfter=No|Reading=ワ
+36	、	、	PUNCT	補助記号-読点	_	34	punct	_	SpaceAfter=No|Reading=、
+37	議長	議長	NOUN	名詞-普通名詞-一般	_	39	nmod	_	SpaceAfter=No|Reading=ギチョウ
+38	の	の	ADP	助詞-格助詞	_	37	case	_	SpaceAfter=No|Reading=ノ
+39	決する	決する	VERB	動詞-一般	_	40	acl	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=ケッスル
+40	ところ	ところ	NOUN	名詞-普通名詞-副詞可能	_	42	obl	_	SpaceAfter=No|Reading=トコロ
+41	に	に	ADP	助詞-格助詞	_	40	case	_	SpaceAfter=No|Reading=ニ
+42	よる	よる	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=五段-ラ行,終止形-一般|Reading=ヨル
+43	。	。	PUNCT	補助記号-句点	_	42	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 118
 # text = 両議院の会議は、公開とする。
