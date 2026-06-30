@@ -2352,7 +2352,7 @@
 
 # sent_id = 91
 # text = 何人も、抑留又は拘禁された後、無罪の裁判を受けたときは、法律の定めるところにより、国にその補償を求めることができる。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	17	nsubj	_	SpaceAfter=No|Reading=ナンピト
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	34	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	抑留	抑留	NOUN	名詞-普通名詞-サ変可能	_	7	obl	_	SpaceAfter=No|Reading=ヨクリュウ
