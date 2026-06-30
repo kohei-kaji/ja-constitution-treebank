@@ -2113,8 +2113,10 @@
 22	行ふ	行ふ	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=文語四段-ハ行,終止形-一般\|Reading=オコナウ
 23	。	。	PUNCT	補助記号-句点	_	22	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 81
-# text = 公務員公務員による拷問及び残虐な刑罰は、絶対にこれを禁ずる。
+# text = 公務員による拷問及び残虐な刑罰は、絶対にこれを禁ずる。
 1	公務	公務	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=コウム
 2	員	員	NOUN	接尾辞-名詞的-一般	_	9	nmod	_	SpaceAfter=No|Reading=イン
 3	に	に	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ニ
