@@ -2606,8 +2606,10 @@
 22	する	する	AUX	動詞-非自立可能	_	21	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
 23	。	。	PUNCT	補助記号-句点	_	21	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 102
-# text = 選挙区選挙区、投票の方法その他両議院の議員の選挙に関する事項は、法律でこれを定める。
+# text = 選挙区、投票の方法その他両議院の議員の選挙に関する事項は、法律でこれを定める。
 1	選挙	選挙	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=センキョ
 2	区	区	NOUN	接尾辞-名詞的-一般	_	6	nmod	_	SpaceAfter=No|Reading=ク
 3	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
@@ -2624,7 +2626,7 @@
 14	選挙	選挙	NOUN	名詞-普通名詞-サ変可能	_	17	nmod	_	SpaceAfter=No|Reading=センキョ
 15	に	に	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=ニ
 16	関する	関する	VERB	動詞-一般	_	15	fixed	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=カンスル
-17	事項	事項	NOUN	名詞-普通名詞-一般	_	24	nsubj	_	SpaceAfter=No|Reading=ジコウ
+17	事項	事項	NOUN	名詞-普通名詞-一般	_	24	dislocated	_	SpaceAfter=No|Reading=ジコウ
 18	は	は	ADP	助詞-係助詞	_	17	case	_	SpaceAfter=No|Reading=ワ
 19	、	、	PUNCT	補助記号-読点	_	17	punct	_	SpaceAfter=No|Reading=、
 20	法律	法律	NOUN	名詞-普通名詞-一般	_	24	obl	_	SpaceAfter=No|Reading=ホウリツ
