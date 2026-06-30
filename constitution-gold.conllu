@@ -3558,7 +3558,7 @@
 # newpar
 # sent_id = 130
 # text = 予算について、参議院で衆議院と異なつた議決をした場合に、法律の定めるところにより、両議院の協議会を開いても意見が一致しないとき、又は参議院が、衆議院の可決した予算を受け取つた後、国会休会中の期間を除いて三十日以内に、議決しないときは、衆議院の議決を国会の議決とする。
-1	予算	予算	NOUN	名詞-普通名詞-一般	_	91	obl	_	SpaceAfter=No|Reading=ヨサン
+1	予算	予算	NOUN	名詞-普通名詞-一般	_	90	obl	_	SpaceAfter=No|Reading=ヨサン
 2	に	に	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ニ
 3	つい	つく	VERB	動詞-一般	_	2	fixed	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ツイ
 4	て	て	SCONJ	助詞-接続助詞	_	2	fixed	_	SpaceAfter=No|Reading=テ
@@ -3599,9 +3599,9 @@
 39	一致	一致	VERB	名詞-普通名詞-サ変可能	_	42	acl	_	SpaceAfter=No|Reading=イッチ
 40	し	する	AUX	動詞-非自立可能	_	39	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-一般|Reading=シ
 41	ない	ない	AUX	助動詞	_	39	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,連体形-一般|Reading=ナイ
-42	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	59	obl	_	SpaceAfter=No|Reading=トキ
+42	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	58	obl	_	SpaceAfter=No|Reading=トキ
 43	、	、	PUNCT	補助記号-読点	_	42	punct	_	SpaceAfter=No|Reading=、
-44	又	又	CCONJ	接続詞	_	59	cc	_	SpaceAfter=No|Reading=マタ
+44	又	又	CCONJ	接続詞	_	58	cc	_	SpaceAfter=No|Reading=マタ
 45	は	は	ADP	助詞-係助詞	_	44	fixed	_	SpaceAfter=No|Reading=ワ
 46	参議	参議	NOUN	名詞-普通名詞-一般	_	47	compound	_	SpaceAfter=No|Reading=サンギ
 47	院	院	NOUN	接尾辞-名詞的-一般	_	58	nsubj	_	SpaceAfter=No|Reading=イン
@@ -3615,41 +3615,40 @@
 55	た	た	AUX	助動詞	_	53	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
 56	予算	予算	NOUN	名詞-普通名詞-一般	_	58	obj	_	SpaceAfter=No|Reading=ヨサン
 57	を	を	ADP	助詞-格助詞	_	56	case	_	SpaceAfter=No|Reading=オ
-58	受け	受ける	VERB	動詞-一般	_	59	advcl	_	SpaceAfter=No|Inf=下一段-カ行,連用形-一般|Reading=ウケ
-59	取	取	VERB	名詞-普通名詞-一般	_	61	acl	_	SpaceAfter=No|Reading=トリ
-60	つた	つた	AUX	名詞-普通名詞-一般	_	59	advcl	_	SpaceAfter=No|Reading=ツタ
-61	後	後	NOUN	接尾辞-名詞的-副詞可能	_	91	obl	_	SpaceAfter=No|Reading=ゴ
-62	、	、	PUNCT	補助記号-読点	_	61	punct	_	SpaceAfter=No|Reading=、
-63	国会	国会	NOUN	名詞-普通名詞-一般	_	65	compound	_	SpaceAfter=No|Reading=コッカイ
-64	休会	休会	NOUN	名詞-普通名詞-サ変可能	_	65	compound	_	SpaceAfter=No|Reading=キュウカイ
-65	中	中	NOUN	接尾辞-名詞的-副詞可能	_	67	nmod	_	SpaceAfter=No|Reading=チュウ
-66	の	の	ADP	助詞-格助詞	_	65	case	_	SpaceAfter=No|Reading=ノ
-67	期間	期間	NOUN	名詞-普通名詞-一般	_	69	obj	_	SpaceAfter=No|Reading=キカン
-68	を	を	ADP	助詞-格助詞	_	67	case	_	SpaceAfter=No|Reading=オ
-69	除い	除く	VERB	動詞-一般	_	73	acl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ノゾイ
-70	て	て	SCONJ	助詞-接続助詞	_	69	mark	_	SpaceAfter=No|Reading=テ
-71	三十	三十	NUM	名詞-数詞	_	73	compound	_	SpaceAfter=No|Reading=サントウ
-72	日	日	NOUN	接尾辞-名詞的-助数詞	_	73	compound	_	SpaceAfter=No|Reading=カ
-73	以内	以内	NOUN	名詞-普通名詞-副詞可能	_	76	obl	_	SpaceAfter=No|Reading=イナイ
-74	に	に	ADP	助詞-格助詞	_	73	case	_	SpaceAfter=No|Reading=ニ
-75	、	、	PUNCT	補助記号-読点	_	73	punct	_	SpaceAfter=No|Reading=、
-76	議決	議決	VERB	名詞-普通名詞-サ変可能	_	79	acl	_	SpaceAfter=No|Reading=ギケツ
-77	し	する	AUX	動詞-非自立可能	_	76	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-一般|Reading=シ
-78	ない	ない	AUX	助動詞	_	76	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,連体形-一般|Reading=ナイ
-79	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	91	obl	_	SpaceAfter=No|Reading=トキ
-80	は	は	ADP	助詞-係助詞	_	79	case	_	SpaceAfter=No|Reading=ワ
-81	、	、	PUNCT	補助記号-読点	_	79	punct	_	SpaceAfter=No|Reading=、
-82	衆議	衆議	NOUN	名詞-普通名詞-一般	_	83	compound	_	SpaceAfter=No|Reading=シュウギ
-83	院	院	NOUN	接尾辞-名詞的-一般	_	85	nmod	_	SpaceAfter=No|Reading=イン
-84	の	の	ADP	助詞-格助詞	_	83	case	_	SpaceAfter=No|Reading=ノ
-85	議決	議決	NOUN	名詞-普通名詞-サ変可能	_	91	obj	_	SpaceAfter=No|Reading=ギケツ
-86	を	を	ADP	助詞-格助詞	_	85	case	_	SpaceAfter=No|Reading=オ
-87	国会	国会	NOUN	名詞-普通名詞-一般	_	89	nmod	_	SpaceAfter=No|Reading=コッカイ
-88	の	の	ADP	助詞-格助詞	_	87	case	_	SpaceAfter=No|Reading=ノ
-89	議決	議決	NOUN	名詞-普通名詞-サ変可能	_	91	obl	_	SpaceAfter=No|Reading=ギケツ
-90	と	と	ADP	助詞-格助詞	_	89	case	_	SpaceAfter=No|Reading=ト
-91	する	する	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
-92	。	。	PUNCT	補助記号-句点	_	91	punct	_	SpaceAfter=No|Reading=。
+58	受け取	受ける取	VERB	名詞-普通名詞-一般	_	60	acl	_	SpaceAfter=No|Reading=トリ
+59	つた	つた	AUX	名詞-普通名詞-一般	_	58	advcl	_	SpaceAfter=No|Reading=ツタ
+60	後	後	NOUN	接尾辞-名詞的-副詞可能	_	90	obl	_	SpaceAfter=No|Reading=ゴ
+61	、	、	PUNCT	補助記号-読点	_	60	punct	_	SpaceAfter=No|Reading=、
+62	国会	国会	NOUN	名詞-普通名詞-一般	_	64	compound	_	SpaceAfter=No|Reading=コッカイ
+63	休会	休会	NOUN	名詞-普通名詞-サ変可能	_	64	compound	_	SpaceAfter=No|Reading=キュウカイ
+64	中	中	NOUN	接尾辞-名詞的-副詞可能	_	66	nmod	_	SpaceAfter=No|Reading=チュウ
+65	の	の	ADP	助詞-格助詞	_	64	case	_	SpaceAfter=No|Reading=ノ
+66	期間	期間	NOUN	名詞-普通名詞-一般	_	68	obj	_	SpaceAfter=No|Reading=キカン
+67	を	を	ADP	助詞-格助詞	_	66	case	_	SpaceAfter=No|Reading=オ
+68	除い	除く	VERB	動詞-一般	_	72	acl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ノゾイ
+69	て	て	SCONJ	助詞-接続助詞	_	68	mark	_	SpaceAfter=No|Reading=テ
+70	三十	三十	NUM	名詞-数詞	_	72	compound	_	SpaceAfter=No|Reading=サントウ
+71	日	日	NOUN	接尾辞-名詞的-助数詞	_	72	compound	_	SpaceAfter=No|Reading=カ
+72	以内	以内	NOUN	名詞-普通名詞-副詞可能	_	75	obl	_	SpaceAfter=No|Reading=イナイ
+73	に	に	ADP	助詞-格助詞	_	72	case	_	SpaceAfter=No|Reading=ニ
+74	、	、	PUNCT	補助記号-読点	_	72	punct	_	SpaceAfter=No|Reading=、
+75	議決	議決	VERB	名詞-普通名詞-サ変可能	_	78	acl	_	SpaceAfter=No|Reading=ギケツ
+76	し	する	AUX	動詞-非自立可能	_	75	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-一般|Reading=シ
+77	ない	ない	AUX	助動詞	_	75	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,連体形-一般|Reading=ナイ
+78	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	90	obl	_	SpaceAfter=No|Reading=トキ
+79	は	は	ADP	助詞-係助詞	_	78	case	_	SpaceAfter=No|Reading=ワ
+80	、	、	PUNCT	補助記号-読点	_	78	punct	_	SpaceAfter=No|Reading=、
+81	衆議	衆議	NOUN	名詞-普通名詞-一般	_	82	compound	_	SpaceAfter=No|Reading=シュウギ
+82	院	院	NOUN	接尾辞-名詞的-一般	_	84	nmod	_	SpaceAfter=No|Reading=イン
+83	の	の	ADP	助詞-格助詞	_	82	case	_	SpaceAfter=No|Reading=ノ
+84	議決	議決	NOUN	名詞-普通名詞-サ変可能	_	90	obj	_	SpaceAfter=No|Reading=ギケツ
+85	を	を	ADP	助詞-格助詞	_	84	case	_	SpaceAfter=No|Reading=オ
+86	国会	国会	NOUN	名詞-普通名詞-一般	_	88	nmod	_	SpaceAfter=No|Reading=コッカイ
+87	の	の	ADP	助詞-格助詞	_	86	case	_	SpaceAfter=No|Reading=ノ
+88	議決	議決	NOUN	名詞-普通名詞-サ変可能	_	90	obl	_	SpaceAfter=No|Reading=ギケツ
+89	と	と	ADP	助詞-格助詞	_	88	case	_	SpaceAfter=No|Reading=ト
+90	する	する	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
+91	。	。	PUNCT	補助記号-句点	_	90	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 131
 # text = 条約の締結に必要な国会の承認については、前条第二項の規定を準用する。
