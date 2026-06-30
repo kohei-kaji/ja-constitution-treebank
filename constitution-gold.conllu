@@ -3554,19 +3554,21 @@
 14	ない	ない	AUX	助動詞	_	11	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
 15	。	。	PUNCT	補助記号-句点	_	9	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 130
-# text = 予算について、参議院参議院で衆議院衆議院と異なつた議決をした場合に、法律の定めるところにより、両議院の協議会を開いても意見が一致しないとき、又は参議院が、衆議院の可決した予算を受け取つた後、国会休会中の期間を除いて三十日以内に、議決しないときは、衆議院の議決を国会の議決とする。
+# text = 予算について、参議院で衆議院と異なつた議決をした場合に、法律の定めるところにより、両議院の協議会を開いても意見が一致しないとき、又は参議院が、衆議院の可決した予算を受け取つた後、国会休会中の期間を除いて三十日以内に、議決しないときは、衆議院の議決を国会の議決とする。
 1	予算	予算	NOUN	名詞-普通名詞-一般	_	87	obl	_	SpaceAfter=No|Reading=ヨサン
 2	に	に	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ニ
 3	つい	つく	VERB	動詞-一般	_	2	fixed	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ツイ
 4	て	て	SCONJ	助詞-接続助詞	_	2	fixed	_	SpaceAfter=No|Reading=テ
 5	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-6	参議院	参議院	NOUN	名詞-普通名詞-一般	_	16	obl	_	SpaceAfter=No|Reading=サンギイン
-7	参議院	参議院	NOUN	名詞-普通名詞-一般	_	16	obl	_	SpaceAfter=No|Reading=サンギイン
-8	で	で	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=デ
-9	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	12	obl	_	SpaceAfter=No|Reading=シュウギイン
-10	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	12	obl	_	SpaceAfter=No|Reading=シュウギイン
-11	と	と	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=ト
+6	参議	参議	NOUN	名詞-普通名詞-一般	_	7	compound	_	SpaceAfter=No|Reading=サンギ
+7	院	院	NOUN	接尾辞-名詞的-一般	_	16	obl	_	SpaceAfter=No|Reading=イン
+8	で	で	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=デ
+9	衆議	衆議	NOUN	名詞-普通名詞-一般	_	10	compound	_	SpaceAfter=No|Reading=シュウギ
+10	院	院	NOUN	接尾辞-名詞的-一般	_	12	obl	_	SpaceAfter=No|Reading=イン
+11	と	と	ADP	助詞-格助詞	_	10	case	_	SpaceAfter=No|Reading=ト
 12	異なつ	異なる	VERB	動詞-一般	_	14	acl	_	SpaceAfter=No|Inf=文語四段-ラ行,連用形-促音便|Reading=コトナッ
 13	た	た	AUX	助動詞	_	12	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
 14	議決	議決	NOUN	名詞-普通名詞-サ変可能	_	16	obj	_	SpaceAfter=No|Reading=ギケツ
