@@ -3489,7 +3489,7 @@
 11	法律	法律	NOUN	名詞-普通名詞-一般	_	12	compound	_	SpaceAfter=No|Reading=ホウリツ
 12	案	案	NOUN	接尾辞-名詞的-一般	_	14	obj	_	SpaceAfter=No|Reading=アン
 13	を	を	ADP	助詞-格助詞	_	12	case	_	SpaceAfter=No|Reading=オ
-14	受け取つ	受ける取	VERB	動詞-一般	_	16	acl	_	SpaceAfter=No|Reading=トッ
+14	受け取つ	受け取る	VERB	動詞-一般	_	16	acl	_	SpaceAfter=No|Reading=ウケトッ
 15	た	た	AUX	助動詞	_	14	aux	_	SpaceAfter=No|Reading=タ
 16	後	後	NOUN	接尾辞-名詞的-副詞可能	_	31	obl	_	SpaceAfter=No|Reading=ゴ
 17	、	、	PUNCT	補助記号-読点	_	16	punct	_	SpaceAfter=No|Reading=、
