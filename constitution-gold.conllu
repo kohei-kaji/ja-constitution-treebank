@@ -2062,7 +2062,7 @@
 41	に	に	ADP	助詞-格助詞	_	40	case	_	SpaceAfter=No|Reading=ニ
 42	基い	基く	VERB	動詞-一般	_	44	advcl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=モトヅイ
 43	て	て	SCONJ	助詞-接続助詞	_	42	mark	_	SpaceAfter=No|Reading=テ
-44	発せ	発する	VERB	動詞-一般	_	58	advcl	_	SpaceAfter=No|Inf=サ行変格,未然形-セ|Reading=ハッセ
+44	発せ	発する	VERB	動詞-一般	_	63	advcl	_	SpaceAfter=No|Inf=サ行変格,未然形-セ|Reading=ハッセ
 45	られ	られる	AUX	助動詞	_	44	aux	_	SpaceAfter=No|Inf=助動詞-レル,連用形-一般|Reading=ラレ
 46	、	、	PUNCT	補助記号-読点	_	44	punct	_	SpaceAfter=No|Reading=、
 47	且つ	且つ	CCONJ	接続詞	_	58	cc	_	SpaceAfter=No|Reading=カツ
