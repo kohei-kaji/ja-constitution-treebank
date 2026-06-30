@@ -3188,7 +3188,7 @@
 8	の	の	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=ノ
 9	記録	記録	NOUN	名詞-普通名詞-サ変可能	_	11	obj	_	SpaceAfter=No|Reading=キロク
 10	を	を	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=オ
-11	保存	保存	VERB	名詞-普通名詞-サ変可能	_	35	advcl	_	SpaceAfter=No|Reading=ホゾン
+11	保存	保存	VERB	名詞-普通名詞-サ変可能	_	41	advcl	_	SpaceAfter=No|Reading=ホゾン
 12	し	する	AUX	動詞-非自立可能	_	11	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
 13	、	、	PUNCT	補助記号-読点	_	11	punct	_	SpaceAfter=No|Reading=、
 14	秘密	秘密	NOUN	名詞-普通名詞-一般	_	15	compound	_	SpaceAfter=No|Reading=ヒミツ
