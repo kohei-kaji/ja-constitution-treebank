@@ -2204,7 +2204,7 @@
 5	に	に	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ニ
 6	不	不	NOUN	接頭辞	Polarity=Neg	7	compound	_	SpaceAfter=No|Reading=フ
 7	利益	利益	NOUN	名詞-普通名詞-形状詞可能	_	9	acl	_	SpaceAfter=No|Reading=リエキ
-8	な	だ	AUX	助動詞	_	6	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
+8	な	だ	AUX	助動詞	_	7	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
 9	供述	供述	NOUN	名詞-普通名詞-サ変可能	_	11	obj	_	SpaceAfter=No|Reading=キョウジュツ
 10	を	を	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=オ
 11	強要	強要	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=キョウヨウ
