@@ -2889,27 +2889,30 @@
 46	ない	ない	AUX	助動詞	_	43	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
 47	。	。	PUNCT	補助記号-句点	_	41	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 111
-# text = 衆議院衆議院が解散されたときは、参議院は、同時に閉会となる。
-1	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	4	nsubj	_	SpaceAfter=No|Reading=シュウギイン
-2	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	4	nsubj	_	SpaceAfter=No|Reading=シュウギイン
-3	が	が	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ガ
+# text = 衆議院が解散されたときは、参議院は、同時に閉会となる。
+1	衆議	衆議	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=シュウギ
+2	院	院	NOUN	接尾辞-名詞的-一般	_	4	nsubj	_	SpaceAfter=No|Reading=イン
+3	が	が	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ガ
 4	解散	解散	VERB	名詞-普通名詞-サ変可能	_	8	acl	_	SpaceAfter=No|Reading=カイサン
 5	さ	する	AUX	動詞-非自立可能	_	4	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-サ|Reading=サ
 6	れ	れる	AUX	助動詞	_	4	aux	_	SpaceAfter=No|Inf=助動詞-レル,連用形-一般|Reading=レ
 7	た	た	AUX	助動詞	_	4	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
-8	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	18	obl	_	SpaceAfter=No|Reading=トキ
+8	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	19	obl	_	SpaceAfter=No|Reading=トキ
 9	は	は	ADP	助詞-係助詞	_	8	case	_	SpaceAfter=No|Reading=ワ
 10	、	、	PUNCT	補助記号-読点	_	8	punct	_	SpaceAfter=No|Reading=、
-11	参議院	参議院	NOUN	名詞-普通名詞-一般	_	18	nsubj	_	SpaceAfter=No|Reading=サンギイン
-12	は	は	ADP	助詞-係助詞	_	11	case	_	SpaceAfter=No|Reading=ワ
-13	、	、	PUNCT	補助記号-読点	_	11	punct	_	SpaceAfter=No|Reading=、
-14	同時	同時	NOUN	名詞-普通名詞-一般	_	18	obl	_	SpaceAfter=No|Reading=ドウジ
-15	に	に	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=ニ
-16	閉会	閉会	NOUN	名詞-普通名詞-サ変可能	_	18	obl	_	SpaceAfter=No|Reading=ヘイカイ
-17	と	と	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Reading=ト
-18	なる	なる	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=五段-ラ行,終止形-一般|Reading=ナル
-19	。	。	PUNCT	補助記号-句点	_	18	punct	_	SpaceAfter=No|Reading=。
+11	参議	参議	NOUN	名詞-普通名詞-一般	_	12	compound	_	SpaceAfter=No|Reading=サンギ
+12	院	院	NOUN	接尾辞-名詞的-一般	_	19	nsubj	_	SpaceAfter=No|Reading=イン
+13	は	は	ADP	助詞-係助詞	_	12	case	_	SpaceAfter=No|Reading=ワ
+14	、	、	PUNCT	補助記号-読点	_	12	punct	_	SpaceAfter=No|Reading=、
+15	同時	同時	NOUN	名詞-普通名詞-一般	_	19	obl	_	SpaceAfter=No|Reading=ドウジ
+16	に	に	ADP	助詞-格助詞	_	15	case	_	SpaceAfter=No|Reading=ニ
+17	閉会	閉会	NOUN	名詞-普通名詞-サ変可能	_	19	obl	_	SpaceAfter=No|Reading=ヘイカイ
+18	と	と	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=ト
+19	なる	なる	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=五段-ラ行,終止形-一般|Reading=ナル
+20	。	。	PUNCT	補助記号-句点	_	19	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 112
 # text = 但し、内閣は、国に緊急の必要があるときは、参議院の緊急集会を求めることができる。
