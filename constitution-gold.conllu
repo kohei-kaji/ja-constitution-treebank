@@ -2302,7 +2302,7 @@
 9	で	で	AUX	助詞-格助詞	_	8	aux	_	SpaceAfter=No|Reading=デ
 10	あつ	あり	VERB	動詞-非自立可能	_	9	fixed	_	SpaceAfter=No|Inf=文語ラ行変格,連用形-促音便|Reading=アッ
 11	た	た	AUX	助動詞	_	8	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
-12	行為	行為	NOUN	名詞-普通名詞-一般	_	18	obl	_	SpaceAfter=No|Reading=コウイ
+12	行為	行為	NOUN	名詞-普通名詞-一般	_	21	nmod	_	SpaceAfter=No|Reading=コウイ
 13	又	又	CCONJ	接続詞	_	18	cc	_	SpaceAfter=No|Reading=マタ
 14	は	は	ADP	助詞-係助詞	_	13	fixed	_	SpaceAfter=No|Reading=ワ
 15	既に	既に	ADV	副詞	_	18	advmod	_	SpaceAfter=No|Reading=スデニ
