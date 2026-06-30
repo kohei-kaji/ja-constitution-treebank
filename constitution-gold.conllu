@@ -3615,8 +3615,8 @@
 55	た	た	AUX	助動詞	_	53	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
 56	予算	予算	NOUN	名詞-普通名詞-一般	_	58	obj	_	SpaceAfter=No|Reading=ヨサン
 57	を	を	ADP	助詞-格助詞	_	56	case	_	SpaceAfter=No|Reading=オ
-58	受け取	受ける取	VERB	名詞-普通名詞-一般	_	60	acl	_	SpaceAfter=No|Reading=トリ
-59	つた	つた	AUX	名詞-普通名詞-一般	_	58	advcl	_	SpaceAfter=No|Reading=ツタ
+58	受け取つ	受け取る	VERB	動詞-一般	_	60	acl	_	SpaceAfter=No|Reading=ウケトッ
+59	た	た	AUX	助動詞	_	58	aux	_	SpaceAfter=No|Reading=タ
 60	後	後	NOUN	接尾辞-名詞的-副詞可能	_	90	obl	_	SpaceAfter=No|Reading=ゴ
 61	、	、	PUNCT	補助記号-読点	_	60	punct	_	SpaceAfter=No|Reading=、
 62	国会	国会	NOUN	名詞-普通名詞-一般	_	64	compound	_	SpaceAfter=No|Reading=コッカイ
