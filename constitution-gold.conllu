@@ -2914,8 +2914,10 @@
 19	なる	なる	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=五段-ラ行,終止形-一般|Reading=ナル
 20	。	。	PUNCT	補助記号-句点	_	19	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 112
-# text = 但し、内閣は、国に緊急の必要があるときは、参議院参議院の緊急集会を求めることができる。
+# text = 但し、内閣は、国に緊急の必要があるときは、参議院の緊急集会を求めることができる。
 1	但し	但し	CCONJ	接続詞	_	22	cc	_	SpaceAfter=No|Reading=タダシ
 2	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 3	内閣	内閣	NOUN	名詞-普通名詞-一般	_	22	nsubj	_	SpaceAfter=No|Reading=ナイカク
@@ -2931,9 +2933,9 @@
 13	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	22	obl	_	SpaceAfter=No|Reading=トキ
 14	は	は	ADP	助詞-係助詞	_	13	case	_	SpaceAfter=No|Reading=ワ
 15	、	、	PUNCT	補助記号-読点	_	13	punct	_	SpaceAfter=No|Reading=、
-16	参議院	参議院	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=サンギイン
-17	参議院	参議院	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=サンギイン
-18	の	の	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Reading=ノ
+16	参議	参議	NOUN	名詞-普通名詞-一般	_	17	compound	_	SpaceAfter=No|Reading=サンギ
+17	院	院	NOUN	接尾辞-名詞的-一般	_	20	nmod	_	SpaceAfter=No|Reading=イン
+18	の	の	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=ノ
 19	緊急	緊急	NOUN	名詞-普通名詞-形状詞可能	_	20	compound	_	SpaceAfter=No|Reading=キンキュウ
 20	集会	集会	NOUN	名詞-普通名詞-サ変可能	_	22	obj	_	SpaceAfter=No|Reading=シュウカイ
 21	を	を	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=オ
