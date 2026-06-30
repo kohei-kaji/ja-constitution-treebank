@@ -3535,21 +3535,22 @@
 57	。	。	PUNCT	補助記号-句点	_	53	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 129
-# text = 予算は、さきに衆議院に提出しなければならない。
-1	予算	予算	NOUN	名詞-普通名詞-一般	_	8	nsubj	_	SpaceAfter=No|Reading=ヨサン
+# text = 予算は、さきに衆議院衆議院に提出しなければならない。
+1	予算	予算	NOUN	名詞-普通名詞-一般	_	9	nsubj	_	SpaceAfter=No|Reading=ヨサン
 2	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-4	さき	さき	NOUN	名詞-普通名詞-副詞可能	_	8	obl	_	SpaceAfter=No|Reading=サキ
+4	さき	さき	NOUN	名詞-普通名詞-副詞可能	_	9	obl	_	SpaceAfter=No|Reading=サキ
 5	に	に	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ニ
-6	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	8	obl	_	SpaceAfter=No|Reading=シュウギイン
-7	に	に	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ニ
-8	提出	提出	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=テイシュツ
-9	し	する	AUX	動詞-非自立可能	_	8	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-一般|Reading=シ
-10	なけれ	ない	AUX	助動詞	_	8	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
-11	ば	ば	SCONJ	助詞-接続助詞	_	10	fixed	_	SpaceAfter=No|Reading=バ
-12	なら	なる	VERB	動詞-非自立可能	_	10	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
-13	ない	ない	AUX	助動詞	_	10	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-14	。	。	PUNCT	補助記号-句点	_	8	punct	_	SpaceAfter=No|Reading=。
+6	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	9	obl	_	SpaceAfter=No|Reading=シュウギイン
+7	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	9	obl	_	SpaceAfter=No|Reading=シュウギイン
+8	に	に	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ニ
+9	提出	提出	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=テイシュツ
+10	し	する	AUX	動詞-非自立可能	_	9	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-一般|Reading=シ
+11	なけれ	ない	AUX	助動詞	_	9	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
+12	ば	ば	SCONJ	助詞-接続助詞	_	11	fixed	_	SpaceAfter=No|Reading=バ
+13	なら	なる	VERB	動詞-非自立可能	_	11	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
+14	ない	ない	AUX	助動詞	_	11	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+15	。	。	PUNCT	補助記号-句点	_	9	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 130
 # text = 予算について、参議院で衆議院と異なつた議決をした場合に、法律の定めるところにより、両議院の協議会を開いても意見が一致しないとき、又は参議院が、衆議院の可決した予算を受け取つた後、国会休会中の期間を除いて三十日以内に、議決しないときは、衆議院の議決を国会の議決とする。
