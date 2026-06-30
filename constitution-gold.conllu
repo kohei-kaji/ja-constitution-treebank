@@ -3475,7 +3475,7 @@
 # newdoc
 # newpar
 # sent_id = 128
-# text = 参議院が、衆議院の可決した法律案法律案を受け取つた後、国会休会中の期間を除いて六十日以内に、議決しないときは、衆議院は、参議院がその法律案を否決したものとみなすことができる。
+# text = 参議院が、衆議院の可決した法律案を受け取つた後、国会休会中の期間を除いて六十日以内に、議決しないときは、衆議院は、参議院がその法律案を否決したものとみなすことができる。
 1	参議	参議	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=サンギ
 2	院	院	NOUN	接尾辞-名詞的-一般	_	14	nsubj	_	SpaceAfter=No|Reading=イン
 3	が	が	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ガ
@@ -3483,12 +3483,12 @@
 5	衆議	衆議	NOUN	名詞-普通名詞-一般	_	6	compound	_	SpaceAfter=No|Reading=シュウギ
 6	院	院	NOUN	接尾辞-名詞的-一般	_	8	nmod	_	SpaceAfter=No|Reading=イン
 7	の	の	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ノ
-8	可決	可決	VERB	名詞-普通名詞-サ変可能	_	11	acl	_	SpaceAfter=No|Reading=カケツ
+8	可決	可決	VERB	名詞-普通名詞-サ変可能	_	12	acl	_	SpaceAfter=No|Reading=カケツ
 9	し	する	AUX	動詞-非自立可能	_	8	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
 10	た	た	AUX	助動詞	_	8	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
-11	法律案	法律案	NOUN	名詞-普通名詞-一般	_	14	obj	_	SpaceAfter=No|Reading=ホウリツアン
-12	法律案	法律案	NOUN	名詞-普通名詞-一般	_	14	obj	_	SpaceAfter=No|Reading=ホウリツアン
-13	を	を	ADP	助詞-格助詞	_	11	case	_	SpaceAfter=No|Reading=オ
+11	法律	法律	NOUN	名詞-普通名詞-一般	_	12	compound	_	SpaceAfter=No|Reading=ホウリツ
+12	案	案	NOUN	接尾辞-名詞的-一般	_	14	obj	_	SpaceAfter=No|Reading=アン
+13	を	を	ADP	助詞-格助詞	_	12	case	_	SpaceAfter=No|Reading=オ
 14	受け	受ける	VERB	動詞-一般	_	15	advcl	_	SpaceAfter=No|Inf=下一段-カ行,連用形-一般|Reading=ウケ
 15	取	取	VERB	名詞-普通名詞-一般	_	17	acl	_	SpaceAfter=No|Reading=トリ
 16	つた	つた	VERB	名詞-普通名詞-一般	_	15	advcl	_	SpaceAfter=No|Reading=ツタ
