@@ -2023,7 +2023,7 @@
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	その	その	DET	連体詞	_	5	det	_	SpaceAfter=No|Reading=ソノ
-5	住居	住居	NOUN	名詞-普通名詞-サ変可能	_	7	nmod	_	SpaceAfter=No|Reading=ジュウキョ
+5	住居	住居	NOUN	名詞-普通名詞-サ変可能	_	10	nmod	_	SpaceAfter=No|Reading=ジュウキョ
 6	、	、	PUNCT	補助記号-読点	_	5	punct	_	SpaceAfter=No|Reading=、
 7	書類	書類	NOUN	名詞-普通名詞-一般	_	10	nmod	_	SpaceAfter=No|Reading=ショルイ
 8	及び	及び	CCONJ	接続詞	_	10	cc	_	SpaceAfter=No|Reading=オヨビ
