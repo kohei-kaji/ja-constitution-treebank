@@ -2018,8 +2018,8 @@
 # newdoc
 # newpar
 # sent_id = 79
-# text = 何人も、その住居、書類及び所持品について、侵入、捜索及び押収を受けることのない権利は、第三十三条の場合を除いては、正当な理由に基いて発せられ、且つ捜索する場所及び押収する物を明示する令状がなければ、侵されない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	63	dislocated	_	SpaceAfter=No|Reading=ナンピト
+# text = 何人も、その住居、書類及び所持品について、侵入、捜索及び押収を受けることのない権利は、第三十三三十三条の場合を除いては、正当な理由に基いて発せられ、且つ捜索する場所及び押収する物を明示する令状がなければ、侵されない。
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	64	dislocated	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	その	その	DET	連体詞	_	5	det	_	SpaceAfter=No|Reading=ソノ
@@ -2043,48 +2043,49 @@
 22	こと	こと	NOUN	名詞-普通名詞-一般	_	24	nmod	_	SpaceAfter=No|Reading=コト
 23	の	の	ADP	助詞-格助詞	_	22	case	_	SpaceAfter=No|Reading=ノ
 24	ない	ない	ADJ	形容詞-非自立可能	_	25	acl	_	SpaceAfter=No|Inf=形容詞,連体形-一般|Reading=ナイ
-25	権利	権利	NOUN	名詞-普通名詞-一般	_	63	nsubj	_	SpaceAfter=No|Reading=ケンリ
+25	権利	権利	NOUN	名詞-普通名詞-一般	_	64	nsubj	_	SpaceAfter=No|Reading=ケンリ
 26	は	は	ADP	助詞-係助詞	_	25	case	_	SpaceAfter=No|Reading=ワ
 27	、	、	PUNCT	補助記号-読点	_	25	punct	_	SpaceAfter=No|Reading=、
-28	第	第	NOUN	接頭辞	_	30	compound	_	SpaceAfter=No|Reading=ダイ
-29	三十三	三十三	NUM	名詞-数詞	_	30	compound	_	SpaceAfter=No|Reading=サンジュウサン
-30	条	条	NOUN	名詞-普通名詞-助数詞可能	_	32	nmod	_	SpaceAfter=No|Reading=ジョウ
-31	の	の	ADP	助詞-格助詞	_	30	case	_	SpaceAfter=No|Reading=ノ
-32	場合	場合	NOUN	名詞-普通名詞-副詞可能	_	34	obj	_	SpaceAfter=No|Reading=バアイ
-33	を	を	ADP	助詞-格助詞	_	32	case	_	SpaceAfter=No|Reading=オ
-34	除い	除く	VERB	動詞-一般	_	44	advcl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ノゾイ
-35	て	て	SCONJ	助詞-接続助詞	_	34	mark	_	SpaceAfter=No|Reading=テ
-36	は	は	ADP	助詞-係助詞	_	34	case	_	SpaceAfter=No|Reading=ワ
-37	、	、	PUNCT	補助記号-読点	_	34	punct	_	SpaceAfter=No|Reading=、
-38	正当	正当	ADJ	名詞-普通名詞-形状詞可能	_	40	acl	_	SpaceAfter=No|Reading=セイトウ
-39	な	だ	AUX	助動詞	_	38	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
-40	理由	理由	NOUN	名詞-普通名詞-一般	_	42	obl	_	SpaceAfter=No|Reading=リユウ
-41	に	に	ADP	助詞-格助詞	_	40	case	_	SpaceAfter=No|Reading=ニ
-42	基い	基く	VERB	動詞-一般	_	44	advcl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=モトヅイ
-43	て	て	SCONJ	助詞-接続助詞	_	42	mark	_	SpaceAfter=No|Reading=テ
-44	発せ	発する	VERB	動詞-一般	_	63	advcl	_	SpaceAfter=No|Inf=サ行変格,未然形-セ|Reading=ハッセ
-45	られ	られる	AUX	助動詞	_	44	aux	_	SpaceAfter=No|Inf=助動詞-レル,連用形-一般|Reading=ラレ
-46	、	、	PUNCT	補助記号-読点	_	44	punct	_	SpaceAfter=No|Reading=、
-47	且つ	且つ	CCONJ	接続詞	_	58	cc	_	SpaceAfter=No|Reading=カツ
-48	捜索	捜索	VERB	名詞-普通名詞-サ変可能	_	50	acl	_	SpaceAfter=No|Reading=ソウサク
-49	する	する	AUX	動詞-非自立可能	_	48	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
-50	場所	場所	NOUN	名詞-普通名詞-一般	_	54	nmod	_	SpaceAfter=No|Reading=バショ
-51	及び	及び	CCONJ	接続詞	_	54	cc	_	SpaceAfter=No|Reading=オヨビ
-52	押収	押収	VERB	名詞-普通名詞-サ変可能	_	54	acl	_	SpaceAfter=No|Reading=オウシュウ
-53	する	する	AUX	動詞-非自立可能	_	52	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
-54	物	物	NOUN	名詞-普通名詞-サ変可能	_	56	obj	_	SpaceAfter=No|Reading=モノ
-55	を	を	ADP	助詞-格助詞	_	54	case	_	SpaceAfter=No|Reading=オ
-56	明示	明示	VERB	名詞-普通名詞-サ変可能	_	58	acl	_	SpaceAfter=No|Reading=メイジ
-57	する	する	AUX	動詞-非自立可能	_	56	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
-58	令状	令状	NOUN	名詞-普通名詞-一般	_	60	nsubj	_	SpaceAfter=No|Reading=レイジョウ
-59	が	が	ADP	助詞-格助詞	_	58	case	_	SpaceAfter=No|Reading=ガ
-60	なけれ	ない	ADJ	形容詞-非自立可能	_	63	advcl	_	SpaceAfter=No|Inf=形容詞,仮定形-一般|Reading=ナケレ
-61	ば	ば	SCONJ	助詞-接続助詞	_	60	mark	_	SpaceAfter=No|Reading=バ
-62	、	、	PUNCT	補助記号-読点	_	60	punct	_	SpaceAfter=No|Reading=、
-63	侵さ	侵す	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=五段-サ行,未然形-一般|Reading=オカサ
-64	れ	れる	AUX	助動詞	_	63	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
-65	ない	ない	AUX	助動詞	_	63	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-66	。	。	PUNCT	補助記号-句点	_	63	punct	_	SpaceAfter=No|Reading=。
+28	第	第	NOUN	接頭辞	_	31	compound	_	SpaceAfter=No|Reading=ダイ
+29	三十三	三十三	NUM	名詞-数詞	_	31	compound	_	SpaceAfter=No|Reading=サンジュウサン
+30	三十三	三十三	NUM	名詞-数詞	_	31	compound	_	SpaceAfter=No|Reading=サンジュウサン
+31	条	条	NOUN	名詞-普通名詞-助数詞可能	_	33	nmod	_	SpaceAfter=No|Reading=ジョウ
+32	の	の	ADP	助詞-格助詞	_	31	case	_	SpaceAfter=No|Reading=ノ
+33	場合	場合	NOUN	名詞-普通名詞-副詞可能	_	35	obj	_	SpaceAfter=No|Reading=バアイ
+34	を	を	ADP	助詞-格助詞	_	33	case	_	SpaceAfter=No|Reading=オ
+35	除い	除く	VERB	動詞-一般	_	45	advcl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ノゾイ
+36	て	て	SCONJ	助詞-接続助詞	_	35	mark	_	SpaceAfter=No|Reading=テ
+37	は	は	ADP	助詞-係助詞	_	35	case	_	SpaceAfter=No|Reading=ワ
+38	、	、	PUNCT	補助記号-読点	_	35	punct	_	SpaceAfter=No|Reading=、
+39	正当	正当	ADJ	名詞-普通名詞-形状詞可能	_	41	acl	_	SpaceAfter=No|Reading=セイトウ
+40	な	だ	AUX	助動詞	_	39	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
+41	理由	理由	NOUN	名詞-普通名詞-一般	_	43	obl	_	SpaceAfter=No|Reading=リユウ
+42	に	に	ADP	助詞-格助詞	_	41	case	_	SpaceAfter=No|Reading=ニ
+43	基い	基く	VERB	動詞-一般	_	45	advcl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=モトヅイ
+44	て	て	SCONJ	助詞-接続助詞	_	43	mark	_	SpaceAfter=No|Reading=テ
+45	発せ	発する	VERB	動詞-一般	_	64	advcl	_	SpaceAfter=No|Inf=サ行変格,未然形-セ|Reading=ハッセ
+46	られ	られる	AUX	助動詞	_	45	aux	_	SpaceAfter=No|Inf=助動詞-レル,連用形-一般|Reading=ラレ
+47	、	、	PUNCT	補助記号-読点	_	45	punct	_	SpaceAfter=No|Reading=、
+48	且つ	且つ	CCONJ	接続詞	_	59	cc	_	SpaceAfter=No|Reading=カツ
+49	捜索	捜索	VERB	名詞-普通名詞-サ変可能	_	51	acl	_	SpaceAfter=No|Reading=ソウサク
+50	する	する	AUX	動詞-非自立可能	_	49	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
+51	場所	場所	NOUN	名詞-普通名詞-一般	_	55	nmod	_	SpaceAfter=No|Reading=バショ
+52	及び	及び	CCONJ	接続詞	_	55	cc	_	SpaceAfter=No|Reading=オヨビ
+53	押収	押収	VERB	名詞-普通名詞-サ変可能	_	55	acl	_	SpaceAfter=No|Reading=オウシュウ
+54	する	する	AUX	動詞-非自立可能	_	53	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
+55	物	物	NOUN	名詞-普通名詞-サ変可能	_	57	obj	_	SpaceAfter=No|Reading=モノ
+56	を	を	ADP	助詞-格助詞	_	55	case	_	SpaceAfter=No|Reading=オ
+57	明示	明示	VERB	名詞-普通名詞-サ変可能	_	59	acl	_	SpaceAfter=No|Reading=メイジ
+58	する	する	AUX	動詞-非自立可能	_	57	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
+59	令状	令状	NOUN	名詞-普通名詞-一般	_	61	nsubj	_	SpaceAfter=No|Reading=レイジョウ
+60	が	が	ADP	助詞-格助詞	_	59	case	_	SpaceAfter=No|Reading=ガ
+61	なけれ	ない	ADJ	形容詞-非自立可能	_	64	advcl	_	SpaceAfter=No|Inf=形容詞,仮定形-一般|Reading=ナケレ
+62	ば	ば	SCONJ	助詞-接続助詞	_	61	mark	_	SpaceAfter=No|Reading=バ
+63	、	、	PUNCT	補助記号-読点	_	61	punct	_	SpaceAfter=No|Reading=、
+64	侵さ	侵す	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=五段-サ行,未然形-一般|Reading=オカサ
+65	れ	れる	AUX	助動詞	_	64	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
+66	ない	ない	AUX	助動詞	_	64	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+67	。	。	PUNCT	補助記号-句点	_	64	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 80
 # text = 捜索又は押収は、権限を有する司法官憲が発する各別の令状により、これを行ふ。
