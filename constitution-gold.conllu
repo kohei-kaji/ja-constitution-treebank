@@ -3227,7 +3227,7 @@
 47	。	。	PUNCT	補助記号-句点	_	41	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 121
-# text = 出席議員の五分の一以上の要求があれば、各議員の表決は、これを会議録に記載しなければならない。
+# text = 出席議員の五分の一以上の要求があれば、各議員の表決は、これを会議録会議録に記載しなければならない。
 1	出席	出席	NOUN	名詞-普通名詞-サ変可能	_	2	compound	_	SpaceAfter=No|Reading=シュッセキ
 2	議員	議員	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=ギイン
 3	の	の	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ノ
@@ -3239,26 +3239,27 @@
 9	の	の	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=ノ
 10	要求	要求	NOUN	名詞-普通名詞-サ変可能	_	12	nsubj	_	SpaceAfter=No|Reading=ヨウキュウ
 11	が	が	ADP	助詞-格助詞	_	10	case	_	SpaceAfter=No|Reading=ガ
-12	あれ	ある	VERB	動詞-非自立可能	_	25	advcl	_	SpaceAfter=No|Inf=五段-ラ行,仮定形-一般|Reading=アレ
+12	あれ	ある	VERB	動詞-非自立可能	_	26	advcl	_	SpaceAfter=No|Inf=五段-ラ行,仮定形-一般|Reading=アレ
 13	ば	ば	SCONJ	助詞-接続助詞	_	12	mark	_	SpaceAfter=No|Reading=バ
 14	、	、	PUNCT	補助記号-読点	_	12	punct	_	SpaceAfter=No|Reading=、
 15	各	各	NOUN	接頭辞	_	16	compound	_	SpaceAfter=No|Reading=カク
 16	議員	議員	NOUN	名詞-普通名詞-一般	_	18	nmod	_	SpaceAfter=No|Reading=ギイン
 17	の	の	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Reading=ノ
-18	表決	表決	NOUN	名詞-普通名詞-サ変可能	_	25	nsubj	_	SpaceAfter=No|Reading=ヒョウケツ
+18	表決	表決	NOUN	名詞-普通名詞-サ変可能	_	26	nsubj	_	SpaceAfter=No|Reading=ヒョウケツ
 19	は	は	ADP	助詞-係助詞	_	18	case	_	SpaceAfter=No|Reading=ワ
 20	、	、	PUNCT	補助記号-読点	_	18	punct	_	SpaceAfter=No|Reading=、
-21	これ	これ	PRON	代名詞	_	25	obj	_	SpaceAfter=No|Reading=コレ
+21	これ	これ	PRON	代名詞	_	26	obj	_	SpaceAfter=No|Reading=コレ
 22	を	を	ADP	助詞-格助詞	_	21	case	_	SpaceAfter=No|Reading=オ
-23	会議録	会議録	NOUN	名詞-普通名詞-一般	_	25	obl	_	SpaceAfter=No|Reading=カイギロク
-24	に	に	ADP	助詞-格助詞	_	23	case	_	SpaceAfter=No|Reading=ニ
-25	記載	記載	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=キサイ
-26	し	する	AUX	動詞-非自立可能	_	25	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-一般|Reading=シ
-27	なけれ	ない	AUX	助動詞	_	25	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
-28	ば	ば	SCONJ	助詞-接続助詞	_	27	fixed	_	SpaceAfter=No|Reading=バ
-29	なら	なる	VERB	動詞-非自立可能	_	27	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
-30	ない	ない	AUX	助動詞	_	27	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-31	。	。	PUNCT	補助記号-句点	_	25	punct	_	SpaceAfter=No|Reading=。
+23	会議録	会議録	NOUN	名詞-普通名詞-一般	_	26	obl	_	SpaceAfter=No|Reading=カイギロク
+24	会議録	会議録	NOUN	名詞-普通名詞-一般	_	26	obl	_	SpaceAfter=No|Reading=カイギロク
+25	に	に	ADP	助詞-格助詞	_	23	case	_	SpaceAfter=No|Reading=ニ
+26	記載	記載	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=キサイ
+27	し	する	AUX	動詞-非自立可能	_	26	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-一般|Reading=シ
+28	なけれ	ない	AUX	助動詞	_	26	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
+29	ば	ば	SCONJ	助詞-接続助詞	_	28	fixed	_	SpaceAfter=No|Reading=バ
+30	なら	なる	VERB	動詞-非自立可能	_	28	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
+31	ない	ない	AUX	助動詞	_	28	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+32	。	。	PUNCT	補助記号-句点	_	26	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 122
 # text = 両議院は、各々その議長その他の役員を選任する。
