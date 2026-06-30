@@ -2848,7 +2848,7 @@
 5	さ	する	AUX	動詞-非自立可能	_	4	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-サ|Reading=サ
 6	れ	れる	AUX	助動詞	_	4	aux	_	SpaceAfter=No|Inf=助動詞-レル,連用形-一般|Reading=レ
 7	た	た	AUX	助動詞	_	4	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
-8	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	27	obl	_	SpaceAfter=No|Reading=トキ
+8	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	41	obl	_	SpaceAfter=No|Reading=トキ
 9	は	は	ADP	助詞-係助詞	_	8	case	_	SpaceAfter=No|Reading=ワ
 10	、	、	PUNCT	補助記号-読点	_	8	punct	_	SpaceAfter=No|Reading=、
 11	解散	解散	NOUN	名詞-普通名詞-サ変可能	_	13	nmod	_	SpaceAfter=No|Reading=カイサン
