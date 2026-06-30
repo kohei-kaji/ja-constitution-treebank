@@ -2539,17 +2539,19 @@
 30	。	。	PUNCT	補助記号-句点	_	24	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 99
-# text = 衆議院議員の任期は、四年とする。
-1	衆議院議員	衆議院議員	NOUN	名詞-普通名詞-一般	_	3	nmod	_	SpaceAfter=No|Reading=シュウギインギイン
-2	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
-3	任期	任期	NOUN	名詞-普通名詞-一般	_	9	nsubj	_	SpaceAfter=No|Reading=ニンキ
-4	は	は	ADP	助詞-係助詞	_	3	case	_	SpaceAfter=No|Reading=ワ
-5	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
-6	四	四	NUM	名詞-数詞	_	7	nummod	_	SpaceAfter=No|Reading=ヨン
-7	年	年	NOUN	名詞-普通名詞-助数詞可能	_	9	obl	_	SpaceAfter=No|Reading=ネン
-8	と	と	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=ト
-9	する	する	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
-10	。	。	PUNCT	補助記号-句点	_	9	punct	_	SpaceAfter=No|Reading=。
+# text = 衆議院議員衆議院議員衆議院議員の任期は、四年とする。
+1	衆議院議員	衆議院議員	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=シュウギインギイン
+2	衆議院議員	衆議院議員	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=シュウギインギイン
+3	衆議院議員	衆議院議員	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=シュウギインギイン
+4	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
+5	任期	任期	NOUN	名詞-普通名詞-一般	_	11	nsubj	_	SpaceAfter=No|Reading=ニンキ
+6	は	は	ADP	助詞-係助詞	_	5	case	_	SpaceAfter=No|Reading=ワ
+7	、	、	PUNCT	補助記号-読点	_	5	punct	_	SpaceAfter=No|Reading=、
+8	四	四	NUM	名詞-数詞	_	9	nummod	_	SpaceAfter=No|Reading=ヨン
+9	年	年	NOUN	名詞-普通名詞-助数詞可能	_	11	obl	_	SpaceAfter=No|Reading=ネン
+10	と	と	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=ト
+11	する	する	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
+12	。	。	PUNCT	補助記号-句点	_	11	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 100
 # text = 但し、衆議院解散の場合には、その期間満了前に終了する。
