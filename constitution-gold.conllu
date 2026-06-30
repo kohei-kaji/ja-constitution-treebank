@@ -2608,9 +2608,9 @@
 
 # sent_id = 102
 # text = 選挙区選挙区、投票の方法その他両議院の議員の選挙に関する事項は、法律でこれを定める。
-1	選挙区	選挙区	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=センキョク
-2	選挙区	選挙区	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=センキョク
-3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
+1	選挙	選挙	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=センキョ
+2	区	区	NOUN	接尾辞-名詞的-一般	_	6	nmod	_	SpaceAfter=No|Reading=ク
+3	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
 4	投票	投票	NOUN	名詞-普通名詞-サ変可能	_	6	nmod	_	SpaceAfter=No|Reading=トウヒョウ
 5	の	の	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ノ
 6	方法	方法	NOUN	名詞-普通名詞-一般	_	17	nmod	_	SpaceAfter=No|Reading=ホウホウ
