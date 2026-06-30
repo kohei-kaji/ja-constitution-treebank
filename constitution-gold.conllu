@@ -3247,7 +3247,7 @@
 15	各	各	NOUN	接頭辞	_	16	compound	_	SpaceAfter=No|Reading=カク
 16	議員	議員	NOUN	名詞-普通名詞-一般	_	18	nmod	_	SpaceAfter=No|Reading=ギイン
 17	の	の	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Reading=ノ
-18	表決	表決	NOUN	名詞-普通名詞-サ変可能	_	26	nsubj	_	SpaceAfter=No|Reading=ヒョウケツ
+18	表決	表決	NOUN	名詞-普通名詞-サ変可能	_	26	dislocated	_	SpaceAfter=No|Reading=ヒョウケツ
 19	は	は	ADP	助詞-係助詞	_	18	case	_	SpaceAfter=No|Reading=ワ
 20	、	、	PUNCT	補助記号-読点	_	18	punct	_	SpaceAfter=No|Reading=、
 21	これ	これ	PRON	代名詞	_	26	obj	_	SpaceAfter=No|Reading=コレ
