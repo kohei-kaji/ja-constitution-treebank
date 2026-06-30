@@ -2345,7 +2345,7 @@
 14	の	の	ADP	助詞-格助詞	_	13	case	_	SpaceAfter=No|Reading=ノ
 15	責任	責任	NOUN	名詞-普通名詞-一般	_	17	obj	_	SpaceAfter=No|Reading=セキニン
 16	を	を	ADP	助詞-格助詞	_	15	case	_	SpaceAfter=No|Reading=オ
-17	問は	問ふ	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=文語四段-ハ行,未然形-一般|Reading=トハ
+17	問は	問ふ	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=文語四段-ハ行,未然形-一般|Reading=トワ
 18	れ	れる	AUX	助動詞	_	17	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
 19	ない	ない	AUX	助動詞	_	17	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
 20	。	。	PUNCT	補助記号-句点	_	17	punct	_	SpaceAfter=No|Reading=。
