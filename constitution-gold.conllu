@@ -2193,15 +2193,17 @@
 20	附する	附する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=フスル
 21	。	。	PUNCT	補助記号-句点	_	20	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 86
-# text = 何人も、自己に不利益不利益な供述を強要されない。
+# text = 何人も、自己に不利益な供述を強要されない。
 1	何人	何人	NOUN	名詞-普通名詞-一般	_	11	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	自己	自己	NOUN	名詞-普通名詞-一般	_	11	obl	_	SpaceAfter=No|Reading=ジコ
 5	に	に	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ニ
-6	不利益	不利益	NOUN	名詞-普通名詞-形状詞可能	_	9	acl	_	SpaceAfter=No|Reading=フリエキ
-7	不利益	不利益	NOUN	名詞-普通名詞-形状詞可能	_	9	acl	_	SpaceAfter=No|Reading=フリエキ
+6	不	不	NOUN	接頭辞	Polarity=Neg	7	compound	_	SpaceAfter=No|Reading=フ
+7	利益	利益	NOUN	名詞-普通名詞-形状詞可能	_	9	acl	_	SpaceAfter=No|Reading=リエキ
 8	な	だ	AUX	助動詞	_	6	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
 9	供述	供述	NOUN	名詞-普通名詞-サ変可能	_	11	obj	_	SpaceAfter=No|Reading=キョウジュツ
 10	を	を	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=オ
