@@ -2167,13 +2167,15 @@
 26	有する	有する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=ユウスル
 27	。	。	PUNCT	補助記号-句点	_	26	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 83
-# text = 刑事被告人被告人は、すべての証人に対して審問する機会を充分に与へられ、又、公費で自己のために強制的手続により証人を求める権利を有する。
-1	刑事	刑事	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=ケイジ
-2	被告人	被告人	NOUN	名詞-普通名詞-一般	_	18	nsubj	_	SpaceAfter=No|Reading=ヒコクニン
-3	被告人	被告人	NOUN	名詞-普通名詞-一般	_	18	nsubj	_	SpaceAfter=No|Reading=ヒコクニン
-4	は	は	ADP	助詞-係助詞	_	2	case	_	SpaceAfter=No|Reading=ワ
-5	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
+# text = 刑事被告人は、すべての証人に対して審問する機会を充分に与へられ、又、公費で自己のために強制的手続により証人を求める権利を有する。
+1	刑事	刑事	NOUN	名詞-普通名詞-一般	_	3	compound	_	SpaceAfter=No|Reading=ケイジ
+2	被告	被告	NOUN	名詞-普通名詞-一般	_	3	compound	_	SpaceAfter=No|Reading=ヒコク
+3	人	人	NOUN	接尾辞-名詞的-一般	_	18	nsubj	_	SpaceAfter=No|Reading=ニン
+4	は	は	ADP	助詞-係助詞	_	3	case	_	SpaceAfter=No|Reading=ワ
+5	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
 6	すべて	すべて	NOUN	名詞-普通名詞-副詞可能	_	8	nmod	_	SpaceAfter=No|Reading=スベテ
 7	の	の	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ノ
 8	証人	証人	NOUN	名詞-普通名詞-一般	_	12	obl	_	SpaceAfter=No|Reading=ショウニン
