@@ -2449,7 +2449,7 @@
 5	全	全	NOUN	接頭辞	_	6	compound	_	SpaceAfter=No|Reading=ゼン
 6	国民	国民	NOUN	名詞-普通名詞-一般	_	8	obj	_	SpaceAfter=No|Reading=コクミン
 7	を	を	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=オ
-8	代表	代表	VERB	名詞-普通名詞-サ変可能	_	10	advcl	_	SpaceAfter=No|Reading=ダイヒョウ
+8	代表	代表	VERB	名詞-普通名詞-サ変可能	_	14	advcl	_	SpaceAfter=No|Reading=ダイヒョウ
 9	する	する	AUX	動詞-非自立可能	_	8	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
 10	選挙	選挙	VERB	名詞-普通名詞-サ変可能	_	14	acl	_	SpaceAfter=No|Reading=センキョ
 11	さ	する	AUX	動詞-非自立可能	_	10	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-サ|Reading=サ
