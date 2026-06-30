@@ -3490,8 +3490,8 @@
 12	案	案	NOUN	接尾辞-名詞的-一般	_	14	obj	_	SpaceAfter=No|Reading=アン
 13	を	を	ADP	助詞-格助詞	_	12	case	_	SpaceAfter=No|Reading=オ
 14	受け	受ける	VERB	動詞-一般	_	15	advcl	_	SpaceAfter=No|Inf=下一段-カ行,連用形-一般|Reading=ウケ
-15	取	取	VERB	名詞-普通名詞-一般	_	17	acl	_	SpaceAfter=No|Reading=トリ
-16	つた	つた	VERB	名詞-普通名詞-一般	_	15	advcl	_	SpaceAfter=No|Reading=ツタ
+15	取つ	取	VERB	動詞-一般	_	17	acl	_	SpaceAfter=No|Reading=トッ
+16	た	た	AUX	助動詞	_	15	aux	_	SpaceAfter=No|Reading=タ
 17	後	後	NOUN	接尾辞-名詞的-副詞可能	_	32	obl	_	SpaceAfter=No|Reading=ゴ
 18	、	、	PUNCT	補助記号-読点	_	17	punct	_	SpaceAfter=No|Reading=、
 19	国会	国会	NOUN	名詞-普通名詞-一般	_	21	compound	_	SpaceAfter=No|Reading=コッカイ
