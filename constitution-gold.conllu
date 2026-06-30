@@ -2654,8 +2654,10 @@
 14	ない	ない	AUX	助動詞	_	13	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
 15	。	。	PUNCT	補助記号-句点	_	13	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 104
-# text = 両議院の議員は、法律の定めるところにより、国庫から相当額相当額の歳費を受ける。
+# text = 両議院の議員は、法律の定めるところにより、国庫から相当額の歳費を受ける。
 1	両	両	NOUN	接頭辞	_	2	compound	_	SpaceAfter=No|Reading=リョウ
 2	議院	議院	NOUN	名詞-普通名詞-一般	_	4	nmod	_	SpaceAfter=No|Reading=ギイン
 3	の	の	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ノ
@@ -2671,9 +2673,9 @@
 13	、	、	PUNCT	補助記号-読点	_	10	punct	_	SpaceAfter=No|Reading=、
 14	国庫	国庫	NOUN	名詞-普通名詞-一般	_	21	obl	_	SpaceAfter=No|Reading=コッコ
 15	から	から	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=カラ
-16	相当額	相当額	NOUN	名詞-普通名詞-一般	_	19	nmod	_	SpaceAfter=No|Reading=ソウトウガク
-17	相当額	相当額	NOUN	名詞-普通名詞-一般	_	19	nmod	_	SpaceAfter=No|Reading=ソウトウガク
-18	の	の	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Reading=ノ
+16	相当	相当	NOUN	名詞-普通名詞-一般	_	17	compound	_	SpaceAfter=No|Reading=ソウトウ
+17	額	額	NOUN	名詞-普通名詞-一般	_	19	nmod	_	SpaceAfter=No|Reading=ガク
+18	の	の	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=ノ
 19	歳費	歳費	NOUN	名詞-普通名詞-一般	_	21	obj	_	SpaceAfter=No|Reading=サイヒ
 20	を	を	ADP	助詞-格助詞	_	19	case	_	SpaceAfter=No|Reading=オ
 21	受ける	受ける	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-カ行,終止形-一般|Reading=ウケル
