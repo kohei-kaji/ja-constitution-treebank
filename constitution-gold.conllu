@@ -3351,10 +3351,12 @@
 26	する	する	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
 27	。	。	PUNCT	補助記号-句点	_	26	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 125
-# text = 法律案法律案は、この憲法に特別の定のある場合を除いては、両議院で可決したとき法律となる。
-1	法律案	法律案	NOUN	名詞-普通名詞-一般	_	28	nsubj	_	SpaceAfter=No|Reading=ホウリツアン
-2	法律案	法律案	NOUN	名詞-普通名詞-一般	_	28	nsubj	_	SpaceAfter=No|Reading=ホウリツアン
+# text = 法律案は、この憲法に特別の定のある場合を除いては、両議院で可決したとき法律となる。
+1	法律	法律	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=ホウリツ
+2	案	案	NOUN	接尾辞-名詞的-一般	_	28	nsubj	_	SpaceAfter=No|Reading=アン
 3	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
 4	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 5	この	この	DET	連体詞	_	6	det	_	SpaceAfter=No|Reading=コノ
