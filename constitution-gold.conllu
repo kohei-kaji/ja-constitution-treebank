@@ -2136,32 +2136,33 @@
 17	。	。	PUNCT	補助記号-句点	_	16	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 82
-# text = すべて刑事事件においては、被告人は、公平な裁判所の迅速な公開裁判を受ける権利を有する。
-1	すべて	すべて	ADV	名詞-普通名詞-副詞可能	_	24	advmod	_	SpaceAfter=No|Reading=スベテ
+# text = すべて刑事事件においては、被告人被告人は、公平な裁判所の迅速な公開裁判を受ける権利を有する。
+1	すべて	すべて	ADV	名詞-普通名詞-副詞可能	_	25	advmod	_	SpaceAfter=No|Reading=スベテ
 2	刑事	刑事	NOUN	名詞-普通名詞-一般	_	3	compound	_	SpaceAfter=No|Reading=ケイジ
-3	事件	事件	NOUN	名詞-普通名詞-一般	_	24	obl	_	SpaceAfter=No|Reading=ジケン
+3	事件	事件	NOUN	名詞-普通名詞-一般	_	25	obl	_	SpaceAfter=No|Reading=ジケン
 4	に	に	ADP	助詞-格助詞	_	3	case	_	SpaceAfter=No|Reading=ニ
 5	おい	おく	VERB	動詞-一般	_	4	fixed	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=オイ
 6	て	て	SCONJ	助詞-接続助詞	_	4	fixed	_	SpaceAfter=No|Reading=テ
 7	は	は	ADP	助詞-係助詞	_	3	case	_	SpaceAfter=No|Reading=ワ
 8	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
-9	被告人	被告人	NOUN	名詞-普通名詞-一般	_	24	nsubj	_	SpaceAfter=No|Reading=ヒコクニン
-10	は	は	ADP	助詞-係助詞	_	9	case	_	SpaceAfter=No|Reading=ワ
-11	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
-12	公平	公平	ADJ	名詞-普通名詞-形状詞可能	_	14	acl	_	SpaceAfter=No|Reading=コウヘイ
-13	な	だ	AUX	助動詞	_	12	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
-14	裁判所	裁判所	NOUN	名詞-普通名詞-一般	_	19	nmod	_	SpaceAfter=No|Reading=サイバンショ
-15	の	の	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=ノ
-16	迅速	迅速	ADJ	形状詞-一般	_	19	acl	_	SpaceAfter=No|Reading=ジンソク
-17	な	だ	AUX	助動詞	_	16	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
-18	公開	公開	NOUN	名詞-普通名詞-サ変可能	_	19	compound	_	SpaceAfter=No|Reading=コウカイ
-19	裁判	裁判	NOUN	名詞-普通名詞-サ変可能	_	21	obj	_	SpaceAfter=No|Reading=サイバン
-20	を	を	ADP	助詞-格助詞	_	19	case	_	SpaceAfter=No|Reading=オ
-21	受ける	受ける	VERB	動詞-一般	_	22	acl	_	SpaceAfter=No|Inf=下一段-カ行,連体形-一般|Reading=ウケル
-22	権利	権利	NOUN	名詞-普通名詞-一般	_	24	obj	_	SpaceAfter=No|Reading=ケンリ
-23	を	を	ADP	助詞-格助詞	_	22	case	_	SpaceAfter=No|Reading=オ
-24	有する	有する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=ユウスル
-25	。	。	PUNCT	補助記号-句点	_	24	punct	_	SpaceAfter=No|Reading=。
+9	被告人	被告人	NOUN	名詞-普通名詞-一般	_	25	nsubj	_	SpaceAfter=No|Reading=ヒコクニン
+10	被告人	被告人	NOUN	名詞-普通名詞-一般	_	25	nsubj	_	SpaceAfter=No|Reading=ヒコクニン
+11	は	は	ADP	助詞-係助詞	_	9	case	_	SpaceAfter=No|Reading=ワ
+12	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
+13	公平	公平	ADJ	名詞-普通名詞-形状詞可能	_	15	acl	_	SpaceAfter=No|Reading=コウヘイ
+14	な	だ	AUX	助動詞	_	13	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
+15	裁判所	裁判所	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=サイバンショ
+16	の	の	ADP	助詞-格助詞	_	15	case	_	SpaceAfter=No|Reading=ノ
+17	迅速	迅速	ADJ	形状詞-一般	_	20	acl	_	SpaceAfter=No|Reading=ジンソク
+18	な	だ	AUX	助動詞	_	17	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
+19	公開	公開	NOUN	名詞-普通名詞-サ変可能	_	20	compound	_	SpaceAfter=No|Reading=コウカイ
+20	裁判	裁判	NOUN	名詞-普通名詞-サ変可能	_	22	obj	_	SpaceAfter=No|Reading=サイバン
+21	を	を	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=オ
+22	受ける	受ける	VERB	動詞-一般	_	23	acl	_	SpaceAfter=No|Inf=下一段-カ行,連体形-一般|Reading=ウケル
+23	権利	権利	NOUN	名詞-普通名詞-一般	_	25	obj	_	SpaceAfter=No|Reading=ケンリ
+24	を	を	ADP	助詞-格助詞	_	23	case	_	SpaceAfter=No|Reading=オ
+25	有する	有する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=ユウスル
+26	。	。	PUNCT	補助記号-句点	_	25	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 83
 # text = 刑事被告人は、すべての証人に対して審問する機会を充分に与へられ、又、公費で自己のために強制的手続により証人を求める権利を有する。
