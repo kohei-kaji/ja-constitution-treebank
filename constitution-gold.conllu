@@ -2019,7 +2019,7 @@
 # newpar
 # sent_id = 79
 # text = 何人も、その住居、書類及び所持品について、侵入、捜索及び押収を受けることのない権利は、第三十三条の場合を除いては、正当な理由に基いて発せられ、且つ捜索する場所及び押収する物を明示する令状がなければ、侵されない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	44	nsubj	_	SpaceAfter=No|Reading=ナンピト
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	63	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	その	その	DET	連体詞	_	5	det	_	SpaceAfter=No|Reading=ソノ
