@@ -2250,16 +2250,18 @@
 33	ない	ない	AUX	助動詞	_	29	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
 34	。	。	PUNCT	補助記号-句点	_	29	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 88
-# text = 何人も、自己に不利益不利益な唯一の証拠が本人の自白である場合には、有罪とされ、又は刑罰を科せられない。
+# text = 何人も、自己に不利益な唯一の証拠が本人の自白である場合には、有罪とされ、又は刑罰を科せられない。
 1	何人	何人	NOUN	名詞-普通名詞-一般	_	31	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-4	自己	自己	NOUN	名詞-普通名詞-一般	_	6	obl	_	SpaceAfter=No|Reading=ジコ
+4	自己	自己	NOUN	名詞-普通名詞-一般	_	7	obl	_	SpaceAfter=No|Reading=ジコ
 5	に	に	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ニ
-6	不利益	不利益	ADJ	名詞-普通名詞-形状詞可能	_	11	acl	_	SpaceAfter=No|Reading=フリエキ
-7	不利益	不利益	ADJ	名詞-普通名詞-形状詞可能	_	11	acl	_	SpaceAfter=No|Reading=フリエキ
-8	な	だ	AUX	助動詞	_	6	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
+6	不	不	NOUN	接頭辞	_	7	compound	_	SpaceAfter=No|Reading=フ
+7	利益	利益	NOUN	名詞-普通名詞-形状詞可能	_	11	acl	_	SpaceAfter=No|Reading=リエキ
+8	な	だ	AUX	助動詞	_	7	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
 9	唯一	唯一	NOUN	名詞-普通名詞-副詞可能	_	11	nmod	_	SpaceAfter=No|Reading=ユイイツ
 10	の	の	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=ノ
 11	証拠	証拠	NOUN	名詞-普通名詞-一般	_	15	nsubj	_	SpaceAfter=No|Reading=ショウコ
