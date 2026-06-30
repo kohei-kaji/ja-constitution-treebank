@@ -3436,8 +3436,10 @@
 45	なる	なる	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=五段-ラ行,終止形-一般|Reading=ナル
 46	。	。	PUNCT	補助記号-句点	_	45	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 127
-# text = 前項の規定は、法律の定めるところにより、衆議院衆議院が、両議院の協議会を開くことを求めることを妨げない。
+# text = 前項の規定は、法律の定めるところにより、衆議院が、両議院の協議会を開くことを求めることを妨げない。
 1	前項	前項	NOUN	名詞-普通名詞-一般	_	3	nmod	_	SpaceAfter=No|Reading=ゼンコウ
 2	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
 3	規定	規定	NOUN	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=キテイ
@@ -3450,10 +3452,10 @@
 10	に	に	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=ニ
 11	より	よる	VERB	動詞-一般	_	10	fixed	_	SpaceAfter=No|Inf=五段-ラ行,連用形-一般|Reading=ヨリ
 12	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
-13	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	22	nsubj	_	SpaceAfter=No|Reading=シュウギイン
-14	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	22	nsubj	_	SpaceAfter=No|Reading=シュウギイン
-15	が	が	ADP	助詞-格助詞	_	13	case	_	SpaceAfter=No|Reading=ガ
-16	、	、	PUNCT	補助記号-読点	_	13	punct	_	SpaceAfter=No|Reading=、
+13	衆議	衆議	NOUN	名詞-普通名詞-一般	_	14	compound	_	SpaceAfter=No|Reading=シュウギ
+14	院	院	NOUN	接尾辞-名詞的-一般	_	22	nsubj	_	SpaceAfter=No|Reading=イン
+15	が	が	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=ガ
+16	、	、	PUNCT	補助記号-読点	_	14	punct	_	SpaceAfter=No|Reading=、
 17	両	両	NOUN	接頭辞	_	18	compound	_	SpaceAfter=No|Reading=リョウ
 18	議院	議院	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=ギイン
 19	の	の	ADP	助詞-格助詞	_	18	case	_	SpaceAfter=No|Reading=ノ
