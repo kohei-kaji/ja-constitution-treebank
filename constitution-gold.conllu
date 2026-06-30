@@ -2115,9 +2115,9 @@
 
 # sent_id = 81
 # text = 公務員公務員による拷問及び残虐な刑罰は、絶対にこれを禁ずる。
-1	公務員	公務員	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=コウムイン
-2	公務員	公務員	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=コウムイン
-3	に	に	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ニ
+1	公務	公務	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=コウム
+2	員	員	NOUN	接尾辞-名詞的-一般	_	5	nmod	_	SpaceAfter=No|Reading=イン
+3	に	に	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ニ
 4	よる	よる	VERB	動詞-一般	_	3	fixed	_	SpaceAfter=No|Inf=五段-ラ行,連体形-一般|Reading=ヨル
 5	拷問	拷問	NOUN	名詞-普通名詞-サ変可能	_	9	nmod	_	SpaceAfter=No|Reading=ゴウモン
 6	及び	及び	CCONJ	接続詞	_	9	cc	_	SpaceAfter=No|Reading=オヨビ
