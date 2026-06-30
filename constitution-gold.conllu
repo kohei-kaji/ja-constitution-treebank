@@ -3534,16 +3534,18 @@
 56	できる	できる	AUX	動詞-非自立可能	_	54	fixed	_	SpaceAfter=No|Inf=上一段-カ行,終止形-一般|Reading=デキル
 57	。	。	PUNCT	補助記号-句点	_	53	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 129
-# text = 予算は、さきに衆議院衆議院に提出しなければならない。
+# text = 予算は、さきに衆議院に提出しなければならない。
 1	予算	予算	NOUN	名詞-普通名詞-一般	_	9	nsubj	_	SpaceAfter=No|Reading=ヨサン
 2	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	さき	さき	NOUN	名詞-普通名詞-副詞可能	_	9	obl	_	SpaceAfter=No|Reading=サキ
 5	に	に	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ニ
-6	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	9	obl	_	SpaceAfter=No|Reading=シュウギイン
-7	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	9	obl	_	SpaceAfter=No|Reading=シュウギイン
-8	に	に	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ニ
+6	衆議	衆議	NOUN	名詞-普通名詞-一般	_	7	compound	_	SpaceAfter=No|Reading=シュウギ
+7	院	院	NOUN	接尾辞-名詞的-一般	_	9	obl	_	SpaceAfter=No|Reading=イン
+8	に	に	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=ニ
 9	提出	提出	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=テイシュツ
 10	し	する	AUX	動詞-非自立可能	_	9	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-一般|Reading=シ
 11	なけれ	ない	AUX	助動詞	_	9	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
