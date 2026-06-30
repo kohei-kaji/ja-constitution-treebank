@@ -2945,6 +2945,8 @@
 25	できる	できる	AUX	動詞-非自立可能	_	23	fixed	_	SpaceAfter=No|Inf=上一段-カ行,終止形-一般|Reading=デキル
 26	。	。	PUNCT	補助記号-句点	_	22	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 113
 # text = 前項但書の緊急集会において採られた措置は、臨時のものであつて、次の国会開会の後十日以内に、衆議院の同意がない場合には、その効力を失ふ。
 1	前項	前項	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=ゼンコウ
@@ -2958,12 +2960,12 @@
 9	採ら	採る	VERB	動詞-一般	_	12	acl	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=トラ
 10	れ	れる	AUX	助動詞	_	9	aux	_	SpaceAfter=No|Inf=助動詞-レル,連用形-一般|Reading=レ
 11	た	た	AUX	助動詞	_	9	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
-12	措置	措置	NOUN	名詞-普通名詞-サ変可能	_	45	nsubj	_	SpaceAfter=No|Reading=ソチ
+12	措置	措置	NOUN	名詞-普通名詞-サ変可能	_	46	nsubj	_	SpaceAfter=No|Reading=ソチ
 13	は	は	ADP	助詞-係助詞	_	12	case	_	SpaceAfter=No|Reading=ワ
 14	、	、	PUNCT	補助記号-読点	_	12	punct	_	SpaceAfter=No|Reading=、
 15	臨時	臨時	NOUN	名詞-普通名詞-一般	_	17	nmod	_	SpaceAfter=No|Reading=リンジ
 16	の	の	ADP	助詞-格助詞	_	15	case	_	SpaceAfter=No|Reading=ノ
-17	もの	もの	NOUN	名詞-普通名詞-サ変可能	_	45	advcl	_	SpaceAfter=No|Reading=モノ
+17	もの	もの	NOUN	名詞-普通名詞-サ変可能	_	46	advcl	_	SpaceAfter=No|Reading=モノ
 18	で	だ	AUX	助動詞	_	17	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-一般|Reading=デ
 19	あつ	あり	VERB	動詞-非自立可能	_	18	fixed	_	SpaceAfter=No|Inf=文語ラ行変格,連用形-促音便|Reading=アッ
 20	て	て	SCONJ	助詞-接続助詞	_	17	mark	_	SpaceAfter=No|Reading=テ
@@ -2976,23 +2978,24 @@
 27	後	後	NOUN	名詞-普通名詞-副詞可能	_	30	nmod	_	SpaceAfter=No|Reading=ゴ
 28	十	十	NUM	名詞-数詞	_	30	compound	_	SpaceAfter=No|Reading=トウ
 29	日	日	NOUN	接尾辞-名詞的-助数詞	_	30	compound	_	SpaceAfter=No|Reading=カ
-30	以内	以内	NOUN	名詞-普通名詞-副詞可能	_	37	obl	_	SpaceAfter=No|Reading=イナイ
+30	以内	以内	NOUN	名詞-普通名詞-副詞可能	_	38	obl	_	SpaceAfter=No|Reading=イナイ
 31	に	に	ADP	助詞-格助詞	_	30	case	_	SpaceAfter=No|Reading=ニ
 32	、	、	PUNCT	補助記号-読点	_	30	punct	_	SpaceAfter=No|Reading=、
-33	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	35	nmod	_	SpaceAfter=No|Reading=シュウギイン
-34	の	の	ADP	助詞-格助詞	_	33	case	_	SpaceAfter=No|Reading=ノ
-35	同意	同意	NOUN	名詞-普通名詞-サ変可能	_	37	nsubj	_	SpaceAfter=No|Reading=ドウイ
-36	が	が	ADP	助詞-格助詞	_	35	case	_	SpaceAfter=No|Reading=ガ
-37	ない	ない	ADJ	形容詞-非自立可能	_	38	acl	_	SpaceAfter=No|Inf=形容詞,連体形-一般|Reading=ナイ
-38	場合	場合	NOUN	名詞-普通名詞-副詞可能	_	45	obl	_	SpaceAfter=No|Reading=バアイ
-39	に	に	ADP	助詞-格助詞	_	38	case	_	SpaceAfter=No|Reading=ニ
-40	は	は	ADP	助詞-係助詞	_	38	case	_	SpaceAfter=No|Reading=ワ
-41	、	、	PUNCT	補助記号-読点	_	38	punct	_	SpaceAfter=No|Reading=、
-42	その	その	DET	連体詞	_	43	det	_	SpaceAfter=No|Reading=ソノ
-43	効力	効力	NOUN	名詞-普通名詞-一般	_	45	obj	_	SpaceAfter=No|Reading=コウリョク
-44	を	を	ADP	助詞-格助詞	_	43	case	_	SpaceAfter=No|Reading=オ
-45	失ふ	失ふ	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=文語四段-ハ行,終止形-一般\|Reading=ウシナウ
-46	。	。	PUNCT	補助記号-句点	_	45	punct	_	SpaceAfter=No|Reading=。
+33	衆議	衆議	NOUN	名詞-普通名詞-一般	_	34	compound	_	SpaceAfter=No|Reading=シュウギ
+34	院	院	NOUN	接尾辞-名詞的-一般	_	36	nmod	_	SpaceAfter=No|Reading=イン
+35	の	の	ADP	助詞-格助詞	_	34	case	_	SpaceAfter=No|Reading=ノ
+36	同意	同意	NOUN	名詞-普通名詞-サ変可能	_	38	nsubj	_	SpaceAfter=No|Reading=ドウイ
+37	が	が	ADP	助詞-格助詞	_	36	case	_	SpaceAfter=No|Reading=ガ
+38	ない	ない	ADJ	形容詞-非自立可能	_	39	acl	_	SpaceAfter=No|Inf=形容詞,連体形-一般|Reading=ナイ
+39	場合	場合	NOUN	名詞-普通名詞-副詞可能	_	46	obl	_	SpaceAfter=No|Reading=バアイ
+40	に	に	ADP	助詞-格助詞	_	39	case	_	SpaceAfter=No|Reading=ニ
+41	は	は	ADP	助詞-係助詞	_	39	case	_	SpaceAfter=No|Reading=ワ
+42	、	、	PUNCT	補助記号-読点	_	39	punct	_	SpaceAfter=No|Reading=、
+43	その	その	DET	連体詞	_	44	det	_	SpaceAfter=No|Reading=ソノ
+44	効力	効力	NOUN	名詞-普通名詞-一般	_	46	obj	_	SpaceAfter=No|Reading=コウリョク
+45	を	を	ADP	助詞-格助詞	_	44	case	_	SpaceAfter=No|Reading=オ
+46	失ふ	失ふ	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=文語四段-ハ行,終止形-一般\|Reading=ウシナウ
+47	。	。	PUNCT	補助記号-句点	_	46	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 114
 # text = 両議院は、各々その議員の資格に関する争訟を裁判する。
