@@ -3385,11 +3385,13 @@
 28	なる	なる	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=五段-ラ行,終止形-一般|Reading=ナル
 29	。	。	PUNCT	補助記号-句点	_	28	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 126
-# text = 衆議院衆議院で可決し、参議院でこれと異なつた議決をした法律案は、衆議院で出席議員の三分の二以上の多数で再び可決したときは、法律となる。
-1	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	4	obl	_	SpaceAfter=No|Reading=シュウギイン
-2	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	4	obl	_	SpaceAfter=No|Reading=シュウギイン
-3	で	で	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=デ
+# text = 衆議院で可決し、参議院でこれと異なつた議決をした法律案は、衆議院で出席議員の三分の二以上の多数で再び可決したときは、法律となる。
+1	衆議	衆議	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=シュウギ
+2	院	院	NOUN	接尾辞-名詞的-一般	_	4	obl	_	SpaceAfter=No|Reading=イン
+3	で	で	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=デ
 4	可決	可決	VERB	名詞-普通名詞-サ変可能	_	15	advcl	_	SpaceAfter=No|Reading=カケツ
 5	し	する	AUX	動詞-非自立可能	_	4	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
 6	、	、	PUNCT	補助記号-読点	_	4	punct	_	SpaceAfter=No|Reading=、
