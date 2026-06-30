@@ -2841,9 +2841,9 @@
 # newpar
 # sent_id = 110
 # text = 衆議院が解散されたときは、解散の日から四十日以内に、衆議院議員の総選挙を行ひ、その選挙の日から三十日以内に、国会を召集しなければならない。
-1	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	4	nsubj	_	SpaceAfter=No|Reading=シュウギイン
-2	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	4	nsubj	_	SpaceAfter=No|Reading=シュウギイン
-3	が	が	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ガ
+1	衆議	衆議	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=シュウギ
+2	院	院	NOUN	接尾辞-名詞的-一般	_	4	nsubj	_	SpaceAfter=No|Reading=イン
+3	が	が	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ガ
 4	解散	解散	VERB	名詞-普通名詞-サ変可能	_	8	acl	_	SpaceAfter=No|Reading=カイサン
 5	さ	する	AUX	動詞-非自立可能	_	4	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-サ|Reading=サ
 6	れ	れる	AUX	助動詞	_	4	aux	_	SpaceAfter=No|Inf=助動詞-レル,連用形-一般|Reading=レ
