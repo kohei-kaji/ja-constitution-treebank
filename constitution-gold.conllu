@@ -2239,11 +2239,13 @@
 21	できる	できる	AUX	動詞-非自立可能	_	19	fixed	_	SpaceAfter=No|Inf=上一段-カ行,終止形-一般|Reading=デキル
 22	。	。	PUNCT	補助記号-句点	_	17	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 85
-# text = 被告人被告人が自らこれを依頼することができないときは、国でこれを附する。
-1	被告人	被告人	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ヒコクニン
-2	被告人	被告人	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ヒコクニン
-3	が	が	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ガ
+# text = 被告人が自らこれを依頼することができないときは、国でこれを附する。
+1	被告	被告	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=ヒコク
+2	人	人	NOUN	接尾辞-名詞的-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ニン
+3	が	が	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ガ
 4	自ら	自ら	ADV	名詞-普通名詞-副詞可能	_	7	advmod	_	SpaceAfter=No|Reading=ミズカラ
 5	これ	これ	PRON	代名詞	_	7	obj	_	SpaceAfter=No|Reading=コレ
 6	を	を	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=オ
