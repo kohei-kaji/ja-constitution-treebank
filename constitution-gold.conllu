@@ -3357,8 +3357,8 @@
 # text = 法律案は、この憲法に特別の定のある場合を除いては、両議院で可決したとき法律となる。
 1	法律	法律	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=ホウリツ
 2	案	案	NOUN	接尾辞-名詞的-一般	_	28	nsubj	_	SpaceAfter=No|Reading=アン
-3	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
-4	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
+3	は	は	ADP	助詞-係助詞	_	2	case	_	SpaceAfter=No|Reading=ワ
+4	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
 5	この	この	DET	連体詞	_	6	det	_	SpaceAfter=No|Reading=コノ
 6	憲法	憲法	NOUN	名詞-普通名詞-一般	_	12	obl	_	SpaceAfter=No|Reading=ケンポウ
 7	に	に	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ニ
