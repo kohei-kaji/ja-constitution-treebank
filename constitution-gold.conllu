@@ -3439,7 +3439,7 @@
 # newdoc
 # newpar
 # sent_id = 127
-# text = 前項の規定は、法律の定めるところにより、衆議院が、両議院の協議会を開くことを求めることを妨げない。
+# text = 前項の規定は、法律の定めるところにより、衆議院が、両議院の協議会協議会を開くことを求めることを妨げない。
 1	前項	前項	NOUN	名詞-普通名詞-一般	_	3	nmod	_	SpaceAfter=No|Reading=ゼンコウ
 2	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
 3	規定	規定	NOUN	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=キテイ
@@ -3448,28 +3448,29 @@
 6	法律	法律	NOUN	名詞-普通名詞-一般	_	8	nmod	_	SpaceAfter=No|Reading=ホウリツ
 7	の	の	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ノ
 8	定める	定める	VERB	動詞-一般	_	9	acl	_	SpaceAfter=No|Inf=下一段-マ行,連体形-一般|Reading=サダメル
-9	ところ	ところ	NOUN	名詞-普通名詞-副詞可能	_	28	obl	_	SpaceAfter=No|Reading=トコロ
+9	ところ	ところ	NOUN	名詞-普通名詞-副詞可能	_	29	obl	_	SpaceAfter=No|Reading=トコロ
 10	に	に	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=ニ
 11	より	よる	VERB	動詞-一般	_	10	fixed	_	SpaceAfter=No|Inf=五段-ラ行,連用形-一般|Reading=ヨリ
 12	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
 13	衆議	衆議	NOUN	名詞-普通名詞-一般	_	14	compound	_	SpaceAfter=No|Reading=シュウギ
-14	院	院	NOUN	接尾辞-名詞的-一般	_	22	nsubj	_	SpaceAfter=No|Reading=イン
+14	院	院	NOUN	接尾辞-名詞的-一般	_	23	nsubj	_	SpaceAfter=No|Reading=イン
 15	が	が	ADP	助詞-格助詞	_	14	case	_	SpaceAfter=No|Reading=ガ
 16	、	、	PUNCT	補助記号-読点	_	14	punct	_	SpaceAfter=No|Reading=、
 17	両	両	NOUN	接頭辞	_	18	compound	_	SpaceAfter=No|Reading=リョウ
 18	議院	議院	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=ギイン
 19	の	の	ADP	助詞-格助詞	_	18	case	_	SpaceAfter=No|Reading=ノ
-20	協議会	協議会	NOUN	名詞-普通名詞-一般	_	22	obj	_	SpaceAfter=No|Reading=キョウギカイ
-21	を	を	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=オ
-22	開く	開く	VERB	動詞-一般	_	23	acl	_	SpaceAfter=No|Inf=五段-カ行,連体形-一般|Reading=ヒラク
-23	こと	こと	NOUN	名詞-普通名詞-一般	_	25	obj	_	SpaceAfter=No|Reading=コト
-24	を	を	ADP	助詞-格助詞	_	23	case	_	SpaceAfter=No|Reading=オ
-25	求める	求める	VERB	動詞-一般	_	26	acl	_	SpaceAfter=No|Inf=下一段-マ行,連体形-一般|Reading=モトメル
-26	こと	こと	NOUN	名詞-普通名詞-一般	_	28	obj	_	SpaceAfter=No|Reading=コト
-27	を	を	ADP	助詞-格助詞	_	26	case	_	SpaceAfter=No|Reading=オ
-28	妨げ	妨げる	NOUN	動詞-一般	_	3	compound	_	SpaceAfter=No|Inf=下一段-ガ行,未然形-一般|Reading=サマタゲ
-29	ない	ない	AUX	助動詞	_	28	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-30	。	。	PUNCT	補助記号-句点	_	28	punct	_	SpaceAfter=No|Reading=。
+20	協議会	協議会	NOUN	名詞-普通名詞-一般	_	23	obj	_	SpaceAfter=No|Reading=キョウギカイ
+21	協議会	協議会	NOUN	名詞-普通名詞-一般	_	23	obj	_	SpaceAfter=No|Reading=キョウギカイ
+22	を	を	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=オ
+23	開く	開く	VERB	動詞-一般	_	24	acl	_	SpaceAfter=No|Inf=五段-カ行,連体形-一般|Reading=ヒラク
+24	こと	こと	NOUN	名詞-普通名詞-一般	_	26	obj	_	SpaceAfter=No|Reading=コト
+25	を	を	ADP	助詞-格助詞	_	24	case	_	SpaceAfter=No|Reading=オ
+26	求める	求める	VERB	動詞-一般	_	27	acl	_	SpaceAfter=No|Inf=下一段-マ行,連体形-一般|Reading=モトメル
+27	こと	こと	NOUN	名詞-普通名詞-一般	_	29	obj	_	SpaceAfter=No|Reading=コト
+28	を	を	ADP	助詞-格助詞	_	27	case	_	SpaceAfter=No|Reading=オ
+29	妨げ	妨げる	NOUN	動詞-一般	_	3	compound	_	SpaceAfter=No|Inf=下一段-ガ行,未然形-一般|Reading=サマタゲ
+30	ない	ない	AUX	助動詞	_	29	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+31	。	。	PUNCT	補助記号-句点	_	29	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 128
 # text = 参議院が、衆議院の可決した法律案を受け取つた後、国会休会中の期間を除いて六十日以内に、議決しないときは、衆議院は、参議院がその法律案を否決したものとみなすことができる。
