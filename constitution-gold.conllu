@@ -2170,7 +2170,7 @@
 # newdoc
 # newpar
 # sent_id = 83
-# text = 刑事被告人は、すべての証人に対して審問する機会を充分に与へられ、又、公費で自己のために強制的強制的手続により証人を求める権利を有する。
+# text = 刑事被告人は、すべての証人に対して審問する機会を充分に与へられ、又、公費で自己のために強制的手続により証人を求める権利を有する。
 1	刑事	刑事	NOUN	名詞-普通名詞-一般	_	3	compound	_	SpaceAfter=No|Reading=ケイジ
 2	被告	被告	NOUN	名詞-普通名詞-一般	_	3	compound	_	SpaceAfter=No|Reading=ヒコク
 3	人	人	NOUN	接尾辞-名詞的-一般	_	18	nsubj	_	SpaceAfter=No|Reading=ニン
@@ -2199,8 +2199,8 @@
 26	の	の	ADP	助詞-格助詞	_	25	case	_	SpaceAfter=No|Reading=ノ
 27	ため	ため	NOUN	名詞-普通名詞-副詞可能	_	29	obl	_	SpaceAfter=No|Reading=タメ
 28	に	に	ADP	助詞-格助詞	_	27	case	_	SpaceAfter=No|Reading=ニ
-29	強制的	強制的	NOUN	名詞-普通名詞-形状詞可能	_	36	obl	_	SpaceAfter=No|Reading=キョウセイテキ
-30	強制的	強制的	NOUN	名詞-普通名詞-形状詞可能	_	36	obl	_	SpaceAfter=No|Reading=キョウセイテキ
+29	強制	強制	NOUN	名詞-普通名詞-形状詞可能	_	36	obl	_	SpaceAfter=No|Reading=キョウセイ
+30	的	的	PART	接尾辞-形状詞的	_	29	mark	_	SpaceAfter=No|Reading=テキ
 31	手続	手続	NOUN	名詞-普通名詞-サ変可能	_	29	compound	_	SpaceAfter=No|Reading=テツヅキ
 32	に	に	ADP	助詞-格助詞	_	29	case	_	SpaceAfter=No|Reading=ニ
 33	より	よる	VERB	動詞-一般	_	32	fixed	_	SpaceAfter=No|Inf=五段-ラ行,連用形-一般|Reading=ヨリ
