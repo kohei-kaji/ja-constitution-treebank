@@ -3226,8 +3226,10 @@
 46	ない	ない	AUX	助動詞	_	43	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
 47	。	。	PUNCT	補助記号-句点	_	41	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 121
-# text = 出席議員の五分の一以上の要求があれば、各議員の表決は、これを会議録会議録に記載しなければならない。
+# text = 出席議員の五分の一以上の要求があれば、各議員の表決は、これを会議録に記載しなければならない。
 1	出席	出席	NOUN	名詞-普通名詞-サ変可能	_	2	compound	_	SpaceAfter=No|Reading=シュッセキ
 2	議員	議員	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=ギイン
 3	の	の	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ノ
@@ -3250,9 +3252,9 @@
 20	、	、	PUNCT	補助記号-読点	_	18	punct	_	SpaceAfter=No|Reading=、
 21	これ	これ	PRON	代名詞	_	26	obj	_	SpaceAfter=No|Reading=コレ
 22	を	を	ADP	助詞-格助詞	_	21	case	_	SpaceAfter=No|Reading=オ
-23	会議録	会議録	NOUN	名詞-普通名詞-一般	_	26	obl	_	SpaceAfter=No|Reading=カイギロク
-24	会議録	会議録	NOUN	名詞-普通名詞-一般	_	26	obl	_	SpaceAfter=No|Reading=カイギロク
-25	に	に	ADP	助詞-格助詞	_	23	case	_	SpaceAfter=No|Reading=ニ
+23	会議	会議	NOUN	名詞-普通名詞-一般	_	24	compound	_	SpaceAfter=No|Reading=カイギ
+24	録	録	NOUN	接尾辞-名詞的-一般	_	26	obl	_	SpaceAfter=No|Reading=ロク
+25	に	に	ADP	助詞-格助詞	_	24	case	_	SpaceAfter=No|Reading=ニ
 26	記載	記載	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=キサイ
 27	し	する	AUX	動詞-非自立可能	_	26	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-一般|Reading=シ
 28	なけれ	ない	AUX	助動詞	_	26	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,仮定形-一般|Reading=ナケレ
