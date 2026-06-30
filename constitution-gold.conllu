@@ -3284,7 +3284,7 @@
 # sent_id = 123
 # text = 両議院は、各々その会議その他の手続及び内部の規律に関する規則を定め、又、院内の秩序をみだした議員を懲罰することができる。
 1	両	両	NOUN	接頭辞	_	2	compound	_	SpaceAfter=No|Reading=リョウ
-2	議院	議院	NOUN	名詞-普通名詞-一般	_	20	nsubj	_	SpaceAfter=No|Reading=ギイン
+2	議院	議院	NOUN	名詞-普通名詞-一般	_	32	nsubj	_	SpaceAfter=No|Reading=ギイン
 3	は	は	ADP	助詞-係助詞	_	2	case	_	SpaceAfter=No|Reading=ワ
 4	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
 5	各々	各々	NOUN	名詞-普通名詞-副詞可能	_	20	advmod	_	SpaceAfter=No|Reading=オノオノ
