@@ -2515,8 +2515,8 @@
 6	、	、	PUNCT	補助記号-読点	_	5	punct	_	SpaceAfter=No|Reading=、
 7	性別	性別	NOUN	名詞-普通名詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=セイベツ
 8	、	、	PUNCT	補助記号-読点	_	7	punct	_	SpaceAfter=No|Reading=、
-9	社会的	社会的	NOUN	名詞-普通名詞-形状詞可能	_	13	nmod	_	SpaceAfter=No|Reading=シャカイテキ
-10	社会的	社会的	NOUN	名詞-普通名詞-形状詞可能	_	13	nmod	_	SpaceAfter=No|Reading=シャカイテキ
+9	社会	社会	NOUN	名詞-普通名詞-形状詞可能	_	13	nmod	_	SpaceAfter=No|Reading=シャカイ
+10	的	的	PART	接尾辞-形状詞的	_	9	mark	_	SpaceAfter=No|Reading=テキ
 11	身分	身分	NOUN	名詞-普通名詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=ミブン
 12	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
 13	門地	門地	NOUN	名詞-普通名詞-一般	_	15	nmod	_	SpaceAfter=No|Reading=モンチ
