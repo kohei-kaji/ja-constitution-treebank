@@ -2579,28 +2579,30 @@
 18	。	。	PUNCT	補助記号-句点	_	16	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 101
-# text = 参議院議員の任期は、六年とし、三年ごとに議員の半数を改選する。
-1	参議院議員	参議院議員	NOUN	名詞-普通名詞-一般	_	3	nmod	_	SpaceAfter=No|Reading=サンギインギイン
-2	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
-3	任期	任期	NOUN	名詞-普通名詞-一般	_	9	nsubj	_	SpaceAfter=No|Reading=ニンキ
-4	は	は	ADP	助詞-係助詞	_	3	case	_	SpaceAfter=No|Reading=ワ
-5	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
-6	六	六	NUM	名詞-数詞	_	7	nummod	_	SpaceAfter=No|Reading=ロク
-7	年	年	NOUN	名詞-普通名詞-助数詞可能	_	9	obl	_	SpaceAfter=No|Reading=ネン
-8	と	と	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=ト
-9	し	する	VERB	動詞-非自立可能	_	19	advcl	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
-10	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
-11	三	三	NUM	名詞-数詞	_	13	compound	_	SpaceAfter=No|Reading=サン
-12	年	年	NOUN	名詞-普通名詞-助数詞可能	_	13	compound	_	SpaceAfter=No|Reading=ネン
-13	ごと	ごと	NOUN	接尾辞-名詞的-一般	_	19	obl	_	SpaceAfter=No|Reading=ゴト
-14	に	に	ADP	助詞-格助詞	_	13	case	_	SpaceAfter=No|Reading=ニ
-15	議員	議員	NOUN	名詞-普通名詞-一般	_	17	nmod	_	SpaceAfter=No|Reading=ギイン
-16	の	の	ADP	助詞-格助詞	_	15	case	_	SpaceAfter=No|Reading=ノ
-17	半数	半数	NOUN	名詞-普通名詞-一般	_	19	obj	_	SpaceAfter=No|Reading=ハンスウ
-18	を	を	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=オ
-19	改選	改選	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=カイセン
-20	する	する	AUX	動詞-非自立可能	_	19	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
-21	。	。	PUNCT	補助記号-句点	_	19	punct	_	SpaceAfter=No|Reading=。
+# text = 参議院議員参議院議員参議院議員の任期は、六年とし、三年ごとに議員の半数を改選する。
+1	参議院議員	参議院議員	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=サンギインギイン
+2	参議院議員	参議院議員	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=サンギインギイン
+3	参議院議員	参議院議員	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=サンギインギイン
+4	の	の	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ノ
+5	任期	任期	NOUN	名詞-普通名詞-一般	_	11	nsubj	_	SpaceAfter=No|Reading=ニンキ
+6	は	は	ADP	助詞-係助詞	_	5	case	_	SpaceAfter=No|Reading=ワ
+7	、	、	PUNCT	補助記号-読点	_	5	punct	_	SpaceAfter=No|Reading=、
+8	六	六	NUM	名詞-数詞	_	9	nummod	_	SpaceAfter=No|Reading=ロク
+9	年	年	NOUN	名詞-普通名詞-助数詞可能	_	11	obl	_	SpaceAfter=No|Reading=ネン
+10	と	と	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=ト
+11	し	する	VERB	動詞-非自立可能	_	21	advcl	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
+12	、	、	PUNCT	補助記号-読点	_	11	punct	_	SpaceAfter=No|Reading=、
+13	三	三	NUM	名詞-数詞	_	15	compound	_	SpaceAfter=No|Reading=サン
+14	年	年	NOUN	名詞-普通名詞-助数詞可能	_	15	compound	_	SpaceAfter=No|Reading=ネン
+15	ごと	ごと	NOUN	接尾辞-名詞的-一般	_	21	obl	_	SpaceAfter=No|Reading=ゴト
+16	に	に	ADP	助詞-格助詞	_	15	case	_	SpaceAfter=No|Reading=ニ
+17	議員	議員	NOUN	名詞-普通名詞-一般	_	19	nmod	_	SpaceAfter=No|Reading=ギイン
+18	の	の	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=ノ
+19	半数	半数	NOUN	名詞-普通名詞-一般	_	21	obj	_	SpaceAfter=No|Reading=ハンスウ
+20	を	を	ADP	助詞-格助詞	_	19	case	_	SpaceAfter=No|Reading=オ
+21	改選	改選	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=カイセン
+22	する	する	AUX	動詞-非自立可能	_	21	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
+23	。	。	PUNCT	補助記号-句点	_	21	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 102
 # text = 選挙区、投票の方法その他両議院の議員の選挙に関する事項は、法律でこれを定める。
