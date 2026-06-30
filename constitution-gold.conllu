@@ -2153,8 +2153,8 @@
 12	、	、	PUNCT	補助記号-読点	_	10	punct	_	SpaceAfter=No|Reading=、
 13	公平	公平	ADJ	名詞-普通名詞-形状詞可能	_	15	acl	_	SpaceAfter=No|Reading=コウヘイ
 14	な	だ	AUX	助動詞	_	13	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
-15	裁判所	裁判所	NOUN	名詞-普通名詞-一般	_	21	nmod	_	SpaceAfter=No|Reading=サイバンショ
-16	裁判所	裁判所	NOUN	名詞-普通名詞-一般	_	21	nmod	_	SpaceAfter=No|Reading=サイバンショ
+15	裁判	裁判	NOUN	名詞-普通名詞-一般	_	16	compound	_	SpaceAfter=No|Reading=サイバン
+16	所	所	NOUN	接尾辞-名詞的-一般	_	21	nmod	_	SpaceAfter=No|Reading=ショ
 17	の	の	ADP	助詞-格助詞	_	15	case	_	SpaceAfter=No|Reading=ノ
 18	迅速	迅速	ADJ	形状詞-一般	_	21	acl	_	SpaceAfter=No|Reading=ジンソク
 19	な	だ	AUX	助動詞	_	18	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
