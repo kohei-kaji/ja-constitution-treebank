@@ -3475,7 +3475,7 @@
 # newdoc
 # newpar
 # sent_id = 128
-# text = 参議院が、衆議院の可決した法律案を受け取つた後、国会休会中の期間を除いて六十日以内に、議決しないときは、衆議院は、参議院がその法律案を否決したものとみなすことができる。
+# text = 参議院が、衆議院の可決した法律案を受け取つた後、国会休会中の期間を除いて六十日以内に、議決しないときは、衆議院衆議院は、参議院参議院がその法律案を否決したものとみなすことができる。
 1	参議	参議	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=サンギ
 2	院	院	NOUN	接尾辞-名詞的-一般	_	14	nsubj	_	SpaceAfter=No|Reading=イン
 3	が	が	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ガ
@@ -3509,27 +3509,29 @@
 31	議決	議決	VERB	名詞-普通名詞-サ変可能	_	34	acl	_	SpaceAfter=No|Reading=ギケツ
 32	し	する	AUX	動詞-非自立可能	_	31	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-一般|Reading=シ
 33	ない	ない	AUX	助動詞	_	31	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,連体形-一般|Reading=ナイ
-34	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	50	obl	_	SpaceAfter=No|Reading=トキ
+34	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	52	obl	_	SpaceAfter=No|Reading=トキ
 35	は	は	ADP	助詞-係助詞	_	34	case	_	SpaceAfter=No|Reading=ワ
 36	、	、	PUNCT	補助記号-読点	_	34	punct	_	SpaceAfter=No|Reading=、
-37	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	50	nsubj	_	SpaceAfter=No|Reading=シュウギイン
-38	は	は	ADP	助詞-係助詞	_	37	case	_	SpaceAfter=No|Reading=ワ
-39	、	、	PUNCT	補助記号-読点	_	37	punct	_	SpaceAfter=No|Reading=、
-40	参議院	参議院	NOUN	名詞-普通名詞-一般	_	45	nsubj	_	SpaceAfter=No|Reading=サンギイン
-41	が	が	ADP	助詞-格助詞	_	40	case	_	SpaceAfter=No|Reading=ガ
-42	その	その	DET	連体詞	_	43	det	_	SpaceAfter=No|Reading=ソノ
-43	法律案	法律案	NOUN	名詞-普通名詞-一般	_	45	obj	_	SpaceAfter=No|Reading=ホウリツアン
-44	を	を	ADP	助詞-格助詞	_	43	case	_	SpaceAfter=No|Reading=オ
-45	否決	否決	VERB	名詞-普通名詞-サ変可能	_	48	acl	_	SpaceAfter=No|Reading=ヒケツ
-46	し	する	AUX	動詞-非自立可能	_	45	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
-47	た	た	AUX	助動詞	_	45	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
-48	もの	もの	NOUN	名詞-普通名詞-サ変可能	_	50	obl	_	SpaceAfter=No|Reading=モノ
-49	と	と	ADP	助詞-格助詞	_	48	case	_	SpaceAfter=No|Reading=ト
-50	みなす	みなす	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=五段-サ行,連体形-一般|Reading=ミナス
-51	こと	こと	NOUN	名詞-普通名詞-一般	_	50	compound	_	SpaceAfter=No|Reading=コト
-52	が	が	ADP	助詞-格助詞	_	51	fixed	_	SpaceAfter=No|Reading=ガ
-53	できる	できる	AUX	動詞-非自立可能	_	51	fixed	_	SpaceAfter=No|Inf=上一段-カ行,終止形-一般|Reading=デキル
-54	。	。	PUNCT	補助記号-句点	_	50	punct	_	SpaceAfter=No|Reading=。
+37	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	52	nsubj	_	SpaceAfter=No|Reading=シュウギイン
+38	衆議院	衆議院	NOUN	名詞-普通名詞-一般	_	52	nsubj	_	SpaceAfter=No|Reading=シュウギイン
+39	は	は	ADP	助詞-係助詞	_	37	case	_	SpaceAfter=No|Reading=ワ
+40	、	、	PUNCT	補助記号-読点	_	37	punct	_	SpaceAfter=No|Reading=、
+41	参議院	参議院	NOUN	名詞-普通名詞-一般	_	47	nsubj	_	SpaceAfter=No|Reading=サンギイン
+42	参議院	参議院	NOUN	名詞-普通名詞-一般	_	47	nsubj	_	SpaceAfter=No|Reading=サンギイン
+43	が	が	ADP	助詞-格助詞	_	41	case	_	SpaceAfter=No|Reading=ガ
+44	その	その	DET	連体詞	_	45	det	_	SpaceAfter=No|Reading=ソノ
+45	法律案	法律案	NOUN	名詞-普通名詞-一般	_	47	obj	_	SpaceAfter=No|Reading=ホウリツアン
+46	を	を	ADP	助詞-格助詞	_	45	case	_	SpaceAfter=No|Reading=オ
+47	否決	否決	VERB	名詞-普通名詞-サ変可能	_	50	acl	_	SpaceAfter=No|Reading=ヒケツ
+48	し	する	AUX	動詞-非自立可能	_	47	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
+49	た	た	AUX	助動詞	_	47	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
+50	もの	もの	NOUN	名詞-普通名詞-サ変可能	_	52	obl	_	SpaceAfter=No|Reading=モノ
+51	と	と	ADP	助詞-格助詞	_	50	case	_	SpaceAfter=No|Reading=ト
+52	みなす	みなす	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=五段-サ行,連体形-一般|Reading=ミナス
+53	こと	こと	NOUN	名詞-普通名詞-一般	_	52	compound	_	SpaceAfter=No|Reading=コト
+54	が	が	ADP	助詞-格助詞	_	53	fixed	_	SpaceAfter=No|Reading=ガ
+55	できる	できる	AUX	動詞-非自立可能	_	53	fixed	_	SpaceAfter=No|Inf=上一段-カ行,終止形-一般|Reading=デキル
+56	。	。	PUNCT	補助記号-句点	_	52	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 129
 # text = 予算は、さきに衆議院に提出しなければならない。
