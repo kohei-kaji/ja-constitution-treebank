@@ -3352,35 +3352,36 @@
 27	。	。	PUNCT	補助記号-句点	_	26	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 125
-# text = 法律案は、この憲法に特別の定のある場合を除いては、両議院で可決したとき法律となる。
-1	法律案	法律案	NOUN	名詞-普通名詞-一般	_	27	nsubj	_	SpaceAfter=No|Reading=ホウリツアン
-2	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
-3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-4	この	この	DET	連体詞	_	5	det	_	SpaceAfter=No|Reading=コノ
-5	憲法	憲法	NOUN	名詞-普通名詞-一般	_	11	obl	_	SpaceAfter=No|Reading=ケンポウ
-6	に	に	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=ニ
-7	特別	特別	ADJ	形状詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=トクベツ
-8	の	の	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=ノ
-9	定	定	NOUN	名詞-普通名詞-一般	_	11	nmod	_	SpaceAfter=No|Reading=サダメ
-10	の	の	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=ノ
-11	ある	ある	VERB	動詞-非自立可能	_	12	acl	_	SpaceAfter=No|Inf=五段-ラ行,連体形-一般|Reading=アル
-12	場合	場合	NOUN	名詞-普通名詞-副詞可能	_	14	obj	_	SpaceAfter=No|Reading=バアイ
-13	を	を	ADP	助詞-格助詞	_	12	case	_	SpaceAfter=No|Reading=オ
-14	除い	除く	VERB	動詞-一般	_	27	advcl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ノゾイ
-15	て	て	SCONJ	助詞-接続助詞	_	14	mark	_	SpaceAfter=No|Reading=テ
-16	は	は	ADP	助詞-係助詞	_	14	case	_	SpaceAfter=No|Reading=ワ
-17	、	、	PUNCT	補助記号-読点	_	14	punct	_	SpaceAfter=No|Reading=、
-18	両	両	NOUN	接頭辞	_	19	compound	_	SpaceAfter=No|Reading=リョウ
-19	議院	議院	NOUN	名詞-普通名詞-一般	_	21	obl	_	SpaceAfter=No|Reading=ギイン
-20	で	で	ADP	助詞-格助詞	_	19	case	_	SpaceAfter=No|Reading=デ
-21	可決	可決	VERB	名詞-普通名詞-サ変可能	_	24	acl	_	SpaceAfter=No|Reading=カケツ
-22	し	する	AUX	動詞-非自立可能	_	21	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
-23	た	た	AUX	助動詞	_	21	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
-24	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	27	obl	_	SpaceAfter=No|Reading=トキ
-25	法律	法律	NOUN	名詞-普通名詞-一般	_	27	obl	_	SpaceAfter=No|Reading=ホウリツ
-26	と	と	ADP	助詞-格助詞	_	25	case	_	SpaceAfter=No|Reading=ト
-27	なる	なる	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=五段-ラ行,終止形-一般|Reading=ナル
-28	。	。	PUNCT	補助記号-句点	_	27	punct	_	SpaceAfter=No|Reading=。
+# text = 法律案法律案は、この憲法に特別の定のある場合を除いては、両議院で可決したとき法律となる。
+1	法律案	法律案	NOUN	名詞-普通名詞-一般	_	28	nsubj	_	SpaceAfter=No|Reading=ホウリツアン
+2	法律案	法律案	NOUN	名詞-普通名詞-一般	_	28	nsubj	_	SpaceAfter=No|Reading=ホウリツアン
+3	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
+4	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
+5	この	この	DET	連体詞	_	6	det	_	SpaceAfter=No|Reading=コノ
+6	憲法	憲法	NOUN	名詞-普通名詞-一般	_	12	obl	_	SpaceAfter=No|Reading=ケンポウ
+7	に	に	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ニ
+8	特別	特別	ADJ	形状詞-一般	_	10	nmod	_	SpaceAfter=No|Reading=トクベツ
+9	の	の	ADP	助詞-格助詞	_	8	case	_	SpaceAfter=No|Reading=ノ
+10	定	定	NOUN	名詞-普通名詞-一般	_	12	nmod	_	SpaceAfter=No|Reading=サダメ
+11	の	の	ADP	助詞-格助詞	_	10	case	_	SpaceAfter=No|Reading=ノ
+12	ある	ある	VERB	動詞-非自立可能	_	13	acl	_	SpaceAfter=No|Inf=五段-ラ行,連体形-一般|Reading=アル
+13	場合	場合	NOUN	名詞-普通名詞-副詞可能	_	15	obj	_	SpaceAfter=No|Reading=バアイ
+14	を	を	ADP	助詞-格助詞	_	13	case	_	SpaceAfter=No|Reading=オ
+15	除い	除く	VERB	動詞-一般	_	28	advcl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ノゾイ
+16	て	て	SCONJ	助詞-接続助詞	_	15	mark	_	SpaceAfter=No|Reading=テ
+17	は	は	ADP	助詞-係助詞	_	15	case	_	SpaceAfter=No|Reading=ワ
+18	、	、	PUNCT	補助記号-読点	_	15	punct	_	SpaceAfter=No|Reading=、
+19	両	両	NOUN	接頭辞	_	20	compound	_	SpaceAfter=No|Reading=リョウ
+20	議院	議院	NOUN	名詞-普通名詞-一般	_	22	obl	_	SpaceAfter=No|Reading=ギイン
+21	で	で	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=デ
+22	可決	可決	VERB	名詞-普通名詞-サ変可能	_	25	acl	_	SpaceAfter=No|Reading=カケツ
+23	し	する	AUX	動詞-非自立可能	_	22	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
+24	た	た	AUX	助動詞	_	22	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
+25	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	28	obl	_	SpaceAfter=No|Reading=トキ
+26	法律	法律	NOUN	名詞-普通名詞-一般	_	28	obl	_	SpaceAfter=No|Reading=ホウリツ
+27	と	と	ADP	助詞-格助詞	_	26	case	_	SpaceAfter=No|Reading=ト
+28	なる	なる	VERB	動詞-非自立可能	_	0	root	_	SpaceAfter=No|Inf=五段-ラ行,終止形-一般|Reading=ナル
+29	。	。	PUNCT	補助記号-句点	_	28	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 126
 # text = 衆議院で可決し、参議院でこれと異なつた議決をした法律案は、衆議院で出席議員の三分の二以上の多数で再び可決したときは、法律となる。
