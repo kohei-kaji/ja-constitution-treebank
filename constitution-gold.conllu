@@ -3081,8 +3081,10 @@
 29	ない	ない	AUX	助動詞	_	24	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
 30	。	。	PUNCT	補助記号-句点	_	24	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 117
-# text = 両議院の議事は、この憲法に特別の定のある場合を除いては、出席議員の過半数過半数でこれを決し、可否同数のときは、議長の決するところによる。
+# text = 両議院の議事は、この憲法に特別の定のある場合を除いては、出席議員の過半数でこれを決し、可否同数のときは、議長の決するところによる。
 1	両	両	NOUN	接頭辞	_	2	compound	_	SpaceAfter=No|Reading=リョウ
 2	議院	議院	NOUN	名詞-普通名詞-一般	_	4	nmod	_	SpaceAfter=No|Reading=ギイン
 3	の	の	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ノ
@@ -3104,11 +3106,11 @@
 19	は	は	ADP	助詞-係助詞	_	17	case	_	SpaceAfter=No|Reading=ワ
 20	、	、	PUNCT	補助記号-読点	_	17	punct	_	SpaceAfter=No|Reading=、
 21	出席	出席	NOUN	名詞-普通名詞-サ変可能	_	22	compound	_	SpaceAfter=No|Reading=シュッセキ
-22	議員	議員	NOUN	名詞-普通名詞-一般	_	24	nmod	_	SpaceAfter=No|Reading=ギイン
+22	議員	議員	NOUN	名詞-普通名詞-一般	_	25	nmod	_	SpaceAfter=No|Reading=ギイン
 23	の	の	ADP	助詞-格助詞	_	22	case	_	SpaceAfter=No|Reading=ノ
-24	過半数	過半数	NOUN	名詞-普通名詞-一般	_	29	obl	_	SpaceAfter=No|Reading=カハンスウ
-25	過半数	過半数	NOUN	名詞-普通名詞-一般	_	29	obl	_	SpaceAfter=No|Reading=カハンスウ
-26	で	で	ADP	助詞-格助詞	_	24	case	_	SpaceAfter=No|Reading=デ
+24	過	過	NOUN	名詞-普通名詞-一般	_	25	compound	_	SpaceAfter=No|Reading=カ
+25	半数	半数	NOUN	接頭辞	_	29	obl	_	SpaceAfter=No|Reading=ハンスウ
+26	で	で	ADP	助詞-格助詞	_	25	case	_	SpaceAfter=No|Reading=デ
 27	これ	これ	PRON	代名詞	_	29	obj	_	SpaceAfter=No|Reading=コレ
 28	を	を	ADP	助詞-格助詞	_	27	case	_	SpaceAfter=No|Reading=オ
 29	決し	決する	VERB	動詞-一般	_	42	advcl	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=ケッシ
