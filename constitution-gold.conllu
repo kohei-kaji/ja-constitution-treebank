@@ -2019,7 +2019,7 @@
 # newpar
 # sent_id = 79
 # text = 何人も、その住居、書類及び所持品について、侵入、捜索及び押収を受けることのない権利は、第三十三条の場合を除いては、正当な理由に基いて発せられ、且つ捜索する場所及び押収する物を明示する令状がなければ、侵されない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	63	nsubj	_	SpaceAfter=No|Reading=ナンピト
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	63	dislocated	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	その	その	DET	連体詞	_	5	det	_	SpaceAfter=No|Reading=ソノ
@@ -2062,7 +2062,7 @@
 41	に	に	ADP	助詞-格助詞	_	40	case	_	SpaceAfter=No|Reading=ニ
 42	基い	基く	VERB	動詞-一般	_	44	advcl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=モトヅイ
 43	て	て	SCONJ	助詞-接続助詞	_	42	mark	_	SpaceAfter=No|Reading=テ
-44	発せ	発する	VERB	動詞-一般	_	58	acl	_	SpaceAfter=No|Inf=サ行変格,未然形-セ|Reading=ハッセ
+44	発せ	発する	VERB	動詞-一般	_	58	advcl	_	SpaceAfter=No|Inf=サ行変格,未然形-セ|Reading=ハッセ
 45	られ	られる	AUX	助動詞	_	44	aux	_	SpaceAfter=No|Inf=助動詞-レル,連用形-一般|Reading=ラレ
 46	、	、	PUNCT	補助記号-読点	_	44	punct	_	SpaceAfter=No|Reading=、
 47	且つ	且つ	CCONJ	接続詞	_	58	cc	_	SpaceAfter=No|Reading=カツ
