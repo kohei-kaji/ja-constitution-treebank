@@ -2840,7 +2840,7 @@
 # newdoc
 # newpar
 # sent_id = 110
-# text = 衆議院が解散されたときは、解散の日から四十日以内に、衆議院議員衆議院議員衆議院議員の総選挙を行ひ、その選挙の日から三十日以内に、国会を召集しなければならない。
+# text = 衆議院が解散されたときは、解散の日から四十日以内に、衆議院議員の総選挙を行ひ、その選挙の日から三十日以内に、国会を召集しなければならない。
 1	衆議	衆議	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=シュウギ
 2	院	院	NOUN	接尾辞-名詞的-一般	_	4	nsubj	_	SpaceAfter=No|Reading=イン
 3	が	が	ADP	助詞-格助詞	_	2	case	_	SpaceAfter=No|Reading=ガ
@@ -2860,10 +2860,10 @@
 17	以内	以内	NOUN	名詞-普通名詞-副詞可能	_	26	obl	_	SpaceAfter=No|Reading=イナイ
 18	に	に	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=ニ
 19	、	、	PUNCT	補助記号-読点	_	17	punct	_	SpaceAfter=No|Reading=、
-20	衆議院議員	衆議院議員	NOUN	名詞-普通名詞-一般	_	24	nmod	_	SpaceAfter=No|Reading=シュウギインギイン
-21	衆議院議員	衆議院議員	NOUN	名詞-普通名詞-一般	_	24	nmod	_	SpaceAfter=No|Reading=シュウギインギイン
-22	衆議院議員	衆議院議員	NOUN	名詞-普通名詞-一般	_	24	nmod	_	SpaceAfter=No|Reading=シュウギインギイン
-23	の	の	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=ノ
+20	衆議	衆議	NOUN	名詞-普通名詞-一般	_	22	compound	_	SpaceAfter=No|Reading=シュウギ
+21	院	院	NOUN	接尾辞-名詞的-一般	_	22	compound	_	SpaceAfter=No|Reading=イン
+22	議員	議員	NOUN	名詞-普通名詞-一般	_	24	nmod	_	SpaceAfter=No|Reading=ギイン
+23	の	の	ADP	助詞-格助詞	_	22	case	_	SpaceAfter=No|Reading=ノ
 24	総選挙	総選挙	NOUN	名詞-普通名詞-一般	_	26	obj	_	SpaceAfter=No|Reading=ソウセンキョ
 25	を	を	ADP	助詞-格助詞	_	24	case	_	SpaceAfter=No|Reading=オ
 26	行ひ	行ふ	VERB	動詞-一般	_	40	advcl	_	SpaceAfter=No|Inf=文語四段-ハ行,連用形-一般|Reading=オコナヒ
