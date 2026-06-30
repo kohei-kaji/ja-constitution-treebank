@@ -3207,7 +3207,7 @@
 27	られる	られる	AUX	助動詞	_	26	aux	_	SpaceAfter=No|Inf=助動詞-レル,終止形-一般|Reading=ラレル
 28	も	も	ADP	助詞-係助詞	_	26	case	_	SpaceAfter=No|Reading=モ
 29	の	の	ADP	助詞-格助詞	_	26	case	_	SpaceAfter=No|Reading=ノ
-30	以外	以外	NOUN	名詞-普通名詞-副詞可能	_	35	obl	_	SpaceAfter=No|Reading=イガイ
+30	以外	以外	NOUN	名詞-普通名詞-副詞可能	_	41	obl	_	SpaceAfter=No|Reading=イガイ
 31	は	は	ADP	助詞-係助詞	_	30	case	_	SpaceAfter=No|Reading=ワ
 32	、	、	PUNCT	補助記号-読点	_	30	punct	_	SpaceAfter=No|Reading=、
 33	これ	これ	PRON	代名詞	_	35	obj	_	SpaceAfter=No|Reading=コレ
