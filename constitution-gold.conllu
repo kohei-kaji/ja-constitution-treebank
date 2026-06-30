@@ -2194,21 +2194,22 @@
 21	。	。	PUNCT	補助記号-句点	_	20	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 86
-# text = 何人も、自己に不利益な供述を強要されない。
-1	何人	何人	NOUN	名詞-普通名詞-一般	_	10	nsubj	_	SpaceAfter=No|Reading=ナンピト
+# text = 何人も、自己に不利益不利益な供述を強要されない。
+1	何人	何人	NOUN	名詞-普通名詞-一般	_	11	nsubj	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-4	自己	自己	NOUN	名詞-普通名詞-一般	_	10	obl	_	SpaceAfter=No|Reading=ジコ
+4	自己	自己	NOUN	名詞-普通名詞-一般	_	11	obl	_	SpaceAfter=No|Reading=ジコ
 5	に	に	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ニ
-6	不利益	不利益	NOUN	名詞-普通名詞-形状詞可能	_	8	acl	_	SpaceAfter=No|Reading=フリエキ
-7	な	だ	AUX	助動詞	_	6	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
-8	供述	供述	NOUN	名詞-普通名詞-サ変可能	_	10	obj	_	SpaceAfter=No|Reading=キョウジュツ
-9	を	を	ADP	助詞-格助詞	_	8	case	_	SpaceAfter=No|Reading=オ
-10	強要	強要	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=キョウヨウ
-11	さ	する	AUX	動詞-非自立可能	_	10	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-サ|Reading=サ
-12	れ	れる	AUX	助動詞	_	10	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
-13	ない	ない	AUX	助動詞	_	10	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-14	。	。	PUNCT	補助記号-句点	_	10	punct	_	SpaceAfter=No|Reading=。
+6	不利益	不利益	NOUN	名詞-普通名詞-形状詞可能	_	9	acl	_	SpaceAfter=No|Reading=フリエキ
+7	不利益	不利益	NOUN	名詞-普通名詞-形状詞可能	_	9	acl	_	SpaceAfter=No|Reading=フリエキ
+8	な	だ	AUX	助動詞	_	6	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
+9	供述	供述	NOUN	名詞-普通名詞-サ変可能	_	11	obj	_	SpaceAfter=No|Reading=キョウジュツ
+10	を	を	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=オ
+11	強要	強要	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=キョウヨウ
+12	さ	する	AUX	動詞-非自立可能	_	11	aux	_	SpaceAfter=No|Inf=サ行変格,未然形-サ|Reading=サ
+13	れ	れる	AUX	助動詞	_	11	aux	_	SpaceAfter=No|Inf=助動詞-レル,未然形-一般|Reading=レ
+14	ない	ない	AUX	助動詞	_	11	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+15	。	。	PUNCT	補助記号-句点	_	11	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 87
 # text = 強制、拷問若しくは脅迫による自白又は不当に長く抑留若しくは拘禁された後の自白は、これを証拠とすることができない。
@@ -6245,3 +6246,4 @@
 24	を	を	ADP	助詞-格助詞	_	23	case	_	SpaceAfter=No|Reading=オ
 25	失ふ	失ふ	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=文語四段-ハ行,終止形-一般\|Reading=ウシナウ
 26	。	。	PUNCT	補助記号-句点	_	25	punct	_	SpaceAfter=No|Reading=。
+
