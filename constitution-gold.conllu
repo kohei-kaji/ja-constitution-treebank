@@ -3143,8 +3143,8 @@
 10	。	。	PUNCT	補助記号-句点	_	9	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 119
-# text = 但し、出席議員の三分の二以上の多数で議決したときは、秘密会を開くことができる。
-1	但し	但し	CCONJ	接続詞	_	22	cc	_	SpaceAfter=No|Reading=タダシ
+# text = 但し、出席議員の三分の二以上の多数で議決したときは、秘密会秘密会を開くことができる。
+1	但し	但し	CCONJ	接続詞	_	23	cc	_	SpaceAfter=No|Reading=タダシ
 2	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 3	出席	出席	NOUN	名詞-普通名詞-サ変可能	_	4	compound	_	SpaceAfter=No|Reading=シュッセキ
 4	議員	議員	NOUN	名詞-普通名詞-一般	_	7	nmod	_	SpaceAfter=No|Reading=ギイン
@@ -3160,16 +3160,17 @@
 14	議決	議決	VERB	名詞-普通名詞-サ変可能	_	17	acl	_	SpaceAfter=No|Reading=ギケツ
 15	し	する	AUX	動詞-非自立可能	_	14	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
 16	た	た	AUX	助動詞	_	14	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
-17	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	22	obl	_	SpaceAfter=No|Reading=トキ
+17	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	23	obl	_	SpaceAfter=No|Reading=トキ
 18	は	は	ADP	助詞-係助詞	_	17	case	_	SpaceAfter=No|Reading=ワ
 19	、	、	PUNCT	補助記号-読点	_	17	punct	_	SpaceAfter=No|Reading=、
-20	秘密会	秘密会	NOUN	名詞-普通名詞-一般	_	22	obj	_	SpaceAfter=No|Reading=ヒミツカイ
-21	を	を	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=オ
-22	開く	開く	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=五段-カ行,連体形-一般|Reading=ヒラク
-23	こと	こと	NOUN	名詞-普通名詞-一般	_	22	compound	_	SpaceAfter=No|Reading=コト
-24	が	が	ADP	助詞-格助詞	_	23	fixed	_	SpaceAfter=No|Reading=ガ
-25	できる	できる	AUX	動詞-非自立可能	_	23	fixed	_	SpaceAfter=No|Inf=上一段-カ行,終止形-一般|Reading=デキル
-26	。	。	PUNCT	補助記号-句点	_	22	punct	_	SpaceAfter=No|Reading=。
+20	秘密会	秘密会	NOUN	名詞-普通名詞-一般	_	23	obj	_	SpaceAfter=No|Reading=ヒミツカイ
+21	秘密会	秘密会	NOUN	名詞-普通名詞-一般	_	23	obj	_	SpaceAfter=No|Reading=ヒミツカイ
+22	を	を	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=オ
+23	開く	開く	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=五段-カ行,連体形-一般|Reading=ヒラク
+24	こと	こと	NOUN	名詞-普通名詞-一般	_	23	compound	_	SpaceAfter=No|Reading=コト
+25	が	が	ADP	助詞-格助詞	_	24	fixed	_	SpaceAfter=No|Reading=ガ
+26	できる	できる	AUX	動詞-非自立可能	_	24	fixed	_	SpaceAfter=No|Inf=上一段-カ行,終止形-一般|Reading=デキル
+27	。	。	PUNCT	補助記号-句点	_	23	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 120
 # text = 両議院は、各々その会議の記録を保存し、秘密会の記録の中で特に秘密を要すると認められるもの以外は、これを公表し、且つ一般に頒布しなければならない。
