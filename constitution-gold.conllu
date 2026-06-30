@@ -3557,7 +3557,7 @@
 # newdoc
 # newpar
 # sent_id = 130
-# text = 予算について、参議院で衆議院と異なつた議決をした場合に、法律の定めるところにより、両議院の協議会協議会を開いても意見が一致しないとき、又は参議院が、衆議院の可決した予算を受け取つた後、国会休会中の期間を除いて三十日以内に、議決しないときは、衆議院の議決を国会の議決とする。
+# text = 予算について、参議院で衆議院と異なつた議決をした場合に、法律の定めるところにより、両議院の協議会を開いても意見が一致しないとき、又は参議院が、衆議院の可決した予算を受け取つた後、国会休会中の期間を除いて三十日以内に、議決しないときは、衆議院の議決を国会の議決とする。
 1	予算	予算	NOUN	名詞-普通名詞-一般	_	88	obl	_	SpaceAfter=No|Reading=ヨサン
 2	に	に	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ニ
 3	つい	つく	VERB	動詞-一般	_	2	fixed	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ツイ
@@ -3586,11 +3586,11 @@
 26	より	よる	VERB	動詞-一般	_	25	fixed	_	SpaceAfter=No|Inf=五段-ラ行,連用形-一般|Reading=ヨリ
 27	、	、	PUNCT	補助記号-読点	_	24	punct	_	SpaceAfter=No|Reading=、
 28	両	両	NOUN	接頭辞	_	29	compound	_	SpaceAfter=No|Reading=リョウ
-29	議院	議院	NOUN	名詞-普通名詞-一般	_	31	nmod	_	SpaceAfter=No|Reading=ギイン
+29	議院	議院	NOUN	名詞-普通名詞-一般	_	32	nmod	_	SpaceAfter=No|Reading=ギイン
 30	の	の	ADP	助詞-格助詞	_	29	case	_	SpaceAfter=No|Reading=ノ
-31	協議会	協議会	NOUN	名詞-普通名詞-一般	_	34	obj	_	SpaceAfter=No|Reading=キョウギカイ
-32	協議会	協議会	NOUN	名詞-普通名詞-一般	_	34	obj	_	SpaceAfter=No|Reading=キョウギカイ
-33	を	を	ADP	助詞-格助詞	_	31	case	_	SpaceAfter=No|Reading=オ
+31	協議	協議	NOUN	名詞-普通名詞-サ変可能	_	32	compound	_	SpaceAfter=No|Reading=キョウギ
+32	会	会	NOUN	接尾辞-名詞的-一般	_	34	obj	_	SpaceAfter=No|Reading=カイ
+33	を	を	ADP	助詞-格助詞	_	32	case	_	SpaceAfter=No|Reading=オ
 34	開い	開く	VERB	動詞-一般	_	39	advcl	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ヒライ
 35	て	て	SCONJ	助詞-接続助詞	_	34	mark	_	SpaceAfter=No|Reading=テ
 36	も	も	ADP	助詞-係助詞	_	34	case	_	SpaceAfter=No|Reading=モ
