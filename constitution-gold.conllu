@@ -2240,27 +2240,28 @@
 22	。	。	PUNCT	補助記号-句点	_	17	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 85
-# text = 被告人が自らこれを依頼することができないときは、国でこれを附する。
-1	被告人	被告人	NOUN	名詞-普通名詞-一般	_	6	nsubj	_	SpaceAfter=No|Reading=ヒコクニン
-2	が	が	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ガ
-3	自ら	自ら	ADV	名詞-普通名詞-副詞可能	_	6	advmod	_	SpaceAfter=No|Reading=ミズカラ
-4	これ	これ	PRON	代名詞	_	6	obj	_	SpaceAfter=No|Reading=コレ
-5	を	を	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=オ
-6	依頼	依頼	VERB	名詞-普通名詞-サ変可能	_	12	acl	_	SpaceAfter=No|Reading=イライ
-7	する	する	AUX	動詞-非自立可能	_	6	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
-8	こと	こと	NOUN	名詞-普通名詞-一般	_	6	compound	_	SpaceAfter=No|Reading=コト
-9	が	が	ADP	助詞-格助詞	_	8	fixed	_	SpaceAfter=No|Reading=ガ
-10	でき	できる	AUX	動詞-非自立可能	_	8	fixed	_	SpaceAfter=No|Inf=上一段-カ行,未然形-一般|Reading=デキ
-11	ない	ない	AUX	助動詞	_	6	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,連体形-一般|Reading=ナイ
-12	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	19	obl	_	SpaceAfter=No|Reading=トキ
-13	は	は	ADP	助詞-係助詞	_	12	case	_	SpaceAfter=No|Reading=ワ
-14	、	、	PUNCT	補助記号-読点	_	12	punct	_	SpaceAfter=No|Reading=、
-15	国	国	NOUN	名詞-普通名詞-一般	_	19	obl	_	SpaceAfter=No|Reading=クニ
-16	で	で	ADP	助詞-格助詞	_	15	case	_	SpaceAfter=No|Reading=デ
-17	これ	これ	PRON	代名詞	_	19	obj	_	SpaceAfter=No|Reading=コレ
-18	を	を	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=オ
-19	附する	附する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=フスル
-20	。	。	PUNCT	補助記号-句点	_	19	punct	_	SpaceAfter=No|Reading=。
+# text = 被告人被告人が自らこれを依頼することができないときは、国でこれを附する。
+1	被告人	被告人	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ヒコクニン
+2	被告人	被告人	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ヒコクニン
+3	が	が	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ガ
+4	自ら	自ら	ADV	名詞-普通名詞-副詞可能	_	7	advmod	_	SpaceAfter=No|Reading=ミズカラ
+5	これ	これ	PRON	代名詞	_	7	obj	_	SpaceAfter=No|Reading=コレ
+6	を	を	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=オ
+7	依頼	依頼	VERB	名詞-普通名詞-サ変可能	_	13	acl	_	SpaceAfter=No|Reading=イライ
+8	する	する	AUX	動詞-非自立可能	_	7	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
+9	こと	こと	NOUN	名詞-普通名詞-一般	_	7	compound	_	SpaceAfter=No|Reading=コト
+10	が	が	ADP	助詞-格助詞	_	9	fixed	_	SpaceAfter=No|Reading=ガ
+11	でき	できる	AUX	動詞-非自立可能	_	9	fixed	_	SpaceAfter=No|Inf=上一段-カ行,未然形-一般|Reading=デキ
+12	ない	ない	AUX	助動詞	_	7	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,連体形-一般|Reading=ナイ
+13	とき	とき	NOUN	名詞-普通名詞-副詞可能	_	20	obl	_	SpaceAfter=No|Reading=トキ
+14	は	は	ADP	助詞-係助詞	_	13	case	_	SpaceAfter=No|Reading=ワ
+15	、	、	PUNCT	補助記号-読点	_	13	punct	_	SpaceAfter=No|Reading=、
+16	国	国	NOUN	名詞-普通名詞-一般	_	20	obl	_	SpaceAfter=No|Reading=クニ
+17	で	で	ADP	助詞-格助詞	_	16	case	_	SpaceAfter=No|Reading=デ
+18	これ	これ	PRON	代名詞	_	20	obj	_	SpaceAfter=No|Reading=コレ
+19	を	を	ADP	助詞-格助詞	_	18	case	_	SpaceAfter=No|Reading=オ
+20	附する	附する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=フスル
+21	。	。	PUNCT	補助記号-句点	_	20	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 86
 # text = 何人も、自己に不利益な供述を強要されない。
