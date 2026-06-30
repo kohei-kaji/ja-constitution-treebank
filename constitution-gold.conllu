@@ -2503,9 +2503,11 @@
 17	定める	定める	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-マ行,終止形-一般|Reading=サダメル
 18	。	。	PUNCT	補助記号-句点	_	17	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 98
 # text = 但し、人種、信条、性別、社会的身分、門地、教育、財産又は収入によつて差別してはならない。
-1	但し	但し	CCONJ	接続詞	_	23	cc	_	SpaceAfter=No|Reading=タダシ
+1	但し	但し	CCONJ	接続詞	_	24	cc	_	SpaceAfter=No|Reading=タダシ
 2	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 3	人種	人種	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=ジンシュ
 4	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
@@ -2513,27 +2515,28 @@
 6	、	、	PUNCT	補助記号-読点	_	5	punct	_	SpaceAfter=No|Reading=、
 7	性別	性別	NOUN	名詞-普通名詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=セイベツ
 8	、	、	PUNCT	補助記号-読点	_	7	punct	_	SpaceAfter=No|Reading=、
-9	社会的	社会的	NOUN	名詞-普通名詞-形状詞可能	_	12	nmod	_	SpaceAfter=No|Reading=シャカイテキ
-10	身分	身分	NOUN	名詞-普通名詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=ミブン
-11	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
-12	門地	門地	NOUN	名詞-普通名詞-一般	_	14	nmod	_	SpaceAfter=No|Reading=モンチ
-13	、	、	PUNCT	補助記号-読点	_	12	punct	_	SpaceAfter=No|Reading=、
-14	教育	教育	NOUN	名詞-普通名詞-サ変可能	_	16	nmod	_	SpaceAfter=No|Reading=キョウイク
-15	、	、	PUNCT	補助記号-読点	_	14	punct	_	SpaceAfter=No|Reading=、
-16	財産	財産	NOUN	名詞-普通名詞-一般	_	19	nmod	_	SpaceAfter=No|Reading=ザイサン
-17	又	又	CCONJ	接続詞	_	19	cc	_	SpaceAfter=No|Reading=マタ
-18	は	は	ADP	助詞-係助詞	_	17	fixed	_	SpaceAfter=No|Reading=ワ
-19	収入	収入	NOUN	名詞-普通名詞-一般	_	21	obl	_	SpaceAfter=No|Reading=シュウニュウ
-20	に	に	ADP	助詞-格助詞	_	19	case	_	SpaceAfter=No|Reading=ニ
-21	よつ	よる	VERB	動詞-一般	_	23	advcl	_	SpaceAfter=No|Inf=文語四段-ラ行,連用形-促音便|Reading=ヨッ
-22	て	て	SCONJ	助詞-接続助詞	_	21	mark	_	SpaceAfter=No|Reading=テ
-23	差別	差別	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=サベツ
-24	し	する	AUX	動詞-非自立可能	_	23	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
-25	て	て	SCONJ	助詞-接続助詞	_	23	mark	_	SpaceAfter=No|Reading=テ
-26	は	は	ADP	助詞-係助詞	_	25	fixed	_	SpaceAfter=No|Reading=ワ
-27	なら	なる	VERB	動詞-非自立可能	_	25	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
-28	ない	ない	AUX	助動詞	_	25	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-29	。	。	PUNCT	補助記号-句点	_	23	punct	_	SpaceAfter=No|Reading=。
+9	社会的	社会的	NOUN	名詞-普通名詞-形状詞可能	_	13	nmod	_	SpaceAfter=No|Reading=シャカイテキ
+10	社会的	社会的	NOUN	名詞-普通名詞-形状詞可能	_	13	nmod	_	SpaceAfter=No|Reading=シャカイテキ
+11	身分	身分	NOUN	名詞-普通名詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=ミブン
+12	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
+13	門地	門地	NOUN	名詞-普通名詞-一般	_	15	nmod	_	SpaceAfter=No|Reading=モンチ
+14	、	、	PUNCT	補助記号-読点	_	13	punct	_	SpaceAfter=No|Reading=、
+15	教育	教育	NOUN	名詞-普通名詞-サ変可能	_	17	nmod	_	SpaceAfter=No|Reading=キョウイク
+16	、	、	PUNCT	補助記号-読点	_	15	punct	_	SpaceAfter=No|Reading=、
+17	財産	財産	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=ザイサン
+18	又	又	CCONJ	接続詞	_	20	cc	_	SpaceAfter=No|Reading=マタ
+19	は	は	ADP	助詞-係助詞	_	18	fixed	_	SpaceAfter=No|Reading=ワ
+20	収入	収入	NOUN	名詞-普通名詞-一般	_	22	obl	_	SpaceAfter=No|Reading=シュウニュウ
+21	に	に	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=ニ
+22	よつ	よる	VERB	動詞-一般	_	24	advcl	_	SpaceAfter=No|Inf=文語四段-ラ行,連用形-促音便|Reading=ヨッ
+23	て	て	SCONJ	助詞-接続助詞	_	22	mark	_	SpaceAfter=No|Reading=テ
+24	差別	差別	VERB	名詞-普通名詞-サ変可能	_	0	root	_	SpaceAfter=No|Reading=サベツ
+25	し	する	AUX	動詞-非自立可能	_	24	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
+26	て	て	SCONJ	助詞-接続助詞	_	24	mark	_	SpaceAfter=No|Reading=テ
+27	は	は	ADP	助詞-係助詞	_	26	fixed	_	SpaceAfter=No|Reading=ワ
+28	なら	なる	VERB	動詞-非自立可能	_	26	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
+29	ない	ない	AUX	助動詞	_	26	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+30	。	。	PUNCT	補助記号-句点	_	24	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 99
 # text = 衆議院議員の任期は、四年とする。
