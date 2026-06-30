@@ -2509,19 +2509,19 @@
 # text = 但し、人種、信条、性別、社会的身分、門地、教育、財産又は収入によつて差別してはならない。
 1	但し	但し	CCONJ	接続詞	_	24	cc	_	SpaceAfter=No|Reading=タダシ
 2	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-3	人種	人種	NOUN	名詞-普通名詞-一般	_	5	nmod	_	SpaceAfter=No|Reading=ジンシュ
+3	人種	人種	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=ジンシュ
 4	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
-5	信条	信条	NOUN	名詞-普通名詞-一般	_	7	nmod	_	SpaceAfter=No|Reading=シンジョウ
+5	信条	信条	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=シンジョウ
 6	、	、	PUNCT	補助記号-読点	_	5	punct	_	SpaceAfter=No|Reading=、
-7	性別	性別	NOUN	名詞-普通名詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=セイベツ
+7	性別	性別	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=セイベツ
 8	、	、	PUNCT	補助記号-読点	_	7	punct	_	SpaceAfter=No|Reading=、
-9	社会	社会	NOUN	名詞-普通名詞-形状詞可能	_	13	nmod	_	SpaceAfter=No|Reading=シャカイ
+9	社会	社会	NOUN	名詞-普通名詞-形状詞可能	_	20	nmod	_	SpaceAfter=No|Reading=シャカイ
 10	的	的	PART	接尾辞-形状詞的	_	9	mark	_	SpaceAfter=No|Reading=テキ
 11	身分	身分	NOUN	名詞-普通名詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=ミブン
 12	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
-13	門地	門地	NOUN	名詞-普通名詞-一般	_	15	nmod	_	SpaceAfter=No|Reading=モンチ
+13	門地	門地	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=モンチ
 14	、	、	PUNCT	補助記号-読点	_	13	punct	_	SpaceAfter=No|Reading=、
-15	教育	教育	NOUN	名詞-普通名詞-サ変可能	_	17	nmod	_	SpaceAfter=No|Reading=キョウイク
+15	教育	教育	NOUN	名詞-普通名詞-サ変可能	_	20	nmod	_	SpaceAfter=No|Reading=キョウイク
 16	、	、	PUNCT	補助記号-読点	_	15	punct	_	SpaceAfter=No|Reading=、
 17	財産	財産	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=ザイサン
 18	又	又	CCONJ	接続詞	_	20	cc	_	SpaceAfter=No|Reading=マタ
