@@ -2018,7 +2018,7 @@
 # newdoc
 # newpar
 # sent_id = 79
-# text = 何人も、その住居、書類及び所持品について、侵入、捜索及び押収を受けることのない権利は、第三十三三十三条の場合を除いては、正当な理由に基いて発せられ、且つ捜索する場所及び押収する物を明示する令状がなければ、侵されない。
+# text = 何人も、その住居、書類及び所持品について、侵入、捜索及び押収を受けることのない権利は、第三十三条の場合を除いては、正当な理由に基いて発せられ、且つ捜索する場所及び押収する物を明示する令状がなければ、侵されない。
 1	何人	何人	NOUN	名詞-普通名詞-一般	_	64	dislocated	_	SpaceAfter=No|Reading=ナンピト
 2	も	も	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=モ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
@@ -2047,8 +2047,8 @@
 26	は	は	ADP	助詞-係助詞	_	25	case	_	SpaceAfter=No|Reading=ワ
 27	、	、	PUNCT	補助記号-読点	_	25	punct	_	SpaceAfter=No|Reading=、
 28	第	第	NOUN	接頭辞	_	31	compound	_	SpaceAfter=No|Reading=ダイ
-29	三十三	三十三	NUM	名詞-数詞	_	31	compound	_	SpaceAfter=No|Reading=サンジュウサン
-30	三十三	三十三	NUM	名詞-数詞	_	31	compound	_	SpaceAfter=No|Reading=サンジュウサン
+29	三十	三十	NUM	名詞-数詞	_	30	compound	_	SpaceAfter=No|Reading=サンジュウ
+30	三	三	NUM	名詞-数詞	_	31	compound	_	SpaceAfter=No|Reading=サン
 31	条	条	NOUN	名詞-普通名詞-助数詞可能	_	33	nmod	_	SpaceAfter=No|Reading=ジョウ
 32	の	の	ADP	助詞-格助詞	_	31	case	_	SpaceAfter=No|Reading=ノ
 33	場合	場合	NOUN	名詞-普通名詞-副詞可能	_	35	obj	_	SpaceAfter=No|Reading=バアイ
