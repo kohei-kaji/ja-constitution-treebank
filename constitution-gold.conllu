@@ -2135,8 +2135,10 @@
 16	禁ずる	禁ずる	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=キンズル
 17	。	。	PUNCT	補助記号-句点	_	16	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 82
-# text = すべて刑事事件においては、被告人被告人は、公平な裁判所の迅速な公開裁判を受ける権利を有する。
+# text = すべて刑事事件においては、被告人は、公平な裁判所の迅速な公開裁判を受ける権利を有する。
 1	すべて	すべて	ADV	名詞-普通名詞-副詞可能	_	25	advmod	_	SpaceAfter=No|Reading=スベテ
 2	刑事	刑事	NOUN	名詞-普通名詞-一般	_	3	compound	_	SpaceAfter=No|Reading=ケイジ
 3	事件	事件	NOUN	名詞-普通名詞-一般	_	25	obl	_	SpaceAfter=No|Reading=ジケン
@@ -2145,10 +2147,10 @@
 6	て	て	SCONJ	助詞-接続助詞	_	4	fixed	_	SpaceAfter=No|Reading=テ
 7	は	は	ADP	助詞-係助詞	_	3	case	_	SpaceAfter=No|Reading=ワ
 8	、	、	PUNCT	補助記号-読点	_	3	punct	_	SpaceAfter=No|Reading=、
-9	被告人	被告人	NOUN	名詞-普通名詞-一般	_	25	nsubj	_	SpaceAfter=No|Reading=ヒコクニン
-10	被告人	被告人	NOUN	名詞-普通名詞-一般	_	25	nsubj	_	SpaceAfter=No|Reading=ヒコクニン
-11	は	は	ADP	助詞-係助詞	_	9	case	_	SpaceAfter=No|Reading=ワ
-12	、	、	PUNCT	補助記号-読点	_	9	punct	_	SpaceAfter=No|Reading=、
+9	被告	被告	NOUN	名詞-普通名詞-一般	_	10	compound	_	SpaceAfter=No|Reading=ヒコク
+10	人	人	NOUN	接尾辞-名詞的-一般	_	25	nsubj	_	SpaceAfter=No|Reading=ニン
+11	は	は	ADP	助詞-係助詞	_	10	case	_	SpaceAfter=No|Reading=ワ
+12	、	、	PUNCT	補助記号-読点	_	10	punct	_	SpaceAfter=No|Reading=、
 13	公平	公平	ADJ	名詞-普通名詞-形状詞可能	_	15	acl	_	SpaceAfter=No|Reading=コウヘイ
 14	な	だ	AUX	助動詞	_	13	aux	_	SpaceAfter=No|Inf=助動詞-ダ,連体形-一般|Reading=ナ
 15	裁判所	裁判所	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=サイバンショ
