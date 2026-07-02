@@ -3889,22 +3889,24 @@
 28	。	。	PUNCT	補助記号-句点	_	26	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 140
-# text = 内閣総理大臣その他の国務大臣は、文民でなければならない。
-1	内閣総理大臣	内閣総理大臣	NOUN	名詞-普通名詞-一般	_	6	compound	_	SpaceAfter=No|Reading=ナイカクソウリダイジン
-2	その	その	DET	連体詞	_	3	det	_	SpaceAfter=No|Reading=ソノ
-3	他	他	NOUN	名詞-普通名詞-副詞可能	_	6	nmod	_	SpaceAfter=No|Reading=タ
-4	の	の	ADP	助詞-格助詞	_	3	case	_	SpaceAfter=No|Reading=ノ
-5	国務	国務	NOUN	名詞-普通名詞-一般	_	6	compound	_	SpaceAfter=No|Reading=コクム
-6	大臣	大臣	NOUN	名詞-普通名詞-一般	_	9	nsubj	_	SpaceAfter=No|Reading=ダイジン
-7	は	は	ADP	助詞-係助詞	_	6	case	_	SpaceAfter=No|Reading=ワ
-8	、	、	PUNCT	補助記号-読点	_	6	punct	_	SpaceAfter=No|Reading=、
-9	文民	文民	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=ブンミン
-10	で	だ	AUX	助動詞	_	9	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-一般|Reading=デ
-11	なけれ	ない	AUX	形容詞-非自立可能	_	9	aux	_	SpaceAfter=No|Inf=形容詞,仮定形-一般|Reading=ナケレ
-12	ば	ば	SCONJ	助詞-接続助詞	_	11	fixed	_	SpaceAfter=No|Reading=バ
-13	なら	なる	VERB	動詞-非自立可能	_	11	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
-14	ない	ない	AUX	助動詞	_	11	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
-15	。	。	PUNCT	補助記号-句点	_	9	punct	_	SpaceAfter=No|Reading=。
+# text = 内閣総理大臣内閣総理大臣内閣総理大臣その他の国務大臣は、文民でなければならない。
+1	内閣総理大臣	内閣総理大臣	NOUN	名詞-普通名詞-一般	_	8	compound	_	SpaceAfter=No|Reading=ナイカクソウリダイジン
+2	内閣総理大臣	内閣総理大臣	NOUN	名詞-普通名詞-一般	_	8	compound	_	SpaceAfter=No|Reading=ナイカクソウリダイジン
+3	内閣総理大臣	内閣総理大臣	NOUN	名詞-普通名詞-一般	_	8	compound	_	SpaceAfter=No|Reading=ナイカクソウリダイジン
+4	その	その	DET	連体詞	_	5	det	_	SpaceAfter=No|Reading=ソノ
+5	他	他	NOUN	名詞-普通名詞-副詞可能	_	8	nmod	_	SpaceAfter=No|Reading=タ
+6	の	の	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=ノ
+7	国務	国務	NOUN	名詞-普通名詞-一般	_	8	compound	_	SpaceAfter=No|Reading=コクム
+8	大臣	大臣	NOUN	名詞-普通名詞-一般	_	11	nsubj	_	SpaceAfter=No|Reading=ダイジン
+9	は	は	ADP	助詞-係助詞	_	8	case	_	SpaceAfter=No|Reading=ワ
+10	、	、	PUNCT	補助記号-読点	_	8	punct	_	SpaceAfter=No|Reading=、
+11	文民	文民	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=ブンミン
+12	で	だ	AUX	助動詞	_	11	cop	_	SpaceAfter=No|Inf=助動詞-ダ,連用形-一般|Reading=デ
+13	なけれ	ない	AUX	形容詞-非自立可能	_	11	aux	_	SpaceAfter=No|Inf=形容詞,仮定形-一般|Reading=ナケレ
+14	ば	ば	SCONJ	助詞-接続助詞	_	13	fixed	_	SpaceAfter=No|Reading=バ
+15	なら	なる	VERB	動詞-非自立可能	_	13	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ナラ
+16	ない	ない	AUX	助動詞	_	13	fixed	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
+17	。	。	PUNCT	補助記号-句点	_	11	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 141
 # text = 内閣は、行政権の行使について、国会に対し連帯して責任を負ふ。
