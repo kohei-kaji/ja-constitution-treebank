@@ -3680,7 +3680,7 @@
 # sent_id = 132
 # text = 両議院は、各々国政に関する調査を行ひ、これに関して、証人の出頭及び証言並びに記録の提出を要求することができる。
 1	両	両	NOUN	接頭辞	_	2	compound	_	SpaceAfter=No|Reading=リョウ
-2	議院	議院	NOUN	名詞-普通名詞-一般	_	11	nsubj	_	SpaceAfter=No|Reading=ギイン
+2	議院	議院	NOUN	名詞-普通名詞-一般	_	29	nsubj	_	SpaceAfter=No|Reading=ギイン
 3	は	は	ADP	助詞-係助詞	_	2	case	_	SpaceAfter=No|Reading=ワ
 4	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
 5	各々	各々	NOUN	名詞-普通名詞-副詞可能	_	11	advmod	_	SpaceAfter=No|Reading=オノオノ
