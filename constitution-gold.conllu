@@ -3741,8 +3741,8 @@
 21	ない	ない	AUX	助動詞	_	20	aux	_	SpaceAfter=No|Inf=助動詞-ナイ,終止形-一般|Reading=ナイ
 22	と	と	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=ト
 23	に	に	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=ニ
-24	かかはら	かかはる	VERB	動詞-一般	_	34	advcl	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=ハラ
-25	ず	ず	AUX	助動詞	_	24	aux	_	SpaceAfter=No|Inf=助動詞-ヌ,連用形-一般|Reading=ズ
+24	かかはら	関わる	VERB	動詞-一般	_	34	fixed	_	SpaceAfter=No|Inf=五段-ラ行,未然形-一般|Reading=カカワラ
+25	ず	ず	AUX	助動詞	Polarity=Neg	24	fixed	_	SpaceAfter=No|Inf=助動詞-ヌ,連用形-一般|Reading=ズ
 26	、	、	PUNCT	補助記号-読点	_	24	punct	_	SpaceAfter=No|Reading=、
 27	何時	何時	NOUN	代名詞	_	34	obl	_	SpaceAfter=No|Reading=イツ
 28	で	で	ADP	助詞-格助詞	_	27	case	_	SpaceAfter=No|Reading=デ
