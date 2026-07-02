@@ -3855,8 +3855,10 @@
 7	属する	属する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=ゾクスル
 8	。	。	PUNCT	補助記号-句点	_	7	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 139
-# text = 内閣は、法律の定めるところにより、その首長たる内閣総理大臣内閣総理大臣内閣総理大臣及びその他の国務大臣でこれを組織する。
+# text = 内閣は、法律の定めるところにより、その首長たる内閣総理大臣及びその他の国務大臣でこれを組織する。
 1	内閣	内閣	NOUN	名詞-普通名詞-一般	_	26	nsubj	_	SpaceAfter=No|Reading=ナイカク
 2	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
@@ -3870,9 +3872,9 @@
 11	その	その	DET	連体詞	_	12	det	_	SpaceAfter=No|Reading=ソノ
 12	首長	首長	NOUN	名詞-普通名詞-一般	_	22	acl	_	SpaceAfter=No|Reading=シュチョウ
 13	たる	たり	AUX	助動詞	_	12	aux	_	SpaceAfter=No|Inf=文語助動詞-タリ-断定,連体形-一般|Reading=タル
-14	内閣総理大臣	内閣総理大臣	NOUN	名詞-普通名詞-一般	_	22	nmod	_	SpaceAfter=No|Reading=ナイカクソウリダイジン
-15	内閣総理大臣	内閣総理大臣	NOUN	名詞-普通名詞-一般	_	22	nmod	_	SpaceAfter=No|Reading=ナイカクソウリダイジン
-16	内閣総理大臣	内閣総理大臣	NOUN	名詞-普通名詞-一般	_	22	nmod	_	SpaceAfter=No|Reading=ナイカクソウリダイジン
+14	内閣	内閣	NOUN	名詞-普通名詞-一般	_	16	compound	_	SpaceAfter=No|Reading=ナイカク
+15	総理	総理	NOUN	名詞-普通名詞-一般	_	16	compound	_	SpaceAfter=No|Reading=ソウリ
+16	大臣	大臣	NOUN	名詞-普通名詞-一般	_	22	nmod	_	SpaceAfter=No|Reading=ダイジン
 17	及び	及び	CCONJ	接続詞	_	22	cc	_	SpaceAfter=No|Reading=オヨビ
 18	その	その	DET	連体詞	_	19	det	_	SpaceAfter=No|Reading=ソノ
 19	他	他	NOUN	名詞-普通名詞-副詞可能	_	22	nmod	_	SpaceAfter=No|Reading=タ
