@@ -3888,8 +3888,10 @@
 27	する	する	AUX	動詞-非自立可能	_	26	aux	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=スル
 28	。	。	PUNCT	補助記号-句点	_	26	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 140
-# text = 内閣総理大臣内閣総理大臣内閣総理大臣その他の国務大臣は、文民でなければならない。
+# text = 内閣総理大臣その他の国務大臣は、文民でなければならない。
 1	内閣	内閣	NOUN	名詞-普通名詞-一般	_	3	compound	_	SpaceAfter=No|Reading=ナイカク
 2	総理	総理	NOUN	名詞-普通名詞-一般	_	3	compound	_	SpaceAfter=No|Reading=ソウリ
 3	大臣	大臣	NOUN	名詞-普通名詞-一般	_	8	compound	_	SpaceAfter=No|Reading=ダイジン
