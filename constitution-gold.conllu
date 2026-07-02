@@ -3714,11 +3714,13 @@
 33	できる	できる	AUX	動詞-非自立可能	_	31	fixed	_	SpaceAfter=No|Inf=上一段-カ行,終止形-一般|Reading=デキル
 34	。	。	PUNCT	補助記号-句点	_	29	punct	_	SpaceAfter=No|Reading=。
 
+# newdoc
+# newpar
 # sent_id = 133
-# text = 内閣総理大臣内閣総理大臣内閣総理大臣その他の国務大臣は、両議院の一に議席を有すると有しないとにかかはらず、何時でも議案について発言するため議院に出席することができる。
-1	内閣総理大臣	内閣総理大臣	NOUN	名詞-普通名詞-一般	_	8	nmod	_	SpaceAfter=No|Reading=ナイカクソウリダイジン
-2	内閣総理大臣	内閣総理大臣	NOUN	名詞-普通名詞-一般	_	8	nmod	_	SpaceAfter=No|Reading=ナイカクソウリダイジン
-3	内閣総理大臣	内閣総理大臣	NOUN	名詞-普通名詞-一般	_	8	nmod	_	SpaceAfter=No|Reading=ナイカクソウリダイジン
+# text = 内閣総理大臣その他の国務大臣は、両議院の一に議席を有すると有しないとにかかはらず、何時でも議案について発言するため議院に出席することができる。
+1	内閣	内閣	NOUN	名詞-普通名詞-一般	_	3	compound	_	SpaceAfter=No|Reading=ナイカク
+2	総理	総理	NOUN	名詞-普通名詞-一般	_	3	compound	_	SpaceAfter=No|Reading=ソウリ
+3	大臣	大臣	NOUN	名詞-普通名詞-一般	_	8	nmod	_	SpaceAfter=No|Reading=ダイジン
 4	その	その	DET	連体詞	_	5	det	_	SpaceAfter=No|Reading=ソノ
 5	他	他	NOUN	名詞-普通名詞-副詞可能	_	8	nmod	_	SpaceAfter=No|Reading=タ
 6	の	の	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=ノ
