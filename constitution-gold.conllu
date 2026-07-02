@@ -3683,7 +3683,7 @@
 2	議院	議院	NOUN	名詞-普通名詞-一般	_	11	nsubj	_	SpaceAfter=No|Reading=ギイン
 3	は	は	ADP	助詞-係助詞	_	2	case	_	SpaceAfter=No|Reading=ワ
 4	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
-5	各々	各々	NOUN	名詞-普通名詞-副詞可能	_	11	obl	_	SpaceAfter=No|Reading=オノオノ
+5	各々	各々	NOUN	名詞-普通名詞-副詞可能	_	11	advmod	_	SpaceAfter=No|Reading=オノオノ
 6	国政	国政	NOUN	名詞-普通名詞-一般	_	9	nmod	_	SpaceAfter=No|Reading=コクセイ
 7	に	に	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ニ
 8	関する	関する	VERB	動詞-一般	_	7	fixed	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=カンスル
