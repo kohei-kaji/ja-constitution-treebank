@@ -3911,27 +3911,28 @@
 17	。	。	PUNCT	補助記号-句点	_	11	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 141
-# text = 内閣は、行政権の行使について、国会に対し連帯して責任を負ふ。
-1	内閣	内閣	NOUN	名詞-普通名詞-一般	_	19	nsubj	_	SpaceAfter=No|Reading=ナイカク
+# text = 内閣は、行政権行政権の行使について、国会に対し連帯して責任を負ふ。
+1	内閣	内閣	NOUN	名詞-普通名詞-一般	_	20	nsubj	_	SpaceAfter=No|Reading=ナイカク
 2	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-4	行政権	行政権	NOUN	名詞-普通名詞-一般	_	6	nmod	_	SpaceAfter=No|Reading=ギョウセイケン
-5	の	の	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ノ
-6	行使	行使	NOUN	名詞-普通名詞-サ変可能	_	19	obl	_	SpaceAfter=No|Reading=コウシ
-7	に	に	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=ニ
-8	つい	つく	VERB	動詞-一般	_	7	fixed	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ツイ
-9	て	て	SCONJ	助詞-接続助詞	_	7	fixed	_	SpaceAfter=No|Reading=テ
-10	、	、	PUNCT	補助記号-読点	_	6	punct	_	SpaceAfter=No|Reading=、
-11	国会	国会	NOUN	名詞-普通名詞-一般	_	19	obl	_	SpaceAfter=No|Reading=コッカイ
-12	に	に	ADP	助詞-格助詞	_	11	case	_	SpaceAfter=No|Reading=ニ
-13	対し	対する	VERB	動詞-一般	_	12	fixed	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=タイシ
-14	連帯	連帯	VERB	名詞-普通名詞-サ変可能	_	19	advcl	_	SpaceAfter=No|Reading=レンタイ
-15	し	する	AUX	動詞-非自立可能	_	14	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
-16	て	て	SCONJ	助詞-接続助詞	_	14	mark	_	SpaceAfter=No|Reading=テ
-17	責任	責任	NOUN	名詞-普通名詞-一般	_	19	obj	_	SpaceAfter=No|Reading=セキニン
-18	を	を	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=オ
-19	負ふ	負ふ	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=文語四段-ハ行,終止形-一般\|Reading=オウ
-20	。	。	PUNCT	補助記号-句点	_	19	punct	_	SpaceAfter=No|Reading=。
+4	行政権	行政権	NOUN	名詞-普通名詞-一般	_	7	nmod	_	SpaceAfter=No|Reading=ギョウセイケン
+5	行政権	行政権	NOUN	名詞-普通名詞-一般	_	7	nmod	_	SpaceAfter=No|Reading=ギョウセイケン
+6	の	の	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ノ
+7	行使	行使	NOUN	名詞-普通名詞-サ変可能	_	20	obl	_	SpaceAfter=No|Reading=コウシ
+8	に	に	ADP	助詞-格助詞	_	7	case	_	SpaceAfter=No|Reading=ニ
+9	つい	つく	VERB	動詞-一般	_	8	fixed	_	SpaceAfter=No|Inf=五段-カ行,連用形-イ音便|Reading=ツイ
+10	て	て	SCONJ	助詞-接続助詞	_	8	fixed	_	SpaceAfter=No|Reading=テ
+11	、	、	PUNCT	補助記号-読点	_	7	punct	_	SpaceAfter=No|Reading=、
+12	国会	国会	NOUN	名詞-普通名詞-一般	_	20	obl	_	SpaceAfter=No|Reading=コッカイ
+13	に	に	ADP	助詞-格助詞	_	12	case	_	SpaceAfter=No|Reading=ニ
+14	対し	対する	VERB	動詞-一般	_	13	fixed	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=タイシ
+15	連帯	連帯	VERB	名詞-普通名詞-サ変可能	_	20	advcl	_	SpaceAfter=No|Reading=レンタイ
+16	し	する	AUX	動詞-非自立可能	_	15	aux	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=シ
+17	て	て	SCONJ	助詞-接続助詞	_	15	mark	_	SpaceAfter=No|Reading=テ
+18	責任	責任	NOUN	名詞-普通名詞-一般	_	20	obj	_	SpaceAfter=No|Reading=セキニン
+19	を	を	ADP	助詞-格助詞	_	18	case	_	SpaceAfter=No|Reading=オ
+20	負ふ	負ふ	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=文語四段-ハ行,終止形-一般\|Reading=オウ
+21	。	。	PUNCT	補助記号-句点	_	20	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 142
 # text = 内閣総理大臣は、国会議員の中から国会の議決で、これを指名する。
