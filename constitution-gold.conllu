@@ -3843,14 +3843,15 @@
 1	内閣	内閣	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=ナイカク
 
 # sent_id = 138
-# text = 行政権は、内閣に属する。
-1	行政権	行政権	NOUN	名詞-普通名詞-一般	_	6	nsubj	_	SpaceAfter=No|Reading=ギョウセイケン
-2	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
-3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
-4	内閣	内閣	NOUN	名詞-普通名詞-一般	_	6	obl	_	SpaceAfter=No|Reading=ナイカク
-5	に	に	ADP	助詞-格助詞	_	4	case	_	SpaceAfter=No|Reading=ニ
-6	属する	属する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=ゾクスル
-7	。	。	PUNCT	補助記号-句点	_	6	punct	_	SpaceAfter=No|Reading=。
+# text = 行政権行政権は、内閣に属する。
+1	行政権	行政権	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ギョウセイケン
+2	行政権	行政権	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ギョウセイケン
+3	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
+4	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
+5	内閣	内閣	NOUN	名詞-普通名詞-一般	_	7	obl	_	SpaceAfter=No|Reading=ナイカク
+6	に	に	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=ニ
+7	属する	属する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=ゾクスル
+8	。	。	PUNCT	補助記号-句点	_	7	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 139
 # text = 内閣は、法律の定めるところにより、その首長たる内閣総理大臣及びその他の国務大臣でこれを組織する。
