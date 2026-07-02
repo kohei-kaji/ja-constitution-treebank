@@ -3842,12 +3842,14 @@
 # text = 内閣
 1	内閣	内閣	NOUN	名詞-普通名詞-一般	_	0	root	_	SpaceAfter=No|Reading=ナイカク
 
+# newdoc
+# newpar
 # sent_id = 138
-# text = 行政権行政権は、内閣に属する。
-1	行政権	行政権	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ギョウセイケン
-2	行政権	行政権	NOUN	名詞-普通名詞-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ギョウセイケン
-3	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
-4	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
+# text = 行政権は、内閣に属する。
+1	行政	行政	NOUN	名詞-普通名詞-一般	_	2	compound	_	SpaceAfter=No|Reading=ギョウセイ
+2	権	権	NOUN	接尾辞-名詞的-一般	_	7	nsubj	_	SpaceAfter=No|Reading=ケン
+3	は	は	ADP	助詞-係助詞	_	2	case	_	SpaceAfter=No|Reading=ワ
+4	、	、	PUNCT	補助記号-読点	_	2	punct	_	SpaceAfter=No|Reading=、
 5	内閣	内閣	NOUN	名詞-普通名詞-一般	_	7	obl	_	SpaceAfter=No|Reading=ナイカク
 6	に	に	ADP	助詞-格助詞	_	5	case	_	SpaceAfter=No|Reading=ニ
 7	属する	属する	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=サ行変格,終止形-一般|Reading=ゾクスル
