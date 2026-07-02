@@ -3790,8 +3790,8 @@
 23	。	。	PUNCT	補助記号-句点	_	17	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 135
-# text = 国会は、罷免の訴追を受けた裁判官を裁判するため、両議院の議員で組織する弾劾裁判所を設ける。
-1	国会	国会	NOUN	名詞-普通名詞-一般	_	26	nsubj	_	SpaceAfter=No|Reading=コッカイ
+# text = 国会は、罷免の訴追を受けた裁判官裁判官を裁判するため、両議院の議員で組織する弾劾裁判所を設ける。
+1	国会	国会	NOUN	名詞-普通名詞-一般	_	27	nsubj	_	SpaceAfter=No|Reading=コッカイ
 2	は	は	ADP	助詞-係助詞	_	1	case	_	SpaceAfter=No|Reading=ワ
 3	、	、	PUNCT	補助記号-読点	_	1	punct	_	SpaceAfter=No|Reading=、
 4	罷免	罷免	NOUN	名詞-普通名詞-サ変可能	_	6	nmod	_	SpaceAfter=No|Reading=ヒメン
@@ -3800,24 +3800,25 @@
 7	を	を	ADP	助詞-格助詞	_	6	case	_	SpaceAfter=No|Reading=オ
 8	受け	受ける	VERB	動詞-一般	_	10	acl	_	SpaceAfter=No|Inf=下一段-カ行,連用形-一般|Reading=ウケ
 9	た	た	AUX	助動詞	_	8	aux	_	SpaceAfter=No|Inf=助動詞-タ,連体形-一般|Reading=タ
-10	裁判官	裁判官	NOUN	名詞-普通名詞-一般	_	12	obj	_	SpaceAfter=No|Reading=サイバンカン
-11	を	を	ADP	助詞-格助詞	_	10	case	_	SpaceAfter=No|Reading=オ
-12	裁判	裁判	VERB	名詞-普通名詞-サ変可能	_	14	acl	_	SpaceAfter=No|Reading=サイバン
-13	する	する	AUX	動詞-非自立可能	_	12	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
-14	ため	ため	NOUN	名詞-普通名詞-副詞可能	_	26	obl	_	SpaceAfter=No|Reading=タメ
-15	、	、	PUNCT	補助記号-読点	_	14	punct	_	SpaceAfter=No|Reading=、
-16	両	両	NOUN	接頭辞	_	17	compound	_	SpaceAfter=No|Reading=リョウ
-17	議院	議院	NOUN	名詞-普通名詞-一般	_	19	nmod	_	SpaceAfter=No|Reading=ギイン
-18	の	の	ADP	助詞-格助詞	_	17	case	_	SpaceAfter=No|Reading=ノ
-19	議員	議員	NOUN	名詞-普通名詞-一般	_	21	obl	_	SpaceAfter=No|Reading=ギイン
-20	で	で	ADP	助詞-格助詞	_	19	case	_	SpaceAfter=No|Reading=デ
-21	組織	組織	VERB	名詞-普通名詞-サ変可能	_	24	acl	_	SpaceAfter=No|Reading=ソシキ
-22	する	する	AUX	動詞-非自立可能	_	21	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
-23	弾劾	弾劾	NOUN	名詞-普通名詞-サ変可能	_	24	compound	_	SpaceAfter=No|Reading=ダンガイ
-24	裁判所	裁判所	NOUN	名詞-普通名詞-一般	_	26	obj	_	SpaceAfter=No|Reading=サイバンショ
-25	を	を	ADP	助詞-格助詞	_	24	case	_	SpaceAfter=No|Reading=オ
-26	設ける	設ける	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-カ行,終止形-一般|Reading=モウケル
-27	。	。	PUNCT	補助記号-句点	_	26	punct	_	SpaceAfter=No|Reading=。
+10	裁判官	裁判官	NOUN	名詞-普通名詞-一般	_	13	obj	_	SpaceAfter=No|Reading=サイバンカン
+11	裁判官	裁判官	NOUN	名詞-普通名詞-一般	_	13	obj	_	SpaceAfter=No|Reading=サイバンカン
+12	を	を	ADP	助詞-格助詞	_	10	case	_	SpaceAfter=No|Reading=オ
+13	裁判	裁判	VERB	名詞-普通名詞-サ変可能	_	15	acl	_	SpaceAfter=No|Reading=サイバン
+14	する	する	AUX	動詞-非自立可能	_	13	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
+15	ため	ため	NOUN	名詞-普通名詞-副詞可能	_	27	obl	_	SpaceAfter=No|Reading=タメ
+16	、	、	PUNCT	補助記号-読点	_	15	punct	_	SpaceAfter=No|Reading=、
+17	両	両	NOUN	接頭辞	_	18	compound	_	SpaceAfter=No|Reading=リョウ
+18	議院	議院	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=ギイン
+19	の	の	ADP	助詞-格助詞	_	18	case	_	SpaceAfter=No|Reading=ノ
+20	議員	議員	NOUN	名詞-普通名詞-一般	_	22	obl	_	SpaceAfter=No|Reading=ギイン
+21	で	で	ADP	助詞-格助詞	_	20	case	_	SpaceAfter=No|Reading=デ
+22	組織	組織	VERB	名詞-普通名詞-サ変可能	_	25	acl	_	SpaceAfter=No|Reading=ソシキ
+23	する	する	AUX	動詞-非自立可能	_	22	aux	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=スル
+24	弾劾	弾劾	NOUN	名詞-普通名詞-サ変可能	_	25	compound	_	SpaceAfter=No|Reading=ダンガイ
+25	裁判所	裁判所	NOUN	名詞-普通名詞-一般	_	27	obj	_	SpaceAfter=No|Reading=サイバンショ
+26	を	を	ADP	助詞-格助詞	_	25	case	_	SpaceAfter=No|Reading=オ
+27	設ける	設ける	VERB	動詞-一般	_	0	root	_	SpaceAfter=No|Inf=下一段-カ行,終止形-一般|Reading=モウケル
+28	。	。	PUNCT	補助記号-句点	_	27	punct	_	SpaceAfter=No|Reading=。
 
 # sent_id = 136
 # text = 弾劾に関する事項は、法律でこれを定める。
