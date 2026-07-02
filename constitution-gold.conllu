@@ -3689,7 +3689,7 @@
 8	関する	関する	VERB	動詞-一般	_	7	fixed	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=カンスル
 9	調査	調査	NOUN	名詞-普通名詞-サ変可能	_	11	obj	_	SpaceAfter=No|Reading=チョウサ
 10	を	を	ADP	助詞-格助詞	_	9	case	_	SpaceAfter=No|Reading=オ
-11	行ひ	行ふ	VERB	動詞-一般	_	29	advcl	_	SpaceAfter=No|Inf=文語四段-ハ行,連用形-一般|Reading=オコナヒ
+11	行ひ	行ふ	VERB	動詞-一般	_	29	advcl	_	SpaceAfter=No|Inf=文語四段-ハ行,連用形-一般|Reading=オコナイ
 12	、	、	PUNCT	補助記号-読点	_	11	punct	_	SpaceAfter=No|Reading=、
 13	これ	これ	PRON	代名詞	_	29	obl	_	SpaceAfter=No|Reading=コレ
 14	に	に	ADP	助詞-格助詞	_	13	case	_	SpaceAfter=No|Reading=ニ
