@@ -3828,7 +3828,7 @@
 1	弾劾	弾劾	NOUN	名詞-普通名詞-サ変可能	_	4	nmod	_	SpaceAfter=No|Reading=ダンガイ
 2	に	に	ADP	助詞-格助詞	_	1	case	_	SpaceAfter=No|Reading=ニ
 3	関する	関する	VERB	動詞-一般	_	2	fixed	_	SpaceAfter=No|Inf=サ行変格,連体形-一般|Reading=カンスル
-4	事項	事項	NOUN	名詞-普通名詞-一般	_	11	nsubj	_	SpaceAfter=No|Reading=ジコウ
+4	事項	事項	NOUN	名詞-普通名詞-一般	_	11	dislocated	_	SpaceAfter=No|Reading=ジコウ
 5	は	は	ADP	助詞-係助詞	_	4	case	_	SpaceAfter=No|Reading=ワ
 6	、	、	PUNCT	補助記号-読点	_	4	punct	_	SpaceAfter=No|Reading=、
 7	法律	法律	NOUN	名詞-普通名詞-一般	_	11	obl	_	SpaceAfter=No|Reading=ホウリツ
