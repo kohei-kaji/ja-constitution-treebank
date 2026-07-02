@@ -3696,7 +3696,7 @@
 15	関し	関する	VERB	動詞-一般	_	14	fixed	_	SpaceAfter=No|Inf=サ行変格,連用形-一般|Reading=カンシ
 16	て	て	SCONJ	助詞-接続助詞	_	14	fixed	_	SpaceAfter=No|Reading=テ
 17	、	、	PUNCT	補助記号-読点	_	13	punct	_	SpaceAfter=No|Reading=、
-18	証人	証人	NOUN	名詞-普通名詞-一般	_	20	nmod	_	SpaceAfter=No|Reading=ショウニン
+18	証人	証人	NOUN	名詞-普通名詞-一般	_	22	nmod	_	SpaceAfter=No|Reading=ショウニン
 19	の	の	ADP	助詞-格助詞	_	18	case	_	SpaceAfter=No|Reading=ノ
 20	出頭	出頭	NOUN	名詞-普通名詞-サ変可能	_	22	nmod	_	SpaceAfter=No|Reading=シュットウ
 21	及び	及び	CCONJ	接続詞	_	22	cc	_	SpaceAfter=No|Reading=オヨビ
